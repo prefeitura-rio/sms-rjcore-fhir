@@ -1,0 +1,95 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BRNaturezaJuridica> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "BRNaturezaJuridica"] ; # 
+  fhir:meta [
+     fhir:lastUpdated [ fhir:v "2020-03-30T18:15:21.477+00:00"^^xsd:dateTime ]
+  ] ; # 
+  fhir:language [ fhir:v "pt-BR"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><p><b>Properties</b></p><p><b>This code system  defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>type</td><td>code</td><td>tipo</td></tr></table><p><b>Concepts</b></p><p>This code system <code>https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BRNaturezaJuridica</code> defines the following codes:</p><table class=\"codes\"><tr><td><b>Lvl</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>type</b></td></tr><tr><td>1</td><td style=\"white-space:nowrap\">1<a name=\"BRNaturezaJuridica-1\"> </a></td><td>Administração Pública</td><td/><td>grupo</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  101-5<a name=\"BRNaturezaJuridica-101-5\"> </a></td><td>Órgão Público do Poder Executivo Federal</td><td>Esta Natureza Jurídica compreende:\r\n- os órgãos públicos do Poder Executivo Federal\r\nEsta Natureza Jurídica compreende também:\r\n- as embaixadas, os consulados, os escritórios de representações e demais unidades diplomáticas e consulares do Governo brasileiro em outros países ou em organizações internacionais\r\n- o Conselho Nacional dos Direitos da Criança e do Adolescente (Conanda)\r\n- a Advocacia-Geral da União\r\nEsta Natureza Jurídica não compreende:\r\n- as autarquias (110-4)\r\n-as fundações públicas (113-9)\r\n- os órgãos do Ministério Público da União (116-3)\r\n- os fundos especiais de natureza contábil e/ou financeira, não dotados de personalidade jurídica, previstos nos artigos 71 a 74 da Lei n. º 4.320, de 17/03/1964, criados no âmbito do Poder Executivo da União (131-7)\r\n- os fundos de avais públicos: União (131-7), Estadual ou do Distrito Federal (132-5) e Municipal (133-3)\r\n- a União (134-1)\r\n- as empresas públicas (201-1)\r\n- as sociedades de economia mista federais (203-8)\r\n- as embaixadas, os consulados, os escritórios de representações e as demais unidades diplomáticas do Governo brasileiro em outros países ou em organizações internacionais (502-9)</td><td>categoria</td></tr></table></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ] ;
+     fhir:value [
+       fhir:v "1"^^xsd:integer ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
+         fhir:value [
+           fhir:v "https://rnds-fhir.saude.gov.br/ImplementationGuide/rnds"^^xsd:anyURI ;
+           fhir:link <https://rnds-fhir.saude.gov.br/ImplementationGuide/rnds>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
+     fhir:value [
+       fhir:v "informative" ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
+         fhir:value [
+           fhir:v "https://rnds-fhir.saude.gov.br/ImplementationGuide/rnds"^^xsd:anyURI ;
+           fhir:link <https://rnds-fhir.saude.gov.br/ImplementationGuide/rnds>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BRNaturezaJuridica"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "NaturezaJuridica"] ; # 
+  fhir:title [ fhir:v "Natureza Jurídica"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2020-03-30T18:15:18.1570669+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://prefeitura.rio/" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Identifica a constituição jurídico-institucional das entidades públicas e privadas nos cadastros da administração pública do Brasil."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "BR" ] ;
+       fhir:display [ fhir:v "Brazil" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:hierarchyMeaning [ fhir:v "grouped-by"] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "2"^^xsd:nonNegativeInteger] ; # 
+  fhir:property ( [
+     fhir:code [ fhir:v "type" ] ;
+     fhir:description [ fhir:v "tipo" ] ;
+     fhir:type [ fhir:v "code" ]
+  ] ) ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "1" ] ;
+     fhir:display [ fhir:v "Administração Pública" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "type" ] ;
+       fhir:value [ fhir:v "grupo" ]
+     ] ) ;
+     fhir:concept ( [
+       fhir:code [ fhir:v "101-5" ] ;
+       fhir:display [ fhir:v "Órgão Público do Poder Executivo Federal" ] ;
+       fhir:definition [ fhir:v "Esta Natureza Jurídica compreende:\r\n- os órgãos públicos do Poder Executivo Federal\r\nEsta Natureza Jurídica compreende também:\r\n- as embaixadas, os consulados, os escritórios de representações e demais unidades diplomáticas e consulares do Governo brasileiro em outros países ou em organizações internacionais\r\n- o Conselho Nacional dos Direitos da Criança e do Adolescente (Conanda)\r\n- a Advocacia-Geral da União\r\nEsta Natureza Jurídica não compreende:\r\n- as autarquias (110-4)\r\n-as fundações públicas (113-9)\r\n- os órgãos do Ministério Público da União (116-3)\r\n- os fundos especiais de natureza contábil e/ou financeira, não dotados de personalidade jurídica, previstos nos artigos 71 a 74 da Lei n. º 4.320, de 17/03/1964, criados no âmbito do Poder Executivo da União (131-7)\r\n- os fundos de avais públicos: União (131-7), Estadual ou do Distrito Federal (132-5) e Municipal (133-3)\r\n- a União (134-1)\r\n- as empresas públicas (201-1)\r\n- as sociedades de economia mista federais (203-8)\r\n- as embaixadas, os consulados, os escritórios de representações e as demais unidades diplomáticas do Governo brasileiro em outros países ou em organizações internacionais (502-9)" ] ;
+       fhir:property ( [
+         fhir:code [ fhir:v "type" ] ;
+         fhir:value [ fhir:v "categoria" ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

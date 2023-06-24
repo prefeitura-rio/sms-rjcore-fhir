@@ -1,0 +1,200 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BROrgaoExpedidor> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "BROrgaoExpedidor"] ; # 
+  fhir:meta [
+     fhir:lastUpdated [ fhir:v "2020-03-11T18:19:26.425+00:00"^^xsd:dateTime ]
+  ] ; # 
+  fhir:language [ fhir:v "pt-BR"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><p>This code system <code>https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BROrgaoExpedidor</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">RFB<a name=\"BROrgaoExpedidor-RFB\"> </a></td><td>Receita Federal do Brasil</td></tr><tr><td style=\"white-space:nowrap\">COREN<a name=\"BROrgaoExpedidor-COREN\"> </a></td><td>Conselho Regional de Enfermagem (COREn)</td></tr><tr><td style=\"white-space:nowrap\">CRM<a name=\"BROrgaoExpedidor-CRM\"> </a></td><td>Conselho Regional de Medicina (CRM)</td></tr><tr><td style=\"white-space:nowrap\">CRO<a name=\"BROrgaoExpedidor-CRO\"> </a></td><td>Conselho Regional de Odontologia (CRO)</td></tr><tr><td style=\"white-space:nowrap\">CRA<a name=\"BROrgaoExpedidor-CRA\"> </a></td><td>Conselho Regional de Administração (CRA)</td></tr><tr><td style=\"white-space:nowrap\">CRESS<a name=\"BROrgaoExpedidor-CRESS\"> </a></td><td>Conselho Regional de Serviço Social (CRESS)</td></tr><tr><td style=\"white-space:nowrap\">CRB<a name=\"BROrgaoExpedidor-CRB\"> </a></td><td>Conselho Regional de Biblioteconomia (CRB)</td></tr><tr><td style=\"white-space:nowrap\">CRC<a name=\"BROrgaoExpedidor-CRC\"> </a></td><td>Conselho Regional de Contabilidade (CRC)</td></tr><tr><td style=\"white-space:nowrap\">CRECI<a name=\"BROrgaoExpedidor-CRECI\"> </a></td><td>Conselho Regional de Corretores de Imóveis (CRECI)</td></tr><tr><td style=\"white-space:nowrap\">CORECON<a name=\"BROrgaoExpedidor-CORECON\"> </a></td><td>Conselho Regional de Economia (CORECON)</td></tr><tr><td style=\"white-space:nowrap\">CREA<a name=\"BROrgaoExpedidor-CREA\"> </a></td><td>Conselho Regional de Engenharia e Agronomia (CREA)</td></tr><tr><td style=\"white-space:nowrap\">CONFRE<a name=\"BROrgaoExpedidor-CONFRE\"> </a></td><td>Conselho Regional de Estatística (CONRE)</td></tr><tr><td style=\"white-space:nowrap\">CRF<a name=\"BROrgaoExpedidor-CRF\"> </a></td><td>Conselho Regional de Farmácia (CRF)</td></tr><tr><td style=\"white-space:nowrap\">CREFITO<a name=\"BROrgaoExpedidor-CREFITO\"> </a></td><td>Conselho Regional de Fisioterapia e Terapia Ocupacional (CREFITO)</td></tr><tr><td style=\"white-space:nowrap\">CRMV<a name=\"BROrgaoExpedidor-CRMV\"> </a></td><td>Conselho Regional de Medicina Veterinária (CRMV)</td></tr><tr><td style=\"white-space:nowrap\">CRN<a name=\"BROrgaoExpedidor-CRN\"> </a></td><td>Conselho Regional de Nutrição (CRN)</td></tr><tr><td style=\"white-space:nowrap\">CONRERP<a name=\"BROrgaoExpedidor-CONRERP\"> </a></td><td>Conselho Regional de Reçações Públicas (CONRERP)</td></tr><tr><td style=\"white-space:nowrap\">CRP<a name=\"BROrgaoExpedidor-CRP\"> </a></td><td>Conselho Regional de Psicologia (CRP)</td></tr><tr><td style=\"white-space:nowrap\">CRQ<a name=\"BROrgaoExpedidor-CRQ\"> </a></td><td>Conselho Regional de Química (CRQ)</td></tr><tr><td style=\"white-space:nowrap\">CORE<a name=\"BROrgaoExpedidor-CORE\"> </a></td><td>Conselho Regional de Representantes Comerciais (CORE)</td></tr><tr><td style=\"white-space:nowrap\">CREF<a name=\"BROrgaoExpedidor-CREF\"> </a></td><td>Conselho Regional de Educação Física (CREF)</td></tr><tr><td style=\"white-space:nowrap\">CAU<a name=\"BROrgaoExpedidor-CAU\"> </a></td><td>Conselho Regional de Arquitetura e Urbanismo (CAU)</td></tr><tr><td style=\"white-space:nowrap\">CRBIO<a name=\"BROrgaoExpedidor-CRBIO\"> </a></td><td>Conselho Regional de Biologia (CRBio)</td></tr><tr><td style=\"white-space:nowrap\">CRBM<a name=\"BROrgaoExpedidor-CRBM\"> </a></td><td>Conselho Regional de Biomedicina (CRBM)</td></tr><tr><td style=\"white-space:nowrap\">CRFA<a name=\"BROrgaoExpedidor-CRFA\"> </a></td><td>Conselho Regional de Fonoaudiologia (CRFa/CREFONO)</td></tr><tr><td style=\"white-space:nowrap\">CRTR<a name=\"BROrgaoExpedidor-CRTR\"> </a></td><td>Conselho Regional de Técnicos em Radiologia (CRTR)</td></tr><tr><td style=\"white-space:nowrap\">CRT<a name=\"BROrgaoExpedidor-CRT\"> </a></td><td>Conselho Regional dos Técnicos Industriais (CRT)</td></tr><tr><td style=\"white-space:nowrap\">OAB<a name=\"BROrgaoExpedidor-OAB\"> </a></td><td>Ordem dos Advogados do BRAasil (OAB)</td></tr><tr><td style=\"white-space:nowrap\">EB<a name=\"BROrgaoExpedidor-EB\"> </a></td><td>Exército Brasileiro</td></tr><tr><td style=\"white-space:nowrap\">FAB<a name=\"BROrgaoExpedidor-FAB\"> </a></td><td>Força Aérea Brasileira</td></tr><tr><td style=\"white-space:nowrap\">MB<a name=\"BROrgaoExpedidor-MB\"> </a></td><td>Marinha do Brasil</td></tr><tr><td style=\"white-space:nowrap\">PM<a name=\"BROrgaoExpedidor-PM\"> </a></td><td>Polícia Militar</td></tr><tr><td style=\"white-space:nowrap\">CBM<a name=\"BROrgaoExpedidor-CBM\"> </a></td><td>Corpo de Bombeiros Militar</td></tr><tr><td style=\"white-space:nowrap\">SSP<a name=\"BROrgaoExpedidor-SSP\"> </a></td><td>Serviço de Segurança Pública</td></tr><tr><td style=\"white-space:nowrap\">II<a name=\"BROrgaoExpedidor-II\"> </a></td><td>Instituto de Identificação</td></tr><tr><td style=\"white-space:nowrap\">PCE<a name=\"BROrgaoExpedidor-PCE\"> </a></td><td>Polícia Civil do Estado</td></tr><tr><td style=\"white-space:nowrap\">PF<a name=\"BROrgaoExpedidor-PF\"> </a></td><td>Polícia Federal</td></tr><tr><td style=\"white-space:nowrap\">DETRAN<a name=\"BROrgaoExpedidor-DETRAN\"> </a></td><td>Departamento Estadual de Trânsito</td></tr><tr><td style=\"white-space:nowrap\">MS<a name=\"BROrgaoExpedidor-MS\"> </a></td><td>Ministério da Saúde</td></tr><tr><td style=\"white-space:nowrap\">MC<a name=\"BROrgaoExpedidor-MC\"> </a></td><td>Ministério da Cidadania</td></tr><tr><td style=\"white-space:nowrap\">CARTORIO<a name=\"BROrgaoExpedidor-CARTORIO\"> </a></td><td>Cartório de Registro Civil</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"BROrgaoExpedidor-other\"> </a></td><td>Outro órgão não listado</td></tr></table></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ] ;
+     fhir:value [
+       fhir:v "1"^^xsd:integer ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
+         fhir:value [
+           fhir:v "https://rnds-fhir.saude.gov.br/ImplementationGuide/rnds"^^xsd:anyURI ;
+           fhir:link <https://rnds-fhir.saude.gov.br/ImplementationGuide/rnds>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
+     fhir:value [
+       fhir:v "informative" ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
+         fhir:value [
+           fhir:v "https://rnds-fhir.saude.gov.br/ImplementationGuide/rnds"^^xsd:anyURI ;
+           fhir:link <https://rnds-fhir.saude.gov.br/ImplementationGuide/rnds>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BROrgaoExpedidor"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "OrgaoExpedidor"] ; # 
+  fhir:title [ fhir:v "Órgão Expedidor"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2020-03-11T18:19:46.5824974+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://prefeitura.rio/" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Órgãos responsáveis por expedir documentos no Brasil."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "BR" ] ;
+       fhir:display [ fhir:v "Brazil" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:hierarchyMeaning [ fhir:v "grouped-by"] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "42"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "RFB" ] ;
+     fhir:display [ fhir:v "Receita Federal do Brasil" ]
+  ] [
+     fhir:code [ fhir:v "COREN" ] ;
+     fhir:display [ fhir:v "Conselho Regional de Enfermagem (COREn)" ]
+  ] [
+     fhir:code [ fhir:v "CRM" ] ;
+     fhir:display [ fhir:v "Conselho Regional de Medicina (CRM)" ]
+  ] [
+     fhir:code [ fhir:v "CRO" ] ;
+     fhir:display [ fhir:v "Conselho Regional de Odontologia (CRO)" ]
+  ] [
+     fhir:code [ fhir:v "CRA" ] ;
+     fhir:display [ fhir:v "Conselho Regional de Administração (CRA)" ]
+  ] [
+     fhir:code [ fhir:v "CRESS" ] ;
+     fhir:display [ fhir:v "Conselho Regional de Serviço Social (CRESS)" ]
+  ] [
+     fhir:code [ fhir:v "CRB" ] ;
+     fhir:display [ fhir:v "Conselho Regional de Biblioteconomia (CRB)" ]
+  ] [
+     fhir:code [ fhir:v "CRC" ] ;
+     fhir:display [ fhir:v "Conselho Regional de Contabilidade (CRC)" ]
+  ] [
+     fhir:code [ fhir:v "CRECI" ] ;
+     fhir:display [ fhir:v "Conselho Regional de Corretores de Imóveis (CRECI)" ]
+  ] [
+     fhir:code [ fhir:v "CORECON" ] ;
+     fhir:display [ fhir:v "Conselho Regional de Economia (CORECON)" ]
+  ] [
+     fhir:code [ fhir:v "CREA" ] ;
+     fhir:display [ fhir:v "Conselho Regional de Engenharia e Agronomia (CREA)" ]
+  ] [
+     fhir:code [ fhir:v "CONFRE" ] ;
+     fhir:display [ fhir:v "Conselho Regional de Estatística (CONRE)" ]
+  ] [
+     fhir:code [ fhir:v "CRF" ] ;
+     fhir:display [ fhir:v "Conselho Regional de Farmácia (CRF)" ]
+  ] [
+     fhir:code [ fhir:v "CREFITO" ] ;
+     fhir:display [ fhir:v "Conselho Regional de Fisioterapia e Terapia Ocupacional (CREFITO)" ]
+  ] [
+     fhir:code [ fhir:v "CRMV" ] ;
+     fhir:display [ fhir:v "Conselho Regional de Medicina Veterinária (CRMV)" ]
+  ] [
+     fhir:code [ fhir:v "CRN" ] ;
+     fhir:display [ fhir:v "Conselho Regional de Nutrição (CRN)" ]
+  ] [
+     fhir:code [ fhir:v "CONRERP" ] ;
+     fhir:display [ fhir:v "Conselho Regional de Reçações Públicas (CONRERP)" ]
+  ] [
+     fhir:code [ fhir:v "CRP" ] ;
+     fhir:display [ fhir:v "Conselho Regional de Psicologia (CRP)" ]
+  ] [
+     fhir:code [ fhir:v "CRQ" ] ;
+     fhir:display [ fhir:v "Conselho Regional de Química (CRQ)" ]
+  ] [
+     fhir:code [ fhir:v "CORE" ] ;
+     fhir:display [ fhir:v "Conselho Regional de Representantes Comerciais (CORE)" ]
+  ] [
+     fhir:code [ fhir:v "CREF" ] ;
+     fhir:display [ fhir:v "Conselho Regional de Educação Física (CREF)" ]
+  ] [
+     fhir:code [ fhir:v "CAU" ] ;
+     fhir:display [ fhir:v "Conselho Regional de Arquitetura e Urbanismo (CAU)" ]
+  ] [
+     fhir:code [ fhir:v "CRBIO" ] ;
+     fhir:display [ fhir:v "Conselho Regional de Biologia (CRBio)" ]
+  ] [
+     fhir:code [ fhir:v "CRBM" ] ;
+     fhir:display [ fhir:v "Conselho Regional de Biomedicina (CRBM)" ]
+  ] [
+     fhir:code [ fhir:v "CRFA" ] ;
+     fhir:display [ fhir:v "Conselho Regional de Fonoaudiologia (CRFa/CREFONO)" ]
+  ] [
+     fhir:code [ fhir:v "CRTR" ] ;
+     fhir:display [ fhir:v "Conselho Regional de Técnicos em Radiologia (CRTR)" ]
+  ] [
+     fhir:code [ fhir:v "CRT" ] ;
+     fhir:display [ fhir:v "Conselho Regional dos Técnicos Industriais (CRT)" ]
+  ] [
+     fhir:code [ fhir:v "OAB" ] ;
+     fhir:display [ fhir:v "Ordem dos Advogados do BRAasil (OAB)" ]
+  ] [
+     fhir:code [ fhir:v "EB" ] ;
+     fhir:display [ fhir:v "Exército Brasileiro" ]
+  ] [
+     fhir:code [ fhir:v "FAB" ] ;
+     fhir:display [ fhir:v "Força Aérea Brasileira" ]
+  ] [
+     fhir:code [ fhir:v "MB" ] ;
+     fhir:display [ fhir:v "Marinha do Brasil" ]
+  ] [
+     fhir:code [ fhir:v "PM" ] ;
+     fhir:display [ fhir:v "Polícia Militar" ]
+  ] [
+     fhir:code [ fhir:v "CBM" ] ;
+     fhir:display [ fhir:v "Corpo de Bombeiros Militar" ]
+  ] [
+     fhir:code [ fhir:v "SSP" ] ;
+     fhir:display [ fhir:v "Serviço de Segurança Pública" ]
+  ] [
+     fhir:code [ fhir:v "II" ] ;
+     fhir:display [ fhir:v "Instituto de Identificação" ]
+  ] [
+     fhir:code [ fhir:v "PCE" ] ;
+     fhir:display [ fhir:v "Polícia Civil do Estado" ]
+  ] [
+     fhir:code [ fhir:v "PF" ] ;
+     fhir:display [ fhir:v "Polícia Federal" ]
+  ] [
+     fhir:code [ fhir:v "DETRAN" ] ;
+     fhir:display [ fhir:v "Departamento Estadual de Trânsito" ]
+  ] [
+     fhir:code [ fhir:v "MS" ] ;
+     fhir:display [ fhir:v "Ministério da Saúde" ]
+  ] [
+     fhir:code [ fhir:v "MC" ] ;
+     fhir:display [ fhir:v "Ministério da Cidadania" ]
+  ] [
+     fhir:code [ fhir:v "CARTORIO" ] ;
+     fhir:display [ fhir:v "Cartório de Registro Civil" ]
+  ] [
+     fhir:code [ fhir:v "other" ] ;
+     fhir:display [ fhir:v "Outro órgão não listado" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

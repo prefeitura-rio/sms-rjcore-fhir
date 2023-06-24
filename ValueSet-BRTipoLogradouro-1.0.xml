@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="BRTipoLogradouro-1.0"/>
+  <meta>
+    <lastUpdated value="2020-03-12T14:50:48.259+00:00"/>
+  </meta>
+  <language value="pt-BR"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR"><ul><li>Include all codes defined in <code>https://rnds-fhir.saude.gov.br/CodeSystem/BRTipoLogradouro</code></li></ul></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="https://rnds-fhir.saude.gov.br/ImplementationGuide/rnds"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="informative">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="https://rnds-fhir.saude.gov.br/ImplementationGuide/rnds"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="https://prefeitura-rio.github.io/sms-rjcore-fhir/ValueSet/BRTipoLogradouro-1.0"/>
+  <version value="0.1.0"/>
+  <name value="TipoLogradouro"/>
+  <title value="Tipo de Logradouro"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2020-03-12T14:50:47.8940392+00:00"/>
+  <publisher value="Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro"/>
+  <contact>
+    <name value="Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://prefeitura.rio/"/>
+    </telecom>
+  </contact>
+  <description value="Classifica o tipo de logradouro."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+      <display value="Brazil"/>
+    </coding>
+  </jurisdiction>
+  <immutable value="false"/>
+  <compose>
+    <include>
+      <system value="https://rnds-fhir.saude.gov.br/CodeSystem/BRTipoLogradouro"/>
+      <version value="*"/>
+    </include>
+  </compose>
+</ValueSet>

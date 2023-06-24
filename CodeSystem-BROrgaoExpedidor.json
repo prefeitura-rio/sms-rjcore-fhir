@@ -1,0 +1,227 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "BROrgaoExpedidor",
+  "meta" : {
+    "lastUpdated" : "2020-03-11T18:19:26.425+00:00"
+  },
+  "language" : "pt-BR",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><p>This code system <code>https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BROrgaoExpedidor</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">RFB<a name=\"BROrgaoExpedidor-RFB\"> </a></td><td>Receita Federal do Brasil</td></tr><tr><td style=\"white-space:nowrap\">COREN<a name=\"BROrgaoExpedidor-COREN\"> </a></td><td>Conselho Regional de Enfermagem (COREn)</td></tr><tr><td style=\"white-space:nowrap\">CRM<a name=\"BROrgaoExpedidor-CRM\"> </a></td><td>Conselho Regional de Medicina (CRM)</td></tr><tr><td style=\"white-space:nowrap\">CRO<a name=\"BROrgaoExpedidor-CRO\"> </a></td><td>Conselho Regional de Odontologia (CRO)</td></tr><tr><td style=\"white-space:nowrap\">CRA<a name=\"BROrgaoExpedidor-CRA\"> </a></td><td>Conselho Regional de Administração (CRA)</td></tr><tr><td style=\"white-space:nowrap\">CRESS<a name=\"BROrgaoExpedidor-CRESS\"> </a></td><td>Conselho Regional de Serviço Social (CRESS)</td></tr><tr><td style=\"white-space:nowrap\">CRB<a name=\"BROrgaoExpedidor-CRB\"> </a></td><td>Conselho Regional de Biblioteconomia (CRB)</td></tr><tr><td style=\"white-space:nowrap\">CRC<a name=\"BROrgaoExpedidor-CRC\"> </a></td><td>Conselho Regional de Contabilidade (CRC)</td></tr><tr><td style=\"white-space:nowrap\">CRECI<a name=\"BROrgaoExpedidor-CRECI\"> </a></td><td>Conselho Regional de Corretores de Imóveis (CRECI)</td></tr><tr><td style=\"white-space:nowrap\">CORECON<a name=\"BROrgaoExpedidor-CORECON\"> </a></td><td>Conselho Regional de Economia (CORECON)</td></tr><tr><td style=\"white-space:nowrap\">CREA<a name=\"BROrgaoExpedidor-CREA\"> </a></td><td>Conselho Regional de Engenharia e Agronomia (CREA)</td></tr><tr><td style=\"white-space:nowrap\">CONFRE<a name=\"BROrgaoExpedidor-CONFRE\"> </a></td><td>Conselho Regional de Estatística (CONRE)</td></tr><tr><td style=\"white-space:nowrap\">CRF<a name=\"BROrgaoExpedidor-CRF\"> </a></td><td>Conselho Regional de Farmácia (CRF)</td></tr><tr><td style=\"white-space:nowrap\">CREFITO<a name=\"BROrgaoExpedidor-CREFITO\"> </a></td><td>Conselho Regional de Fisioterapia e Terapia Ocupacional (CREFITO)</td></tr><tr><td style=\"white-space:nowrap\">CRMV<a name=\"BROrgaoExpedidor-CRMV\"> </a></td><td>Conselho Regional de Medicina Veterinária (CRMV)</td></tr><tr><td style=\"white-space:nowrap\">CRN<a name=\"BROrgaoExpedidor-CRN\"> </a></td><td>Conselho Regional de Nutrição (CRN)</td></tr><tr><td style=\"white-space:nowrap\">CONRERP<a name=\"BROrgaoExpedidor-CONRERP\"> </a></td><td>Conselho Regional de Reçações Públicas (CONRERP)</td></tr><tr><td style=\"white-space:nowrap\">CRP<a name=\"BROrgaoExpedidor-CRP\"> </a></td><td>Conselho Regional de Psicologia (CRP)</td></tr><tr><td style=\"white-space:nowrap\">CRQ<a name=\"BROrgaoExpedidor-CRQ\"> </a></td><td>Conselho Regional de Química (CRQ)</td></tr><tr><td style=\"white-space:nowrap\">CORE<a name=\"BROrgaoExpedidor-CORE\"> </a></td><td>Conselho Regional de Representantes Comerciais (CORE)</td></tr><tr><td style=\"white-space:nowrap\">CREF<a name=\"BROrgaoExpedidor-CREF\"> </a></td><td>Conselho Regional de Educação Física (CREF)</td></tr><tr><td style=\"white-space:nowrap\">CAU<a name=\"BROrgaoExpedidor-CAU\"> </a></td><td>Conselho Regional de Arquitetura e Urbanismo (CAU)</td></tr><tr><td style=\"white-space:nowrap\">CRBIO<a name=\"BROrgaoExpedidor-CRBIO\"> </a></td><td>Conselho Regional de Biologia (CRBio)</td></tr><tr><td style=\"white-space:nowrap\">CRBM<a name=\"BROrgaoExpedidor-CRBM\"> </a></td><td>Conselho Regional de Biomedicina (CRBM)</td></tr><tr><td style=\"white-space:nowrap\">CRFA<a name=\"BROrgaoExpedidor-CRFA\"> </a></td><td>Conselho Regional de Fonoaudiologia (CRFa/CREFONO)</td></tr><tr><td style=\"white-space:nowrap\">CRTR<a name=\"BROrgaoExpedidor-CRTR\"> </a></td><td>Conselho Regional de Técnicos em Radiologia (CRTR)</td></tr><tr><td style=\"white-space:nowrap\">CRT<a name=\"BROrgaoExpedidor-CRT\"> </a></td><td>Conselho Regional dos Técnicos Industriais (CRT)</td></tr><tr><td style=\"white-space:nowrap\">OAB<a name=\"BROrgaoExpedidor-OAB\"> </a></td><td>Ordem dos Advogados do BRAasil (OAB)</td></tr><tr><td style=\"white-space:nowrap\">EB<a name=\"BROrgaoExpedidor-EB\"> </a></td><td>Exército Brasileiro</td></tr><tr><td style=\"white-space:nowrap\">FAB<a name=\"BROrgaoExpedidor-FAB\"> </a></td><td>Força Aérea Brasileira</td></tr><tr><td style=\"white-space:nowrap\">MB<a name=\"BROrgaoExpedidor-MB\"> </a></td><td>Marinha do Brasil</td></tr><tr><td style=\"white-space:nowrap\">PM<a name=\"BROrgaoExpedidor-PM\"> </a></td><td>Polícia Militar</td></tr><tr><td style=\"white-space:nowrap\">CBM<a name=\"BROrgaoExpedidor-CBM\"> </a></td><td>Corpo de Bombeiros Militar</td></tr><tr><td style=\"white-space:nowrap\">SSP<a name=\"BROrgaoExpedidor-SSP\"> </a></td><td>Serviço de Segurança Pública</td></tr><tr><td style=\"white-space:nowrap\">II<a name=\"BROrgaoExpedidor-II\"> </a></td><td>Instituto de Identificação</td></tr><tr><td style=\"white-space:nowrap\">PCE<a name=\"BROrgaoExpedidor-PCE\"> </a></td><td>Polícia Civil do Estado</td></tr><tr><td style=\"white-space:nowrap\">PF<a name=\"BROrgaoExpedidor-PF\"> </a></td><td>Polícia Federal</td></tr><tr><td style=\"white-space:nowrap\">DETRAN<a name=\"BROrgaoExpedidor-DETRAN\"> </a></td><td>Departamento Estadual de Trânsito</td></tr><tr><td style=\"white-space:nowrap\">MS<a name=\"BROrgaoExpedidor-MS\"> </a></td><td>Ministério da Saúde</td></tr><tr><td style=\"white-space:nowrap\">MC<a name=\"BROrgaoExpedidor-MC\"> </a></td><td>Ministério da Cidadania</td></tr><tr><td style=\"white-space:nowrap\">CARTORIO<a name=\"BROrgaoExpedidor-CARTORIO\"> </a></td><td>Cartório de Registro Civil</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"BROrgaoExpedidor-other\"> </a></td><td>Outro órgão não listado</td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 1,
+    "_valueInteger" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "https://rnds-fhir.saude.gov.br/ImplementationGuide/rnds"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "informative",
+    "_valueCode" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "https://rnds-fhir.saude.gov.br/ImplementationGuide/rnds"
+      }]
+    }
+  }],
+  "url" : "https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BROrgaoExpedidor",
+  "version" : "0.1.0",
+  "name" : "OrgaoExpedidor",
+  "title" : "Órgão Expedidor",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2020-03-11T18:19:46.5824974+00:00",
+  "publisher" : "Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro",
+  "contact" : [{
+    "name" : "Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://prefeitura.rio/"
+    }]
+  }],
+  "description" : "Órgãos responsáveis por expedir documentos no Brasil.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR",
+      "display" : "Brazil"
+    }]
+  }],
+  "caseSensitive" : true,
+  "hierarchyMeaning" : "grouped-by",
+  "content" : "complete",
+  "count" : 42,
+  "concept" : [{
+    "code" : "RFB",
+    "display" : "Receita Federal do Brasil"
+  },
+  {
+    "code" : "COREN",
+    "display" : "Conselho Regional de Enfermagem (COREn)"
+  },
+  {
+    "code" : "CRM",
+    "display" : "Conselho Regional de Medicina (CRM)"
+  },
+  {
+    "code" : "CRO",
+    "display" : "Conselho Regional de Odontologia (CRO)"
+  },
+  {
+    "code" : "CRA",
+    "display" : "Conselho Regional de Administração (CRA)"
+  },
+  {
+    "code" : "CRESS",
+    "display" : "Conselho Regional de Serviço Social (CRESS)"
+  },
+  {
+    "code" : "CRB",
+    "display" : "Conselho Regional de Biblioteconomia (CRB)"
+  },
+  {
+    "code" : "CRC",
+    "display" : "Conselho Regional de Contabilidade (CRC)"
+  },
+  {
+    "code" : "CRECI",
+    "display" : "Conselho Regional de Corretores de Imóveis (CRECI)"
+  },
+  {
+    "code" : "CORECON",
+    "display" : "Conselho Regional de Economia (CORECON)"
+  },
+  {
+    "code" : "CREA",
+    "display" : "Conselho Regional de Engenharia e Agronomia (CREA)"
+  },
+  {
+    "code" : "CONFRE",
+    "display" : "Conselho Regional de Estatística (CONRE)"
+  },
+  {
+    "code" : "CRF",
+    "display" : "Conselho Regional de Farmácia (CRF)"
+  },
+  {
+    "code" : "CREFITO",
+    "display" : "Conselho Regional de Fisioterapia e Terapia Ocupacional (CREFITO)"
+  },
+  {
+    "code" : "CRMV",
+    "display" : "Conselho Regional de Medicina Veterinária (CRMV)"
+  },
+  {
+    "code" : "CRN",
+    "display" : "Conselho Regional de Nutrição (CRN)"
+  },
+  {
+    "code" : "CONRERP",
+    "display" : "Conselho Regional de Reçações Públicas (CONRERP)"
+  },
+  {
+    "code" : "CRP",
+    "display" : "Conselho Regional de Psicologia (CRP)"
+  },
+  {
+    "code" : "CRQ",
+    "display" : "Conselho Regional de Química (CRQ)"
+  },
+  {
+    "code" : "CORE",
+    "display" : "Conselho Regional de Representantes Comerciais (CORE)"
+  },
+  {
+    "code" : "CREF",
+    "display" : "Conselho Regional de Educação Física (CREF)"
+  },
+  {
+    "code" : "CAU",
+    "display" : "Conselho Regional de Arquitetura e Urbanismo (CAU)"
+  },
+  {
+    "code" : "CRBIO",
+    "display" : "Conselho Regional de Biologia (CRBio)"
+  },
+  {
+    "code" : "CRBM",
+    "display" : "Conselho Regional de Biomedicina (CRBM)"
+  },
+  {
+    "code" : "CRFA",
+    "display" : "Conselho Regional de Fonoaudiologia (CRFa/CREFONO)"
+  },
+  {
+    "code" : "CRTR",
+    "display" : "Conselho Regional de Técnicos em Radiologia (CRTR)"
+  },
+  {
+    "code" : "CRT",
+    "display" : "Conselho Regional dos Técnicos Industriais (CRT)"
+  },
+  {
+    "code" : "OAB",
+    "display" : "Ordem dos Advogados do BRAasil (OAB)"
+  },
+  {
+    "code" : "EB",
+    "display" : "Exército Brasileiro"
+  },
+  {
+    "code" : "FAB",
+    "display" : "Força Aérea Brasileira"
+  },
+  {
+    "code" : "MB",
+    "display" : "Marinha do Brasil"
+  },
+  {
+    "code" : "PM",
+    "display" : "Polícia Militar"
+  },
+  {
+    "code" : "CBM",
+    "display" : "Corpo de Bombeiros Militar"
+  },
+  {
+    "code" : "SSP",
+    "display" : "Serviço de Segurança Pública"
+  },
+  {
+    "code" : "II",
+    "display" : "Instituto de Identificação"
+  },
+  {
+    "code" : "PCE",
+    "display" : "Polícia Civil do Estado"
+  },
+  {
+    "code" : "PF",
+    "display" : "Polícia Federal"
+  },
+  {
+    "code" : "DETRAN",
+    "display" : "Departamento Estadual de Trânsito"
+  },
+  {
+    "code" : "MS",
+    "display" : "Ministério da Saúde"
+  },
+  {
+    "code" : "MC",
+    "display" : "Ministério da Cidadania"
+  },
+  {
+    "code" : "CARTORIO",
+    "display" : "Cartório de Registro Civil"
+  },
+  {
+    "code" : "other",
+    "display" : "Outro órgão não listado"
+  }]
+}

@@ -1,0 +1,76 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://prefeitura-rio.github.io/sms-rjcore-fhir/ValueSet/BRNaturezaJuridica-1.0> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "BRNaturezaJuridica-1.0"] ; # 
+  fhir:meta [
+     fhir:lastUpdated [ fhir:v "2020-03-12T13:22:15.965+00:00"^^xsd:dateTime ]
+  ] ; # 
+  fhir:language [ fhir:v "pt-BR"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><ul><li>Include all codes defined in <code>https://rnds-fhir.saude.gov.br/CodeSystem/BRNaturezaJuridica</code></li></ul></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ] ;
+     fhir:value [
+       fhir:v "1"^^xsd:integer ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
+         fhir:value [
+           fhir:v "https://rnds-fhir.saude.gov.br/ImplementationGuide/rnds"^^xsd:anyURI ;
+           fhir:link <https://rnds-fhir.saude.gov.br/ImplementationGuide/rnds>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
+     fhir:value [
+       fhir:v "informative" ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
+         fhir:value [
+           fhir:v "https://rnds-fhir.saude.gov.br/ImplementationGuide/rnds"^^xsd:anyURI ;
+           fhir:link <https://rnds-fhir.saude.gov.br/ImplementationGuide/rnds>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://prefeitura-rio.github.io/sms-rjcore-fhir/ValueSet/BRNaturezaJuridica-1.0"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "NaturezaJuridica"] ; # 
+  fhir:title [ fhir:v "Natureza Jurídica"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2020-03-12T13:22:15.2636027+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://prefeitura.rio/" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Identifica a constituição jurídico-institucional das entidades públicas e privadas nos cadastros da administração pública do Brasil."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "BR" ] ;
+       fhir:display [ fhir:v "Brazil" ]
+     ] )
+  ] ) ; # 
+  fhir:immutable [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "https://rnds-fhir.saude.gov.br/CodeSystem/BRNaturezaJuridica"^^xsd:anyURI ] ;
+       fhir:version [ fhir:v "2018" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

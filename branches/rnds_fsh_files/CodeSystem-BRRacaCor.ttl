@@ -1,0 +1,60 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BRRacaCor> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "BRRacaCor"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BRRacaCor</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">01<a name=\"BRRacaCor-01\"> </a></td><td>Branca</td></tr><tr><td style=\"white-space:nowrap\">02<a name=\"BRRacaCor-02\"> </a></td><td>Preta</td></tr><tr><td style=\"white-space:nowrap\">03<a name=\"BRRacaCor-03\"> </a></td><td>Parda</td></tr><tr><td style=\"white-space:nowrap\">04<a name=\"BRRacaCor-04\"> </a></td><td>Amarela</td></tr><tr><td style=\"white-space:nowrap\">05<a name=\"BRRacaCor-05\"> </a></td><td>Indígena</td></tr><tr><td style=\"white-space:nowrap\">99<a name=\"BRRacaCor-99\"> </a></td><td>Sem informação</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BRRacaCor"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "RacaCor"] ; # 
+  fhir:title [ fhir:v "Raça/Cor"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2023-07-15T19:27:39+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://prefeitura.rio/" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Códigos para representação de raça/cor."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "BR" ] ;
+       fhir:display [ fhir:v "Brazil" ]
+     ] )
+  ] ) ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "6"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "01" ] ;
+     fhir:display [ fhir:v "Branca" ]
+  ] [
+     fhir:code [ fhir:v "02" ] ;
+     fhir:display [ fhir:v "Preta" ]
+  ] [
+     fhir:code [ fhir:v "03" ] ;
+     fhir:display [ fhir:v "Parda" ]
+  ] [
+     fhir:code [ fhir:v "04" ] ;
+     fhir:display [ fhir:v "Amarela" ]
+  ] [
+     fhir:code [ fhir:v "05" ] ;
+     fhir:display [ fhir:v "Indígena" ]
+  ] [
+     fhir:code [ fhir:v "99" ] ;
+     fhir:display [ fhir:v "Sem informação" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

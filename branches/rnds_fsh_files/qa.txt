@@ -1,0 +1,357 @@
+﻿RJCore : Validation Results
+=========================================
+
+err = 197, warn = 53, info = 8
+IG Publisher Version: 1.3.23
+Generated Sat Jul 15 19:30:50 UTC 2023. FHIR version 4.0.1 for org.rj-sms.br.core#0.1.0 (canonical = https://prefeitura-rio.github.io/sms-rjcore-fhir)
+ Build Errors : 194 / 0 / 0
+ /home/runner/work/sms-rjcore-fhir/sms-rjcore-fhir/fsh-generated/resources/CodeSystem-BREtniaIndigena : 0 / 2 / 2
+ /home/runner/work/sms-rjcore-fhir/sms-rjcore-fhir/fsh-generated/resources/CodeSystem-BRIdentidadeGenero : 0 / 2 / 2
+ /home/runner/work/sms-rjcore-fhir/sms-rjcore-fhir/fsh-generated/resources/CodeSystem-BRNacionalidade : 0 / 2 / 2
+ /home/runner/work/sms-rjcore-fhir/sms-rjcore-fhir/fsh-generated/resources/CodeSystem-BRNaturezaJuridica : 0 / 0 / 1
+ /home/runner/work/sms-rjcore-fhir/sms-rjcore-fhir/fsh-generated/resources/CodeSystem-BROrgaoExpedidor : 0 / 0 / 1
+ /home/runner/work/sms-rjcore-fhir/sms-rjcore-fhir/fsh-generated/resources/CodeSystem-BRPais : 0 / 2 / 2
+ /home/runner/work/sms-rjcore-fhir/sms-rjcore-fhir/fsh-generated/resources/CodeSystem-BRParentesco : 0 / 2 / 2
+ /home/runner/work/sms-rjcore-fhir/sms-rjcore-fhir/fsh-generated/resources/CodeSystem-BRRacaCor : 0 / 2 / 2
+ /home/runner/work/sms-rjcore-fhir/sms-rjcore-fhir/fsh-generated/resources/CodeSystem-BRSexo : 0 / 2 / 2
+ /home/runner/work/sms-rjcore-fhir/sms-rjcore-fhir/fsh-generated/resources/CodeSystem-BRTipoDocumento : 0 / 0 / 1
+ /home/runner/work/sms-rjcore-fhir/sms-rjcore-fhir/fsh-generated/resources/CodeSystem-BRTipoIdentificador : 0 / 1 / 2
+ /home/runner/work/sms-rjcore-fhir/sms-rjcore-fhir/fsh-generated/resources/CodeSystem-BRTipoLogradouro : 0 / 0 / 1
+ /home/runner/work/sms-rjcore-fhir/sms-rjcore-fhir/fsh-generated/resources/ImplementationGuide-org.rj-sms.br.core : 0 / 0 / 1
+ /home/runner/work/sms-rjcore-fhir/sms-rjcore-fhir/fsh-generated/resources/StructureDefinition-BRDocumentoIndividuo-1.0 : 0 / 1 / 1
+ /home/runner/work/sms-rjcore-fhir/sms-rjcore-fhir/fsh-generated/resources/StructureDefinition-BREndereco-1.0 : 0 / 1 / 1
+ /home/runner/work/sms-rjcore-fhir/sms-rjcore-fhir/fsh-generated/resources/StructureDefinition-BRIdentidadeGenero-1.0 : 0 / 2 / 1
+ /home/runner/work/sms-rjcore-fhir/sms-rjcore-fhir/fsh-generated/resources/StructureDefinition-BRIndividuo-1.0 : 0 / 1 / 1
+ /home/runner/work/sms-rjcore-fhir/sms-rjcore-fhir/fsh-generated/resources/StructureDefinition-BRIndividuoProtegido-1.0 : 0 / 1 / 1
+ /home/runner/work/sms-rjcore-fhir/sms-rjcore-fhir/fsh-generated/resources/StructureDefinition-BRJurisdicaoOrgaoEmissor-1.0 : 0 / 1 / 1
+ /home/runner/work/sms-rjcore-fhir/sms-rjcore-fhir/fsh-generated/resources/StructureDefinition-BRMeioContato-1.0 : 0 / 1 / 1
+ /home/runner/work/sms-rjcore-fhir/sms-rjcore-fhir/fsh-generated/resources/StructureDefinition-BRMunicipio-1.0 : 0 / 2 / 1
+ /home/runner/work/sms-rjcore-fhir/sms-rjcore-fhir/fsh-generated/resources/StructureDefinition-BRNacionalidade : 0 / 1 / 1
+ /home/runner/work/sms-rjcore-fhir/sms-rjcore-fhir/fsh-generated/resources/StructureDefinition-BRNaturalizacao-1.0 : 0 / 1 / 1
+ /home/runner/work/sms-rjcore-fhir/sms-rjcore-fhir/fsh-generated/resources/StructureDefinition-BRNomeIndividuo-1.0 : 0 / 1 / 1
+ /home/runner/work/sms-rjcore-fhir/sms-rjcore-fhir/fsh-generated/resources/StructureDefinition-BRPais-1.0 : 0 / 2 / 1
+ /home/runner/work/sms-rjcore-fhir/sms-rjcore-fhir/fsh-generated/resources/StructureDefinition-BRParentesIndividuo-1.0 : 1 / 1 / 1
+ /home/runner/work/sms-rjcore-fhir/sms-rjcore-fhir/fsh-generated/resources/StructureDefinition-BRQualidadeCadastroIndividuo-1.0 : 0 / 1 / 1
+ /home/runner/work/sms-rjcore-fhir/sms-rjcore-fhir/fsh-generated/resources/StructureDefinition-BRRacaCorEtnia-1.0 : 2 / 2 / 1
+ /home/runner/work/sms-rjcore-fhir/sms-rjcore-fhir/fsh-generated/resources/StructureDefinition-BRSexo-1.0 : 0 / 2 / 1
+ /home/runner/work/sms-rjcore-fhir/sms-rjcore-fhir/fsh-generated/resources/StructureDefinition-BRSexoNascimento-1.0 : 0 / 2 / 1
+ /home/runner/work/sms-rjcore-fhir/sms-rjcore-fhir/fsh-generated/resources/ValueSet-BREstadoDocumento-1.0 : 0 / 0 / 1
+ /home/runner/work/sms-rjcore-fhir/sms-rjcore-fhir/fsh-generated/resources/ValueSet-BREtniaIndigena-1.0 : 0 / 1 / 1
+ /home/runner/work/sms-rjcore-fhir/sms-rjcore-fhir/fsh-generated/resources/ValueSet-BRIdentidadeGenero-1.0 : 0 / 1 / 1
+ /home/runner/work/sms-rjcore-fhir/sms-rjcore-fhir/fsh-generated/resources/ValueSet-BRMunicipio-1.0 : 0 / 2 / 1
+ /home/runner/work/sms-rjcore-fhir/sms-rjcore-fhir/fsh-generated/resources/ValueSet-BRNacionalidade : 0 / 1 / 1
+ /home/runner/work/sms-rjcore-fhir/sms-rjcore-fhir/fsh-generated/resources/ValueSet-BRNaturezaJuridica-1.0 : 0 / 1 / 1
+ /home/runner/work/sms-rjcore-fhir/sms-rjcore-fhir/fsh-generated/resources/ValueSet-BROrgaoExpedidor-1.0 : 0 / 1 / 1
+ /home/runner/work/sms-rjcore-fhir/sms-rjcore-fhir/fsh-generated/resources/ValueSet-BRPais-1.0 : 0 / 1 / 1
+ /home/runner/work/sms-rjcore-fhir/sms-rjcore-fhir/fsh-generated/resources/ValueSet-BRParentesco-1.0 : 0 / 1 / 1
+ /home/runner/work/sms-rjcore-fhir/sms-rjcore-fhir/fsh-generated/resources/ValueSet-BRRacaCor-1.0 : 0 / 1 / 1
+ /home/runner/work/sms-rjcore-fhir/sms-rjcore-fhir/fsh-generated/resources/ValueSet-BRSexo-1.0 : 0 / 1 / 1
+ /home/runner/work/sms-rjcore-fhir/sms-rjcore-fhir/fsh-generated/resources/ValueSet-BRTipoDocumento-1.0 : 0 / 1 / 1
+ /home/runner/work/sms-rjcore-fhir/sms-rjcore-fhir/fsh-generated/resources/ValueSet-BRTipoDocumentoIndividuo-1.0 : 0 / 1 / 1
+ /home/runner/work/sms-rjcore-fhir/sms-rjcore-fhir/fsh-generated/resources/ValueSet-BRTipoLogradouro-1.0 : 0 / 1 / 1
+ /home/runner/work/sms-rjcore-fhir/sms-rjcore-fhir/fsh-generated/resources/ValueSet-BRUnidadeFederativa-1.0 : 0 / 1 / 1
+</table>
+== n/a ==
+ERROR: ImplementationGuide.definition.parameter[23].value: Supressed messages file not found
+ERROR: ToC: The ToC contains the page StructureDefinition-BRIndividuo-1.0.profile.xml.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRIndividuo-1.0.profile.json.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRIndividuo-1.0.profile.ttl.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRIndividuo-1.0-mappings.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRIndividuo-1.0-testing.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRDocumentoIndividuo-1.0.profile.xml.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRDocumentoIndividuo-1.0.profile.json.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRDocumentoIndividuo-1.0.profile.ttl.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRDocumentoIndividuo-1.0-mappings.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRDocumentoIndividuo-1.0-testing.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BREndereco-1.0.profile.xml.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BREndereco-1.0.profile.json.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BREndereco-1.0.profile.ttl.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BREndereco-1.0-mappings.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BREndereco-1.0-testing.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRMeioContato-1.0.profile.xml.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRMeioContato-1.0.profile.json.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRMeioContato-1.0.profile.ttl.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRMeioContato-1.0-mappings.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRMeioContato-1.0-testing.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRNomeIndividuo-1.0.profile.xml.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRNomeIndividuo-1.0.profile.json.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRNomeIndividuo-1.0.profile.ttl.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRNomeIndividuo-1.0-mappings.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRNomeIndividuo-1.0-testing.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRNaturalizacao-1.0.profile.xml.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRNaturalizacao-1.0.profile.json.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRNaturalizacao-1.0.profile.ttl.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRNaturalizacao-1.0-mappings.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRNaturalizacao-1.0-testing.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRIdentidadeGenero-1.0.profile.xml.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRIdentidadeGenero-1.0.profile.json.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRIdentidadeGenero-1.0.profile.ttl.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRIdentidadeGenero-1.0-mappings.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRIdentidadeGenero-1.0-testing.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRIndividuoProtegido-1.0.profile.xml.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRIndividuoProtegido-1.0.profile.json.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRIndividuoProtegido-1.0.profile.ttl.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRIndividuoProtegido-1.0-mappings.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRIndividuoProtegido-1.0-testing.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRJurisdicaoOrgaoEmissor-1.0.profile.xml.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRJurisdicaoOrgaoEmissor-1.0.profile.json.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRJurisdicaoOrgaoEmissor-1.0.profile.ttl.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRJurisdicaoOrgaoEmissor-1.0-mappings.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRJurisdicaoOrgaoEmissor-1.0-testing.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRMunicipio-1.0.profile.xml.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRMunicipio-1.0.profile.json.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRMunicipio-1.0.profile.ttl.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRMunicipio-1.0-mappings.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRMunicipio-1.0-testing.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRNacionalidade.profile.xml.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRNacionalidade.profile.json.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRNacionalidade.profile.ttl.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRNacionalidade-mappings.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRNacionalidade-testing.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRParentesIndividuo-1.0.profile.xml.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRParentesIndividuo-1.0.profile.json.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRParentesIndividuo-1.0.profile.ttl.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRParentesIndividuo-1.0-mappings.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRParentesIndividuo-1.0-testing.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRPais-1.0.profile.xml.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRPais-1.0.profile.json.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRPais-1.0.profile.ttl.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRPais-1.0-mappings.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRPais-1.0-testing.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRQualidadeCadastroIndividuo-1.0.profile.xml.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRQualidadeCadastroIndividuo-1.0.profile.json.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRQualidadeCadastroIndividuo-1.0.profile.ttl.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRQualidadeCadastroIndividuo-1.0-mappings.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRQualidadeCadastroIndividuo-1.0-testing.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRRacaCorEtnia-1.0.profile.xml.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRRacaCorEtnia-1.0.profile.json.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRRacaCorEtnia-1.0.profile.ttl.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRRacaCorEtnia-1.0-mappings.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRRacaCorEtnia-1.0-testing.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRSexo-1.0.profile.xml.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRSexo-1.0.profile.json.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRSexo-1.0.profile.ttl.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRSexo-1.0-mappings.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRSexo-1.0-testing.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRSexoNascimento-1.0.profile.xml.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRSexoNascimento-1.0.profile.json.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRSexoNascimento-1.0.profile.ttl.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRSexoNascimento-1.0-mappings.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-BRSexoNascimento-1.0-testing.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BREstadoDocumento-1.0.xml.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BREstadoDocumento-1.0.json.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BREstadoDocumento-1.0.ttl.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BREstadoDocumento-1.0-testing.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BREtniaIndigena-1.0.xml.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BREtniaIndigena-1.0.json.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BREtniaIndigena-1.0.ttl.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BREtniaIndigena-1.0-testing.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BRIdentidadeGenero-1.0.xml.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BRIdentidadeGenero-1.0.json.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BRIdentidadeGenero-1.0.ttl.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BRIdentidadeGenero-1.0-testing.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BRMunicipio-1.0.xml.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BRMunicipio-1.0.json.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BRMunicipio-1.0.ttl.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BRMunicipio-1.0-testing.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BRNacionalidade.xml.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BRNacionalidade.json.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BRNacionalidade.ttl.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BRNacionalidade-testing.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BRNaturezaJuridica-1.0.xml.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BRNaturezaJuridica-1.0.json.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BRNaturezaJuridica-1.0.ttl.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BRNaturezaJuridica-1.0-testing.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BRParentesco-1.0.xml.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BRParentesco-1.0.json.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BRParentesco-1.0.ttl.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BRParentesco-1.0-testing.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BRPais-1.0.xml.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BRPais-1.0.json.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BRPais-1.0.ttl.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BRPais-1.0-testing.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BRRacaCor-1.0.xml.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BRRacaCor-1.0.json.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BRRacaCor-1.0.ttl.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BRRacaCor-1.0-testing.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BRSexo-1.0.xml.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BRSexo-1.0.json.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BRSexo-1.0.ttl.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BRSexo-1.0-testing.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BRTipoDocumento-1.0.xml.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BRTipoDocumento-1.0.json.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BRTipoDocumento-1.0.ttl.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BRTipoDocumento-1.0-testing.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BRTipoDocumentoIndividuo-1.0.xml.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BRTipoDocumentoIndividuo-1.0.json.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BRTipoDocumentoIndividuo-1.0.ttl.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BRTipoDocumentoIndividuo-1.0-testing.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BRTipoLogradouro-1.0.xml.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BRTipoLogradouro-1.0.json.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BRTipoLogradouro-1.0.ttl.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BRTipoLogradouro-1.0-testing.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BRUnidadeFederativa-1.0.xml.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BRUnidadeFederativa-1.0.json.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BRUnidadeFederativa-1.0.ttl.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BRUnidadeFederativa-1.0-testing.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BROrgaoExpedidor-1.0.xml.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BROrgaoExpedidor-1.0.json.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BROrgaoExpedidor-1.0.ttl.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-BROrgaoExpedidor-1.0-testing.html more than once
+ERROR: ToC: The ToC contains the page CodeSystem-BREtniaIndigena.xml.html more than once
+ERROR: ToC: The ToC contains the page CodeSystem-BREtniaIndigena.json.html more than once
+ERROR: ToC: The ToC contains the page CodeSystem-BREtniaIndigena.ttl.html more than once
+ERROR: ToC: The ToC contains the page CodeSystem-BREtniaIndigena-testing.html more than once
+ERROR: ToC: The ToC contains the page CodeSystem-BRIdentidadeGenero.xml.html more than once
+ERROR: ToC: The ToC contains the page CodeSystem-BRIdentidadeGenero.json.html more than once
+ERROR: ToC: The ToC contains the page CodeSystem-BRIdentidadeGenero.ttl.html more than once
+ERROR: ToC: The ToC contains the page CodeSystem-BRIdentidadeGenero-testing.html more than once
+ERROR: ToC: The ToC contains the page CodeSystem-BRNacionalidade.xml.html more than once
+ERROR: ToC: The ToC contains the page CodeSystem-BRNacionalidade.json.html more than once
+ERROR: ToC: The ToC contains the page CodeSystem-BRNacionalidade.ttl.html more than once
+ERROR: ToC: The ToC contains the page CodeSystem-BRNacionalidade-testing.html more than once
+ERROR: ToC: The ToC contains the page CodeSystem-BRNaturezaJuridica.xml.html more than once
+ERROR: ToC: The ToC contains the page CodeSystem-BRNaturezaJuridica.json.html more than once
+ERROR: ToC: The ToC contains the page CodeSystem-BRNaturezaJuridica.ttl.html more than once
+ERROR: ToC: The ToC contains the page CodeSystem-BRNaturezaJuridica-testing.html more than once
+ERROR: ToC: The ToC contains the page CodeSystem-BRParentesco.xml.html more than once
+ERROR: ToC: The ToC contains the page CodeSystem-BRParentesco.json.html more than once
+ERROR: ToC: The ToC contains the page CodeSystem-BRParentesco.ttl.html more than once
+ERROR: ToC: The ToC contains the page CodeSystem-BRParentesco-testing.html more than once
+ERROR: ToC: The ToC contains the page CodeSystem-BRPais.xml.html more than once
+ERROR: ToC: The ToC contains the page CodeSystem-BRPais.json.html more than once
+ERROR: ToC: The ToC contains the page CodeSystem-BRPais.ttl.html more than once
+ERROR: ToC: The ToC contains the page CodeSystem-BRPais-testing.html more than once
+ERROR: ToC: The ToC contains the page CodeSystem-BRRacaCor.xml.html more than once
+ERROR: ToC: The ToC contains the page CodeSystem-BRRacaCor.json.html more than once
+ERROR: ToC: The ToC contains the page CodeSystem-BRRacaCor.ttl.html more than once
+ERROR: ToC: The ToC contains the page CodeSystem-BRRacaCor-testing.html more than once
+ERROR: ToC: The ToC contains the page CodeSystem-BRSexo.xml.html more than once
+ERROR: ToC: The ToC contains the page CodeSystem-BRSexo.json.html more than once
+ERROR: ToC: The ToC contains the page CodeSystem-BRSexo.ttl.html more than once
+ERROR: ToC: The ToC contains the page CodeSystem-BRSexo-testing.html more than once
+ERROR: ToC: The ToC contains the page CodeSystem-BRTipoDocumento.xml.html more than once
+ERROR: ToC: The ToC contains the page CodeSystem-BRTipoDocumento.json.html more than once
+ERROR: ToC: The ToC contains the page CodeSystem-BRTipoDocumento.ttl.html more than once
+ERROR: ToC: The ToC contains the page CodeSystem-BRTipoDocumento-testing.html more than once
+ERROR: ToC: The ToC contains the page CodeSystem-BRTipoIdentificador.xml.html more than once
+ERROR: ToC: The ToC contains the page CodeSystem-BRTipoIdentificador.json.html more than once
+ERROR: ToC: The ToC contains the page CodeSystem-BRTipoIdentificador.ttl.html more than once
+ERROR: ToC: The ToC contains the page CodeSystem-BRTipoIdentificador-testing.html more than once
+ERROR: ToC: The ToC contains the page CodeSystem-BRTipoLogradouro.xml.html more than once
+ERROR: ToC: The ToC contains the page CodeSystem-BRTipoLogradouro.json.html more than once
+ERROR: ToC: The ToC contains the page CodeSystem-BRTipoLogradouro.ttl.html more than once
+ERROR: ToC: The ToC contains the page CodeSystem-BRTipoLogradouro-testing.html more than once
+ERROR: ToC: The ToC contains the page CodeSystem-BROrgaoExpedidor.xml.html more than once
+ERROR: ToC: The ToC contains the page CodeSystem-BROrgaoExpedidor.json.html more than once
+ERROR: ToC: The ToC contains the page CodeSystem-BROrgaoExpedidor.ttl.html more than once
+ERROR: ToC: The ToC contains the page CodeSystem-BROrgaoExpedidor-testing.html more than once
+== fsh-generated/resources/CodeSystem-BREtniaIndigena.json ==
+INFORMATION: CodeSystem/BREtniaIndigena: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/BREtniaIndigena: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+WARNING: CodeSystem/BREtniaIndigena: CodeSystem: The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+== fsh-generated/resources/CodeSystem-BRIdentidadeGenero.json ==
+INFORMATION: CodeSystem/BRIdentidadeGenero: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/BRIdentidadeGenero: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+WARNING: CodeSystem/BRIdentidadeGenero: CodeSystem: The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+== fsh-generated/resources/CodeSystem-BRNacionalidade.json ==
+INFORMATION: CodeSystem/BRNacionalidade: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/BRNacionalidade: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+WARNING: CodeSystem/BRNacionalidade: CodeSystem: The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+== fsh-generated/resources/CodeSystem-BRNaturezaJuridica.json ==
+== fsh-generated/resources/CodeSystem-BROrgaoExpedidor.json ==
+== fsh-generated/resources/CodeSystem-BRPais.json ==
+INFORMATION: CodeSystem/BRPais: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/BRPais: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+WARNING: CodeSystem/BRPais: CodeSystem: The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+== fsh-generated/resources/CodeSystem-BRParentesco.json ==
+INFORMATION: CodeSystem/BRParentesco: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/BRParentesco: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+WARNING: CodeSystem/BRParentesco: CodeSystem: The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+== fsh-generated/resources/CodeSystem-BRRacaCor.json ==
+INFORMATION: CodeSystem/BRRacaCor: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/BRRacaCor: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+WARNING: CodeSystem/BRRacaCor: CodeSystem: The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+== fsh-generated/resources/CodeSystem-BRSexo.json ==
+INFORMATION: CodeSystem/BRSexo: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/BRSexo: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+WARNING: CodeSystem/BRSexo: CodeSystem: The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+== fsh-generated/resources/CodeSystem-BRTipoDocumento.json ==
+== fsh-generated/resources/CodeSystem-BRTipoIdentificador.json ==
+INFORMATION: CodeSystem/BRTipoIdentificador: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/BRTipoIdentificador: CodeSystem: The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+== fsh-generated/resources/CodeSystem-BRTipoLogradouro.json ==
+== fsh-generated/resources/ImplementationGuide-org.rj-sms.br.core.json ==
+== fsh-generated/resources/StructureDefinition-BRDocumentoIndividuo-1.0.json ==
+WARNING: StructureDefinition.where(url = 'https://prefeitura-rio.github.io/sms-rjcore-fhir/StructureDefinition/BRDocumentoIndividuo-1.0'): The Implementation Guide contains no examples for this data type profile
+== fsh-generated/resources/StructureDefinition-BREndereco-1.0.json ==
+WARNING: StructureDefinition.where(url = 'https://prefeitura-rio.github.io/sms-rjcore-fhir/StructureDefinition/BREndereco-1.0'): The Implementation Guide contains no examples for this data type profile
+== fsh-generated/resources/StructureDefinition-BRIdentidadeGenero-1.0.json ==
+WARNING: StructureDefinition/BRIdentidadeGenero-1.0: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition.where(url = 'https://prefeitura-rio.github.io/sms-rjcore-fhir/StructureDefinition/BRIdentidadeGenero-1.0'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-BRIndividuo-1.0.json ==
+WARNING: StructureDefinition.where(url = 'https://prefeitura-rio.github.io/sms-rjcore-fhir/StructureDefinition/BRIndividuo-1.0'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-BRIndividuoProtegido-1.0.json ==
+WARNING: StructureDefinition.where(url = 'https://prefeitura-rio.github.io/sms-rjcore-fhir/StructureDefinition/BRIndividuoProtegido-1.0'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-BRJurisdicaoOrgaoEmissor-1.0.json ==
+WARNING: StructureDefinition.where(url = 'https://prefeitura-rio.github.io/sms-rjcore-fhir/StructureDefinition/BRJurisdicaoOrgaoEmissor-1.0'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-BRMeioContato-1.0.json ==
+WARNING: StructureDefinition.where(url = 'https://prefeitura-rio.github.io/sms-rjcore-fhir/StructureDefinition/BRMeioContato-1.0'): The Implementation Guide contains no examples for this data type profile
+== fsh-generated/resources/StructureDefinition-BRMunicipio-1.0.json ==
+WARNING: StructureDefinition/BRMunicipio-1.0: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition.where(url = 'https://prefeitura-rio.github.io/sms-rjcore-fhir/StructureDefinition/BRMunicipio-1.0'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-BRNacionalidade.json ==
+WARNING: StructureDefinition.where(url = 'https://prefeitura-rio.github.io/sms-rjcore-fhir/StructureDefinition/BRNacionalidade'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-BRNaturalizacao-1.0.json ==
+WARNING: StructureDefinition.where(url = 'https://prefeitura-rio.github.io/sms-rjcore-fhir/StructureDefinition/BRNaturalizacao-1.0'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-BRNomeIndividuo-1.0.json ==
+WARNING: StructureDefinition.where(url = 'https://prefeitura-rio.github.io/sms-rjcore-fhir/StructureDefinition/BRNomeIndividuo-1.0'): The Implementation Guide contains no examples for this data type profile
+== fsh-generated/resources/StructureDefinition-BRPais-1.0.json ==
+WARNING: StructureDefinition/BRPais-1.0: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition.where(url = 'https://prefeitura-rio.github.io/sms-rjcore-fhir/StructureDefinition/BRPais-1.0'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-BRParentesIndividuo-1.0.json ==
+ERROR: StructureDefinition/BRParentesIndividuo-1.0: StructureDefinition.differential.element[1].binding: ElementDefinition.binding.strength: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ElementDefinition|4.0.1)
+WARNING: StructureDefinition.where(url = 'https://prefeitura-rio.github.io/sms-rjcore-fhir/StructureDefinition/BRParentesIndividuo-1.0'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-BRQualidadeCadastroIndividuo-1.0.json ==
+WARNING: StructureDefinition.where(url = 'https://prefeitura-rio.github.io/sms-rjcore-fhir/StructureDefinition/BRQualidadeCadastroIndividuo-1.0'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-BRRacaCorEtnia-1.0.json ==
+ERROR: StructureDefinition/BRRacaCorEtnia-1.0: StructureDefinition.differential.element[2].binding: ElementDefinition.binding.strength: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ElementDefinition|4.0.1)
+ERROR: StructureDefinition/BRRacaCorEtnia-1.0: StructureDefinition.differential.element[6].binding: ElementDefinition.binding.strength: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ElementDefinition|4.0.1)
+WARNING: StructureDefinition/BRRacaCorEtnia-1.0: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition.where(url = 'https://prefeitura-rio.github.io/sms-rjcore-fhir/StructureDefinition/BRRacaCorEtnia-1.0'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-BRSexo-1.0.json ==
+WARNING: StructureDefinition/BRSexo-1.0: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition.where(url = 'https://prefeitura-rio.github.io/sms-rjcore-fhir/StructureDefinition/BRSexo-1.0'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-BRSexoNascimento-1.0.json ==
+WARNING: StructureDefinition/BRSexoNascimento-1.0: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition.where(url = 'https://prefeitura-rio.github.io/sms-rjcore-fhir/StructureDefinition/BRSexoNascimento-1.0'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/ValueSet-BREstadoDocumento-1.0.json ==
+== fsh-generated/resources/ValueSet-BREtniaIndigena-1.0.json ==
+WARNING: ValueSet/BREtniaIndigena-1.0: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
+== fsh-generated/resources/ValueSet-BRIdentidadeGenero-1.0.json ==
+WARNING: ValueSet/BRIdentidadeGenero-1.0: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
+== fsh-generated/resources/ValueSet-BRMunicipio-1.0.json ==
+WARNING: ValueSet/BRMunicipio-1.0: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
+WARNING: ValueSet.where(id = 'BRMunicipio-1.0'): Error from server: Unable to provide support for code system https://rnds-fhir.saude.gov.br/CodeSystem/BRDivisaoGeograficaBrasil
+== fsh-generated/resources/ValueSet-BRNacionalidade.json ==
+WARNING: ValueSet/BRNacionalidade: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
+== fsh-generated/resources/ValueSet-BRNaturezaJuridica-1.0.json ==
+WARNING: ValueSet.where(id = 'BRNaturezaJuridica-1.0'): Error from server: Unable to provide support for code system https://rnds-fhir.saude.gov.br/CodeSystem/BRNaturezaJuridica version 2018
+== fsh-generated/resources/ValueSet-BROrgaoExpedidor-1.0.json ==
+WARNING: ValueSet.where(id = 'BROrgaoExpedidor-1.0'): Error from server: Unable to provide support for code system https://rnds-fhir.saude.gov.br/CodeSystem/BROrgaoExpedidor version *
+== fsh-generated/resources/ValueSet-BRPais-1.0.json ==
+WARNING: ValueSet/BRPais-1.0: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
+== fsh-generated/resources/ValueSet-BRParentesco-1.0.json ==
+WARNING: ValueSet/BRParentesco-1.0: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
+== fsh-generated/resources/ValueSet-BRRacaCor-1.0.json ==
+WARNING: ValueSet/BRRacaCor-1.0: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
+== fsh-generated/resources/ValueSet-BRSexo-1.0.json ==
+WARNING: ValueSet/BRSexo-1.0: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
+== fsh-generated/resources/ValueSet-BRTipoDocumento-1.0.json ==
+WARNING: ValueSet.where(id = 'BRTipoDocumento-1.0'): Error from server: Unable to provide support for code system https://rnds-fhir.saude.gov.br/CodeSystem/BRTipoDocumento version 20221013
+== fsh-generated/resources/ValueSet-BRTipoDocumentoIndividuo-1.0.json ==
+WARNING: ValueSet.where(id = 'BRTipoDocumentoIndividuo-1.0'): Error from server: Unable to provide support for code system https://rnds-fhir.saude.gov.br/CodeSystem/BRTipoIdentificador version *
+== fsh-generated/resources/ValueSet-BRTipoLogradouro-1.0.json ==
+WARNING: ValueSet.where(id = 'BRTipoLogradouro-1.0'): Error from server: Unable to provide support for code system https://rnds-fhir.saude.gov.br/CodeSystem/BRTipoLogradouro version *
+== fsh-generated/resources/ValueSet-BRUnidadeFederativa-1.0.json ==
+WARNING: ValueSet.where(id = 'BRUnidadeFederativa-1.0'): Error from server: Unable to provide support for code system https://rnds-fhir.saude.gov.br/CodeSystem/BRDivisaoGeograficaBrasil version *

@@ -1,0 +1,1077 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BRPais> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "BRPais"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BRPais</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">10<a name=\"BRPais-10\"> </a></td><td>BRASIL</td></tr><tr><td style=\"white-space:nowrap\">20<a name=\"BRPais-20\"> </a></td><td>RESERVADO</td></tr><tr><td style=\"white-space:nowrap\">21<a name=\"BRPais-21\"> </a></td><td>ARGENTINA</td></tr><tr><td style=\"white-space:nowrap\">22<a name=\"BRPais-22\"> </a></td><td>BOLIVIA</td></tr><tr><td style=\"white-space:nowrap\">23<a name=\"BRPais-23\"> </a></td><td>CHILE</td></tr><tr><td style=\"white-space:nowrap\">24<a name=\"BRPais-24\"> </a></td><td>PARAGUAI</td></tr><tr><td style=\"white-space:nowrap\">25<a name=\"BRPais-25\"> </a></td><td>URUGUAI</td></tr><tr><td style=\"white-space:nowrap\">26<a name=\"BRPais-26\"> </a></td><td>COLOMBIA</td></tr><tr><td style=\"white-space:nowrap\">27<a name=\"BRPais-27\"> </a></td><td>EQUADOR</td></tr><tr><td style=\"white-space:nowrap\">28<a name=\"BRPais-28\"> </a></td><td>ANTIGUA E. DEP. BARBUDA</td></tr><tr><td style=\"white-space:nowrap\">29<a name=\"BRPais-29\"> </a></td><td>ANTILHAS HOLANDESAS</td></tr><tr><td style=\"white-space:nowrap\">30<a name=\"BRPais-30\"> </a></td><td>ALEMANHA</td></tr><tr><td style=\"white-space:nowrap\">31<a name=\"BRPais-31\"> </a></td><td>BELGICA</td></tr><tr><td style=\"white-space:nowrap\">32<a name=\"BRPais-32\"> </a></td><td>GRA-BRETANHA</td></tr><tr><td style=\"white-space:nowrap\">33<a name=\"BRPais-33\"> </a></td><td>ARUBA</td></tr><tr><td style=\"white-space:nowrap\">34<a name=\"BRPais-34\"> </a></td><td>CANADA</td></tr><tr><td style=\"white-space:nowrap\">35<a name=\"BRPais-35\"> </a></td><td>ESPANHA</td></tr><tr><td style=\"white-space:nowrap\">36<a name=\"BRPais-36\"> </a></td><td>ESTADOS UNIDOS DA AMERICA (EUA)</td></tr><tr><td style=\"white-space:nowrap\">37<a name=\"BRPais-37\"> </a></td><td>FRANCA</td></tr><tr><td style=\"white-space:nowrap\">38<a name=\"BRPais-38\"> </a></td><td>SUICA</td></tr><tr><td style=\"white-space:nowrap\">39<a name=\"BRPais-39\"> </a></td><td>ITALIA</td></tr><tr><td style=\"white-space:nowrap\">40<a name=\"BRPais-40\"> </a></td><td>COMUNIDADE DAS BAHAMAS</td></tr><tr><td style=\"white-space:nowrap\">41<a name=\"BRPais-41\"> </a></td><td>JAPAO</td></tr><tr><td style=\"white-space:nowrap\">42<a name=\"BRPais-42\"> </a></td><td>CHINA</td></tr><tr><td style=\"white-space:nowrap\">43<a name=\"BRPais-43\"> </a></td><td>COREIA</td></tr><tr><td style=\"white-space:nowrap\">44<a name=\"BRPais-44\"> </a></td><td>BARBADOS</td></tr><tr><td style=\"white-space:nowrap\">45<a name=\"BRPais-45\"> </a></td><td>PORTUGAL</td></tr><tr><td style=\"white-space:nowrap\">46<a name=\"BRPais-46\"> </a></td><td>BELIZE</td></tr><tr><td style=\"white-space:nowrap\">47<a name=\"BRPais-47\"> </a></td><td>ILHAS TURKS E CAICOS</td></tr><tr><td style=\"white-space:nowrap\">48<a name=\"BRPais-48\"> </a></td><td>RESERVADO</td></tr><tr><td style=\"white-space:nowrap\">49<a name=\"BRPais-49\"> </a></td><td>RESERVADO</td></tr><tr><td style=\"white-space:nowrap\">50<a name=\"BRPais-50\"> </a></td><td>RESERVADO</td></tr><tr><td style=\"white-space:nowrap\">51<a name=\"BRPais-51\"> </a></td><td>COSTA RICA</td></tr><tr><td style=\"white-space:nowrap\">52<a name=\"BRPais-52\"> </a></td><td>CUBA</td></tr><tr><td style=\"white-space:nowrap\">53<a name=\"BRPais-53\"> </a></td><td>CURACAO</td></tr><tr><td style=\"white-space:nowrap\">54<a name=\"BRPais-54\"> </a></td><td>COMUNIDADE DOMINICANA</td></tr><tr><td style=\"white-space:nowrap\">55<a name=\"BRPais-55\"> </a></td><td>REPUBLICA DOMINICANA</td></tr><tr><td style=\"white-space:nowrap\">56<a name=\"BRPais-56\"> </a></td><td>REPUBLICA DE EL SALVADOR</td></tr><tr><td style=\"white-space:nowrap\">57<a name=\"BRPais-57\"> </a></td><td>ESTADOS ASSOC. DAS ANTILHAS</td></tr><tr><td style=\"white-space:nowrap\">58<a name=\"BRPais-58\"> </a></td><td>ILHAS FALKLANDS</td></tr><tr><td style=\"white-space:nowrap\">59<a name=\"BRPais-59\"> </a></td><td>GRANADA</td></tr><tr><td style=\"white-space:nowrap\">60<a name=\"BRPais-60\"> </a></td><td>ILHAS GUADALUPE</td></tr><tr><td style=\"white-space:nowrap\">61<a name=\"BRPais-61\"> </a></td><td>GUATEMALA</td></tr><tr><td style=\"white-space:nowrap\">62<a name=\"BRPais-62\"> </a></td><td>REPUBLICA DO HAITI</td></tr><tr><td style=\"white-space:nowrap\">63<a name=\"BRPais-63\"> </a></td><td>HONDURAS BRITANICAS</td></tr><tr><td style=\"white-space:nowrap\">64<a name=\"BRPais-64\"> </a></td><td>HONDURAS</td></tr><tr><td style=\"white-space:nowrap\">65<a name=\"BRPais-65\"> </a></td><td>ILHAS SERRANAS</td></tr><tr><td style=\"white-space:nowrap\">66<a name=\"BRPais-66\"> </a></td><td>JAMAICA</td></tr><tr><td style=\"white-space:nowrap\">67<a name=\"BRPais-67\"> </a></td><td>ILHAS MALVINAS</td></tr><tr><td style=\"white-space:nowrap\">68<a name=\"BRPais-68\"> </a></td><td>MARTINICA</td></tr><tr><td style=\"white-space:nowrap\">69<a name=\"BRPais-69\"> </a></td><td>ILHA MILHOS</td></tr><tr><td style=\"white-space:nowrap\">70<a name=\"BRPais-70\"> </a></td><td>MONTE SERRAT</td></tr><tr><td style=\"white-space:nowrap\">71<a name=\"BRPais-71\"> </a></td><td>NICARAGUA</td></tr><tr><td style=\"white-space:nowrap\">72<a name=\"BRPais-72\"> </a></td><td>PANAMA</td></tr><tr><td style=\"white-space:nowrap\">73<a name=\"BRPais-73\"> </a></td><td>PANAMA(ZONA DO CANAL)</td></tr><tr><td style=\"white-space:nowrap\">74<a name=\"BRPais-74\"> </a></td><td>PORTO RICO</td></tr><tr><td style=\"white-space:nowrap\">75<a name=\"BRPais-75\"> </a></td><td>QUITASUENO</td></tr><tr><td style=\"white-space:nowrap\">76<a name=\"BRPais-76\"> </a></td><td>RONCADOR</td></tr><tr><td style=\"white-space:nowrap\">77<a name=\"BRPais-77\"> </a></td><td>SANTA LUCIA</td></tr><tr><td style=\"white-space:nowrap\">78<a name=\"BRPais-78\"> </a></td><td>SAO CRISTOVAO</td></tr><tr><td style=\"white-space:nowrap\">79<a name=\"BRPais-79\"> </a></td><td>SAO VICENTE</td></tr><tr><td style=\"white-space:nowrap\">80<a name=\"BRPais-80\"> </a></td><td>ILHAS TURCA</td></tr><tr><td style=\"white-space:nowrap\">81<a name=\"BRPais-81\"> </a></td><td>ILHAS VIRGENS BRITANICAS</td></tr><tr><td style=\"white-space:nowrap\">82<a name=\"BRPais-82\"> </a></td><td>ILHAS VIRGENS AMERICANAS</td></tr><tr><td style=\"white-space:nowrap\">83<a name=\"BRPais-83\"> </a></td><td>BERMUDAS</td></tr><tr><td style=\"white-space:nowrap\">84<a name=\"BRPais-84\"> </a></td><td>GROENLANDIA</td></tr><tr><td style=\"white-space:nowrap\">85<a name=\"BRPais-85\"> </a></td><td>MEXICO</td></tr><tr><td style=\"white-space:nowrap\">86<a name=\"BRPais-86\"> </a></td><td>ST. PIERRE ET MIQUELON</td></tr><tr><td style=\"white-space:nowrap\">87<a name=\"BRPais-87\"> </a></td><td>GUIANA FRANCESA</td></tr><tr><td style=\"white-space:nowrap\">88<a name=\"BRPais-88\"> </a></td><td>REPUBLICA GUIANA</td></tr><tr><td style=\"white-space:nowrap\">89<a name=\"BRPais-89\"> </a></td><td>PERU</td></tr><tr><td style=\"white-space:nowrap\">90<a name=\"BRPais-90\"> </a></td><td>SURINAME</td></tr><tr><td style=\"white-space:nowrap\">91<a name=\"BRPais-91\"> </a></td><td>TRINIDAD E TOBAGO</td></tr><tr><td style=\"white-space:nowrap\">92<a name=\"BRPais-92\"> </a></td><td>VENEZUELA</td></tr><tr><td style=\"white-space:nowrap\">93<a name=\"BRPais-93\"> </a></td><td>ALBANIA</td></tr><tr><td style=\"white-space:nowrap\">94<a name=\"BRPais-94\"> </a></td><td>ANDORRA</td></tr><tr><td style=\"white-space:nowrap\">95<a name=\"BRPais-95\"> </a></td><td>AUSTRIA</td></tr><tr><td style=\"white-space:nowrap\">96<a name=\"BRPais-96\"> </a></td><td>BULGARIA</td></tr><tr><td style=\"white-space:nowrap\">97<a name=\"BRPais-97\"> </a></td><td>CHIPRE</td></tr><tr><td style=\"white-space:nowrap\">98<a name=\"BRPais-98\"> </a></td><td>DINAMARCA</td></tr><tr><td style=\"white-space:nowrap\">99<a name=\"BRPais-99\"> </a></td><td>EIRE</td></tr><tr><td style=\"white-space:nowrap\">100<a name=\"BRPais-100\"> </a></td><td>ESCOCIA</td></tr><tr><td style=\"white-space:nowrap\">101<a name=\"BRPais-101\"> </a></td><td>ILHAS FAROES</td></tr><tr><td style=\"white-space:nowrap\">102<a name=\"BRPais-102\"> </a></td><td>FINLANDIA</td></tr><tr><td style=\"white-space:nowrap\">103<a name=\"BRPais-103\"> </a></td><td>GIBRALTAR</td></tr><tr><td style=\"white-space:nowrap\">104<a name=\"BRPais-104\"> </a></td><td>GRECIA</td></tr><tr><td style=\"white-space:nowrap\">105<a name=\"BRPais-105\"> </a></td><td>HOLANDA</td></tr><tr><td style=\"white-space:nowrap\">106<a name=\"BRPais-106\"> </a></td><td>HUNGRIA</td></tr><tr><td style=\"white-space:nowrap\">107<a name=\"BRPais-107\"> </a></td><td>ILHAS BALEARES</td></tr><tr><td style=\"white-space:nowrap\">108<a name=\"BRPais-108\"> </a></td><td>ILHAS COSMOLEDO (LOMORES)</td></tr><tr><td style=\"white-space:nowrap\">109<a name=\"BRPais-109\"> </a></td><td>ILHAS DO CANAL</td></tr><tr><td style=\"white-space:nowrap\">110<a name=\"BRPais-110\"> </a></td><td>INGLATERRA</td></tr><tr><td style=\"white-space:nowrap\">111<a name=\"BRPais-111\"> </a></td><td>IRLANDA DO NORTE</td></tr><tr><td style=\"white-space:nowrap\">112<a name=\"BRPais-112\"> </a></td><td>IRLANDA</td></tr><tr><td style=\"white-space:nowrap\">113<a name=\"BRPais-113\"> </a></td><td>ISLANDIA</td></tr><tr><td style=\"white-space:nowrap\">114<a name=\"BRPais-114\"> </a></td><td>IUGOSLAVIA</td></tr><tr><td style=\"white-space:nowrap\">115<a name=\"BRPais-115\"> </a></td><td>LIECHTENSTEIN</td></tr><tr><td style=\"white-space:nowrap\">116<a name=\"BRPais-116\"> </a></td><td>LUXEMBURGO</td></tr><tr><td style=\"white-space:nowrap\">117<a name=\"BRPais-117\"> </a></td><td>ILHAS DE MAN</td></tr><tr><td style=\"white-space:nowrap\">118<a name=\"BRPais-118\"> </a></td><td>MONACO</td></tr><tr><td style=\"white-space:nowrap\">119<a name=\"BRPais-119\"> </a></td><td>NORUEGA</td></tr><tr><td style=\"white-space:nowrap\">120<a name=\"BRPais-120\"> </a></td><td>REPUBLICA DE MALTA</td></tr><tr><td style=\"white-space:nowrap\">121<a name=\"BRPais-121\"> </a></td><td>PAIS DE GALES</td></tr><tr><td style=\"white-space:nowrap\">122<a name=\"BRPais-122\"> </a></td><td>PAISES BAIXOS</td></tr><tr><td style=\"white-space:nowrap\">123<a name=\"BRPais-123\"> </a></td><td>POLONIA</td></tr><tr><td style=\"white-space:nowrap\">124<a name=\"BRPais-124\"> </a></td><td>ROMENIA</td></tr><tr><td style=\"white-space:nowrap\">125<a name=\"BRPais-125\"> </a></td><td>SAN MARINO</td></tr><tr><td style=\"white-space:nowrap\">126<a name=\"BRPais-126\"> </a></td><td>SUECIA</td></tr><tr><td style=\"white-space:nowrap\">127<a name=\"BRPais-127\"> </a></td><td>SVALBARD E JAN MAYER,IS</td></tr><tr><td style=\"white-space:nowrap\">128<a name=\"BRPais-128\"> </a></td><td>TCHECOSLOVAQUIA</td></tr><tr><td style=\"white-space:nowrap\">129<a name=\"BRPais-129\"> </a></td><td>ESTADO DA CIDADE DO VATICANO</td></tr><tr><td style=\"white-space:nowrap\">130<a name=\"BRPais-130\"> </a></td><td>CROACIA</td></tr><tr><td style=\"white-space:nowrap\">131<a name=\"BRPais-131\"> </a></td><td>SERVIA</td></tr><tr><td style=\"white-space:nowrap\">132<a name=\"BRPais-132\"> </a></td><td>ESLOVENIA</td></tr><tr><td style=\"white-space:nowrap\">133<a name=\"BRPais-133\"> </a></td><td>REPUBLICA DA MACEDONIA</td></tr><tr><td style=\"white-space:nowrap\">134<a name=\"BRPais-134\"> </a></td><td>BOSNIA HERZEGOVINA</td></tr><tr><td style=\"white-space:nowrap\">135<a name=\"BRPais-135\"> </a></td><td>REPUBLICA TCHECA</td></tr><tr><td style=\"white-space:nowrap\">136<a name=\"BRPais-136\"> </a></td><td>ESLOVAQUIA</td></tr><tr><td style=\"white-space:nowrap\">137<a name=\"BRPais-137\"> </a></td><td>MONTENEGRO</td></tr><tr><td style=\"white-space:nowrap\">138<a name=\"BRPais-138\"> </a></td><td>AZERBAIJAO</td></tr><tr><td style=\"white-space:nowrap\">139<a name=\"BRPais-139\"> </a></td><td>BASHKISTA</td></tr><tr><td style=\"white-space:nowrap\">140<a name=\"BRPais-140\"> </a></td><td>REPUBLICA DA BIELORRUSSIA</td></tr><tr><td style=\"white-space:nowrap\">141<a name=\"BRPais-141\"> </a></td><td>BURYAT</td></tr><tr><td style=\"white-space:nowrap\">142<a name=\"BRPais-142\"> </a></td><td>CARELIA</td></tr><tr><td style=\"white-space:nowrap\">143<a name=\"BRPais-143\"> </a></td><td>CAZAQUISTAO</td></tr><tr><td style=\"white-space:nowrap\">144<a name=\"BRPais-144\"> </a></td><td>CHECHEN INGUSTH</td></tr><tr><td style=\"white-space:nowrap\">145<a name=\"BRPais-145\"> </a></td><td>CHUVASH</td></tr><tr><td style=\"white-space:nowrap\">146<a name=\"BRPais-146\"> </a></td><td>DAGESTA</td></tr><tr><td style=\"white-space:nowrap\">147<a name=\"BRPais-147\"> </a></td><td>ESTONIA</td></tr><tr><td style=\"white-space:nowrap\">148<a name=\"BRPais-148\"> </a></td><td>GEORGIA</td></tr><tr><td style=\"white-space:nowrap\">149<a name=\"BRPais-149\"> </a></td><td>GORNO ALTAI</td></tr><tr><td style=\"white-space:nowrap\">150<a name=\"BRPais-150\"> </a></td><td>KABARDINO BALKAR</td></tr><tr><td style=\"white-space:nowrap\">151<a name=\"BRPais-151\"> </a></td><td>KALMIR</td></tr><tr><td style=\"white-space:nowrap\">152<a name=\"BRPais-152\"> </a></td><td>KARACHAEVOCHERKESS</td></tr><tr><td style=\"white-space:nowrap\">153<a name=\"BRPais-153\"> </a></td><td>KHAKASS</td></tr><tr><td style=\"white-space:nowrap\">154<a name=\"BRPais-154\"> </a></td><td>KOMI</td></tr><tr><td style=\"white-space:nowrap\">155<a name=\"BRPais-155\"> </a></td><td>LETONIA</td></tr><tr><td style=\"white-space:nowrap\">156<a name=\"BRPais-156\"> </a></td><td>LITUANIA</td></tr><tr><td style=\"white-space:nowrap\">157<a name=\"BRPais-157\"> </a></td><td>MARI</td></tr><tr><td style=\"white-space:nowrap\">158<a name=\"BRPais-158\"> </a></td><td>MOLDAVIA</td></tr><tr><td style=\"white-space:nowrap\">159<a name=\"BRPais-159\"> </a></td><td>OSSETIA SETENTRIONAL</td></tr><tr><td style=\"white-space:nowrap\">160<a name=\"BRPais-160\"> </a></td><td>QUIRGUISTAO</td></tr><tr><td style=\"white-space:nowrap\">161<a name=\"BRPais-161\"> </a></td><td>TADJIQUISTAO</td></tr><tr><td style=\"white-space:nowrap\">162<a name=\"BRPais-162\"> </a></td><td>TARTARIA</td></tr><tr><td style=\"white-space:nowrap\">163<a name=\"BRPais-163\"> </a></td><td>TURCOMENISTAO</td></tr><tr><td style=\"white-space:nowrap\">164<a name=\"BRPais-164\"> </a></td><td>TUVIN</td></tr><tr><td style=\"white-space:nowrap\">165<a name=\"BRPais-165\"> </a></td><td>UCRANIA</td></tr><tr><td style=\"white-space:nowrap\">166<a name=\"BRPais-166\"> </a></td><td>UDMURT</td></tr><tr><td style=\"white-space:nowrap\">167<a name=\"BRPais-167\"> </a></td><td>UNIAO SOVIETICA</td></tr><tr><td style=\"white-space:nowrap\">168<a name=\"BRPais-168\"> </a></td><td>UZBEQUISTAO</td></tr><tr><td style=\"white-space:nowrap\">169<a name=\"BRPais-169\"> </a></td><td>YAKUT</td></tr><tr><td style=\"white-space:nowrap\">170<a name=\"BRPais-170\"> </a></td><td>ABISSINIA</td></tr><tr><td style=\"white-space:nowrap\">171<a name=\"BRPais-171\"> </a></td><td>ACORES</td></tr><tr><td style=\"white-space:nowrap\">172<a name=\"BRPais-172\"> </a></td><td>AFAR FRANCES</td></tr><tr><td style=\"white-space:nowrap\">173<a name=\"BRPais-173\"> </a></td><td>REPUBLICA DA AFRICA DO SUL</td></tr><tr><td style=\"white-space:nowrap\">174<a name=\"BRPais-174\"> </a></td><td>ALTA VOLTA</td></tr><tr><td style=\"white-space:nowrap\">175<a name=\"BRPais-175\"> </a></td><td>ANGOLA</td></tr><tr><td style=\"white-space:nowrap\">176<a name=\"BRPais-176\"> </a></td><td>ARGELIA</td></tr><tr><td style=\"white-space:nowrap\">177<a name=\"BRPais-177\"> </a></td><td>BECHUANALANDIA</td></tr><tr><td style=\"white-space:nowrap\">178<a name=\"BRPais-178\"> </a></td><td>BENIN</td></tr><tr><td style=\"white-space:nowrap\">179<a name=\"BRPais-179\"> </a></td><td>BOTSUANA</td></tr><tr><td style=\"white-space:nowrap\">180<a name=\"BRPais-180\"> </a></td><td>BURUNDI</td></tr><tr><td style=\"white-space:nowrap\">181<a name=\"BRPais-181\"> </a></td><td>CAMAROES</td></tr><tr><td style=\"white-space:nowrap\">182<a name=\"BRPais-182\"> </a></td><td>CEUTA E MELILLA</td></tr><tr><td style=\"white-space:nowrap\">183<a name=\"BRPais-183\"> </a></td><td>CHADE</td></tr><tr><td style=\"white-space:nowrap\">184<a name=\"BRPais-184\"> </a></td><td>ILHAS COMORES</td></tr><tr><td style=\"white-space:nowrap\">185<a name=\"BRPais-185\"> </a></td><td>CONGO</td></tr><tr><td style=\"white-space:nowrap\">186<a name=\"BRPais-186\"> </a></td><td>COSTA DO MARFIM</td></tr><tr><td style=\"white-space:nowrap\">187<a name=\"BRPais-187\"> </a></td><td>DAOME</td></tr><tr><td style=\"white-space:nowrap\">188<a name=\"BRPais-188\"> </a></td><td>DJIBUTI</td></tr><tr><td style=\"white-space:nowrap\">189<a name=\"BRPais-189\"> </a></td><td>REPUBLICA ARABE DO EGITO</td></tr><tr><td style=\"white-space:nowrap\">190<a name=\"BRPais-190\"> </a></td><td>ETIOPIA</td></tr><tr><td style=\"white-space:nowrap\">191<a name=\"BRPais-191\"> </a></td><td>REPUBLICA DO GABAO</td></tr><tr><td style=\"white-space:nowrap\">192<a name=\"BRPais-192\"> </a></td><td>GAMBIA</td></tr><tr><td style=\"white-space:nowrap\">193<a name=\"BRPais-193\"> </a></td><td>GANA</td></tr><tr><td style=\"white-space:nowrap\">194<a name=\"BRPais-194\"> </a></td><td>GAZA</td></tr><tr><td style=\"white-space:nowrap\">195<a name=\"BRPais-195\"> </a></td><td>GUINE</td></tr><tr><td style=\"white-space:nowrap\">196<a name=\"BRPais-196\"> </a></td><td>GUINE EQUATORIAL</td></tr><tr><td style=\"white-space:nowrap\">197<a name=\"BRPais-197\"> </a></td><td>IFNI</td></tr><tr><td style=\"white-space:nowrap\">198<a name=\"BRPais-198\"> </a></td><td>ASCENSAO E TRISTAO DA CUNHA,IS</td></tr><tr><td style=\"white-space:nowrap\">199<a name=\"BRPais-199\"> </a></td><td>ILHAS CANARIAS</td></tr><tr><td style=\"white-space:nowrap\">200<a name=\"BRPais-200\"> </a></td><td>LESOTO</td></tr><tr><td style=\"white-space:nowrap\">201<a name=\"BRPais-201\"> </a></td><td>LIBERIA</td></tr><tr><td style=\"white-space:nowrap\">202<a name=\"BRPais-202\"> </a></td><td>LIBIA</td></tr><tr><td style=\"white-space:nowrap\">203<a name=\"BRPais-203\"> </a></td><td>MADEIRA</td></tr><tr><td style=\"white-space:nowrap\">204<a name=\"BRPais-204\"> </a></td><td>MALAWI</td></tr><tr><td style=\"white-space:nowrap\">205<a name=\"BRPais-205\"> </a></td><td>MADAGASCAR</td></tr><tr><td style=\"white-space:nowrap\">206<a name=\"BRPais-206\"> </a></td><td>MALI</td></tr><tr><td style=\"white-space:nowrap\">207<a name=\"BRPais-207\"> </a></td><td>MARROCOS</td></tr><tr><td style=\"white-space:nowrap\">208<a name=\"BRPais-208\"> </a></td><td>MAURICIO</td></tr><tr><td style=\"white-space:nowrap\">209<a name=\"BRPais-209\"> </a></td><td>MAURITANIA</td></tr><tr><td style=\"white-space:nowrap\">210<a name=\"BRPais-210\"> </a></td><td>MOCAMBIQUE</td></tr><tr><td style=\"white-space:nowrap\">211<a name=\"BRPais-211\"> </a></td><td>NGUANE</td></tr><tr><td style=\"white-space:nowrap\">212<a name=\"BRPais-212\"> </a></td><td>REPUBLICA DO NIGER</td></tr><tr><td style=\"white-space:nowrap\">213<a name=\"BRPais-213\"> </a></td><td>NIGERIA</td></tr><tr><td style=\"white-space:nowrap\">214<a name=\"BRPais-214\"> </a></td><td>PAPUA NOVA GUINE</td></tr><tr><td style=\"white-space:nowrap\">215<a name=\"BRPais-215\"> </a></td><td>PRACAS NORTE AFRICANAS</td></tr><tr><td style=\"white-space:nowrap\">216<a name=\"BRPais-216\"> </a></td><td>PROTETOR DO SUDOESTE AFRICANO</td></tr><tr><td style=\"white-space:nowrap\">217<a name=\"BRPais-217\"> </a></td><td>QUENIA</td></tr><tr><td style=\"white-space:nowrap\">218<a name=\"BRPais-218\"> </a></td><td>REPUBLICA CENTRO AFRICANA</td></tr><tr><td style=\"white-space:nowrap\">219<a name=\"BRPais-219\"> </a></td><td>REUNIAO</td></tr><tr><td style=\"white-space:nowrap\">220<a name=\"BRPais-220\"> </a></td><td>RODESIA (ZIMBABWE)</td></tr><tr><td style=\"white-space:nowrap\">221<a name=\"BRPais-221\"> </a></td><td>RUANDA</td></tr><tr><td style=\"white-space:nowrap\">222<a name=\"BRPais-222\"> </a></td><td>SAARA ESPANHOL</td></tr><tr><td style=\"white-space:nowrap\">223<a name=\"BRPais-223\"> </a></td><td>SANTA HELENA</td></tr><tr><td style=\"white-space:nowrap\">224<a name=\"BRPais-224\"> </a></td><td>SAO TOME E PRINCIPE</td></tr><tr><td style=\"white-space:nowrap\">225<a name=\"BRPais-225\"> </a></td><td>SEYCHELLES</td></tr><tr><td style=\"white-space:nowrap\">226<a name=\"BRPais-226\"> </a></td><td>SERRA LEOA</td></tr><tr><td style=\"white-space:nowrap\">227<a name=\"BRPais-227\"> </a></td><td>SOMALIA, REPUBLICA</td></tr><tr><td style=\"white-space:nowrap\">228<a name=\"BRPais-228\"> </a></td><td>SUAZILANDIA</td></tr><tr><td style=\"white-space:nowrap\">229<a name=\"BRPais-229\"> </a></td><td>SUDAO</td></tr><tr><td style=\"white-space:nowrap\">230<a name=\"BRPais-230\"> </a></td><td>TANGANICA</td></tr><tr><td style=\"white-space:nowrap\">231<a name=\"BRPais-231\"> </a></td><td>TERRIT. BRITANICO DO OCEANO INDICO</td></tr><tr><td style=\"white-space:nowrap\">232<a name=\"BRPais-232\"> </a></td><td>TRANSKEI</td></tr><tr><td style=\"white-space:nowrap\">233<a name=\"BRPais-233\"> </a></td><td>TOGO</td></tr><tr><td style=\"white-space:nowrap\">234<a name=\"BRPais-234\"> </a></td><td>TUNISIA</td></tr><tr><td style=\"white-space:nowrap\">235<a name=\"BRPais-235\"> </a></td><td>UGANDA</td></tr><tr><td style=\"white-space:nowrap\">236<a name=\"BRPais-236\"> </a></td><td>ZAIRE</td></tr><tr><td style=\"white-space:nowrap\">237<a name=\"BRPais-237\"> </a></td><td>ZAMBIA</td></tr><tr><td style=\"white-space:nowrap\">238<a name=\"BRPais-238\"> </a></td><td>BURKINA FASSO</td></tr><tr><td style=\"white-space:nowrap\">239<a name=\"BRPais-239\"> </a></td><td>ZIMBABWE</td></tr><tr><td style=\"white-space:nowrap\">240<a name=\"BRPais-240\"> </a></td><td>NAMIBIA</td></tr><tr><td style=\"white-space:nowrap\">241<a name=\"BRPais-241\"> </a></td><td>AFEGANISTAO</td></tr><tr><td style=\"white-space:nowrap\">242<a name=\"BRPais-242\"> </a></td><td>ARABIA SAUDITA</td></tr><tr><td style=\"white-space:nowrap\">243<a name=\"BRPais-243\"> </a></td><td>BAHREIN</td></tr><tr><td style=\"white-space:nowrap\">244<a name=\"BRPais-244\"> </a></td><td>BIRMANIA</td></tr><tr><td style=\"white-space:nowrap\">245<a name=\"BRPais-245\"> </a></td><td>BRUNEI</td></tr><tr><td style=\"white-space:nowrap\">246<a name=\"BRPais-246\"> </a></td><td>BHUTAN</td></tr><tr><td style=\"white-space:nowrap\">247<a name=\"BRPais-247\"> </a></td><td>CATAR</td></tr><tr><td style=\"white-space:nowrap\">248<a name=\"BRPais-248\"> </a></td><td>CEILAO</td></tr><tr><td style=\"white-space:nowrap\">249<a name=\"BRPais-249\"> </a></td><td>CHINA (TAIWAN)</td></tr><tr><td style=\"white-space:nowrap\">250<a name=\"BRPais-250\"> </a></td><td>COVEITE</td></tr><tr><td style=\"white-space:nowrap\">251<a name=\"BRPais-251\"> </a></td><td>EMIRADOS ARABES UNIDOS</td></tr><tr><td style=\"white-space:nowrap\">252<a name=\"BRPais-252\"> </a></td><td>FILIPINAS</td></tr><tr><td style=\"white-space:nowrap\">253<a name=\"BRPais-253\"> </a></td><td>HONG-KONG</td></tr><tr><td style=\"white-space:nowrap\">254<a name=\"BRPais-254\"> </a></td><td>IEMEN</td></tr><tr><td style=\"white-space:nowrap\">255<a name=\"BRPais-255\"> </a></td><td>INDIA</td></tr><tr><td style=\"white-space:nowrap\">256<a name=\"BRPais-256\"> </a></td><td>INDONESIA</td></tr><tr><td style=\"white-space:nowrap\">257<a name=\"BRPais-257\"> </a></td><td>IRA</td></tr><tr><td style=\"white-space:nowrap\">258<a name=\"BRPais-258\"> </a></td><td>IRAQUE</td></tr><tr><td style=\"white-space:nowrap\">259<a name=\"BRPais-259\"> </a></td><td>ISRAEL</td></tr><tr><td style=\"white-space:nowrap\">260<a name=\"BRPais-260\"> </a></td><td>JORDANIA</td></tr><tr><td style=\"white-space:nowrap\">261<a name=\"BRPais-261\"> </a></td><td>KMER/CAMBOJA</td></tr><tr><td style=\"white-space:nowrap\">262<a name=\"BRPais-262\"> </a></td><td>KUWAIT</td></tr><tr><td style=\"white-space:nowrap\">263<a name=\"BRPais-263\"> </a></td><td>LAOS</td></tr><tr><td style=\"white-space:nowrap\">264<a name=\"BRPais-264\"> </a></td><td>LIBANO</td></tr><tr><td style=\"white-space:nowrap\">265<a name=\"BRPais-265\"> </a></td><td>MACAU</td></tr><tr><td style=\"white-space:nowrap\">266<a name=\"BRPais-266\"> </a></td><td>MALASIA</td></tr><tr><td style=\"white-space:nowrap\">267<a name=\"BRPais-267\"> </a></td><td>MALDIVAS,IS</td></tr><tr><td style=\"white-space:nowrap\">268<a name=\"BRPais-268\"> </a></td><td>MASCATE</td></tr><tr><td style=\"white-space:nowrap\">269<a name=\"BRPais-269\"> </a></td><td>MONGOLIA</td></tr><tr><td style=\"white-space:nowrap\">270<a name=\"BRPais-270\"> </a></td><td>NEPAL</td></tr><tr><td style=\"white-space:nowrap\">271<a name=\"BRPais-271\"> </a></td><td>OMAN</td></tr><tr><td style=\"white-space:nowrap\">272<a name=\"BRPais-272\"> </a></td><td>PALESTINA</td></tr><tr><td style=\"white-space:nowrap\">273<a name=\"BRPais-273\"> </a></td><td>PAQUISTAO</td></tr><tr><td style=\"white-space:nowrap\">274<a name=\"BRPais-274\"> </a></td><td>RUIQUIU,IS</td></tr><tr><td style=\"white-space:nowrap\">275<a name=\"BRPais-275\"> </a></td><td>CINGAPURA</td></tr><tr><td style=\"white-space:nowrap\">276<a name=\"BRPais-276\"> </a></td><td>SEQUIN</td></tr><tr><td style=\"white-space:nowrap\">277<a name=\"BRPais-277\"> </a></td><td>SIRIA</td></tr><tr><td style=\"white-space:nowrap\">278<a name=\"BRPais-278\"> </a></td><td>SRI-LANKA</td></tr><tr><td style=\"white-space:nowrap\">279<a name=\"BRPais-279\"> </a></td><td>TAILANDIA</td></tr><tr><td style=\"white-space:nowrap\">280<a name=\"BRPais-280\"> </a></td><td>TREGUA, ESTADO</td></tr><tr><td style=\"white-space:nowrap\">281<a name=\"BRPais-281\"> </a></td><td>TURQUIA</td></tr><tr><td style=\"white-space:nowrap\">282<a name=\"BRPais-282\"> </a></td><td>VIETNA DO NORTE</td></tr><tr><td style=\"white-space:nowrap\">283<a name=\"BRPais-283\"> </a></td><td>VIETNA DO SUL</td></tr><tr><td style=\"white-space:nowrap\">284<a name=\"BRPais-284\"> </a></td><td>MIANMA</td></tr><tr><td style=\"white-space:nowrap\">285<a name=\"BRPais-285\"> </a></td><td>ARQUIPELAGO MANAHIKI</td></tr><tr><td style=\"white-space:nowrap\">286<a name=\"BRPais-286\"> </a></td><td>ARQUIPELAGO MIDWAY</td></tr><tr><td style=\"white-space:nowrap\">287<a name=\"BRPais-287\"> </a></td><td>ASHMORE E CARTIER</td></tr><tr><td style=\"white-space:nowrap\">288<a name=\"BRPais-288\"> </a></td><td>AUSTRALIA</td></tr><tr><td style=\"white-space:nowrap\">289<a name=\"BRPais-289\"> </a></td><td>ARQUIPELAGO DE BISMARK</td></tr><tr><td style=\"white-space:nowrap\">290<a name=\"BRPais-290\"> </a></td><td>ILHAS COOK</td></tr><tr><td style=\"white-space:nowrap\">291<a name=\"BRPais-291\"> </a></td><td>REPUBLICA DE FIJI</td></tr><tr><td style=\"white-space:nowrap\">292<a name=\"BRPais-292\"> </a></td><td>GUAM</td></tr><tr><td style=\"white-space:nowrap\">293<a name=\"BRPais-293\"> </a></td><td>ILHAS BAKER</td></tr><tr><td style=\"white-space:nowrap\">294<a name=\"BRPais-294\"> </a></td><td>ILHAS CANTAO E ENDERBURG</td></tr><tr><td style=\"white-space:nowrap\">295<a name=\"BRPais-295\"> </a></td><td>ILHAS CAROLINAS</td></tr><tr><td style=\"white-space:nowrap\">296<a name=\"BRPais-296\"> </a></td><td>ILHAS DO PACIFICO</td></tr><tr><td style=\"white-space:nowrap\">297<a name=\"BRPais-297\"> </a></td><td>ILHAS CHRISTMAS</td></tr><tr><td style=\"white-space:nowrap\">298<a name=\"BRPais-298\"> </a></td><td>ILHAS GILBERT</td></tr><tr><td style=\"white-space:nowrap\">299<a name=\"BRPais-299\"> </a></td><td>ILHAS HOWLAND E JARVIS</td></tr><tr><td style=\"white-space:nowrap\">300<a name=\"BRPais-300\"> </a></td><td>ILHA JOHNSTON E SAND</td></tr><tr><td style=\"white-space:nowrap\">301<a name=\"BRPais-301\"> </a></td><td>ILHAS KINGMAN REEF</td></tr><tr><td style=\"white-space:nowrap\">302<a name=\"BRPais-302\"> </a></td><td>ILHAS MACQUAIRE</td></tr><tr><td style=\"white-space:nowrap\">303<a name=\"BRPais-303\"> </a></td><td>ILHAS MARIANAS</td></tr><tr><td style=\"white-space:nowrap\">304<a name=\"BRPais-304\"> </a></td><td>ILHAS MARSHALL</td></tr><tr><td style=\"white-space:nowrap\">305<a name=\"BRPais-305\"> </a></td><td>ILHAS MACDONAL E HEARD</td></tr><tr><td style=\"white-space:nowrap\">306<a name=\"BRPais-306\"> </a></td><td>ILHAS NIUE</td></tr><tr><td style=\"white-space:nowrap\">307<a name=\"BRPais-307\"> </a></td><td>ILHAS NORFOLK</td></tr><tr><td style=\"white-space:nowrap\">308<a name=\"BRPais-308\"> </a></td><td>ILHAS PALAU</td></tr><tr><td style=\"white-space:nowrap\">309<a name=\"BRPais-309\"> </a></td><td>ILHAS SALOMAO</td></tr><tr><td style=\"white-space:nowrap\">310<a name=\"BRPais-310\"> </a></td><td>ILHAS TOKELAU</td></tr><tr><td style=\"white-space:nowrap\">311<a name=\"BRPais-311\"> </a></td><td>ILHAS WAKE</td></tr><tr><td style=\"white-space:nowrap\">312<a name=\"BRPais-312\"> </a></td><td>KALIMATAN</td></tr><tr><td style=\"white-space:nowrap\">313<a name=\"BRPais-313\"> </a></td><td>ILHAS LINHA</td></tr><tr><td style=\"white-space:nowrap\">314<a name=\"BRPais-314\"> </a></td><td>NAURU</td></tr><tr><td style=\"white-space:nowrap\">315<a name=\"BRPais-315\"> </a></td><td>ILHAS NOVA CALEDONIA</td></tr><tr><td style=\"white-space:nowrap\">316<a name=\"BRPais-316\"> </a></td><td>NOVA GUINE</td></tr><tr><td style=\"white-space:nowrap\">317<a name=\"BRPais-317\"> </a></td><td>NOVA ZELANDIA</td></tr><tr><td style=\"white-space:nowrap\">318<a name=\"BRPais-318\"> </a></td><td>ILHAS NOVAS HEBRIDAS</td></tr><tr><td style=\"white-space:nowrap\">319<a name=\"BRPais-319\"> </a></td><td>TERRITORIO DE PAPUA</td></tr><tr><td style=\"white-space:nowrap\">320<a name=\"BRPais-320\"> </a></td><td>ILHAS PASCOA</td></tr><tr><td style=\"white-space:nowrap\">321<a name=\"BRPais-321\"> </a></td><td>ILHAS PITCAIRIN</td></tr><tr><td style=\"white-space:nowrap\">322<a name=\"BRPais-322\"> </a></td><td>POLINESIA FRANCESA</td></tr><tr><td style=\"white-space:nowrap\">323<a name=\"BRPais-323\"> </a></td><td>SABAH</td></tr><tr><td style=\"white-space:nowrap\">324<a name=\"BRPais-324\"> </a></td><td>SAMOA AMERICANA</td></tr><tr><td style=\"white-space:nowrap\">325<a name=\"BRPais-325\"> </a></td><td>SAMOA OCIDENTAL</td></tr><tr><td style=\"white-space:nowrap\">326<a name=\"BRPais-326\"> </a></td><td>ILHAS SANTA CRUZ</td></tr><tr><td style=\"white-space:nowrap\">327<a name=\"BRPais-327\"> </a></td><td>SARAWAK</td></tr><tr><td style=\"white-space:nowrap\">328<a name=\"BRPais-328\"> </a></td><td>TERRITORIO DE COCOS</td></tr><tr><td style=\"white-space:nowrap\">329<a name=\"BRPais-329\"> </a></td><td>TIMOR</td></tr><tr><td style=\"white-space:nowrap\">330<a name=\"BRPais-330\"> </a></td><td>TONGA</td></tr><tr><td style=\"white-space:nowrap\">331<a name=\"BRPais-331\"> </a></td><td>TUVALU</td></tr><tr><td style=\"white-space:nowrap\">332<a name=\"BRPais-332\"> </a></td><td>ILHAS WALLIS E FUTUNA</td></tr><tr><td style=\"white-space:nowrap\">333<a name=\"BRPais-333\"> </a></td><td>ANTARTICO BRITANICO, TERRITORIO</td></tr><tr><td style=\"white-space:nowrap\">334<a name=\"BRPais-334\"> </a></td><td>ANTARTICA FRANCESA</td></tr><tr><td style=\"white-space:nowrap\">335<a name=\"BRPais-335\"> </a></td><td>TERR. ANTARTICO DA AUSTRALIA</td></tr><tr><td style=\"white-space:nowrap\">336<a name=\"BRPais-336\"> </a></td><td>ANTARTICO CHILENO</td></tr><tr><td style=\"white-space:nowrap\">337<a name=\"BRPais-337\"> </a></td><td>ANTARTICO ARGENTINO</td></tr><tr><td style=\"white-space:nowrap\">338<a name=\"BRPais-338\"> </a></td><td>ANTARTICO NORUEGUES</td></tr><tr><td style=\"white-space:nowrap\">339<a name=\"BRPais-339\"> </a></td><td>APATRIDA</td></tr><tr><td style=\"white-space:nowrap\">340<a name=\"BRPais-340\"> </a></td><td>DEPENDENCIA DE ROSS</td></tr><tr><td style=\"white-space:nowrap\">341<a name=\"BRPais-341\"> </a></td><td>TERRAS AUSTRAIS</td></tr><tr><td style=\"white-space:nowrap\">342<a name=\"BRPais-342\"> </a></td><td>BANGLADESH</td></tr><tr><td style=\"white-space:nowrap\">343<a name=\"BRPais-343\"> </a></td><td>CABO VERDE</td></tr><tr><td style=\"white-space:nowrap\">344<a name=\"BRPais-344\"> </a></td><td>GUINE BISSAU</td></tr><tr><td style=\"white-space:nowrap\">345<a name=\"BRPais-345\"> </a></td><td>IEMEN DO SUL</td></tr><tr><td style=\"white-space:nowrap\">346<a name=\"BRPais-346\"> </a></td><td>KARA KALPAK</td></tr><tr><td style=\"white-space:nowrap\">347<a name=\"BRPais-347\"> </a></td><td>ARMENIA</td></tr><tr><td style=\"white-space:nowrap\">348<a name=\"BRPais-348\"> </a></td><td>RUSSIA</td></tr><tr><td style=\"white-space:nowrap\">349<a name=\"BRPais-349\"> </a></td><td>SENEGAL</td></tr><tr><td style=\"white-space:nowrap\">350<a name=\"BRPais-350\"> </a></td><td>TANZANIA</td></tr><tr><td style=\"white-space:nowrap\">351<a name=\"BRPais-351\"> </a></td><td>MALAUI</td></tr><tr><td style=\"white-space:nowrap\">352<a name=\"BRPais-352\"> </a></td><td>REPÚBLICA DO SUDÃO DO SUL</td></tr><tr><td style=\"white-space:nowrap\">353<a name=\"BRPais-353\"> </a></td><td>ERITREIA</td></tr><tr><td style=\"white-space:nowrap\">354<a name=\"BRPais-354\"> </a></td><td>DOMINICA</td></tr><tr><td style=\"white-space:nowrap\">355<a name=\"BRPais-355\"> </a></td><td>COREIA, REPUBLICA DA (COREIA DO SUL)</td></tr><tr><td style=\"white-space:nowrap\">356<a name=\"BRPais-356\"> </a></td><td>CONGO, REPUBLICA DO (BRAZZAVILLE)</td></tr><tr><td style=\"white-space:nowrap\">357<a name=\"BRPais-357\"> </a></td><td>ANGUILLA</td></tr><tr><td style=\"white-space:nowrap\">358<a name=\"BRPais-358\"> </a></td><td>ILHAS CAYMAN</td></tr><tr><td style=\"white-space:nowrap\">359<a name=\"BRPais-359\"> </a></td><td>ILHAS DE GUERNSEY</td></tr><tr><td style=\"white-space:nowrap\">360<a name=\"BRPais-360\"> </a></td><td>ILHAS DE JERSEY</td></tr><tr><td style=\"white-space:nowrap\">361<a name=\"BRPais-361\"> </a></td><td>ILHAS GEORGIA DO SUL E ILHAS SANDWICH DO SUL</td></tr><tr><td style=\"white-space:nowrap\">362<a name=\"BRPais-362\"> </a></td><td>MAYOTTE, ILHA</td></tr><tr><td style=\"white-space:nowrap\">363<a name=\"BRPais-363\"> </a></td><td>QUIRIBATI</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BRPais"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "Pais"] ; # 
+  fhir:title [ fhir:v "País"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2023-07-15T19:34:18+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://prefeitura.rio/" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Códigos para representação de países."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "BR" ] ;
+       fhir:display [ fhir:v "Brazil" ]
+     ] )
+  ] ) ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "345"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "10" ] ;
+     fhir:display [ fhir:v "BRASIL" ]
+  ] [
+     fhir:code [ fhir:v "20" ] ;
+     fhir:display [ fhir:v "RESERVADO" ]
+  ] [
+     fhir:code [ fhir:v "21" ] ;
+     fhir:display [ fhir:v "ARGENTINA" ]
+  ] [
+     fhir:code [ fhir:v "22" ] ;
+     fhir:display [ fhir:v "BOLIVIA" ]
+  ] [
+     fhir:code [ fhir:v "23" ] ;
+     fhir:display [ fhir:v "CHILE" ]
+  ] [
+     fhir:code [ fhir:v "24" ] ;
+     fhir:display [ fhir:v "PARAGUAI" ]
+  ] [
+     fhir:code [ fhir:v "25" ] ;
+     fhir:display [ fhir:v "URUGUAI" ]
+  ] [
+     fhir:code [ fhir:v "26" ] ;
+     fhir:display [ fhir:v "COLOMBIA" ]
+  ] [
+     fhir:code [ fhir:v "27" ] ;
+     fhir:display [ fhir:v "EQUADOR" ]
+  ] [
+     fhir:code [ fhir:v "28" ] ;
+     fhir:display [ fhir:v "ANTIGUA E. DEP. BARBUDA" ]
+  ] [
+     fhir:code [ fhir:v "29" ] ;
+     fhir:display [ fhir:v "ANTILHAS HOLANDESAS" ]
+  ] [
+     fhir:code [ fhir:v "30" ] ;
+     fhir:display [ fhir:v "ALEMANHA" ]
+  ] [
+     fhir:code [ fhir:v "31" ] ;
+     fhir:display [ fhir:v "BELGICA" ]
+  ] [
+     fhir:code [ fhir:v "32" ] ;
+     fhir:display [ fhir:v "GRA-BRETANHA" ]
+  ] [
+     fhir:code [ fhir:v "33" ] ;
+     fhir:display [ fhir:v "ARUBA" ]
+  ] [
+     fhir:code [ fhir:v "34" ] ;
+     fhir:display [ fhir:v "CANADA" ]
+  ] [
+     fhir:code [ fhir:v "35" ] ;
+     fhir:display [ fhir:v "ESPANHA" ]
+  ] [
+     fhir:code [ fhir:v "36" ] ;
+     fhir:display [ fhir:v "ESTADOS UNIDOS DA AMERICA (EUA)" ]
+  ] [
+     fhir:code [ fhir:v "37" ] ;
+     fhir:display [ fhir:v "FRANCA" ]
+  ] [
+     fhir:code [ fhir:v "38" ] ;
+     fhir:display [ fhir:v "SUICA" ]
+  ] [
+     fhir:code [ fhir:v "39" ] ;
+     fhir:display [ fhir:v "ITALIA" ]
+  ] [
+     fhir:code [ fhir:v "40" ] ;
+     fhir:display [ fhir:v "COMUNIDADE DAS BAHAMAS" ]
+  ] [
+     fhir:code [ fhir:v "41" ] ;
+     fhir:display [ fhir:v "JAPAO" ]
+  ] [
+     fhir:code [ fhir:v "42" ] ;
+     fhir:display [ fhir:v "CHINA" ]
+  ] [
+     fhir:code [ fhir:v "43" ] ;
+     fhir:display [ fhir:v "COREIA" ]
+  ] [
+     fhir:code [ fhir:v "44" ] ;
+     fhir:display [ fhir:v "BARBADOS" ]
+  ] [
+     fhir:code [ fhir:v "45" ] ;
+     fhir:display [ fhir:v "PORTUGAL" ]
+  ] [
+     fhir:code [ fhir:v "46" ] ;
+     fhir:display [ fhir:v "BELIZE" ]
+  ] [
+     fhir:code [ fhir:v "47" ] ;
+     fhir:display [ fhir:v "ILHAS TURKS E CAICOS" ]
+  ] [
+     fhir:code [ fhir:v "48" ] ;
+     fhir:display [ fhir:v "RESERVADO" ]
+  ] [
+     fhir:code [ fhir:v "49" ] ;
+     fhir:display [ fhir:v "RESERVADO" ]
+  ] [
+     fhir:code [ fhir:v "50" ] ;
+     fhir:display [ fhir:v "RESERVADO" ]
+  ] [
+     fhir:code [ fhir:v "51" ] ;
+     fhir:display [ fhir:v "COSTA RICA" ]
+  ] [
+     fhir:code [ fhir:v "52" ] ;
+     fhir:display [ fhir:v "CUBA" ]
+  ] [
+     fhir:code [ fhir:v "53" ] ;
+     fhir:display [ fhir:v "CURACAO" ]
+  ] [
+     fhir:code [ fhir:v "54" ] ;
+     fhir:display [ fhir:v "COMUNIDADE DOMINICANA" ]
+  ] [
+     fhir:code [ fhir:v "55" ] ;
+     fhir:display [ fhir:v "REPUBLICA DOMINICANA" ]
+  ] [
+     fhir:code [ fhir:v "56" ] ;
+     fhir:display [ fhir:v "REPUBLICA DE EL SALVADOR" ]
+  ] [
+     fhir:code [ fhir:v "57" ] ;
+     fhir:display [ fhir:v "ESTADOS ASSOC. DAS ANTILHAS" ]
+  ] [
+     fhir:code [ fhir:v "58" ] ;
+     fhir:display [ fhir:v "ILHAS FALKLANDS" ]
+  ] [
+     fhir:code [ fhir:v "59" ] ;
+     fhir:display [ fhir:v "GRANADA" ]
+  ] [
+     fhir:code [ fhir:v "60" ] ;
+     fhir:display [ fhir:v "ILHAS GUADALUPE" ]
+  ] [
+     fhir:code [ fhir:v "61" ] ;
+     fhir:display [ fhir:v "GUATEMALA" ]
+  ] [
+     fhir:code [ fhir:v "62" ] ;
+     fhir:display [ fhir:v "REPUBLICA DO HAITI" ]
+  ] [
+     fhir:code [ fhir:v "63" ] ;
+     fhir:display [ fhir:v "HONDURAS BRITANICAS" ]
+  ] [
+     fhir:code [ fhir:v "64" ] ;
+     fhir:display [ fhir:v "HONDURAS" ]
+  ] [
+     fhir:code [ fhir:v "65" ] ;
+     fhir:display [ fhir:v "ILHAS SERRANAS" ]
+  ] [
+     fhir:code [ fhir:v "66" ] ;
+     fhir:display [ fhir:v "JAMAICA" ]
+  ] [
+     fhir:code [ fhir:v "67" ] ;
+     fhir:display [ fhir:v "ILHAS MALVINAS" ]
+  ] [
+     fhir:code [ fhir:v "68" ] ;
+     fhir:display [ fhir:v "MARTINICA" ]
+  ] [
+     fhir:code [ fhir:v "69" ] ;
+     fhir:display [ fhir:v "ILHA MILHOS" ]
+  ] [
+     fhir:code [ fhir:v "70" ] ;
+     fhir:display [ fhir:v "MONTE SERRAT" ]
+  ] [
+     fhir:code [ fhir:v "71" ] ;
+     fhir:display [ fhir:v "NICARAGUA" ]
+  ] [
+     fhir:code [ fhir:v "72" ] ;
+     fhir:display [ fhir:v "PANAMA" ]
+  ] [
+     fhir:code [ fhir:v "73" ] ;
+     fhir:display [ fhir:v "PANAMA(ZONA DO CANAL)" ]
+  ] [
+     fhir:code [ fhir:v "74" ] ;
+     fhir:display [ fhir:v "PORTO RICO" ]
+  ] [
+     fhir:code [ fhir:v "75" ] ;
+     fhir:display [ fhir:v "QUITASUENO" ]
+  ] [
+     fhir:code [ fhir:v "76" ] ;
+     fhir:display [ fhir:v "RONCADOR" ]
+  ] [
+     fhir:code [ fhir:v "77" ] ;
+     fhir:display [ fhir:v "SANTA LUCIA" ]
+  ] [
+     fhir:code [ fhir:v "78" ] ;
+     fhir:display [ fhir:v "SAO CRISTOVAO" ]
+  ] [
+     fhir:code [ fhir:v "79" ] ;
+     fhir:display [ fhir:v "SAO VICENTE" ]
+  ] [
+     fhir:code [ fhir:v "80" ] ;
+     fhir:display [ fhir:v "ILHAS TURCA" ]
+  ] [
+     fhir:code [ fhir:v "81" ] ;
+     fhir:display [ fhir:v "ILHAS VIRGENS BRITANICAS" ]
+  ] [
+     fhir:code [ fhir:v "82" ] ;
+     fhir:display [ fhir:v "ILHAS VIRGENS AMERICANAS" ]
+  ] [
+     fhir:code [ fhir:v "83" ] ;
+     fhir:display [ fhir:v "BERMUDAS" ]
+  ] [
+     fhir:code [ fhir:v "84" ] ;
+     fhir:display [ fhir:v "GROENLANDIA" ]
+  ] [
+     fhir:code [ fhir:v "85" ] ;
+     fhir:display [ fhir:v "MEXICO" ]
+  ] [
+     fhir:code [ fhir:v "86" ] ;
+     fhir:display [ fhir:v "ST. PIERRE ET MIQUELON" ]
+  ] [
+     fhir:code [ fhir:v "87" ] ;
+     fhir:display [ fhir:v "GUIANA FRANCESA" ]
+  ] [
+     fhir:code [ fhir:v "88" ] ;
+     fhir:display [ fhir:v "REPUBLICA GUIANA" ]
+  ] [
+     fhir:code [ fhir:v "89" ] ;
+     fhir:display [ fhir:v "PERU" ]
+  ] [
+     fhir:code [ fhir:v "90" ] ;
+     fhir:display [ fhir:v "SURINAME" ]
+  ] [
+     fhir:code [ fhir:v "91" ] ;
+     fhir:display [ fhir:v "TRINIDAD E TOBAGO" ]
+  ] [
+     fhir:code [ fhir:v "92" ] ;
+     fhir:display [ fhir:v "VENEZUELA" ]
+  ] [
+     fhir:code [ fhir:v "93" ] ;
+     fhir:display [ fhir:v "ALBANIA" ]
+  ] [
+     fhir:code [ fhir:v "94" ] ;
+     fhir:display [ fhir:v "ANDORRA" ]
+  ] [
+     fhir:code [ fhir:v "95" ] ;
+     fhir:display [ fhir:v "AUSTRIA" ]
+  ] [
+     fhir:code [ fhir:v "96" ] ;
+     fhir:display [ fhir:v "BULGARIA" ]
+  ] [
+     fhir:code [ fhir:v "97" ] ;
+     fhir:display [ fhir:v "CHIPRE" ]
+  ] [
+     fhir:code [ fhir:v "98" ] ;
+     fhir:display [ fhir:v "DINAMARCA" ]
+  ] [
+     fhir:code [ fhir:v "99" ] ;
+     fhir:display [ fhir:v "EIRE" ]
+  ] [
+     fhir:code [ fhir:v "100" ] ;
+     fhir:display [ fhir:v "ESCOCIA" ]
+  ] [
+     fhir:code [ fhir:v "101" ] ;
+     fhir:display [ fhir:v "ILHAS FAROES" ]
+  ] [
+     fhir:code [ fhir:v "102" ] ;
+     fhir:display [ fhir:v "FINLANDIA" ]
+  ] [
+     fhir:code [ fhir:v "103" ] ;
+     fhir:display [ fhir:v "GIBRALTAR" ]
+  ] [
+     fhir:code [ fhir:v "104" ] ;
+     fhir:display [ fhir:v "GRECIA" ]
+  ] [
+     fhir:code [ fhir:v "105" ] ;
+     fhir:display [ fhir:v "HOLANDA" ]
+  ] [
+     fhir:code [ fhir:v "106" ] ;
+     fhir:display [ fhir:v "HUNGRIA" ]
+  ] [
+     fhir:code [ fhir:v "107" ] ;
+     fhir:display [ fhir:v "ILHAS BALEARES" ]
+  ] [
+     fhir:code [ fhir:v "108" ] ;
+     fhir:display [ fhir:v "ILHAS COSMOLEDO (LOMORES)" ]
+  ] [
+     fhir:code [ fhir:v "109" ] ;
+     fhir:display [ fhir:v "ILHAS DO CANAL" ]
+  ] [
+     fhir:code [ fhir:v "110" ] ;
+     fhir:display [ fhir:v "INGLATERRA" ]
+  ] [
+     fhir:code [ fhir:v "111" ] ;
+     fhir:display [ fhir:v "IRLANDA DO NORTE" ]
+  ] [
+     fhir:code [ fhir:v "112" ] ;
+     fhir:display [ fhir:v "IRLANDA" ]
+  ] [
+     fhir:code [ fhir:v "113" ] ;
+     fhir:display [ fhir:v "ISLANDIA" ]
+  ] [
+     fhir:code [ fhir:v "114" ] ;
+     fhir:display [ fhir:v "IUGOSLAVIA" ]
+  ] [
+     fhir:code [ fhir:v "115" ] ;
+     fhir:display [ fhir:v "LIECHTENSTEIN" ]
+  ] [
+     fhir:code [ fhir:v "116" ] ;
+     fhir:display [ fhir:v "LUXEMBURGO" ]
+  ] [
+     fhir:code [ fhir:v "117" ] ;
+     fhir:display [ fhir:v "ILHAS DE MAN" ]
+  ] [
+     fhir:code [ fhir:v "118" ] ;
+     fhir:display [ fhir:v "MONACO" ]
+  ] [
+     fhir:code [ fhir:v "119" ] ;
+     fhir:display [ fhir:v "NORUEGA" ]
+  ] [
+     fhir:code [ fhir:v "120" ] ;
+     fhir:display [ fhir:v "REPUBLICA DE MALTA" ]
+  ] [
+     fhir:code [ fhir:v "121" ] ;
+     fhir:display [ fhir:v "PAIS DE GALES" ]
+  ] [
+     fhir:code [ fhir:v "122" ] ;
+     fhir:display [ fhir:v "PAISES BAIXOS" ]
+  ] [
+     fhir:code [ fhir:v "123" ] ;
+     fhir:display [ fhir:v "POLONIA" ]
+  ] [
+     fhir:code [ fhir:v "124" ] ;
+     fhir:display [ fhir:v "ROMENIA" ]
+  ] [
+     fhir:code [ fhir:v "125" ] ;
+     fhir:display [ fhir:v "SAN MARINO" ]
+  ] [
+     fhir:code [ fhir:v "126" ] ;
+     fhir:display [ fhir:v "SUECIA" ]
+  ] [
+     fhir:code [ fhir:v "127" ] ;
+     fhir:display [ fhir:v "SVALBARD E JAN MAYER,IS" ]
+  ] [
+     fhir:code [ fhir:v "128" ] ;
+     fhir:display [ fhir:v "TCHECOSLOVAQUIA" ]
+  ] [
+     fhir:code [ fhir:v "129" ] ;
+     fhir:display [ fhir:v "ESTADO DA CIDADE DO VATICANO" ]
+  ] [
+     fhir:code [ fhir:v "130" ] ;
+     fhir:display [ fhir:v "CROACIA" ]
+  ] [
+     fhir:code [ fhir:v "131" ] ;
+     fhir:display [ fhir:v "SERVIA" ]
+  ] [
+     fhir:code [ fhir:v "132" ] ;
+     fhir:display [ fhir:v "ESLOVENIA" ]
+  ] [
+     fhir:code [ fhir:v "133" ] ;
+     fhir:display [ fhir:v "REPUBLICA DA MACEDONIA" ]
+  ] [
+     fhir:code [ fhir:v "134" ] ;
+     fhir:display [ fhir:v "BOSNIA HERZEGOVINA" ]
+  ] [
+     fhir:code [ fhir:v "135" ] ;
+     fhir:display [ fhir:v "REPUBLICA TCHECA" ]
+  ] [
+     fhir:code [ fhir:v "136" ] ;
+     fhir:display [ fhir:v "ESLOVAQUIA" ]
+  ] [
+     fhir:code [ fhir:v "137" ] ;
+     fhir:display [ fhir:v "MONTENEGRO" ]
+  ] [
+     fhir:code [ fhir:v "138" ] ;
+     fhir:display [ fhir:v "AZERBAIJAO" ]
+  ] [
+     fhir:code [ fhir:v "139" ] ;
+     fhir:display [ fhir:v "BASHKISTA" ]
+  ] [
+     fhir:code [ fhir:v "140" ] ;
+     fhir:display [ fhir:v "REPUBLICA DA BIELORRUSSIA" ]
+  ] [
+     fhir:code [ fhir:v "141" ] ;
+     fhir:display [ fhir:v "BURYAT" ]
+  ] [
+     fhir:code [ fhir:v "142" ] ;
+     fhir:display [ fhir:v "CARELIA" ]
+  ] [
+     fhir:code [ fhir:v "143" ] ;
+     fhir:display [ fhir:v "CAZAQUISTAO" ]
+  ] [
+     fhir:code [ fhir:v "144" ] ;
+     fhir:display [ fhir:v "CHECHEN INGUSTH" ]
+  ] [
+     fhir:code [ fhir:v "145" ] ;
+     fhir:display [ fhir:v "CHUVASH" ]
+  ] [
+     fhir:code [ fhir:v "146" ] ;
+     fhir:display [ fhir:v "DAGESTA" ]
+  ] [
+     fhir:code [ fhir:v "147" ] ;
+     fhir:display [ fhir:v "ESTONIA" ]
+  ] [
+     fhir:code [ fhir:v "148" ] ;
+     fhir:display [ fhir:v "GEORGIA" ]
+  ] [
+     fhir:code [ fhir:v "149" ] ;
+     fhir:display [ fhir:v "GORNO ALTAI" ]
+  ] [
+     fhir:code [ fhir:v "150" ] ;
+     fhir:display [ fhir:v "KABARDINO BALKAR" ]
+  ] [
+     fhir:code [ fhir:v "151" ] ;
+     fhir:display [ fhir:v "KALMIR" ]
+  ] [
+     fhir:code [ fhir:v "152" ] ;
+     fhir:display [ fhir:v "KARACHAEVOCHERKESS" ]
+  ] [
+     fhir:code [ fhir:v "153" ] ;
+     fhir:display [ fhir:v "KHAKASS" ]
+  ] [
+     fhir:code [ fhir:v "154" ] ;
+     fhir:display [ fhir:v "KOMI" ]
+  ] [
+     fhir:code [ fhir:v "155" ] ;
+     fhir:display [ fhir:v "LETONIA" ]
+  ] [
+     fhir:code [ fhir:v "156" ] ;
+     fhir:display [ fhir:v "LITUANIA" ]
+  ] [
+     fhir:code [ fhir:v "157" ] ;
+     fhir:display [ fhir:v "MARI" ]
+  ] [
+     fhir:code [ fhir:v "158" ] ;
+     fhir:display [ fhir:v "MOLDAVIA" ]
+  ] [
+     fhir:code [ fhir:v "159" ] ;
+     fhir:display [ fhir:v "OSSETIA SETENTRIONAL" ]
+  ] [
+     fhir:code [ fhir:v "160" ] ;
+     fhir:display [ fhir:v "QUIRGUISTAO" ]
+  ] [
+     fhir:code [ fhir:v "161" ] ;
+     fhir:display [ fhir:v "TADJIQUISTAO" ]
+  ] [
+     fhir:code [ fhir:v "162" ] ;
+     fhir:display [ fhir:v "TARTARIA" ]
+  ] [
+     fhir:code [ fhir:v "163" ] ;
+     fhir:display [ fhir:v "TURCOMENISTAO" ]
+  ] [
+     fhir:code [ fhir:v "164" ] ;
+     fhir:display [ fhir:v "TUVIN" ]
+  ] [
+     fhir:code [ fhir:v "165" ] ;
+     fhir:display [ fhir:v "UCRANIA" ]
+  ] [
+     fhir:code [ fhir:v "166" ] ;
+     fhir:display [ fhir:v "UDMURT" ]
+  ] [
+     fhir:code [ fhir:v "167" ] ;
+     fhir:display [ fhir:v "UNIAO SOVIETICA" ]
+  ] [
+     fhir:code [ fhir:v "168" ] ;
+     fhir:display [ fhir:v "UZBEQUISTAO" ]
+  ] [
+     fhir:code [ fhir:v "169" ] ;
+     fhir:display [ fhir:v "YAKUT" ]
+  ] [
+     fhir:code [ fhir:v "170" ] ;
+     fhir:display [ fhir:v "ABISSINIA" ]
+  ] [
+     fhir:code [ fhir:v "171" ] ;
+     fhir:display [ fhir:v "ACORES" ]
+  ] [
+     fhir:code [ fhir:v "172" ] ;
+     fhir:display [ fhir:v "AFAR FRANCES" ]
+  ] [
+     fhir:code [ fhir:v "173" ] ;
+     fhir:display [ fhir:v "REPUBLICA DA AFRICA DO SUL" ]
+  ] [
+     fhir:code [ fhir:v "174" ] ;
+     fhir:display [ fhir:v "ALTA VOLTA" ]
+  ] [
+     fhir:code [ fhir:v "175" ] ;
+     fhir:display [ fhir:v "ANGOLA" ]
+  ] [
+     fhir:code [ fhir:v "176" ] ;
+     fhir:display [ fhir:v "ARGELIA" ]
+  ] [
+     fhir:code [ fhir:v "177" ] ;
+     fhir:display [ fhir:v "BECHUANALANDIA" ]
+  ] [
+     fhir:code [ fhir:v "178" ] ;
+     fhir:display [ fhir:v "BENIN" ]
+  ] [
+     fhir:code [ fhir:v "179" ] ;
+     fhir:display [ fhir:v "BOTSUANA" ]
+  ] [
+     fhir:code [ fhir:v "180" ] ;
+     fhir:display [ fhir:v "BURUNDI" ]
+  ] [
+     fhir:code [ fhir:v "181" ] ;
+     fhir:display [ fhir:v "CAMAROES" ]
+  ] [
+     fhir:code [ fhir:v "182" ] ;
+     fhir:display [ fhir:v "CEUTA E MELILLA" ]
+  ] [
+     fhir:code [ fhir:v "183" ] ;
+     fhir:display [ fhir:v "CHADE" ]
+  ] [
+     fhir:code [ fhir:v "184" ] ;
+     fhir:display [ fhir:v "ILHAS COMORES" ]
+  ] [
+     fhir:code [ fhir:v "185" ] ;
+     fhir:display [ fhir:v "CONGO" ]
+  ] [
+     fhir:code [ fhir:v "186" ] ;
+     fhir:display [ fhir:v "COSTA DO MARFIM" ]
+  ] [
+     fhir:code [ fhir:v "187" ] ;
+     fhir:display [ fhir:v "DAOME" ]
+  ] [
+     fhir:code [ fhir:v "188" ] ;
+     fhir:display [ fhir:v "DJIBUTI" ]
+  ] [
+     fhir:code [ fhir:v "189" ] ;
+     fhir:display [ fhir:v "REPUBLICA ARABE DO EGITO" ]
+  ] [
+     fhir:code [ fhir:v "190" ] ;
+     fhir:display [ fhir:v "ETIOPIA" ]
+  ] [
+     fhir:code [ fhir:v "191" ] ;
+     fhir:display [ fhir:v "REPUBLICA DO GABAO" ]
+  ] [
+     fhir:code [ fhir:v "192" ] ;
+     fhir:display [ fhir:v "GAMBIA" ]
+  ] [
+     fhir:code [ fhir:v "193" ] ;
+     fhir:display [ fhir:v "GANA" ]
+  ] [
+     fhir:code [ fhir:v "194" ] ;
+     fhir:display [ fhir:v "GAZA" ]
+  ] [
+     fhir:code [ fhir:v "195" ] ;
+     fhir:display [ fhir:v "GUINE" ]
+  ] [
+     fhir:code [ fhir:v "196" ] ;
+     fhir:display [ fhir:v "GUINE EQUATORIAL" ]
+  ] [
+     fhir:code [ fhir:v "197" ] ;
+     fhir:display [ fhir:v "IFNI" ]
+  ] [
+     fhir:code [ fhir:v "198" ] ;
+     fhir:display [ fhir:v "ASCENSAO E TRISTAO DA CUNHA,IS" ]
+  ] [
+     fhir:code [ fhir:v "199" ] ;
+     fhir:display [ fhir:v "ILHAS CANARIAS" ]
+  ] [
+     fhir:code [ fhir:v "200" ] ;
+     fhir:display [ fhir:v "LESOTO" ]
+  ] [
+     fhir:code [ fhir:v "201" ] ;
+     fhir:display [ fhir:v "LIBERIA" ]
+  ] [
+     fhir:code [ fhir:v "202" ] ;
+     fhir:display [ fhir:v "LIBIA" ]
+  ] [
+     fhir:code [ fhir:v "203" ] ;
+     fhir:display [ fhir:v "MADEIRA" ]
+  ] [
+     fhir:code [ fhir:v "204" ] ;
+     fhir:display [ fhir:v "MALAWI" ]
+  ] [
+     fhir:code [ fhir:v "205" ] ;
+     fhir:display [ fhir:v "MADAGASCAR" ]
+  ] [
+     fhir:code [ fhir:v "206" ] ;
+     fhir:display [ fhir:v "MALI" ]
+  ] [
+     fhir:code [ fhir:v "207" ] ;
+     fhir:display [ fhir:v "MARROCOS" ]
+  ] [
+     fhir:code [ fhir:v "208" ] ;
+     fhir:display [ fhir:v "MAURICIO" ]
+  ] [
+     fhir:code [ fhir:v "209" ] ;
+     fhir:display [ fhir:v "MAURITANIA" ]
+  ] [
+     fhir:code [ fhir:v "210" ] ;
+     fhir:display [ fhir:v "MOCAMBIQUE" ]
+  ] [
+     fhir:code [ fhir:v "211" ] ;
+     fhir:display [ fhir:v "NGUANE" ]
+  ] [
+     fhir:code [ fhir:v "212" ] ;
+     fhir:display [ fhir:v "REPUBLICA DO NIGER" ]
+  ] [
+     fhir:code [ fhir:v "213" ] ;
+     fhir:display [ fhir:v "NIGERIA" ]
+  ] [
+     fhir:code [ fhir:v "214" ] ;
+     fhir:display [ fhir:v "PAPUA NOVA GUINE" ]
+  ] [
+     fhir:code [ fhir:v "215" ] ;
+     fhir:display [ fhir:v "PRACAS NORTE AFRICANAS" ]
+  ] [
+     fhir:code [ fhir:v "216" ] ;
+     fhir:display [ fhir:v "PROTETOR DO SUDOESTE AFRICANO" ]
+  ] [
+     fhir:code [ fhir:v "217" ] ;
+     fhir:display [ fhir:v "QUENIA" ]
+  ] [
+     fhir:code [ fhir:v "218" ] ;
+     fhir:display [ fhir:v "REPUBLICA CENTRO AFRICANA" ]
+  ] [
+     fhir:code [ fhir:v "219" ] ;
+     fhir:display [ fhir:v "REUNIAO" ]
+  ] [
+     fhir:code [ fhir:v "220" ] ;
+     fhir:display [ fhir:v "RODESIA (ZIMBABWE)" ]
+  ] [
+     fhir:code [ fhir:v "221" ] ;
+     fhir:display [ fhir:v "RUANDA" ]
+  ] [
+     fhir:code [ fhir:v "222" ] ;
+     fhir:display [ fhir:v "SAARA ESPANHOL" ]
+  ] [
+     fhir:code [ fhir:v "223" ] ;
+     fhir:display [ fhir:v "SANTA HELENA" ]
+  ] [
+     fhir:code [ fhir:v "224" ] ;
+     fhir:display [ fhir:v "SAO TOME E PRINCIPE" ]
+  ] [
+     fhir:code [ fhir:v "225" ] ;
+     fhir:display [ fhir:v "SEYCHELLES" ]
+  ] [
+     fhir:code [ fhir:v "226" ] ;
+     fhir:display [ fhir:v "SERRA LEOA" ]
+  ] [
+     fhir:code [ fhir:v "227" ] ;
+     fhir:display [ fhir:v "SOMALIA, REPUBLICA" ]
+  ] [
+     fhir:code [ fhir:v "228" ] ;
+     fhir:display [ fhir:v "SUAZILANDIA" ]
+  ] [
+     fhir:code [ fhir:v "229" ] ;
+     fhir:display [ fhir:v "SUDAO" ]
+  ] [
+     fhir:code [ fhir:v "230" ] ;
+     fhir:display [ fhir:v "TANGANICA" ]
+  ] [
+     fhir:code [ fhir:v "231" ] ;
+     fhir:display [ fhir:v "TERRIT. BRITANICO DO OCEANO INDICO" ]
+  ] [
+     fhir:code [ fhir:v "232" ] ;
+     fhir:display [ fhir:v "TRANSKEI" ]
+  ] [
+     fhir:code [ fhir:v "233" ] ;
+     fhir:display [ fhir:v "TOGO" ]
+  ] [
+     fhir:code [ fhir:v "234" ] ;
+     fhir:display [ fhir:v "TUNISIA" ]
+  ] [
+     fhir:code [ fhir:v "235" ] ;
+     fhir:display [ fhir:v "UGANDA" ]
+  ] [
+     fhir:code [ fhir:v "236" ] ;
+     fhir:display [ fhir:v "ZAIRE" ]
+  ] [
+     fhir:code [ fhir:v "237" ] ;
+     fhir:display [ fhir:v "ZAMBIA" ]
+  ] [
+     fhir:code [ fhir:v "238" ] ;
+     fhir:display [ fhir:v "BURKINA FASSO" ]
+  ] [
+     fhir:code [ fhir:v "239" ] ;
+     fhir:display [ fhir:v "ZIMBABWE" ]
+  ] [
+     fhir:code [ fhir:v "240" ] ;
+     fhir:display [ fhir:v "NAMIBIA" ]
+  ] [
+     fhir:code [ fhir:v "241" ] ;
+     fhir:display [ fhir:v "AFEGANISTAO" ]
+  ] [
+     fhir:code [ fhir:v "242" ] ;
+     fhir:display [ fhir:v "ARABIA SAUDITA" ]
+  ] [
+     fhir:code [ fhir:v "243" ] ;
+     fhir:display [ fhir:v "BAHREIN" ]
+  ] [
+     fhir:code [ fhir:v "244" ] ;
+     fhir:display [ fhir:v "BIRMANIA" ]
+  ] [
+     fhir:code [ fhir:v "245" ] ;
+     fhir:display [ fhir:v "BRUNEI" ]
+  ] [
+     fhir:code [ fhir:v "246" ] ;
+     fhir:display [ fhir:v "BHUTAN" ]
+  ] [
+     fhir:code [ fhir:v "247" ] ;
+     fhir:display [ fhir:v "CATAR" ]
+  ] [
+     fhir:code [ fhir:v "248" ] ;
+     fhir:display [ fhir:v "CEILAO" ]
+  ] [
+     fhir:code [ fhir:v "249" ] ;
+     fhir:display [ fhir:v "CHINA (TAIWAN)" ]
+  ] [
+     fhir:code [ fhir:v "250" ] ;
+     fhir:display [ fhir:v "COVEITE" ]
+  ] [
+     fhir:code [ fhir:v "251" ] ;
+     fhir:display [ fhir:v "EMIRADOS ARABES UNIDOS" ]
+  ] [
+     fhir:code [ fhir:v "252" ] ;
+     fhir:display [ fhir:v "FILIPINAS" ]
+  ] [
+     fhir:code [ fhir:v "253" ] ;
+     fhir:display [ fhir:v "HONG-KONG" ]
+  ] [
+     fhir:code [ fhir:v "254" ] ;
+     fhir:display [ fhir:v "IEMEN" ]
+  ] [
+     fhir:code [ fhir:v "255" ] ;
+     fhir:display [ fhir:v "INDIA" ]
+  ] [
+     fhir:code [ fhir:v "256" ] ;
+     fhir:display [ fhir:v "INDONESIA" ]
+  ] [
+     fhir:code [ fhir:v "257" ] ;
+     fhir:display [ fhir:v "IRA" ]
+  ] [
+     fhir:code [ fhir:v "258" ] ;
+     fhir:display [ fhir:v "IRAQUE" ]
+  ] [
+     fhir:code [ fhir:v "259" ] ;
+     fhir:display [ fhir:v "ISRAEL" ]
+  ] [
+     fhir:code [ fhir:v "260" ] ;
+     fhir:display [ fhir:v "JORDANIA" ]
+  ] [
+     fhir:code [ fhir:v "261" ] ;
+     fhir:display [ fhir:v "KMER/CAMBOJA" ]
+  ] [
+     fhir:code [ fhir:v "262" ] ;
+     fhir:display [ fhir:v "KUWAIT" ]
+  ] [
+     fhir:code [ fhir:v "263" ] ;
+     fhir:display [ fhir:v "LAOS" ]
+  ] [
+     fhir:code [ fhir:v "264" ] ;
+     fhir:display [ fhir:v "LIBANO" ]
+  ] [
+     fhir:code [ fhir:v "265" ] ;
+     fhir:display [ fhir:v "MACAU" ]
+  ] [
+     fhir:code [ fhir:v "266" ] ;
+     fhir:display [ fhir:v "MALASIA" ]
+  ] [
+     fhir:code [ fhir:v "267" ] ;
+     fhir:display [ fhir:v "MALDIVAS,IS" ]
+  ] [
+     fhir:code [ fhir:v "268" ] ;
+     fhir:display [ fhir:v "MASCATE" ]
+  ] [
+     fhir:code [ fhir:v "269" ] ;
+     fhir:display [ fhir:v "MONGOLIA" ]
+  ] [
+     fhir:code [ fhir:v "270" ] ;
+     fhir:display [ fhir:v "NEPAL" ]
+  ] [
+     fhir:code [ fhir:v "271" ] ;
+     fhir:display [ fhir:v "OMAN" ]
+  ] [
+     fhir:code [ fhir:v "272" ] ;
+     fhir:display [ fhir:v "PALESTINA" ]
+  ] [
+     fhir:code [ fhir:v "273" ] ;
+     fhir:display [ fhir:v "PAQUISTAO" ]
+  ] [
+     fhir:code [ fhir:v "274" ] ;
+     fhir:display [ fhir:v "RUIQUIU,IS" ]
+  ] [
+     fhir:code [ fhir:v "275" ] ;
+     fhir:display [ fhir:v "CINGAPURA" ]
+  ] [
+     fhir:code [ fhir:v "276" ] ;
+     fhir:display [ fhir:v "SEQUIN" ]
+  ] [
+     fhir:code [ fhir:v "277" ] ;
+     fhir:display [ fhir:v "SIRIA" ]
+  ] [
+     fhir:code [ fhir:v "278" ] ;
+     fhir:display [ fhir:v "SRI-LANKA" ]
+  ] [
+     fhir:code [ fhir:v "279" ] ;
+     fhir:display [ fhir:v "TAILANDIA" ]
+  ] [
+     fhir:code [ fhir:v "280" ] ;
+     fhir:display [ fhir:v "TREGUA, ESTADO" ]
+  ] [
+     fhir:code [ fhir:v "281" ] ;
+     fhir:display [ fhir:v "TURQUIA" ]
+  ] [
+     fhir:code [ fhir:v "282" ] ;
+     fhir:display [ fhir:v "VIETNA DO NORTE" ]
+  ] [
+     fhir:code [ fhir:v "283" ] ;
+     fhir:display [ fhir:v "VIETNA DO SUL" ]
+  ] [
+     fhir:code [ fhir:v "284" ] ;
+     fhir:display [ fhir:v "MIANMA" ]
+  ] [
+     fhir:code [ fhir:v "285" ] ;
+     fhir:display [ fhir:v "ARQUIPELAGO MANAHIKI" ]
+  ] [
+     fhir:code [ fhir:v "286" ] ;
+     fhir:display [ fhir:v "ARQUIPELAGO MIDWAY" ]
+  ] [
+     fhir:code [ fhir:v "287" ] ;
+     fhir:display [ fhir:v "ASHMORE E CARTIER" ]
+  ] [
+     fhir:code [ fhir:v "288" ] ;
+     fhir:display [ fhir:v "AUSTRALIA" ]
+  ] [
+     fhir:code [ fhir:v "289" ] ;
+     fhir:display [ fhir:v "ARQUIPELAGO DE BISMARK" ]
+  ] [
+     fhir:code [ fhir:v "290" ] ;
+     fhir:display [ fhir:v "ILHAS COOK" ]
+  ] [
+     fhir:code [ fhir:v "291" ] ;
+     fhir:display [ fhir:v "REPUBLICA DE FIJI" ]
+  ] [
+     fhir:code [ fhir:v "292" ] ;
+     fhir:display [ fhir:v "GUAM" ]
+  ] [
+     fhir:code [ fhir:v "293" ] ;
+     fhir:display [ fhir:v "ILHAS BAKER" ]
+  ] [
+     fhir:code [ fhir:v "294" ] ;
+     fhir:display [ fhir:v "ILHAS CANTAO E ENDERBURG" ]
+  ] [
+     fhir:code [ fhir:v "295" ] ;
+     fhir:display [ fhir:v "ILHAS CAROLINAS" ]
+  ] [
+     fhir:code [ fhir:v "296" ] ;
+     fhir:display [ fhir:v "ILHAS DO PACIFICO" ]
+  ] [
+     fhir:code [ fhir:v "297" ] ;
+     fhir:display [ fhir:v "ILHAS CHRISTMAS" ]
+  ] [
+     fhir:code [ fhir:v "298" ] ;
+     fhir:display [ fhir:v "ILHAS GILBERT" ]
+  ] [
+     fhir:code [ fhir:v "299" ] ;
+     fhir:display [ fhir:v "ILHAS HOWLAND E JARVIS" ]
+  ] [
+     fhir:code [ fhir:v "300" ] ;
+     fhir:display [ fhir:v "ILHA JOHNSTON E SAND" ]
+  ] [
+     fhir:code [ fhir:v "301" ] ;
+     fhir:display [ fhir:v "ILHAS KINGMAN REEF" ]
+  ] [
+     fhir:code [ fhir:v "302" ] ;
+     fhir:display [ fhir:v "ILHAS MACQUAIRE" ]
+  ] [
+     fhir:code [ fhir:v "303" ] ;
+     fhir:display [ fhir:v "ILHAS MARIANAS" ]
+  ] [
+     fhir:code [ fhir:v "304" ] ;
+     fhir:display [ fhir:v "ILHAS MARSHALL" ]
+  ] [
+     fhir:code [ fhir:v "305" ] ;
+     fhir:display [ fhir:v "ILHAS MACDONAL E HEARD" ]
+  ] [
+     fhir:code [ fhir:v "306" ] ;
+     fhir:display [ fhir:v "ILHAS NIUE" ]
+  ] [
+     fhir:code [ fhir:v "307" ] ;
+     fhir:display [ fhir:v "ILHAS NORFOLK" ]
+  ] [
+     fhir:code [ fhir:v "308" ] ;
+     fhir:display [ fhir:v "ILHAS PALAU" ]
+  ] [
+     fhir:code [ fhir:v "309" ] ;
+     fhir:display [ fhir:v "ILHAS SALOMAO" ]
+  ] [
+     fhir:code [ fhir:v "310" ] ;
+     fhir:display [ fhir:v "ILHAS TOKELAU" ]
+  ] [
+     fhir:code [ fhir:v "311" ] ;
+     fhir:display [ fhir:v "ILHAS WAKE" ]
+  ] [
+     fhir:code [ fhir:v "312" ] ;
+     fhir:display [ fhir:v "KALIMATAN" ]
+  ] [
+     fhir:code [ fhir:v "313" ] ;
+     fhir:display [ fhir:v "ILHAS LINHA" ]
+  ] [
+     fhir:code [ fhir:v "314" ] ;
+     fhir:display [ fhir:v "NAURU" ]
+  ] [
+     fhir:code [ fhir:v "315" ] ;
+     fhir:display [ fhir:v "ILHAS NOVA CALEDONIA" ]
+  ] [
+     fhir:code [ fhir:v "316" ] ;
+     fhir:display [ fhir:v "NOVA GUINE" ]
+  ] [
+     fhir:code [ fhir:v "317" ] ;
+     fhir:display [ fhir:v "NOVA ZELANDIA" ]
+  ] [
+     fhir:code [ fhir:v "318" ] ;
+     fhir:display [ fhir:v "ILHAS NOVAS HEBRIDAS" ]
+  ] [
+     fhir:code [ fhir:v "319" ] ;
+     fhir:display [ fhir:v "TERRITORIO DE PAPUA" ]
+  ] [
+     fhir:code [ fhir:v "320" ] ;
+     fhir:display [ fhir:v "ILHAS PASCOA" ]
+  ] [
+     fhir:code [ fhir:v "321" ] ;
+     fhir:display [ fhir:v "ILHAS PITCAIRIN" ]
+  ] [
+     fhir:code [ fhir:v "322" ] ;
+     fhir:display [ fhir:v "POLINESIA FRANCESA" ]
+  ] [
+     fhir:code [ fhir:v "323" ] ;
+     fhir:display [ fhir:v "SABAH" ]
+  ] [
+     fhir:code [ fhir:v "324" ] ;
+     fhir:display [ fhir:v "SAMOA AMERICANA" ]
+  ] [
+     fhir:code [ fhir:v "325" ] ;
+     fhir:display [ fhir:v "SAMOA OCIDENTAL" ]
+  ] [
+     fhir:code [ fhir:v "326" ] ;
+     fhir:display [ fhir:v "ILHAS SANTA CRUZ" ]
+  ] [
+     fhir:code [ fhir:v "327" ] ;
+     fhir:display [ fhir:v "SARAWAK" ]
+  ] [
+     fhir:code [ fhir:v "328" ] ;
+     fhir:display [ fhir:v "TERRITORIO DE COCOS" ]
+  ] [
+     fhir:code [ fhir:v "329" ] ;
+     fhir:display [ fhir:v "TIMOR" ]
+  ] [
+     fhir:code [ fhir:v "330" ] ;
+     fhir:display [ fhir:v "TONGA" ]
+  ] [
+     fhir:code [ fhir:v "331" ] ;
+     fhir:display [ fhir:v "TUVALU" ]
+  ] [
+     fhir:code [ fhir:v "332" ] ;
+     fhir:display [ fhir:v "ILHAS WALLIS E FUTUNA" ]
+  ] [
+     fhir:code [ fhir:v "333" ] ;
+     fhir:display [ fhir:v "ANTARTICO BRITANICO, TERRITORIO" ]
+  ] [
+     fhir:code [ fhir:v "334" ] ;
+     fhir:display [ fhir:v "ANTARTICA FRANCESA" ]
+  ] [
+     fhir:code [ fhir:v "335" ] ;
+     fhir:display [ fhir:v "TERR. ANTARTICO DA AUSTRALIA" ]
+  ] [
+     fhir:code [ fhir:v "336" ] ;
+     fhir:display [ fhir:v "ANTARTICO CHILENO" ]
+  ] [
+     fhir:code [ fhir:v "337" ] ;
+     fhir:display [ fhir:v "ANTARTICO ARGENTINO" ]
+  ] [
+     fhir:code [ fhir:v "338" ] ;
+     fhir:display [ fhir:v "ANTARTICO NORUEGUES" ]
+  ] [
+     fhir:code [ fhir:v "339" ] ;
+     fhir:display [ fhir:v "APATRIDA" ]
+  ] [
+     fhir:code [ fhir:v "340" ] ;
+     fhir:display [ fhir:v "DEPENDENCIA DE ROSS" ]
+  ] [
+     fhir:code [ fhir:v "341" ] ;
+     fhir:display [ fhir:v "TERRAS AUSTRAIS" ]
+  ] [
+     fhir:code [ fhir:v "342" ] ;
+     fhir:display [ fhir:v "BANGLADESH" ]
+  ] [
+     fhir:code [ fhir:v "343" ] ;
+     fhir:display [ fhir:v "CABO VERDE" ]
+  ] [
+     fhir:code [ fhir:v "344" ] ;
+     fhir:display [ fhir:v "GUINE BISSAU" ]
+  ] [
+     fhir:code [ fhir:v "345" ] ;
+     fhir:display [ fhir:v "IEMEN DO SUL" ]
+  ] [
+     fhir:code [ fhir:v "346" ] ;
+     fhir:display [ fhir:v "KARA KALPAK" ]
+  ] [
+     fhir:code [ fhir:v "347" ] ;
+     fhir:display [ fhir:v "ARMENIA" ]
+  ] [
+     fhir:code [ fhir:v "348" ] ;
+     fhir:display [ fhir:v "RUSSIA" ]
+  ] [
+     fhir:code [ fhir:v "349" ] ;
+     fhir:display [ fhir:v "SENEGAL" ]
+  ] [
+     fhir:code [ fhir:v "350" ] ;
+     fhir:display [ fhir:v "TANZANIA" ]
+  ] [
+     fhir:code [ fhir:v "351" ] ;
+     fhir:display [ fhir:v "MALAUI" ]
+  ] [
+     fhir:code [ fhir:v "352" ] ;
+     fhir:display [ fhir:v "REPÚBLICA DO SUDÃO DO SUL" ]
+  ] [
+     fhir:code [ fhir:v "353" ] ;
+     fhir:display [ fhir:v "ERITREIA" ]
+  ] [
+     fhir:code [ fhir:v "354" ] ;
+     fhir:display [ fhir:v "DOMINICA" ]
+  ] [
+     fhir:code [ fhir:v "355" ] ;
+     fhir:display [ fhir:v "COREIA, REPUBLICA DA (COREIA DO SUL)" ]
+  ] [
+     fhir:code [ fhir:v "356" ] ;
+     fhir:display [ fhir:v "CONGO, REPUBLICA DO (BRAZZAVILLE)" ]
+  ] [
+     fhir:code [ fhir:v "357" ] ;
+     fhir:display [ fhir:v "ANGUILLA" ]
+  ] [
+     fhir:code [ fhir:v "358" ] ;
+     fhir:display [ fhir:v "ILHAS CAYMAN" ]
+  ] [
+     fhir:code [ fhir:v "359" ] ;
+     fhir:display [ fhir:v "ILHAS DE GUERNSEY" ]
+  ] [
+     fhir:code [ fhir:v "360" ] ;
+     fhir:display [ fhir:v "ILHAS DE JERSEY" ]
+  ] [
+     fhir:code [ fhir:v "361" ] ;
+     fhir:display [ fhir:v "ILHAS GEORGIA DO SUL E ILHAS SANDWICH DO SUL" ]
+  ] [
+     fhir:code [ fhir:v "362" ] ;
+     fhir:display [ fhir:v "MAYOTTE, ILHA" ]
+  ] [
+     fhir:code [ fhir:v "363" ] ;
+     fhir:display [ fhir:v "QUIRIBATI" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="BRNacionalidade"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BRNacionalidade</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">B<a name="BRNacionalidade-B"> </a></td><td>Brasileiro</td></tr><tr><td style="white-space:nowrap">E<a name="BRNacionalidade-E"> </a></td><td>Estrangeiro</td></tr><tr><td style="white-space:nowrap">N<a name="BRNacionalidade-N"> </a></td><td>Naturalizado</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>English (English, en)</b></td><td><b>Spanish (es)</b></td></tr><tr><td>B</td><td>Brazilian</td><td>Brasileño</td></tr><tr><td>E</td><td>Foreign</td><td>Extranjero</td></tr><tr><td>N</td><td>Naturalized</td><td>Naturalizado</td></tr></table></div>
+  </text>
+  <url value="https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BRNacionalidade"/>
+  <version value="0.1.0"/>
+  <name value="Nacionalidade"/>
+  <title value="Nacionalidade"/>
+  <status value="draft"/>
+  <date value="2023-07-15T19:27:39+00:00"/>
+  <publisher value="Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro"/>
+  <contact>
+    <name value="Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://prefeitura.rio/"/>
+    </telecom>
+  </contact>
+  <description value="Define a nacionalidade de um dado indivíduo."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+      <display value="Brazil"/>
+    </coding>
+  </jurisdiction>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="B"/>
+    <display value="Brasileiro"/>
+    <designation>
+      <language value="en"/>
+      <value value="Brazilian"/>
+    </designation>
+    <designation>
+      <language value="es"/>
+      <value value="Brasileño"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="E"/>
+    <display value="Estrangeiro"/>
+    <designation>
+      <language value="en"/>
+      <value value="Foreign"/>
+    </designation>
+    <designation>
+      <language value="es"/>
+      <value value="Extranjero"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="N"/>
+    <display value="Naturalizado"/>
+    <designation>
+      <language value="en"/>
+      <value value="Naturalized"/>
+    </designation>
+    <designation>
+      <language value="es"/>
+      <value value="Naturalizado"/>
+    </designation>
+  </concept>
+</CodeSystem>

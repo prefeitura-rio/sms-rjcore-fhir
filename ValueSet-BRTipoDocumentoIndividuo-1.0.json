@@ -1,0 +1,127 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "BRTipoDocumentoIndividuo-1.0",
+  "meta" : {
+    "lastUpdated" : "2020-03-12T13:27:33.397+00:00"
+  },
+  "language" : "pt-BR",
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v2-0203.html\"><code>http://terminology.hl7.org/CodeSystem/v2-0203</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v2-0203.html#v2-0203-HC\">HC</a></td><td>Número do Cartão Nacional de Saúde (CNS)</td><td>Health Card Number</td></tr><tr><td><a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v2-0203.html#v2-0203-RRI\">RRI</a></td><td>Número do Registro Geral (RG)</td><td>Regional registry ID</td></tr><tr><td><a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v2-0203.html#v2-0203-MCT\">MCT</a></td><td>Número da Certidão de Casamento</td><td>A number associated with a document identifying the event of a person's marriage.</td></tr><tr><td><a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v2-0203.html#v2-0203-PPN\">PPN</a></td><td>Número do Passaporte</td><td>A unique number assigned to the document affirming that a person is a citizen of the country.</td></tr><tr><td><a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v2-0203.html#v2-0203-RN\">RN</a></td><td>Número de inscrição no Conselho Regional de Enfermagem (COREn)</td><td>An identifier that is unique to a registered nurse within the jurisdiction of the licensing board.</td></tr><tr><td><a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v2-0203.html#v2-0203-SS\">SS</a></td><td>Número de Identificação Social (NIS/PIS/PASEP)</td><td>Social Security number</td></tr><tr><td><a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v2-0203.html#v2-0203-DL\">DL</a></td><td>Número da Carteira Nacional de Habilitação (CNH)</td><td>Driver's license number</td></tr><tr><td><a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v2-0203.html#v2-0203-BCT\">BCT</a></td><td>Número do Documento de Nascido Vivo (DN/DNV)</td><td>A number associated with a document identifying the event of a person's birth</td></tr><tr><td><a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v2-0203.html#v2-0203-BR\">BR</a></td><td>Número da Certidão de Nascimento</td><td>An identifier unique within the Assigning Authority that is the official legal record of a person's birth.</td></tr><tr><td><a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v2-0203.html#v2-0203-IND\">IND</a></td><td>Número da Certidão de Índio</td><td>A number assigned to a member of an indigenous or aboriginal group outside of Canada.</td></tr><tr><td><a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v2-0203.html#v2-0203-MI\">MI</a></td><td>Número do Certificado de Reservista</td><td>A number assigned to an individual who has had military duty, but is not currently on active duty. The number is assigned by the DOD or Veterans' Affairs (VA).</td></tr><tr><td><a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v2-0203.html#v2-0203-MD\">MD</a></td><td>Número de inscrição no Conselho Regional de Medicina (CRM)</td><td>An identifier that is unique to a medical doctor within the jurisdiction of a licensing board.</td></tr><tr><td><a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v2-0203.html#v2-0203-DDS\">DDS</a></td><td>Número de inscrição no Conselho Regional Odontologia (CRO)</td><td>An identifier that is unique to a dentist within the jurisdiction of the licensing board</td></tr><tr><td><a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v2-0203.html#v2-0203-TAX\">TAX</a></td><td>Número de inscrição no Cadastro de Pessoas Físicas (CPF)</td><td>Tax ID number</td></tr></table></li><li>Include all codes defined in <code>https://rnds-fhir.saude.gov.br/CodeSystem/BRTipoIdentificador</code></li></ul><p>This value set excludes codes based on the following rules:</p><ul><li>Exclude these codes as defined in <a href=\"CodeSystem-BRTipoIdentificador.html\"><code>https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BRTipoIdentificador</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"CodeSystem-BRTipoIdentificador.html#BRTipoIdentificador-AUTH\">AUTH</a></td><td>Código de Autorização</td><td>Identificador da permissão para a realização de um procedimento.</td></tr></table></li></ul></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 1,
+    "_valueInteger" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "https://rnds-fhir.saude.gov.br/ImplementationGuide/rnds"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "informative",
+    "_valueCode" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "https://rnds-fhir.saude.gov.br/ImplementationGuide/rnds"
+      }]
+    }
+  }],
+  "url" : "https://prefeitura-rio.github.io/sms-rjcore-fhir/ValueSet/BRTipoDocumentoIndividuo-1.0",
+  "version" : "0.1.0",
+  "name" : "TipoDocumentoIndividuo",
+  "title" : "Tipo de Documento do Indivíduo",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2020-03-12T13:27:32.6850777+00:00",
+  "publisher" : "Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro",
+  "contact" : [{
+    "name" : "Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://prefeitura.rio/"
+    }]
+  }],
+  "description" : "Classifica o tipo de documento que está sendo utilizado para identificar o indivíduo.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR",
+      "display" : "Brazil"
+    }]
+  }],
+  "immutable" : false,
+  "compose" : {
+    "include" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "concept" : [{
+        "code" : "HC",
+        "display" : "Número do Cartão Nacional de Saúde (CNS)"
+      },
+      {
+        "code" : "RRI",
+        "display" : "Número do Registro Geral (RG)"
+      },
+      {
+        "code" : "MCT",
+        "display" : "Número da Certidão de Casamento"
+      },
+      {
+        "code" : "PPN",
+        "display" : "Número do Passaporte"
+      },
+      {
+        "code" : "RN",
+        "display" : "Número de inscrição no Conselho Regional de Enfermagem (COREn)"
+      },
+      {
+        "code" : "SS",
+        "display" : "Número de Identificação Social (NIS/PIS/PASEP)"
+      },
+      {
+        "code" : "DL",
+        "display" : "Número da Carteira Nacional de Habilitação (CNH)"
+      },
+      {
+        "code" : "BCT",
+        "display" : "Número do Documento de Nascido Vivo (DN/DNV)"
+      },
+      {
+        "code" : "BR",
+        "display" : "Número da Certidão de Nascimento"
+      },
+      {
+        "code" : "IND",
+        "display" : "Número da Certidão de Índio"
+      },
+      {
+        "code" : "MI",
+        "display" : "Número do Certificado de Reservista"
+      },
+      {
+        "code" : "MD",
+        "display" : "Número de inscrição no Conselho Regional de Medicina (CRM)"
+      },
+      {
+        "code" : "DDS",
+        "display" : "Número de inscrição no Conselho Regional Odontologia (CRO)"
+      },
+      {
+        "code" : "TAX",
+        "display" : "Número de inscrição no Cadastro de Pessoas Físicas (CPF)"
+      }]
+    },
+    {
+      "system" : "https://rnds-fhir.saude.gov.br/CodeSystem/BRTipoIdentificador",
+      "version" : "*"
+    }],
+    "exclude" : [{
+      "system" : "https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BRTipoIdentificador",
+      "concept" : [{
+        "code" : "AUTH"
+      }]
+    }]
+  }
+}

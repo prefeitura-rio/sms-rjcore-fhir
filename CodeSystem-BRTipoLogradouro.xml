@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="BRTipoLogradouro"/>
+  <meta>
+    <lastUpdated value="2020-04-02T13:03:21.687+00:00"/>
+  </meta>
+  <language value="pt-BR"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR"><p>This code system <code>https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BRTipoLogradouro</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">008<a name="BRTipoLogradouro-008"> </a></td><td>Avenida</td></tr><tr><td style="white-space:nowrap">081<a name="BRTipoLogradouro-081"> </a></td><td>Rua</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="https://rnds-fhir.saude.gov.br/ImplementationGuide/rnds"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="informative">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="https://rnds-fhir.saude.gov.br/ImplementationGuide/rnds"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BRTipoLogradouro"/>
+  <version value="0.1.0"/>
+  <name value="TipoLogradouro"/>
+  <title value="Tipo de Logradouro"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2020-04-02T13:03:18.6480245+00:00"/>
+  <publisher value="Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro"/>
+  <contact>
+    <name value="Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://prefeitura.rio/"/>
+    </telecom>
+  </contact>
+  <description value="Classificação os tipos de logradouros existentes para uso em endereços estruturados."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+      <display value="Brazil"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <hierarchyMeaning value="grouped-by"/>
+  <content value="complete"/>
+  <count value="2"/>
+  <concept>
+    <code value="008"/>
+    <display value="Avenida"/>
+  </concept>
+  <concept>
+    <code value="081"/>
+    <display value="Rua"/>
+  </concept>
+</CodeSystem>

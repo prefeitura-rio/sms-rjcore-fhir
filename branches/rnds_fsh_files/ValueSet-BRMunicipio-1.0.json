@@ -1,0 +1,40 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "BRMunicipio-1.0",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include codes from <code>https://rnds-fhir.saude.gov.br/CodeSystem/BRDivisaoGeograficaBrasil</code> where type  =  city</li></ul></div>"
+  },
+  "url" : "https://prefeitura-rio.github.io/sms-rjcore-fhir/ValueSet/BRMunicipio-1.0",
+  "version" : "0.1.0",
+  "name" : "Municipio",
+  "title" : "Município",
+  "status" : "draft",
+  "date" : "2023-07-15T19:27:39+00:00",
+  "publisher" : "Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro",
+  "contact" : [{
+    "name" : "Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://prefeitura.rio/"
+    }]
+  }],
+  "description" : "Municípios brasileiros, entes subnacionais.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR",
+      "display" : "Brazil"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://rnds-fhir.saude.gov.br/CodeSystem/BRDivisaoGeograficaBrasil",
+      "filter" : [{
+        "property" : "type",
+        "op" : "=",
+        "value" : "city"
+      }]
+    }]
+  }
+}

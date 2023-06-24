@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="BRTipoDocumento"/>
+  <meta>
+    <lastUpdated value="2020-03-26T13:19:48.112+00:00"/>
+  </meta>
+  <language value="pt-BR"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR"><p>This code system <code>https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BRTipoDocumento</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">CMD<a name="BRTipoDocumento-CMD"> </a></td><td>Conjunto Mínimo de Dados</td><td>Documento público que coleta os dados mínimos dos atendimentos em saúde realizados em qualquer estabelecimento de saúde do país, público ou privado, em cada contato assistencial.</td></tr><tr><td style="white-space:nowrap">SA<a name="BRTipoDocumento-SA"> </a></td><td>Sumário de Alta</td><td>Relato clínico objetivo sobre as intervenções realizadas, as instruções para continuidade do cuidado pós-alta e o estado de saúde do indivíduo ao final de sua permanência na internação em estabelecimentos de saúde como: hospital, clínica, hospital-dia, internação domiciliar e urgência.</td></tr><tr><td style="white-space:nowrap">RAC<a name="BRTipoDocumento-RAC"> </a></td><td>Registro de Atendimento Clínico</td><td>Registro de dados essenciais de uma consulta realizada a um indivíduo no âmbito da atenção básica, especializada ou domiciliar (atendimento diário).</td></tr><tr><td style="white-space:nowrap">RIA<a name="BRTipoDocumento-RIA"> </a></td><td>Registro de Imunobiológico Administrado</td><td/></tr><tr><td style="white-space:nowrap">RPM<a name="BRTipoDocumento-RPM"> </a></td><td>Registro de Prescrição de Medicamento</td><td/></tr><tr><td style="white-space:nowrap">RDM<a name="BRTipoDocumento-RDM"> </a></td><td>Registro de Dispensação de Medicamento</td><td/></tr><tr><td style="white-space:nowrap">REL<a name="BRTipoDocumento-REL"> </a></td><td>Resultado de Exame(s) Laboratoriais(s)</td><td/></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="https://rnds-fhir.saude.gov.br/ImplementationGuide/rnds"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="informative">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="https://rnds-fhir.saude.gov.br/ImplementationGuide/rnds"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BRTipoDocumento"/>
+  <version value="0.1.0"/>
+  <name value="TipoDocumento"/>
+  <title value="Tipo de Documento"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2020-03-26T13:19:46.9743559+00:00"/>
+  <publisher value="Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro"/>
+  <contact>
+    <name value="Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://prefeitura.rio/"/>
+    </telecom>
+  </contact>
+  <description value="Classificação dos tipos de documentos compartilhados no Brasil."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+      <display value="Brazil"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <hierarchyMeaning value="grouped-by"/>
+  <content value="complete"/>
+  <count value="7"/>
+  <concept>
+    <code value="CMD"/>
+    <display value="Conjunto Mínimo de Dados"/>
+    <definition value="Documento público que coleta os dados mínimos dos atendimentos em saúde realizados em qualquer estabelecimento de saúde do país, público ou privado, em cada contato assistencial."/>
+  </concept>
+  <concept>
+    <code value="SA"/>
+    <display value="Sumário de Alta"/>
+    <definition value="Relato clínico objetivo sobre as intervenções realizadas, as instruções para continuidade do cuidado pós-alta e o estado de saúde do indivíduo ao final de sua permanência na internação em estabelecimentos de saúde como: hospital, clínica, hospital-dia, internação domiciliar e urgência."/>
+  </concept>
+  <concept>
+    <code value="RAC"/>
+    <display value="Registro de Atendimento Clínico"/>
+    <definition value="Registro de dados essenciais de uma consulta realizada a um indivíduo no âmbito da atenção básica, especializada ou domiciliar (atendimento diário)."/>
+  </concept>
+  <concept>
+    <code value="RIA"/>
+    <display value="Registro de Imunobiológico Administrado"/>
+  </concept>
+  <concept>
+    <code value="RPM"/>
+    <display value="Registro de Prescrição de Medicamento"/>
+  </concept>
+  <concept>
+    <code value="RDM"/>
+    <display value="Registro de Dispensação de Medicamento"/>
+  </concept>
+  <concept>
+    <code value="REL"/>
+    <display value="Resultado de Exame(s) Laboratoriais(s)"/>
+  </concept>
+</CodeSystem>

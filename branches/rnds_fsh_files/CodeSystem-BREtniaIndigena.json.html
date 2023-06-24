@@ -1,0 +1,1912 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<head>
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+  <title>ORG.RJ-SMS.BR.CORE\Etnia Indígena - JSON Representation - FHIR
+    v4.0.1</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="http://hl7.org/fhir" />
+
+  <link href="fhir.css" rel="stylesheet" />
+
+  <!-- Bootstrap core CSS -->
+  <link href="assets/css/bootstrap-fhir.css" rel="stylesheet" />
+
+  <!-- Project extras -->
+  <link href="assets/css/project.css" rel="stylesheet" />
+  <link href="assets/css/pygments-manni.css" rel="stylesheet" />
+  <link href="assets/css/jquery-ui.css" rel="stylesheet" />
+  <link href="assets/css/prism.css" rel="stylesheet" />
+  <!-- Placeholder for child template CSS declarations -->
+
+  <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144"
+    href="assets/ico/apple-touch-icon-144-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114"
+    href="assets/ico/apple-touch-icon-114-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72"
+    href="assets/ico/apple-touch-icon-72-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed"
+    href="assets/ico/apple-touch-icon-57-precomposed.png" />
+  <link rel="shortcut icon" href="assets/ico/favicon.png" />
+</head>
+
+<body onload="document.body.style.opacity='1'">
+  
+  <script src="assets/js/prism.js"></script>
+
+  <style type="text/css">
+    h2 {
+      --heading-prefix:"3.33"
+    }
+
+    h3,
+    h4,
+    h5,
+    h6 {
+      --heading-prefix:"3.33"
+    }
+  </style>
+  <div id="segment-header" class="segment"> <!-- segment-header -->
+    <div class="container"> <!-- container -->
+      <!-- Placeholder for child template header declarations -->
+
+      
+      <div id="ig-status">
+        <p><span style="font-size:12pt;font-weight:bold">RJ Core Guia de Implementação</span>
+          <br />
+          <span style="display:inline-block;">0.1.0 - draft
+            
+            
+            
+            <img alt="Brazil Flamengo flag" src="assets/images/bra.svg" height="16"
+              title="Brazil" />
+            
+            
+          </span>
+        </p>
+      </div>
+    </div> <!-- /container -->
+  </div> <!-- /segment-header -->
+
+  <div id="segment-navbar" class="segment"> <!-- segment-navbar -->
+    <div id="stripe"> </div>
+    <div class="container"> <!-- container -->
+      <!-- HEADER CONTENT -->
+
+      <nav class="navbar navbar-inverse">
+        <!--status-bar-->
+        <div class="container">
+          <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+          </button>
+          <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+          <div class="nav-collapse collapse navbar-inverse-collapse">
+            <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Principal</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artefatos</a>
+  </li>
+  <li>
+    <a href="ImplementationGuide-org.rj-sms.br.core.html">Guia de implementação</a>
+  </li>
+</ul>
+          </div> <!-- /.nav-collapse -->
+        </div> <!-- /.container -->
+      </nav> <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+    </div> <!-- /container -->
+  </div> <!-- /segment-navbar -->
+  <!--status-bar-->
+  
+  <div id="segment-breadcrumb" class="segment"> <!-- segment-breadcrumb -->
+    <div class="container"> <!-- container -->
+      <ul class="breadcrumb">
+        <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Resumo de Artefatos</b></a></li><li><b>Etnia Indígena</b></li>
+        
+      </ul>
+    </div> <!-- /container -->
+  </div> <!-- /segment-breadcrumb -->
+
+  <a name="top"> </a>
+  <div id="segment-content" class="segment"> <!-- segment-content -->
+    <div class="container"> <!-- container -->
+      <div class="row">
+        <div class="inner-wrapper">
+<div style="counter-reset: section 8" class="col-12">
+<!--ReleaseHeader--><p id="publish-box">RJ Core Guia de Implementação - Local Development build (v0.1.0). See the <a href="https://prefeitura-rio.github.io/sms-rjcore-fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+  
+  <li>
+    <a href="CodeSystem-BREtniaIndigena.html">Conteúdo Narrativo</a>
+  </li>
+  
+  
+  
+  
+  <li>
+    <a href="CodeSystem-BREtniaIndigena.xml.html">XML</a>
+  </li>
+  
+  
+  
+  
+  <li class="active">
+    <a href="#">JSON</a>
+  </li>
+  
+  
+  
+  
+  <li>
+    <a href="CodeSystem-BREtniaIndigena.ttl.html">TTL</a>
+  </li>
+  
+  
+  
+
+</ul>
+
+<a name="root"> </a>
+
+
+<h2 id="root">: Etnia Indígena - JSON Representation</h2>
+  <table class="colsd">
+    <tr>
+
+      <td colspan="2">
+        
+          Draft
+          
+            as of 2023-07-15
+          
+        
+      </td>
+
+    </tr>
+  </table>
+
+
+<p><a href="CodeSystem-BREtniaIndigena.json" no-download="true">Raw json</a> | <a href="CodeSystem-BREtniaIndigena.json" download>Download</a></p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <pre class="json" style="white-space: pre; overflow: hidden"><code>
+{
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem">resourceType</a>" : "CodeSystem",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.id">id</a>" : "BREtniaIndigena",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.text">text</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;This code system &lt;code&gt;https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BREtniaIndigena&lt;/code&gt; defines the following codes:&lt;/p&gt;&lt;table class=\&quot;codes\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0001&lt;a name=\&quot;BREtniaIndigena-0001\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ACONA (WAKONAS, NACONAS, JAKONA, ACORA­NES)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0002&lt;a name=\&quot;BREtniaIndigena-0002\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;AIKANA (AIKANA, MAS SAKA,TUBARAO)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0003&lt;a name=\&quot;BREtniaIndigena-0003\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;AJURU&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0004&lt;a name=\&quot;BREtniaIndigena-0004\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;AKUNSU (AKUNT'SU)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0005&lt;a name=\&quot;BREtniaIndigena-0005\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;AMANAYE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0006&lt;a name=\&quot;BREtniaIndigena-0006\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;AMONDAWA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0007&lt;a name=\&quot;BREtniaIndigena-0007\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ANAMBE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0008&lt;a name=\&quot;BREtniaIndigena-0008\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;APARAI (APALAI)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0009&lt;a name=\&quot;BREtniaIndigena-0009\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;APIAKA (APIACA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0010&lt;a name=\&quot;BREtniaIndigena-0010\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;APINAYE (APINAJE/APINAIE/APINAGE)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0011&lt;a name=\&quot;BREtniaIndigena-0011\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;APURINA (APORINA, IPURINA, IPURINA, IPURI­NAN)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0012&lt;a name=\&quot;BREtniaIndigena-0012\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ARANA (ARACUAI DO VALE DO JEQUITINHONHA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0013&lt;a name=\&quot;BREtniaIndigena-0013\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ARAPASO (ARAPACO)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0014&lt;a name=\&quot;BREtniaIndigena-0014\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ARARA DE RONDONIA (KARO, URUCU, URUKU)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0015&lt;a name=\&quot;BREtniaIndigena-0015\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ARARA DO ACRE (SHAWANAUA, AMAWAKA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0016&lt;a name=\&quot;BREtniaIndigena-0016\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ARARA DO ARIPUANA (ARARA DO BEIRADAO/ARI­PUANA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0017&lt;a name=\&quot;BREtniaIndigena-0017\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ARARA DO PARA (UKARAGMA, UKARAMMA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0018&lt;a name=\&quot;BREtniaIndigena-0018\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ARAWETE (ARAUETE)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0019&lt;a name=\&quot;BREtniaIndigena-0019\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ARIKAPU (ARICAPU, ARIKAPO, MASUBI, MAXUBI)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0020&lt;a name=\&quot;BREtniaIndigena-0020\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ARIKEM (ARIQUEN, ARIQUEME, ARIKEME)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0021&lt;a name=\&quot;BREtniaIndigena-0021\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ARIKOSE (ARICOBE)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0022&lt;a name=\&quot;BREtniaIndigena-0022\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ARUA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0023&lt;a name=\&quot;BREtniaIndigena-0023\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ARUAK (ARAWAK)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0024&lt;a name=\&quot;BREtniaIndigena-0024\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ASHANINKA (KAMPA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0025&lt;a name=\&quot;BREtniaIndigena-0025\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ASURINI DO TOCANTINS (AKUAWA/AKWAWA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0026&lt;a name=\&quot;BREtniaIndigena-0026\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ASURINI DO XINGU (AWAETE)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0027&lt;a name=\&quot;BREtniaIndigena-0027\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ATIKUM (ATICUM)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0028&lt;a name=\&quot;BREtniaIndigena-0028\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;AVA - CANOEIRO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0029&lt;a name=\&quot;BREtniaIndigena-0029\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;AWETI (AUETI/AUETO)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0030&lt;a name=\&quot;BREtniaIndigena-0030\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;BAKAIRI (KURA, BACAIRI)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0031&lt;a name=\&quot;BREtniaIndigena-0031\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;BANAWA YAFI (BANAWA, BANAWA-JAFI)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0032&lt;a name=\&quot;BREtniaIndigena-0032\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;BANIWA (BANIUA, BANIVA, WALIMANAI, WAKUE­NAI)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0033&lt;a name=\&quot;BREtniaIndigena-0033\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;BARA (WAIPINOMAKA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0034&lt;a name=\&quot;BREtniaIndigena-0034\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;BARASANA (HANERA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0035&lt;a name=\&quot;BREtniaIndigena-0035\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;BARE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0036&lt;a name=\&quot;BREtniaIndigena-0036\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;BORORO (BOE)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0037&lt;a name=\&quot;BREtniaIndigena-0037\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;BOTOCUDO (GEREN)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0038&lt;a name=\&quot;BREtniaIndigena-0038\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CANOE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0039&lt;a name=\&quot;BREtniaIndigena-0039\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CASSUPA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0040&lt;a name=\&quot;BREtniaIndigena-0040\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CHAMACOCO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0041&lt;a name=\&quot;BREtniaIndigena-0041\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CHIQUITANO (XIQUITANO)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0042&lt;a name=\&quot;BREtniaIndigena-0042\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CIKIYANA (SIKIANA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0043&lt;a name=\&quot;BREtniaIndigena-0043\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CINTA LARGA (MATETAMAE)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0044&lt;a name=\&quot;BREtniaIndigena-0044\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;COLUMBIARA (CORUMBIARA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0045&lt;a name=\&quot;BREtniaIndigena-0045\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;DENI&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0046&lt;a name=\&quot;BREtniaIndigena-0046\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;DESANA (DESANA, DESANO, DESSANO, WIRA, UMUKOMASA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0047&lt;a name=\&quot;BREtniaIndigena-0047\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;DIAHUI (JAHOI, JAHUI, DIARROI)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0048&lt;a name=\&quot;BREtniaIndigena-0048\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ENAWENE-NAWE (SALUMA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0049&lt;a name=\&quot;BREtniaIndigena-0049\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;FULNI-O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0050&lt;a name=\&quot;BREtniaIndigena-0050\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;GALIBI (GALIBI DO OIAPOQUE, KARINHA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0051&lt;a name=\&quot;BREtniaIndigena-0051\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;GALIBI MARWORNO (GALIBI DO UACA, ARUA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0052&lt;a name=\&quot;BREtniaIndigena-0052\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;GAVIAO DE RONDONIA (DIGUT)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0053&lt;a name=\&quot;BREtniaIndigena-0053\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;GAVIAO KRIKATEJE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0054&lt;a name=\&quot;BREtniaIndigena-0054\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;GAVIAO PARKATEJE (PARKATEJE)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0055&lt;a name=\&quot;BREtniaIndigena-0055\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;GAVIAO PUKOBIE (PUKOBIE, PYKOPJE, GAVIAO DO MARANHAO)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0056&lt;a name=\&quot;BREtniaIndigena-0056\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;GUAJA (AWA, AVA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0057&lt;a name=\&quot;BREtniaIndigena-0057\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;GUAJAJARA (TENETEHARA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0058&lt;a name=\&quot;BREtniaIndigena-0058\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;GUARANI KAIOWA (PAI TAVYTERA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0059&lt;a name=\&quot;BREtniaIndigena-0059\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;GUARANI M'BYA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0060&lt;a name=\&quot;BREtniaIndigena-0060\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;GUARANI NANDEVA (AVAKATUETE, CHIRIPA, NHANDEWA, AVA GUARANI)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0061&lt;a name=\&quot;BREtniaIndigena-0061\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;GUATO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0062&lt;a name=\&quot;BREtniaIndigena-0062\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;HIMARIMA (HIMERIMA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0063&lt;a name=\&quot;BREtniaIndigena-0063\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;INGARIKO (INGARICO, AKAWAIO, KAPON)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0064&lt;a name=\&quot;BREtniaIndigena-0064\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;IRANXE (IRANTXE)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0065&lt;a name=\&quot;BREtniaIndigena-0065\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ISSE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0066&lt;a name=\&quot;BREtniaIndigena-0066\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;JABOTI (JABUTI, KIPIU, YABYTI)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0067&lt;a name=\&quot;BREtniaIndigena-0067\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;JAMAMADI (YAMAMADI, DJEOROMITXI)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0068&lt;a name=\&quot;BREtniaIndigena-0068\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;JARAWARA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0069&lt;a name=\&quot;BREtniaIndigena-0069\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;JIRIPANCO (JERIPANCO, GERIPANCO)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0070&lt;a name=\&quot;BREtniaIndigena-0070\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;JUMA (YUMA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0071&lt;a name=\&quot;BREtniaIndigena-0071\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;JURUNA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0072&lt;a name=\&quot;BREtniaIndigena-0072\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;JURUTI (YURITI)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0073&lt;a name=\&quot;BREtniaIndigena-0073\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KAAPOR (URUBU-KAAPOR, KA'APOR, KAAPORTE)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0074&lt;a name=\&quot;BREtniaIndigena-0074\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KADIWEU (CADUVEO, CADIUEU)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0075&lt;a name=\&quot;BREtniaIndigena-0075\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KAIABI (CAIABI, KAYABI)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0076&lt;a name=\&quot;BREtniaIndigena-0076\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KAIMBE (CAIMBE)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0077&lt;a name=\&quot;BREtniaIndigena-0077\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KAINGANG (CAINGANGUE)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0078&lt;a name=\&quot;BREtniaIndigena-0078\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KAIXANA (CAIXANA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0079&lt;a name=\&quot;BREtniaIndigena-0079\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KALABASSA (CALABASSA, CALABACAS)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0080&lt;a name=\&quot;BREtniaIndigena-0080\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KALANCO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0081&lt;a name=\&quot;BREtniaIndigena-0081\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KALAPALO (CALAPALO)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0082&lt;a name=\&quot;BREtniaIndigena-0082\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KAMAYURA (CAMAIURA, KAMAIURA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0083&lt;a name=\&quot;BREtniaIndigena-0083\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KAMBA (CAMBA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0084&lt;a name=\&quot;BREtniaIndigena-0084\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KAMBEBA (CAMBEBA, OMAGUA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0085&lt;a name=\&quot;BREtniaIndigena-0085\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KAMBIWA (CAMBIUA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0086&lt;a name=\&quot;BREtniaIndigena-0086\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KAMBIWA PIPIPA (PIPIPA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0087&lt;a name=\&quot;BREtniaIndigena-0087\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KAMPE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0088&lt;a name=\&quot;BREtniaIndigena-0088\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KANAMANTI (KANAMATI, CANAMANTI)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0089&lt;a name=\&quot;BREtniaIndigena-0089\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KANAMARI (CANAMARI, KANAMARY, TUKUNA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0090&lt;a name=\&quot;BREtniaIndigena-0090\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KANELA APANIEKRA (CANELA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0091&lt;a name=\&quot;BREtniaIndigena-0091\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KANELA RANKOKAMEKRA (CANELA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0092&lt;a name=\&quot;BREtniaIndigena-0092\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KANINDE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0093&lt;a name=\&quot;BREtniaIndigena-0093\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KANOE (CANOE)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0094&lt;a name=\&quot;BREtniaIndigena-0094\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KANTARURE (CANTARURE)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0095&lt;a name=\&quot;BREtniaIndigena-0095\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KAPINAWA (CAPINAUA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0096&lt;a name=\&quot;BREtniaIndigena-0096\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KARAJA (CARAJA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0097&lt;a name=\&quot;BREtniaIndigena-0097\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KARAJA/JAVAE (JAVAE)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0098&lt;a name=\&quot;BREtniaIndigena-0098\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KARAJA/XAMBIOA (KARAJA DO NORTE)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0099&lt;a name=\&quot;BREtniaIndigena-0099\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KARAPANA (CARAPANA, MUTEAMASA, UKOPINO­PONA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0100&lt;a name=\&quot;BREtniaIndigena-0100\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KARAPOTO (CARAPOTO)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0101&lt;a name=\&quot;BREtniaIndigena-0101\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KARIPUNA (CARIPUNA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0102&lt;a name=\&quot;BREtniaIndigena-0102\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KARIPUNA DO AMAPA (CARIPUNA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0103&lt;a name=\&quot;BREtniaIndigena-0103\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KARIRI (CARIRI)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0104&lt;a name=\&quot;BREtniaIndigena-0104\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KARIRI-XOCO (CARIRI-CHOCO)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0105&lt;a name=\&quot;BREtniaIndigena-0105\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KARITIANA (CARITIANA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0106&lt;a name=\&quot;BREtniaIndigena-0106\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KATAWIXI (KATAUIXI, KATAWIN, KATAWISI, CATAUICHI)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0107&lt;a name=\&quot;BREtniaIndigena-0107\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KATUENA (CATUENA, KATWENA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0108&lt;a name=\&quot;BREtniaIndigena-0108\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KATUKINA (PEDA DJAPA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0109&lt;a name=\&quot;BREtniaIndigena-0109\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KATUKINA DO ACRE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0110&lt;a name=\&quot;BREtniaIndigena-0110\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KAXARARI (CAXARARI)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0111&lt;a name=\&quot;BREtniaIndigena-0111\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KAXINAWA (HUNI-KUIN, CASHINAUA, CAXINAUA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0112&lt;a name=\&quot;BREtniaIndigena-0112\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KAXIXO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0113&lt;a name=\&quot;BREtniaIndigena-0113\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KAXUYANA (CAXUIANA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0114&lt;a name=\&quot;BREtniaIndigena-0114\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KAYAPO (CAIAPO)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0115&lt;a name=\&quot;BREtniaIndigena-0115\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KAYAPO KARARAO (KARARAO)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0116&lt;a name=\&quot;BREtniaIndigena-0116\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KAYAPO TXUKAHAMAE (TXUKAHAMAE)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0117&lt;a name=\&quot;BREtniaIndigena-0117\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KAYAPO XICRIM (XIKRIN)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0118&lt;a name=\&quot;BREtniaIndigena-0118\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KAYUISANA (CAIXANA, CAUIXANA, KAIXANA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0119&lt;a name=\&quot;BREtniaIndigena-0119\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KINIKINAWA (GUAN, KOINUKOEN, KINIKINAO)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0120&lt;a name=\&quot;BREtniaIndigena-0120\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KIRIRI&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0121&lt;a name=\&quot;BREtniaIndigena-0121\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KOCAMA (COCAMA, KOKAMA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0122&lt;a name=\&quot;BREtniaIndigena-0122\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KOKUIREGATEJE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0123&lt;a name=\&quot;BREtniaIndigena-0123\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KORUBO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0124&lt;a name=\&quot;BREtniaIndigena-0124\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KRAHO (CRAO, KRAO)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0125&lt;a name=\&quot;BREtniaIndigena-0125\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KREJE (KRENYE)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0126&lt;a name=\&quot;BREtniaIndigena-0126\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KRENAK (BORUN, CRENAQUE)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0127&lt;a name=\&quot;BREtniaIndigena-0127\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KRIKATI (KRINKATI)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0128&lt;a name=\&quot;BREtniaIndigena-0128\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KUBEO (CUBEO, COBEWA, KUBEWA, PAMIWA, CU­BEU)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0129&lt;a name=\&quot;BREtniaIndigena-0129\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KUIKURO (KUIKURU, CUICURO)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0130&lt;a name=\&quot;BREtniaIndigena-0130\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KUJUBIM (KUYUBI, CUJUBIM)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0131&lt;a name=\&quot;BREtniaIndigena-0131\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KULINA PANO (CULINA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0132&lt;a name=\&quot;BREtniaIndigena-0132\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KULINA/MADIHA (CULINA, MADIJA, MADIHA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0133&lt;a name=\&quot;BREtniaIndigena-0133\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KURIPAKO (CURIPACO, CURRIPACO, CORIPACO, WAKUENAI)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0134&lt;a name=\&quot;BREtniaIndigena-0134\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KURUAIA (CURUAIA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0135&lt;a name=\&quot;BREtniaIndigena-0135\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KWAZA (COAIA, KOAIA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0136&lt;a name=\&quot;BREtniaIndigena-0136\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MACHINERI (MANCHINERI, MANXINERI)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0137&lt;a name=\&quot;BREtniaIndigena-0137\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MACURAP (MAKURAP)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0138&lt;a name=\&quot;BREtniaIndigena-0138\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MAKU DOW (DOW)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0139&lt;a name=\&quot;BREtniaIndigena-0139\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MAKU HUPDA (HUPDA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0140&lt;a name=\&quot;BREtniaIndigena-0140\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MAKU NADEB (NADEB)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0141&lt;a name=\&quot;BREtniaIndigena-0141\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MAKU YUHUPDE (YUHUPDE)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0142&lt;a name=\&quot;BREtniaIndigena-0142\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MAKUNA (MACUNA, YEBA-MASA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0143&lt;a name=\&quot;BREtniaIndigena-0143\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MAKUXI (MACUXI, MACHUSI, PEMON)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0144&lt;a name=\&quot;BREtniaIndigena-0144\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MARIMAM (MARIMA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0145&lt;a name=\&quot;BREtniaIndigena-0145\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MARUBO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0146&lt;a name=\&quot;BREtniaIndigena-0146\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MATIPU&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0147&lt;a name=\&quot;BREtniaIndigena-0147\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MATIS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0148&lt;a name=\&quot;BREtniaIndigena-0148\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MATSE (MAYORUNA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0149&lt;a name=\&quot;BREtniaIndigena-0149\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MAXAKALI (MAXACALI)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0150&lt;a name=\&quot;BREtniaIndigena-0150\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MAYA (MAYA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0151&lt;a name=\&quot;BREtniaIndigena-0151\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MAYTAPU&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0152&lt;a name=\&quot;BREtniaIndigena-0152\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MEHINAKO (MEINAKU, MEINACU)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0153&lt;a name=\&quot;BREtniaIndigena-0153\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MEKEN (MEQUEM, MEKHEM, MICHENS)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0154&lt;a name=\&quot;BREtniaIndigena-0154\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MENKY (MYKY, MUNKU, MENKI, MYNKY)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0155&lt;a name=\&quot;BREtniaIndigena-0155\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MIRANHA (MIRANHA, MIRANA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0156&lt;a name=\&quot;BREtniaIndigena-0156\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MIRITI TAPUIA (MIRITI-TAPUYA, BUIA-TAPUYA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0157&lt;a name=\&quot;BREtniaIndigena-0157\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MUNDURUKU (MUNDURUCU)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0158&lt;a name=\&quot;BREtniaIndigena-0158\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MURA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0159&lt;a name=\&quot;BREtniaIndigena-0159\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;NAHUKWA (NAFUQUA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0160&lt;a name=\&quot;BREtniaIndigena-0160\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;NAMBIKWARA DO CAMPO (HALOTESU, KITHAULU, WAKALITESU, SAWENTES, MANDUKA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0161&lt;a name=\&quot;BREtniaIndigena-0161\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;NAMBIKWARA DO NORTE (NEGAROTE ,MAMAIN­DE, LATUNDE, SABANE E MANDUKA, TAWANDE)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0162&lt;a name=\&quot;BREtniaIndigena-0162\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;NAMBIKWARA DO SUL (WASUSU ,HAHAINTESU, ALANTESU, WAIKISU, ALAKETESU, WASUSU, SA­RARE)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0163&lt;a name=\&quot;BREtniaIndigena-0163\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;NARAVUTE (NARUVOTO)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0164&lt;a name=\&quot;BREtniaIndigena-0164\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;NAWA (NAUA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0165&lt;a name=\&quot;BREtniaIndigena-0165\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;NUKINI (NUQUINI, NUKUINI)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0166&lt;a name=\&quot;BREtniaIndigena-0166\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;OFAIE (OFAYE-XAVANTE)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0167&lt;a name=\&quot;BREtniaIndigena-0167\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ORO WIN&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0168&lt;a name=\&quot;BREtniaIndigena-0168\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;PAIAKU (JENIPAPO-KANINDE)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0169&lt;a name=\&quot;BREtniaIndigena-0169\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;PAKAA NOVA (WARI, PACAAS NOVOS)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0170&lt;a name=\&quot;BREtniaIndigena-0170\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;PALIKUR (AUKWAYENE, AUKUYENE, PALIKU'ENE)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0171&lt;a name=\&quot;BREtniaIndigena-0171\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;PANARA (KRENHAKARORE , KRENAKORE, KRENA­KARORE)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0172&lt;a name=\&quot;BREtniaIndigena-0172\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;PANKARARE (PANCARARE)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0173&lt;a name=\&quot;BREtniaIndigena-0173\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;PANKARARU (PANCARARU)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0174&lt;a name=\&quot;BREtniaIndigena-0174\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;PANKARARU KALANKO (KALANKO)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0175&lt;a name=\&quot;BREtniaIndigena-0175\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;PANKARARU KARUAZU (KARUAZU)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0176&lt;a name=\&quot;BREtniaIndigena-0176\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;PANKARU (PANCARU)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0177&lt;a name=\&quot;BREtniaIndigena-0177\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;PARAKANA (PARACANA, APITEREWA, AWAETE)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0178&lt;a name=\&quot;BREtniaIndigena-0178\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;PARECI (PARESI, HALITI)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0179&lt;a name=\&quot;BREtniaIndigena-0179\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;PARINTINTIN&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0180&lt;a name=\&quot;BREtniaIndigena-0180\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;PATAMONA (KAPON)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0181&lt;a name=\&quot;BREtniaIndigena-0181\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;PATAXO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0182&lt;a name=\&quot;BREtniaIndigena-0182\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;PATAXO HA-HA-HAE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0183&lt;a name=\&quot;BREtniaIndigena-0183\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;PAUMARI (PALMARI)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0184&lt;a name=\&quot;BREtniaIndigena-0184\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;PAUMELENHO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0185&lt;a name=\&quot;BREtniaIndigena-0185\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;PIRAHA (MURA PIRAHA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0186&lt;a name=\&quot;BREtniaIndigena-0186\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;PIRATUAPUIA (PIRATAPUYA, PIRATAPUYO, PIRA­TAPUYA, WAIKANA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0187&lt;a name=\&quot;BREtniaIndigena-0187\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;PITAGUARI&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0188&lt;a name=\&quot;BREtniaIndigena-0188\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;POTIGUARA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0189&lt;a name=\&quot;BREtniaIndigena-0189\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;POYANAWA (POIANAUA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0190&lt;a name=\&quot;BREtniaIndigena-0190\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;RIKBAKTSA (CANOEIROS, ERIGPAKTSA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0191&lt;a name=\&quot;BREtniaIndigena-0191\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SAKURABIAT (MEKENS, SAKIRABIAP, SAKIRABIAR)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0192&lt;a name=\&quot;BREtniaIndigena-0192\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SATERE-MAWE (SATERE-MAUE)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0193&lt;a name=\&quot;BREtniaIndigena-0193\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SHANENAWA (KATUKINA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0194&lt;a name=\&quot;BREtniaIndigena-0194\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SIRIANO (SIRIA-MASA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0195&lt;a name=\&quot;BREtniaIndigena-0195\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SURIANA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0196&lt;a name=\&quot;BREtniaIndigena-0196\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SURUI DE RONDONIA (PAITER)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0197&lt;a name=\&quot;BREtniaIndigena-0197\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SURUI DO PARA (AIKEWARA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0198&lt;a name=\&quot;BREtniaIndigena-0198\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SUYA (SUIA/KISEDJE)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0199&lt;a name=\&quot;BREtniaIndigena-0199\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TAPAYUNA (BEICO-DE-PAU)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0200&lt;a name=\&quot;BREtniaIndigena-0200\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TAPEBA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0201&lt;a name=\&quot;BREtniaIndigena-0201\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TAPIRAPE (TAPI'IRAPE)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0202&lt;a name=\&quot;BREtniaIndigena-0202\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TAPUIA (TAPUIA-XAVANTE, TAPUIO)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0203&lt;a name=\&quot;BREtniaIndigena-0203\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TARIANO (TARIANA, TALIASERI)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0204&lt;a name=\&quot;BREtniaIndigena-0204\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TAUREPANG (TAULIPANG, PEMON, AREKUNA, PA­GEYN)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0205&lt;a name=\&quot;BREtniaIndigena-0205\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TEMBE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0206&lt;a name=\&quot;BREtniaIndigena-0206\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TENHARIM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0207&lt;a name=\&quot;BREtniaIndigena-0207\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TERENA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0208&lt;a name=\&quot;BREtniaIndigena-0208\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TICUNA (TIKUNA, TUKUNA, MAGUTA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0209&lt;a name=\&quot;BREtniaIndigena-0209\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TINGUI BOTO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0210&lt;a name=\&quot;BREtniaIndigena-0210\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TIRIYO EWARHUYANA (TIRIYO, TRIO, TARONA, YAWI, PIANOKOTO)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0211&lt;a name=\&quot;BREtniaIndigena-0211\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TIRIYO KAH'YANA (TIRIYO, TRIO, TARONA, YAWI, PIANOKOTO)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0212&lt;a name=\&quot;BREtniaIndigena-0212\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TIRIYO TSIKUYANA (TIRIYO, TRIO, TARONA, YAWI, PIANOKOTO)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0213&lt;a name=\&quot;BREtniaIndigena-0213\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TORA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0214&lt;a name=\&quot;BREtniaIndigena-0214\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TREMEMBE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0215&lt;a name=\&quot;BREtniaIndigena-0215\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TRUKA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0216&lt;a name=\&quot;BREtniaIndigena-0216\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TRUMAI&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0217&lt;a name=\&quot;BREtniaIndigena-0217\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TSOHOM DJAPA (TSUNHUM-DJAPA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0218&lt;a name=\&quot;BREtniaIndigena-0218\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TUKANO (TUCANO, YE'PA-MASA, DASEA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0219&lt;a name=\&quot;BREtniaIndigena-0219\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TUMBALALA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0220&lt;a name=\&quot;BREtniaIndigena-0220\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TUNAYANA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0221&lt;a name=\&quot;BREtniaIndigena-0221\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TUPARI&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0222&lt;a name=\&quot;BREtniaIndigena-0222\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TUPINAMBA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0223&lt;a name=\&quot;BREtniaIndigena-0223\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TUPINIQUIM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0224&lt;a name=\&quot;BREtniaIndigena-0224\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TURIWARA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0225&lt;a name=\&quot;BREtniaIndigena-0225\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TUXA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0226&lt;a name=\&quot;BREtniaIndigena-0226\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TUYUKA (TUIUCA, DOKAPUARA, UTAPINOMAKA­PHONA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0227&lt;a name=\&quot;BREtniaIndigena-0227\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TXIKAO (TXICAO, IKPENG)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0228&lt;a name=\&quot;BREtniaIndigena-0228\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;UMUTINA (OMOTINA, BARBADOS)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0229&lt;a name=\&quot;BREtniaIndigena-0229\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;URU-EU-WAU-WAU (URUEU-UAU-UAU, URUPAIN, URUPA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0230&lt;a name=\&quot;BREtniaIndigena-0230\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;WAI WAI HIXKARYANA (HIXKARYANA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0231&lt;a name=\&quot;BREtniaIndigena-0231\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;WAI WAI KARAFAWYANA (KARAFAWYANA, KARA­PAWYANA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0232&lt;a name=\&quot;BREtniaIndigena-0232\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;WAI WAI XEREU (XEREU)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0233&lt;a name=\&quot;BREtniaIndigena-0233\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;WAI WAI KATUENA (KATUENA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0234&lt;a name=\&quot;BREtniaIndigena-0234\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;WAI WAI MAWAYANA (MAWAYANA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0235&lt;a name=\&quot;BREtniaIndigena-0235\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;WAIAPI (WAYAMPI, OYAMPI, WAYAPY, )&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0236&lt;a name=\&quot;BREtniaIndigena-0236\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;WAIMIRI ATROARI (KINA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0237&lt;a name=\&quot;BREtniaIndigena-0237\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;WANANO (UANANO, WANANA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0238&lt;a name=\&quot;BREtniaIndigena-0238\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;WAPIXANA (UAPIXANA, VAPIDIANA, WAPISIANA, WAPISHANA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0239&lt;a name=\&quot;BREtniaIndigena-0239\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;WAREKENA (UAREQUENA, WEREKENA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0240&lt;a name=\&quot;BREtniaIndigena-0240\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;WASSU&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0241&lt;a name=\&quot;BREtniaIndigena-0241\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;WAURA (UAURA, WAUJA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0242&lt;a name=\&quot;BREtniaIndigena-0242\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;WAYANA (WAIANA, UAIANA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0243&lt;a name=\&quot;BREtniaIndigena-0243\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;WITOTO (UITOTO, HUITOTO)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0244&lt;a name=\&quot;BREtniaIndigena-0244\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;XAKRIABA (XACRIABA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0245&lt;a name=\&quot;BREtniaIndigena-0245\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;XAVANTE (A'UWE, AKWE, AWEN, AKWEN)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0246&lt;a name=\&quot;BREtniaIndigena-0246\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;XERENTE (AKWE, AWEN, AKWEN)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0247&lt;a name=\&quot;BREtniaIndigena-0247\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;XETA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0248&lt;a name=\&quot;BREtniaIndigena-0248\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;XIPAIA (SHIPAYA, XIPAYA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0249&lt;a name=\&quot;BREtniaIndigena-0249\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;XOKLENG (SHOKLENG, XOCLENG)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0250&lt;a name=\&quot;BREtniaIndigena-0250\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;XOKO (XOCO, CHOCO)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0251&lt;a name=\&quot;BREtniaIndigena-0251\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;XUKURU (XUCURU)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0252&lt;a name=\&quot;BREtniaIndigena-0252\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;XUKURU KARIRI (XUCURU-KARIRI)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0253&lt;a name=\&quot;BREtniaIndigena-0253\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;YAIPIYANA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0254&lt;a name=\&quot;BREtniaIndigena-0254\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;YAMINAWA (JAMINAWA, IAMINAWA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0255&lt;a name=\&quot;BREtniaIndigena-0255\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;YANOMAMI NINAM (IANOMAMI, IANOAMA, XIRIA­NA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0256&lt;a name=\&quot;BREtniaIndigena-0256\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;YANOMAMI SANUMA (IANOMAMI, IANOAMA, XI­RIANA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0257&lt;a name=\&quot;BREtniaIndigena-0257\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;YANOMAMI YANOMAM (IANOMAMI, IANOAMA, XI­RIANA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0258&lt;a name=\&quot;BREtniaIndigena-0258\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;YAWALAPITI (IAUALAPITI)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0259&lt;a name=\&quot;BREtniaIndigena-0259\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;YAWANAWA (IAUANAUA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0260&lt;a name=\&quot;BREtniaIndigena-0260\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;YEKUANA (MAIONGON, YE'KUANA, YEKWANA, MAYONGONG)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0261&lt;a name=\&quot;BREtniaIndigena-0261\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;YUDJA (JURUNA, YURUNA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0262&lt;a name=\&quot;BREtniaIndigena-0262\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ZO'E (POTURU)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0263&lt;a name=\&quot;BREtniaIndigena-0263\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ZORO (PAGEYN)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0264&lt;a name=\&quot;BREtniaIndigena-0264\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ZURUAHA (SOROWAHA, SURUWAHA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X265&lt;a name=\&quot;BREtniaIndigena-X265\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;AHANENAWA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X266&lt;a name=\&quot;BREtniaIndigena-X266\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;AICABA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X267&lt;a name=\&quot;BREtniaIndigena-X267\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;AIKANÃ-KWASÁ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X269&lt;a name=\&quot;BREtniaIndigena-X269\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ALANTESU&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X271&lt;a name=\&quot;BREtniaIndigena-X271\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;AMAWÁKA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X272&lt;a name=\&quot;BREtniaIndigena-X272\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ANACÉ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X276&lt;a name=\&quot;BREtniaIndigena-X276\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ARARA APOLIMA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X278&lt;a name=\&quot;BREtniaIndigena-X278\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ARIPUANÁ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X279&lt;a name=\&quot;BREtniaIndigena-X279\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ASSURINI&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X280&lt;a name=\&quot;BREtniaIndigena-X280\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;AWUARÁ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X281&lt;a name=\&quot;BREtniaIndigena-X281\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;BORBA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X282&lt;a name=\&quot;BREtniaIndigena-X282\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CABIXI&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X283&lt;a name=\&quot;BREtniaIndigena-X283\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CAMARARÉ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X284&lt;a name=\&quot;BREtniaIndigena-X284\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CAMASURI&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X285&lt;a name=\&quot;BREtniaIndigena-X285\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CARA PRETA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X286&lt;a name=\&quot;BREtniaIndigena-X286\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CHARRUA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X287&lt;a name=\&quot;BREtniaIndigena-X287\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CUJUBIM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X288&lt;a name=\&quot;BREtniaIndigena-X288\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;DAW&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X289&lt;a name=\&quot;BREtniaIndigena-X289\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;GAVIÃO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X290&lt;a name=\&quot;BREtniaIndigena-X290\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;GUARANI&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X291&lt;a name=\&quot;BREtniaIndigena-X291\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;HALANTESU&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X292&lt;a name=\&quot;BREtniaIndigena-X292\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;HALOTESU&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X293&lt;a name=\&quot;BREtniaIndigena-X293\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;HENGATÚ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X294&lt;a name=\&quot;BREtniaIndigena-X294\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;HIXKARYANA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X295&lt;a name=\&quot;BREtniaIndigena-X295\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;HUPDE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X296&lt;a name=\&quot;BREtniaIndigena-X296\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;HUPDES&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X297&lt;a name=\&quot;BREtniaIndigena-X297\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;IAUANAUA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X298&lt;a name=\&quot;BREtniaIndigena-X298\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;IAUARETE AÇU&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X299&lt;a name=\&quot;BREtniaIndigena-X299\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;IKPENG&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X300&lt;a name=\&quot;BREtniaIndigena-X300\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;INAMBU&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X301&lt;a name=\&quot;BREtniaIndigena-X301\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;INHABARANA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X302&lt;a name=\&quot;BREtniaIndigena-X302\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;JAVAE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X303&lt;a name=\&quot;BREtniaIndigena-X303\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;JENIPAPO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X304&lt;a name=\&quot;BREtniaIndigena-X304\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;JENIPAPO-KANINDE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X305&lt;a name=\&quot;BREtniaIndigena-X305\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;JIAHOI&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X306&lt;a name=\&quot;BREtniaIndigena-X306\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KAIOWA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X307&lt;a name=\&quot;BREtniaIndigena-X307\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KAMPA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X308&lt;a name=\&quot;BREtniaIndigena-X308\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KANELA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X309&lt;a name=\&quot;BREtniaIndigena-X309\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KARAFAWYANA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X310&lt;a name=\&quot;BREtniaIndigena-X310\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KARARAO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X311&lt;a name=\&quot;BREtniaIndigena-X311\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KARUBO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X312&lt;a name=\&quot;BREtniaIndigena-X312\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KASSUPÁ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X313&lt;a name=\&quot;BREtniaIndigena-X313\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KATITHÃULU&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X314&lt;a name=\&quot;BREtniaIndigena-X314\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KATOKIN&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X315&lt;a name=\&quot;BREtniaIndigena-X315\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KATUKINA PANO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X316&lt;a name=\&quot;BREtniaIndigena-X316\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KATUKINA PEDA DJAPA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X317&lt;a name=\&quot;BREtniaIndigena-X317\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KATUKINA SHANENAUWA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X318&lt;a name=\&quot;BREtniaIndigena-X318\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KAXAGO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X319&lt;a name=\&quot;BREtniaIndigena-X319\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KAYABI&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X320&lt;a name=\&quot;BREtniaIndigena-X320\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KINÃ (WAIMIRI-ATROARI)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X321&lt;a name=\&quot;BREtniaIndigena-X321\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KIRIRI-BARRA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X322&lt;a name=\&quot;BREtniaIndigena-X322\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KITHÃULU&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X323&lt;a name=\&quot;BREtniaIndigena-X323\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KOIAIÁ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X324&lt;a name=\&quot;BREtniaIndigena-X324\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KOIUPANKÁ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X325&lt;a name=\&quot;BREtniaIndigena-X325\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KONTANAWA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X326&lt;a name=\&quot;BREtniaIndigena-X326\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KRAHÔ KANELA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X327&lt;a name=\&quot;BREtniaIndigena-X327\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KULINA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X328&lt;a name=\&quot;BREtniaIndigena-X328\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;LATUNDÊ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X329&lt;a name=\&quot;BREtniaIndigena-X329\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MAKU&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X330&lt;a name=\&quot;BREtniaIndigena-X330\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MAKUNAMBÉ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X331&lt;a name=\&quot;BREtniaIndigena-X331\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MAMAINDÊ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X332&lt;a name=\&quot;BREtniaIndigena-X332\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MAMURI&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X333&lt;a name=\&quot;BREtniaIndigena-X333\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MANACAPURU&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X334&lt;a name=\&quot;BREtniaIndigena-X334\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MANAIRISSU&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X335&lt;a name=\&quot;BREtniaIndigena-X335\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MANCHINERI&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X336&lt;a name=\&quot;BREtniaIndigena-X336\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MANDUCA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X337&lt;a name=\&quot;BREtniaIndigena-X337\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MARIBONDO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X338&lt;a name=\&quot;BREtniaIndigena-X338\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MASSAKA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X339&lt;a name=\&quot;BREtniaIndigena-X339\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MAWAYANA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X340&lt;a name=\&quot;BREtniaIndigena-X340\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MAWÉ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X341&lt;a name=\&quot;BREtniaIndigena-X341\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MAYORUNA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X342&lt;a name=\&quot;BREtniaIndigena-X342\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MIQUELENO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X343&lt;a name=\&quot;BREtniaIndigena-X343\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MOKURIÑ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X344&lt;a name=\&quot;BREtniaIndigena-X344\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MON ORO WARAM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X345&lt;a name=\&quot;BREtniaIndigena-X345\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MUTUM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X346&lt;a name=\&quot;BREtniaIndigena-X346\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MYKY&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X347&lt;a name=\&quot;BREtniaIndigena-X347\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;NADEB&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X348&lt;a name=\&quot;BREtniaIndigena-X348\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;NAMBIKWARA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X349&lt;a name=\&quot;BREtniaIndigena-X349\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;NEGAROTÊ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X350&lt;a name=\&quot;BREtniaIndigena-X350\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;NHENGATU&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X351&lt;a name=\&quot;BREtniaIndigena-X351\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;OFAIE XAVANTE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X352&lt;a name=\&quot;BREtniaIndigena-X352\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ONÇA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X353&lt;a name=\&quot;BREtniaIndigena-X353\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ORO AT&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X354&lt;a name=\&quot;BREtniaIndigena-X354\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ORO EO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X355&lt;a name=\&quot;BREtniaIndigena-X355\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ORO JOWIN&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X356&lt;a name=\&quot;BREtniaIndigena-X356\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ORO MIYLIN&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X357&lt;a name=\&quot;BREtniaIndigena-X357\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ORO MON&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X358&lt;a name=\&quot;BREtniaIndigena-X358\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ORO NÁO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X359&lt;a name=\&quot;BREtniaIndigena-X359\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ORO WAM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X360&lt;a name=\&quot;BREtniaIndigena-X360\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ORO WARAM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X361&lt;a name=\&quot;BREtniaIndigena-X361\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ORO WARAM XIJEIN&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X362&lt;a name=\&quot;BREtniaIndigena-X362\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;PACA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X363&lt;a name=\&quot;BREtniaIndigena-X363\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;PANKARÁ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X364&lt;a name=\&quot;BREtniaIndigena-X364\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;PAPAGAIO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X365&lt;a name=\&quot;BREtniaIndigena-X365\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;PAYAYÁ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X366&lt;a name=\&quot;BREtniaIndigena-X366\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;PIPIPAN&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X367&lt;a name=\&quot;BREtniaIndigena-X367\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;PIRATA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X368&lt;a name=\&quot;BREtniaIndigena-X368\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;PUROBORÁ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X369&lt;a name=\&quot;BREtniaIndigena-X369\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SABANÊ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X370&lt;a name=\&quot;BREtniaIndigena-X370\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SANUMA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X371&lt;a name=\&quot;BREtniaIndigena-X371\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SAWENTESÚ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X372&lt;a name=\&quot;BREtniaIndigena-X372\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SILCY-TAPUYA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X373&lt;a name=\&quot;BREtniaIndigena-X373\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SIUCI&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X374&lt;a name=\&quot;BREtniaIndigena-X374\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TABAJARA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X375&lt;a name=\&quot;BREtniaIndigena-X375\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TAKUARA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X376&lt;a name=\&quot;BREtniaIndigena-X376\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TATU&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X377&lt;a name=\&quot;BREtniaIndigena-X377\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TAWANDÊ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X378&lt;a name=\&quot;BREtniaIndigena-X378\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TEFÉ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X379&lt;a name=\&quot;BREtniaIndigena-X379\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TIMBIRA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X380&lt;a name=\&quot;BREtniaIndigena-X380\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TORÁ DO BAIXO GRANDE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X381&lt;a name=\&quot;BREtniaIndigena-X381\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TSUNHUM-DJAPÁ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X382&lt;a name=\&quot;BREtniaIndigena-X382\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TUBARÃO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X383&lt;a name=\&quot;BREtniaIndigena-X383\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TUPAIU&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X384&lt;a name=\&quot;BREtniaIndigena-X384\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TUPI&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X385&lt;a name=\&quot;BREtniaIndigena-X385\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TUPINAMBÁ DE BELMONTE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X386&lt;a name=\&quot;BREtniaIndigena-X386\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;URUBU&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X387&lt;a name=\&quot;BREtniaIndigena-X387\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;URUBU KAAPOR&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X388&lt;a name=\&quot;BREtniaIndigena-X388\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;URUPÁ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X389&lt;a name=\&quot;BREtniaIndigena-X389\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;WAI WAI&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X390&lt;a name=\&quot;BREtniaIndigena-X390\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;WAIKISU&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X391&lt;a name=\&quot;BREtniaIndigena-X391\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;WAKALITESÚ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X392&lt;a name=\&quot;BREtniaIndigena-X392\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;WASSUSU&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X393&lt;a name=\&quot;BREtniaIndigena-X393\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;XEREU&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X394&lt;a name=\&quot;BREtniaIndigena-X394\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;XI EIN&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X395&lt;a name=\&quot;BREtniaIndigena-X395\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;XICRIN&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X396&lt;a name=\&quot;BREtniaIndigena-X396\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;XIPAYA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X397&lt;a name=\&quot;BREtniaIndigena-X397\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;XIRIANA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X398&lt;a name=\&quot;BREtniaIndigena-X398\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;XIRUAI&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X399&lt;a name=\&quot;BREtniaIndigena-X399\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;YEPAMASSÃ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X400&lt;a name=\&quot;BREtniaIndigena-X400\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TIRIYÓ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X401&lt;a name=\&quot;BREtniaIndigena-X401\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;YANOMAMI&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X402&lt;a name=\&quot;BREtniaIndigena-X402\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ARARA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X403&lt;a name=\&quot;BREtniaIndigena-X403\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SAKIRIABAR&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X404&lt;a name=\&quot;BREtniaIndigena-X404\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TATZ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;X405&lt;a name=\&quot;BREtniaIndigena-X405\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SEM INFORMACAO&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+  },
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.url">url</a>" : "https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BREtniaIndigena",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.version">version</a>" : "0.1.0",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.name">name</a>" : "EtniaIndigena",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.title">title</a>" : "Etnia Indígena",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.status">status</a>" : "draft",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.date">date</a>" : "2023-07-15T19:27:39+00:00",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.publisher">publisher</a>" : "Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.contact">contact</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">name</a>" : "Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro",
+      "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "url",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "https://prefeitura.rio/"
+        }
+      ]
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.description">description</a>" : "Códigos para representação de etnias indígenas no Brasil.",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.jurisdiction">jurisdiction</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "urn:iso:std:iso:3166",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "BR",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "Brazil"
+        }
+      ]
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.content">content</a>" : "complete",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.count">count</a>" : 399,
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0001",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ACONA (WAKONAS, NACONAS, JAKONA, ACORA­NES)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0002",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "AIKANA (AIKANA, MAS SAKA,TUBARAO)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0003",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "AJURU"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0004",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "AKUNSU (AKUNT'SU)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0005",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "AMANAYE"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0006",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "AMONDAWA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0007",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ANAMBE"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0008",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "APARAI (APALAI)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0009",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "APIAKA (APIACA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0010",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "APINAYE (APINAJE/APINAIE/APINAGE)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0011",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "APURINA (APORINA, IPURINA, IPURINA, IPURI­NAN)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0012",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ARANA (ARACUAI DO VALE DO JEQUITINHONHA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0013",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ARAPASO (ARAPACO)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0014",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ARARA DE RONDONIA (KARO, URUCU, URUKU)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0015",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ARARA DO ACRE (SHAWANAUA, AMAWAKA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0016",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ARARA DO ARIPUANA (ARARA DO BEIRADAO/ARI­PUANA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0017",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ARARA DO PARA (UKARAGMA, UKARAMMA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0018",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ARAWETE (ARAUETE)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0019",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ARIKAPU (ARICAPU, ARIKAPO, MASUBI, MAXUBI)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0020",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ARIKEM (ARIQUEN, ARIQUEME, ARIKEME)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0021",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ARIKOSE (ARICOBE)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0022",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ARUA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0023",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ARUAK (ARAWAK)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0024",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ASHANINKA (KAMPA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0025",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ASURINI DO TOCANTINS (AKUAWA/AKWAWA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0026",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ASURINI DO XINGU (AWAETE)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0027",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ATIKUM (ATICUM)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0028",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "AVA - CANOEIRO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0029",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "AWETI (AUETI/AUETO)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0030",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "BAKAIRI (KURA, BACAIRI)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0031",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "BANAWA YAFI (BANAWA, BANAWA-JAFI)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0032",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "BANIWA (BANIUA, BANIVA, WALIMANAI, WAKUE­NAI)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0033",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "BARA (WAIPINOMAKA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0034",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "BARASANA (HANERA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0035",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "BARE"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0036",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "BORORO (BOE)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0037",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "BOTOCUDO (GEREN)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0038",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "CANOE"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0039",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "CASSUPA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0040",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "CHAMACOCO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0041",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "CHIQUITANO (XIQUITANO)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0042",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "CIKIYANA (SIKIANA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0043",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "CINTA LARGA (MATETAMAE)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0044",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "COLUMBIARA (CORUMBIARA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0045",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "DENI"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0046",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "DESANA (DESANA, DESANO, DESSANO, WIRA, UMUKOMASA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0047",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "DIAHUI (JAHOI, JAHUI, DIARROI)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0048",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ENAWENE-NAWE (SALUMA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0049",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "FULNI-O"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0050",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "GALIBI (GALIBI DO OIAPOQUE, KARINHA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0051",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "GALIBI MARWORNO (GALIBI DO UACA, ARUA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0052",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "GAVIAO DE RONDONIA (DIGUT)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0053",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "GAVIAO KRIKATEJE"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0054",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "GAVIAO PARKATEJE (PARKATEJE)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0055",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "GAVIAO PUKOBIE (PUKOBIE, PYKOPJE, GAVIAO DO MARANHAO)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0056",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "GUAJA (AWA, AVA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0057",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "GUAJAJARA (TENETEHARA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0058",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "GUARANI KAIOWA (PAI TAVYTERA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0059",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "GUARANI M'BYA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0060",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "GUARANI NANDEVA (AVAKATUETE, CHIRIPA, NHANDEWA, AVA GUARANI)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0061",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "GUATO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0062",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "HIMARIMA (HIMERIMA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0063",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "INGARIKO (INGARICO, AKAWAIO, KAPON)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0064",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "IRANXE (IRANTXE)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0065",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ISSE"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0066",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "JABOTI (JABUTI, KIPIU, YABYTI)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0067",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "JAMAMADI (YAMAMADI, DJEOROMITXI)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0068",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "JARAWARA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0069",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "JIRIPANCO (JERIPANCO, GERIPANCO)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0070",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "JUMA (YUMA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0071",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "JURUNA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0072",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "JURUTI (YURITI)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0073",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KAAPOR (URUBU-KAAPOR, KA'APOR, KAAPORTE)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0074",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KADIWEU (CADUVEO, CADIUEU)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0075",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KAIABI (CAIABI, KAYABI)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0076",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KAIMBE (CAIMBE)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0077",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KAINGANG (CAINGANGUE)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0078",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KAIXANA (CAIXANA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0079",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KALABASSA (CALABASSA, CALABACAS)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0080",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KALANCO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0081",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KALAPALO (CALAPALO)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0082",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KAMAYURA (CAMAIURA, KAMAIURA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0083",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KAMBA (CAMBA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0084",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KAMBEBA (CAMBEBA, OMAGUA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0085",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KAMBIWA (CAMBIUA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0086",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KAMBIWA PIPIPA (PIPIPA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0087",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KAMPE"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0088",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KANAMANTI (KANAMATI, CANAMANTI)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0089",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KANAMARI (CANAMARI, KANAMARY, TUKUNA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0090",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KANELA APANIEKRA (CANELA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0091",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KANELA RANKOKAMEKRA (CANELA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0092",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KANINDE"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0093",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KANOE (CANOE)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0094",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KANTARURE (CANTARURE)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0095",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KAPINAWA (CAPINAUA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0096",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KARAJA (CARAJA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0097",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KARAJA/JAVAE (JAVAE)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0098",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KARAJA/XAMBIOA (KARAJA DO NORTE)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0099",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KARAPANA (CARAPANA, MUTEAMASA, UKOPINO­PONA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0100",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KARAPOTO (CARAPOTO)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0101",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KARIPUNA (CARIPUNA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0102",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KARIPUNA DO AMAPA (CARIPUNA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0103",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KARIRI (CARIRI)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0104",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KARIRI-XOCO (CARIRI-CHOCO)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0105",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KARITIANA (CARITIANA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0106",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KATAWIXI (KATAUIXI, KATAWIN, KATAWISI, CATAUICHI)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0107",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KATUENA (CATUENA, KATWENA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0108",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KATUKINA (PEDA DJAPA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0109",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KATUKINA DO ACRE"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0110",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KAXARARI (CAXARARI)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0111",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KAXINAWA (HUNI-KUIN, CASHINAUA, CAXINAUA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0112",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KAXIXO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0113",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KAXUYANA (CAXUIANA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0114",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KAYAPO (CAIAPO)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0115",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KAYAPO KARARAO (KARARAO)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0116",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KAYAPO TXUKAHAMAE (TXUKAHAMAE)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0117",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KAYAPO XICRIM (XIKRIN)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0118",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KAYUISANA (CAIXANA, CAUIXANA, KAIXANA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0119",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KINIKINAWA (GUAN, KOINUKOEN, KINIKINAO)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0120",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KIRIRI"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0121",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KOCAMA (COCAMA, KOKAMA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0122",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KOKUIREGATEJE"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0123",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KORUBO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0124",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KRAHO (CRAO, KRAO)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0125",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KREJE (KRENYE)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0126",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KRENAK (BORUN, CRENAQUE)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0127",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KRIKATI (KRINKATI)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0128",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KUBEO (CUBEO, COBEWA, KUBEWA, PAMIWA, CU­BEU)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0129",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KUIKURO (KUIKURU, CUICURO)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0130",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KUJUBIM (KUYUBI, CUJUBIM)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0131",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KULINA PANO (CULINA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0132",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KULINA/MADIHA (CULINA, MADIJA, MADIHA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0133",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KURIPAKO (CURIPACO, CURRIPACO, CORIPACO, WAKUENAI)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0134",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KURUAIA (CURUAIA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0135",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KWAZA (COAIA, KOAIA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0136",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MACHINERI (MANCHINERI, MANXINERI)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0137",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MACURAP (MAKURAP)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0138",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MAKU DOW (DOW)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0139",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MAKU HUPDA (HUPDA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0140",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MAKU NADEB (NADEB)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0141",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MAKU YUHUPDE (YUHUPDE)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0142",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MAKUNA (MACUNA, YEBA-MASA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0143",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MAKUXI (MACUXI, MACHUSI, PEMON)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0144",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MARIMAM (MARIMA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0145",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MARUBO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0146",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MATIPU"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0147",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MATIS"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0148",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MATSE (MAYORUNA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0149",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MAXAKALI (MAXACALI)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0150",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MAYA (MAYA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0151",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MAYTAPU"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0152",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MEHINAKO (MEINAKU, MEINACU)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0153",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MEKEN (MEQUEM, MEKHEM, MICHENS)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0154",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MENKY (MYKY, MUNKU, MENKI, MYNKY)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0155",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MIRANHA (MIRANHA, MIRANA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0156",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MIRITI TAPUIA (MIRITI-TAPUYA, BUIA-TAPUYA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0157",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MUNDURUKU (MUNDURUCU)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0158",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MURA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0159",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "NAHUKWA (NAFUQUA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0160",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "NAMBIKWARA DO CAMPO (HALOTESU, KITHAULU, WAKALITESU, SAWENTES, MANDUKA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0161",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "NAMBIKWARA DO NORTE (NEGAROTE ,MAMAIN­DE, LATUNDE, SABANE E MANDUKA, TAWANDE)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0162",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "NAMBIKWARA DO SUL (WASUSU ,HAHAINTESU, ALANTESU, WAIKISU, ALAKETESU, WASUSU, SA­RARE)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0163",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "NARAVUTE (NARUVOTO)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0164",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "NAWA (NAUA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0165",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "NUKINI (NUQUINI, NUKUINI)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0166",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "OFAIE (OFAYE-XAVANTE)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0167",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ORO WIN"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0168",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "PAIAKU (JENIPAPO-KANINDE)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0169",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "PAKAA NOVA (WARI, PACAAS NOVOS)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0170",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "PALIKUR (AUKWAYENE, AUKUYENE, PALIKU'ENE)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0171",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "PANARA (KRENHAKARORE , KRENAKORE, KRENA­KARORE)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0172",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "PANKARARE (PANCARARE)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0173",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "PANKARARU (PANCARARU)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0174",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "PANKARARU KALANKO (KALANKO)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0175",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "PANKARARU KARUAZU (KARUAZU)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0176",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "PANKARU (PANCARU)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0177",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "PARAKANA (PARACANA, APITEREWA, AWAETE)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0178",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "PARECI (PARESI, HALITI)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0179",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "PARINTINTIN"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0180",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "PATAMONA (KAPON)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0181",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "PATAXO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0182",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "PATAXO HA-HA-HAE"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0183",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "PAUMARI (PALMARI)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0184",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "PAUMELENHO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0185",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "PIRAHA (MURA PIRAHA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0186",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "PIRATUAPUIA (PIRATAPUYA, PIRATAPUYO, PIRA­TAPUYA, WAIKANA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0187",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "PITAGUARI"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0188",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "POTIGUARA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0189",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "POYANAWA (POIANAUA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0190",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "RIKBAKTSA (CANOEIROS, ERIGPAKTSA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0191",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "SAKURABIAT (MEKENS, SAKIRABIAP, SAKIRABIAR)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0192",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "SATERE-MAWE (SATERE-MAUE)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0193",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "SHANENAWA (KATUKINA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0194",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "SIRIANO (SIRIA-MASA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0195",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "SURIANA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0196",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "SURUI DE RONDONIA (PAITER)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0197",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "SURUI DO PARA (AIKEWARA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0198",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "SUYA (SUIA/KISEDJE)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0199",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TAPAYUNA (BEICO-DE-PAU)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0200",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TAPEBA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0201",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TAPIRAPE (TAPI'IRAPE)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0202",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TAPUIA (TAPUIA-XAVANTE, TAPUIO)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0203",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TARIANO (TARIANA, TALIASERI)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0204",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TAUREPANG (TAULIPANG, PEMON, AREKUNA, PA­GEYN)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0205",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TEMBE"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0206",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TENHARIM"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0207",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TERENA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0208",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TICUNA (TIKUNA, TUKUNA, MAGUTA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0209",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TINGUI BOTO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0210",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TIRIYO EWARHUYANA (TIRIYO, TRIO, TARONA, YAWI, PIANOKOTO)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0211",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TIRIYO KAH'YANA (TIRIYO, TRIO, TARONA, YAWI, PIANOKOTO)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0212",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TIRIYO TSIKUYANA (TIRIYO, TRIO, TARONA, YAWI, PIANOKOTO)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0213",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TORA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0214",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TREMEMBE"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0215",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TRUKA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0216",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TRUMAI"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0217",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TSOHOM DJAPA (TSUNHUM-DJAPA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0218",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TUKANO (TUCANO, YE'PA-MASA, DASEA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0219",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TUMBALALA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0220",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TUNAYANA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0221",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TUPARI"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0222",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TUPINAMBA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0223",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TUPINIQUIM"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0224",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TURIWARA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0225",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TUXA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0226",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TUYUKA (TUIUCA, DOKAPUARA, UTAPINOMAKA­PHONA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0227",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TXIKAO (TXICAO, IKPENG)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0228",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "UMUTINA (OMOTINA, BARBADOS)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0229",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "URU-EU-WAU-WAU (URUEU-UAU-UAU, URUPAIN, URUPA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0230",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "WAI WAI HIXKARYANA (HIXKARYANA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0231",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "WAI WAI KARAFAWYANA (KARAFAWYANA, KARA­PAWYANA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0232",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "WAI WAI XEREU (XEREU)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0233",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "WAI WAI KATUENA (KATUENA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0234",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "WAI WAI MAWAYANA (MAWAYANA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0235",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "WAIAPI (WAYAMPI, OYAMPI, WAYAPY, )"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0236",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "WAIMIRI ATROARI (KINA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0237",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "WANANO (UANANO, WANANA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0238",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "WAPIXANA (UAPIXANA, VAPIDIANA, WAPISIANA, WAPISHANA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0239",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "WAREKENA (UAREQUENA, WEREKENA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0240",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "WASSU"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0241",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "WAURA (UAURA, WAUJA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0242",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "WAYANA (WAIANA, UAIANA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0243",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "WITOTO (UITOTO, HUITOTO)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0244",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "XAKRIABA (XACRIABA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0245",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "XAVANTE (A'UWE, AKWE, AWEN, AKWEN)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0246",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "XERENTE (AKWE, AWEN, AKWEN)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0247",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "XETA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0248",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "XIPAIA (SHIPAYA, XIPAYA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0249",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "XOKLENG (SHOKLENG, XOCLENG)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0250",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "XOKO (XOCO, CHOCO)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0251",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "XUKURU (XUCURU)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0252",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "XUKURU KARIRI (XUCURU-KARIRI)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0253",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "YAIPIYANA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0254",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "YAMINAWA (JAMINAWA, IAMINAWA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0255",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "YANOMAMI NINAM (IANOMAMI, IANOAMA, XIRIA­NA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0256",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "YANOMAMI SANUMA (IANOMAMI, IANOAMA, XI­RIANA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0257",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "YANOMAMI YANOMAM (IANOMAMI, IANOAMA, XI­RIANA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0258",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "YAWALAPITI (IAUALAPITI)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0259",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "YAWANAWA (IAUANAUA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0260",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "YEKUANA (MAIONGON, YE'KUANA, YEKWANA, MAYONGONG)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0261",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "YUDJA (JURUNA, YURUNA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0262",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ZO'E (POTURU)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0263",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ZORO (PAGEYN)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "0264",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ZURUAHA (SOROWAHA, SURUWAHA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X265",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "AHANENAWA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X266",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "AICABA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X267",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "AIKANÃ-KWASÁ"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X269",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ALANTESU"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X271",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "AMAWÁKA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X272",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ANACÉ"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X276",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ARARA APOLIMA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X278",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ARIPUANÁ"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X279",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ASSURINI"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X280",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "AWUARÁ"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X281",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "BORBA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X282",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "CABIXI"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X283",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "CAMARARÉ"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X284",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "CAMASURI"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X285",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "CARA PRETA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X286",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "CHARRUA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X287",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "CUJUBIM"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X288",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "DAW"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X289",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "GAVIÃO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X290",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "GUARANI"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X291",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "HALANTESU"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X292",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "HALOTESU"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X293",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "HENGATÚ"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X294",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "HIXKARYANA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X295",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "HUPDE"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X296",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "HUPDES"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X297",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "IAUANAUA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X298",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "IAUARETE AÇU"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X299",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "IKPENG"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X300",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "INAMBU"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X301",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "INHABARANA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X302",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "JAVAE"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X303",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "JENIPAPO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X304",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "JENIPAPO-KANINDE"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X305",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "JIAHOI"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X306",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KAIOWA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X307",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KAMPA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X308",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KANELA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X309",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KARAFAWYANA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X310",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KARARAO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X311",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KARUBO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X312",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KASSUPÁ"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X313",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KATITHÃULU"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X314",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KATOKIN"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X315",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KATUKINA PANO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X316",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KATUKINA PEDA DJAPA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X317",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KATUKINA SHANENAUWA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X318",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KAXAGO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X319",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KAYABI"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X320",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KINÃ (WAIMIRI-ATROARI)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X321",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KIRIRI-BARRA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X322",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KITHÃULU"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X323",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KOIAIÁ"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X324",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KOIUPANKÁ"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X325",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KONTANAWA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X326",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KRAHÔ KANELA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X327",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KULINA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X328",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "LATUNDÊ"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X329",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MAKU"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X330",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MAKUNAMBÉ"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X331",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MAMAINDÊ"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X332",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MAMURI"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X333",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MANACAPURU"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X334",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MANAIRISSU"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X335",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MANCHINERI"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X336",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MANDUCA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X337",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MARIBONDO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X338",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MASSAKA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X339",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MAWAYANA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X340",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MAWÉ"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X341",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MAYORUNA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X342",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MIQUELENO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X343",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MOKURIÑ"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X344",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MON ORO WARAM"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X345",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MUTUM"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X346",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MYKY"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X347",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "NADEB"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X348",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "NAMBIKWARA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X349",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "NEGAROTÊ"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X350",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "NHENGATU"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X351",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "OFAIE XAVANTE"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X352",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ONÇA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X353",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ORO AT"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X354",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ORO EO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X355",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ORO JOWIN"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X356",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ORO MIYLIN"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X357",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ORO MON"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X358",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ORO NÁO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X359",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ORO WAM"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X360",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ORO WARAM"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X361",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ORO WARAM XIJEIN"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X362",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "PACA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X363",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "PANKARÁ"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X364",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "PAPAGAIO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X365",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "PAYAYÁ"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X366",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "PIPIPAN"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X367",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "PIRATA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X368",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "PUROBORÁ"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X369",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "SABANÊ"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X370",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "SANUMA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X371",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "SAWENTESÚ"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X372",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "SILCY-TAPUYA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X373",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "SIUCI"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X374",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TABAJARA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X375",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TAKUARA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X376",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TATU"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X377",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TAWANDÊ"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X378",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TEFÉ"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X379",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TIMBIRA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X380",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TORÁ DO BAIXO GRANDE"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X381",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TSUNHUM-DJAPÁ"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X382",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TUBARÃO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X383",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TUPAIU"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X384",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TUPI"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X385",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TUPINAMBÁ DE BELMONTE"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X386",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "URUBU"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X387",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "URUBU KAAPOR"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X388",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "URUPÁ"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X389",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "WAI WAI"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X390",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "WAIKISU"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X391",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "WAKALITESÚ"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X392",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "WASSUSU"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X393",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "XEREU"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X394",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "XI EIN"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X395",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "XICRIN"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X396",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "XIPAYA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X397",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "XIRIANA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X398",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "XIRUAI"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X399",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "YEPAMASSÃ"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X400",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TIRIYÓ"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X401",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "YANOMAMI"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X402",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ARARA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X403",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "SAKIRIABAR"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X404",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TATZ"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "X405",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "SEM INFORMACAO"
+    }
+  ]
+}</code></pre>
+
+
+  <!-- insert notes if present -->
+  
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="https://prefeitura.rio/">Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro</a>.  Package org.rj-sms.br.core#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sat, Jul 15, 2023 19:27+0000">2023-07-15</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Índice</a> |
+<a style="color: var(--footer-hyperlink-text-color)" href="qa.html">Relatório QA</a>
+
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
+
+
+
+<!-- / feedback form  -->
+
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<head>
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+  <title>ORG.RJ-SMS.BR.CORE\Home - FHIR
+    v4.0.1</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="http://hl7.org/fhir" />
+
+  <link href="fhir.css" rel="stylesheet" />
+
+  <!-- Bootstrap core CSS -->
+  <link href="assets/css/bootstrap-fhir.css" rel="stylesheet" />
+
+  <!-- Project extras -->
+  <link href="assets/css/project.css" rel="stylesheet" />
+  <link href="assets/css/pygments-manni.css" rel="stylesheet" />
+  <link href="assets/css/jquery-ui.css" rel="stylesheet" />
+  <link href="assets/css/prism.css" rel="stylesheet" />
+  <!-- Placeholder for child template CSS declarations -->
+
+  <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144"
+    href="assets/ico/apple-touch-icon-144-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114"
+    href="assets/ico/apple-touch-icon-114-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72"
+    href="assets/ico/apple-touch-icon-72-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed"
+    href="assets/ico/apple-touch-icon-57-precomposed.png" />
+  <link rel="shortcut icon" href="assets/ico/favicon.png" />
+</head>
+
+<body onload="document.body.style.opacity='1'">
+  
+  <script src="assets/js/prism.js"></script>
+
+  <style type="text/css">
+    h2 {
+      --heading-prefix:"1"
+    }
+
+    h3,
+    h4,
+    h5,
+    h6 {
+      --heading-prefix:"1"
+    }
+  </style>
+  <div id="segment-header" class="segment"> <!-- segment-header -->
+    <div class="container"> <!-- container -->
+      <!-- Placeholder for child template header declarations -->
+
+      
+      <div id="ig-status">
+        <p><span style="font-size:12pt;font-weight:bold">RJ Core Guia de Implementação</span>
+          <br />
+          <span style="display:inline-block;">0.1.0 - draft
+            
+            
+            
+            <img alt="Brazil Flamengo flag" src="assets/images/bra.svg" height="16"
+              title="Brazil" />
+            
+            
+          </span>
+        </p>
+      </div>
+    </div> <!-- /container -->
+  </div> <!-- /segment-header -->
+
+  <div id="segment-navbar" class="segment"> <!-- segment-navbar -->
+    <div id="stripe"> </div>
+    <div class="container"> <!-- container -->
+      <!-- HEADER CONTENT -->
+
+      <nav class="navbar navbar-inverse">
+        <!--status-bar-->
+        <div class="container">
+          <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+          </button>
+          <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+          <div class="nav-collapse collapse navbar-inverse-collapse">
+            <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Principal</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artefatos</a>
+  </li>
+  <li>
+    <a href="ImplementationGuide-org.rj-sms.br.core.html">Guia de implementação</a>
+  </li>
+</ul>
+          </div> <!-- /.nav-collapse -->
+        </div> <!-- /.container -->
+      </nav> <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+    </div> <!-- /container -->
+  </div> <!-- /segment-navbar -->
+  <!--status-bar-->
+  
+  <div id="segment-breadcrumb" class="segment"> <!-- segment-breadcrumb -->
+    <div class="container"> <!-- container -->
+      <ul class="breadcrumb">
+        <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Home</b></li>
+        
+      </ul>
+    </div> <!-- /container -->
+  </div> <!-- /segment-breadcrumb -->
+
+  <a name="top"> </a>
+  <div id="segment-content" class="segment"> <!-- segment-content -->
+    <div class="container"> <!-- container -->
+      <div class="row">
+        <div class="inner-wrapper">
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">RJ Core Guia de Implementação - Local Development build (v0.1.0). See the <a href="https://prefeitura-rio.github.io/sms-rjcore-fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Home</h2>
+  
+
+
+
+
+
+
+<table class="colsd">
+  
+  <tr>
+    <td colspan="4"><i>URL Oficial</i>: <span class="copy-text">https://prefeitura-rio.github.io/sms-rjcore-fhir/ImplementationGuide/org.rj-sms.br.core<button
+          title="Clique para copiar a URL" class="btn-copy"
+          data-clipboard-text="https://prefeitura-rio.github.io/sms-rjcore-fhir/ImplementationGuide/org.rj-sms.br.core" /></span>
+    </td>
+    <td><i>Versão</i>:
+      <span class="copy-text">0.1.0<button
+          title="Clique para copiar a versão da URL" class="btn-copy"
+          data-clipboard-text="https://prefeitura-rio.github.io/sms-rjcore-fhir/ImplementationGuide/org.rj-sms.br.core|0.1.0" /></span>
+    </td>
+  </tr>
+  
+  <tr>
+    
+    
+
+    
+    
+    
+    
+    <td colspan="4">
+      
+      Draft
+      
+      a partir de 2023-07-15
+      
+      
+    </td>
+    
+    
+    
+    <td><i>Projeto</i>: <span style="font-family: monospace;">RJCore</span>
+    </td>
+  </tr>
+  
+  
+  
+  
+</table>
+
+
+
+
+
+
+
+
+
+    <p><!-- white space is critical inside of capture --></p>
+<div>
+<!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
+</div>
+<h1 id="rj-core">RJ Core</h1>
+
+<p>Temos o prazer de anunciar a parceria entre o Escritório de Dados e a SMS para revolucionar o sistema de saúde do Rio de Janeiro. Juntos, eles estão construindo uma plataforma FHIR (Fast Healthcare Interoperability Resources) que transformará a maneira como os dados de saúde são gerenciados e compartilhados.</p>
+
+<p>Com seus conhecimentos e recursos combinados, pretendemos criar um ecossistema de saúde abrangente e eficiente para o Rio de Janeiro. Nossa plataforma FHIR permitirá interoperabilidade entre profissionais de saúde, pacientes e outras partes interessadas, liberando o potencial para melhorar a coordenação do atendimento, melhorar os resultados dos pacientes e a tomada de decisões baseada em dados.</p>
+
+<p>Ao alavancar o poder do FHIR, capacitaremos as organizações de saúde a trocar e acessar com segurança os dados do paciente em tempo real. Essa interoperabilidade promoverá a colaboração, agilizará os fluxos de trabalho e, por fim, contribuirá para uma experiência de saúde mais conectada e centrada no paciente no Rio de Janeiro.</p>
+
+<p>Nosso compromisso com a privacidade e segurança dos dados é fundamental. Aderimos a rígidos padrões regulatórios e implementamos medidas de segurança robustas para garantir a confidencialidade e a integridade das informações confidenciais de saúde. Confiança e privacidade são valores fundamentais em nossa parceria e priorizamos o tratamento ético dos dados em toda a nossa plataforma FHIR.</p>
+
+<p>Estamos entusiasmados em embarcar nessa jornada transformadora, trazendo tecnologia inovação e soluções baseadas em dados para o cenário de saúde do Rio de Janeiro. Juntos, impulsionaremos os avanços na prestação de cuidados de saúde, promoveremos pesquisas baseadas em dados e capacitaremos os profissionais de saúde a fornecer cuidados da mais alta qualidade aos residentes do Rio de Janeiro.</p>
+
+<p>Se quiser saber mais sobre este projeto, envie-nos um e-mail: <br />
+escritoriodedados@gmail.com <br />
+smsrio.digital@gmail.com</p>
+
+<h3 id="authors-and-contributors">Authors and Contributors</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Role</th>
+      <th>Name</th>
+      <th>Organization</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Chefe de Dados</strong></td>
+      <td>João Carabetta</td>
+      <td>Chefe de Dados Escritório de Dados</td>
+    </tr>
+    <tr>
+      <td><strong>Coordenador de Projeto</strong></td>
+      <td>Thiago Virgilio</td>
+      <td>Gerente de Sistema na SMS</td>
+    </tr>
+    <tr>
+      <td><strong>Coordenador de Projeto</strong></td>
+      <td>Álvaro Rossi</td>
+      <td>Gerente na SMS</td>
+    </tr>
+    <tr>
+      <td><strong>Time de Dados</strong></td>
+      <td>Thomaz Braga</td>
+      <td>Analista de Dados na SMS</td>
+    </tr>
+    <tr>
+      <td><strong>Time de Dados</strong></td>
+      <td>Patrícia Bongiovanni Catandi</td>
+      <td>Cientista de Dados no Escritório de Dados</td>
+    </tr>
+    <tr>
+      <td><strong>Time de Dados</strong></td>
+      <td>Gabriel Gazola Milan</td>
+      <td>Engenheiro Dados no Escritório de Dados</td>
+    </tr>
+    <tr>
+      <td><strong>Contribuidora</strong></td>
+      <td>Dayane Ramos</td>
+      <td>Dev na SMS</td>
+    </tr>
+    <tr>
+      <td><strong>Contribuidor</strong></td>
+      <td>Guilherme Zwicker</td>
+      <td>HL7 Brazil</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="https://prefeitura.rio/">Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro</a>.  Package org.rj-sms.br.core#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sat, Jul 15, 2023 19:34+0000">2023-07-15</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Índice</a> |
+<a style="color: var(--footer-hyperlink-text-color)" href="qa.html">Relatório QA</a>
+
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
+
+
+
+<!-- / feedback form  -->
+
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

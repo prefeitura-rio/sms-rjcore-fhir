@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="BRMunicipio-1.0"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include codes from <code>https://rnds-fhir.saude.gov.br/CodeSystem/BRDivisaoGeograficaBrasil</code> where type  =  city</li></ul></div>
+  </text>
+  <url value="https://prefeitura-rio.github.io/sms-rjcore-fhir/ValueSet/BRMunicipio-1.0"/>
+  <version value="0.1.0"/>
+  <name value="Municipio"/>
+  <title value="Município"/>
+  <status value="draft"/>
+  <date value="2023-07-15T19:27:39+00:00"/>
+  <publisher value="Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro"/>
+  <contact>
+    <name value="Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://prefeitura.rio/"/>
+    </telecom>
+  </contact>
+  <description value="Municípios brasileiros, entes subnacionais."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+      <display value="Brazil"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="https://rnds-fhir.saude.gov.br/CodeSystem/BRDivisaoGeograficaBrasil"/>
+      <filter>
+        <property value="type"/>
+        <op value="="/>
+        <value value="city"/>
+      </filter>
+    </include>
+  </compose>
+</ValueSet>

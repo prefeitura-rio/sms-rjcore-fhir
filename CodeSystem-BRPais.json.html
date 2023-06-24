@@ -1,0 +1,1696 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<head>
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+  <title>ORG.RJ-SMS.BR.CORE\País - JSON Representation - FHIR
+    v4.0.1</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="http://hl7.org/fhir" />
+
+  <link href="fhir.css" rel="stylesheet" />
+
+  <!-- Bootstrap core CSS -->
+  <link href="assets/css/bootstrap-fhir.css" rel="stylesheet" />
+
+  <!-- Project extras -->
+  <link href="assets/css/project.css" rel="stylesheet" />
+  <link href="assets/css/pygments-manni.css" rel="stylesheet" />
+  <link href="assets/css/jquery-ui.css" rel="stylesheet" />
+  <link href="assets/css/prism.css" rel="stylesheet" />
+  <!-- Placeholder for child template CSS declarations -->
+
+  <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144"
+    href="assets/ico/apple-touch-icon-144-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114"
+    href="assets/ico/apple-touch-icon-114-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72"
+    href="assets/ico/apple-touch-icon-72-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed"
+    href="assets/ico/apple-touch-icon-57-precomposed.png" />
+  <link rel="shortcut icon" href="assets/ico/favicon.png" />
+</head>
+
+<body onload="document.body.style.opacity='1'">
+  
+  <script src="assets/js/prism.js"></script>
+
+  <style type="text/css">
+    h2 {
+      --heading-prefix:"3.38"
+    }
+
+    h3,
+    h4,
+    h5,
+    h6 {
+      --heading-prefix:"3.38"
+    }
+  </style>
+  <div id="segment-header" class="segment"> <!-- segment-header -->
+    <div class="container"> <!-- container -->
+      <!-- Placeholder for child template header declarations -->
+
+      
+      <div id="ig-status">
+        <p><span style="font-size:12pt;font-weight:bold">RJ Core Guia de Implementação</span>
+          <br />
+          <span style="display:inline-block;">0.1.0 - draft
+            
+            
+            
+            <img alt="Brazil Flamengo flag" src="assets/images/bra.svg" height="16"
+              title="Brazil" />
+            
+            
+          </span>
+        </p>
+      </div>
+    </div> <!-- /container -->
+  </div> <!-- /segment-header -->
+
+  <div id="segment-navbar" class="segment"> <!-- segment-navbar -->
+    <div id="stripe"> </div>
+    <div class="container"> <!-- container -->
+      <!-- HEADER CONTENT -->
+
+      <nav class="navbar navbar-inverse">
+        <!--status-bar-->
+        <div class="container">
+          <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+          </button>
+          <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+          <div class="nav-collapse collapse navbar-inverse-collapse">
+            <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Principal</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artefatos</a>
+  </li>
+  <li>
+    <a href="ImplementationGuide-org.rj-sms.br.core.html">Guia de implementação</a>
+  </li>
+</ul>
+          </div> <!-- /.nav-collapse -->
+        </div> <!-- /.container -->
+      </nav> <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+    </div> <!-- /container -->
+  </div> <!-- /segment-navbar -->
+  <!--status-bar-->
+  
+  <div id="segment-breadcrumb" class="segment"> <!-- segment-breadcrumb -->
+    <div class="container"> <!-- container -->
+      <ul class="breadcrumb">
+        <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Resumo de Artefatos</b></a></li><li><b>País</b></li>
+        
+      </ul>
+    </div> <!-- /container -->
+  </div> <!-- /segment-breadcrumb -->
+
+  <a name="top"> </a>
+  <div id="segment-content" class="segment"> <!-- segment-content -->
+    <div class="container"> <!-- container -->
+      <div class="row">
+        <div class="inner-wrapper">
+<div style="counter-reset: section 8" class="col-12">
+<!--ReleaseHeader--><p id="publish-box">RJ Core Guia de Implementação - Local Development build (v0.1.0). See the <a href="https://prefeitura-rio.github.io/sms-rjcore-fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+  
+  <li>
+    <a href="CodeSystem-BRPais.html">Conteúdo Narrativo</a>
+  </li>
+  
+  
+  
+  
+  <li>
+    <a href="CodeSystem-BRPais.xml.html">XML</a>
+  </li>
+  
+  
+  
+  
+  <li class="active">
+    <a href="#">JSON</a>
+  </li>
+  
+  
+  
+  
+  <li>
+    <a href="CodeSystem-BRPais.ttl.html">TTL</a>
+  </li>
+  
+  
+  
+
+</ul>
+
+<a name="root"> </a>
+
+
+<h2 id="root">: País - JSON Representation</h2>
+  <table class="colsd">
+    <tr>
+
+      <td colspan="2">
+        
+          Draft
+          
+            as of 2023-07-15
+          
+        
+      </td>
+
+    </tr>
+  </table>
+
+
+<p><a href="CodeSystem-BRPais.json" no-download="true">Raw json</a> | <a href="CodeSystem-BRPais.json" download>Download</a></p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <pre class="json" style="white-space: pre; overflow: hidden"><code>
+{
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem">resourceType</a>" : "CodeSystem",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.id">id</a>" : "BRPais",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.text">text</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;This code system &lt;code&gt;https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BRPais&lt;/code&gt; defines the following codes:&lt;/p&gt;&lt;table class=\&quot;codes\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;10&lt;a name=\&quot;BRPais-10\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;BRASIL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;20&lt;a name=\&quot;BRPais-20\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;RESERVADO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;21&lt;a name=\&quot;BRPais-21\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ARGENTINA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;22&lt;a name=\&quot;BRPais-22\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;BOLIVIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;23&lt;a name=\&quot;BRPais-23\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CHILE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;24&lt;a name=\&quot;BRPais-24\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;PARAGUAI&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;25&lt;a name=\&quot;BRPais-25\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;URUGUAI&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;26&lt;a name=\&quot;BRPais-26\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;COLOMBIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;27&lt;a name=\&quot;BRPais-27\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;EQUADOR&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;28&lt;a name=\&quot;BRPais-28\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ANTIGUA E. DEP. BARBUDA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;29&lt;a name=\&quot;BRPais-29\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ANTILHAS HOLANDESAS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;30&lt;a name=\&quot;BRPais-30\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ALEMANHA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;31&lt;a name=\&quot;BRPais-31\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;BELGICA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;32&lt;a name=\&quot;BRPais-32\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;GRA-BRETANHA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;33&lt;a name=\&quot;BRPais-33\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ARUBA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;34&lt;a name=\&quot;BRPais-34\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CANADA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;35&lt;a name=\&quot;BRPais-35\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ESPANHA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;36&lt;a name=\&quot;BRPais-36\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ESTADOS UNIDOS DA AMERICA (EUA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;37&lt;a name=\&quot;BRPais-37\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;FRANCA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;38&lt;a name=\&quot;BRPais-38\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SUICA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;39&lt;a name=\&quot;BRPais-39\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ITALIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;40&lt;a name=\&quot;BRPais-40\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;COMUNIDADE DAS BAHAMAS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;41&lt;a name=\&quot;BRPais-41\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;JAPAO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;42&lt;a name=\&quot;BRPais-42\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CHINA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;43&lt;a name=\&quot;BRPais-43\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;COREIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;44&lt;a name=\&quot;BRPais-44\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;BARBADOS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;45&lt;a name=\&quot;BRPais-45\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;PORTUGAL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;46&lt;a name=\&quot;BRPais-46\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;BELIZE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;47&lt;a name=\&quot;BRPais-47\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ILHAS TURKS E CAICOS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;48&lt;a name=\&quot;BRPais-48\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;RESERVADO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;49&lt;a name=\&quot;BRPais-49\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;RESERVADO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;50&lt;a name=\&quot;BRPais-50\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;RESERVADO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;51&lt;a name=\&quot;BRPais-51\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;COSTA RICA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;52&lt;a name=\&quot;BRPais-52\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CUBA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;53&lt;a name=\&quot;BRPais-53\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CURACAO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;54&lt;a name=\&quot;BRPais-54\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;COMUNIDADE DOMINICANA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;55&lt;a name=\&quot;BRPais-55\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;REPUBLICA DOMINICANA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;56&lt;a name=\&quot;BRPais-56\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;REPUBLICA DE EL SALVADOR&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;57&lt;a name=\&quot;BRPais-57\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ESTADOS ASSOC. DAS ANTILHAS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;58&lt;a name=\&quot;BRPais-58\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ILHAS FALKLANDS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;59&lt;a name=\&quot;BRPais-59\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;GRANADA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;60&lt;a name=\&quot;BRPais-60\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ILHAS GUADALUPE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;61&lt;a name=\&quot;BRPais-61\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;GUATEMALA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;62&lt;a name=\&quot;BRPais-62\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;REPUBLICA DO HAITI&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;63&lt;a name=\&quot;BRPais-63\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;HONDURAS BRITANICAS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;64&lt;a name=\&quot;BRPais-64\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;HONDURAS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;65&lt;a name=\&quot;BRPais-65\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ILHAS SERRANAS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;66&lt;a name=\&quot;BRPais-66\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;JAMAICA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;67&lt;a name=\&quot;BRPais-67\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ILHAS MALVINAS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;68&lt;a name=\&quot;BRPais-68\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MARTINICA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;69&lt;a name=\&quot;BRPais-69\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ILHA MILHOS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;70&lt;a name=\&quot;BRPais-70\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MONTE SERRAT&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;71&lt;a name=\&quot;BRPais-71\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;NICARAGUA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;72&lt;a name=\&quot;BRPais-72\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;PANAMA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;73&lt;a name=\&quot;BRPais-73\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;PANAMA(ZONA DO CANAL)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;74&lt;a name=\&quot;BRPais-74\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;PORTO RICO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;75&lt;a name=\&quot;BRPais-75\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;QUITASUENO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;76&lt;a name=\&quot;BRPais-76\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;RONCADOR&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;77&lt;a name=\&quot;BRPais-77\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SANTA LUCIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;78&lt;a name=\&quot;BRPais-78\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SAO CRISTOVAO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;79&lt;a name=\&quot;BRPais-79\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SAO VICENTE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;80&lt;a name=\&quot;BRPais-80\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ILHAS TURCA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;81&lt;a name=\&quot;BRPais-81\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ILHAS VIRGENS BRITANICAS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;82&lt;a name=\&quot;BRPais-82\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ILHAS VIRGENS AMERICANAS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;83&lt;a name=\&quot;BRPais-83\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;BERMUDAS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;84&lt;a name=\&quot;BRPais-84\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;GROENLANDIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;85&lt;a name=\&quot;BRPais-85\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MEXICO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;86&lt;a name=\&quot;BRPais-86\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ST. PIERRE ET MIQUELON&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;87&lt;a name=\&quot;BRPais-87\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;GUIANA FRANCESA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;88&lt;a name=\&quot;BRPais-88\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;REPUBLICA GUIANA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;89&lt;a name=\&quot;BRPais-89\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;PERU&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;90&lt;a name=\&quot;BRPais-90\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SURINAME&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;91&lt;a name=\&quot;BRPais-91\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TRINIDAD E TOBAGO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;92&lt;a name=\&quot;BRPais-92\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;VENEZUELA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;93&lt;a name=\&quot;BRPais-93\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ALBANIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;94&lt;a name=\&quot;BRPais-94\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ANDORRA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;95&lt;a name=\&quot;BRPais-95\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;AUSTRIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;96&lt;a name=\&quot;BRPais-96\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;BULGARIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;97&lt;a name=\&quot;BRPais-97\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CHIPRE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;98&lt;a name=\&quot;BRPais-98\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;DINAMARCA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;99&lt;a name=\&quot;BRPais-99\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;EIRE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;100&lt;a name=\&quot;BRPais-100\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ESCOCIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;101&lt;a name=\&quot;BRPais-101\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ILHAS FAROES&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;102&lt;a name=\&quot;BRPais-102\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;FINLANDIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;103&lt;a name=\&quot;BRPais-103\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;GIBRALTAR&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;104&lt;a name=\&quot;BRPais-104\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;GRECIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;105&lt;a name=\&quot;BRPais-105\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;HOLANDA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;106&lt;a name=\&quot;BRPais-106\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;HUNGRIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;107&lt;a name=\&quot;BRPais-107\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ILHAS BALEARES&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;108&lt;a name=\&quot;BRPais-108\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ILHAS COSMOLEDO (LOMORES)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;109&lt;a name=\&quot;BRPais-109\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ILHAS DO CANAL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;110&lt;a name=\&quot;BRPais-110\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;INGLATERRA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;111&lt;a name=\&quot;BRPais-111\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;IRLANDA DO NORTE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;112&lt;a name=\&quot;BRPais-112\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;IRLANDA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;113&lt;a name=\&quot;BRPais-113\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ISLANDIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;114&lt;a name=\&quot;BRPais-114\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;IUGOSLAVIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;115&lt;a name=\&quot;BRPais-115\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;LIECHTENSTEIN&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;116&lt;a name=\&quot;BRPais-116\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;LUXEMBURGO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;117&lt;a name=\&quot;BRPais-117\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ILHAS DE MAN&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;118&lt;a name=\&quot;BRPais-118\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MONACO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;119&lt;a name=\&quot;BRPais-119\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;NORUEGA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;120&lt;a name=\&quot;BRPais-120\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;REPUBLICA DE MALTA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;121&lt;a name=\&quot;BRPais-121\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;PAIS DE GALES&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;122&lt;a name=\&quot;BRPais-122\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;PAISES BAIXOS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;123&lt;a name=\&quot;BRPais-123\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;POLONIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;124&lt;a name=\&quot;BRPais-124\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ROMENIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;125&lt;a name=\&quot;BRPais-125\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SAN MARINO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;126&lt;a name=\&quot;BRPais-126\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SUECIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;127&lt;a name=\&quot;BRPais-127\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SVALBARD E JAN MAYER,IS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;128&lt;a name=\&quot;BRPais-128\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TCHECOSLOVAQUIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;129&lt;a name=\&quot;BRPais-129\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ESTADO DA CIDADE DO VATICANO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;130&lt;a name=\&quot;BRPais-130\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CROACIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;131&lt;a name=\&quot;BRPais-131\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SERVIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;132&lt;a name=\&quot;BRPais-132\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ESLOVENIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;133&lt;a name=\&quot;BRPais-133\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;REPUBLICA DA MACEDONIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;134&lt;a name=\&quot;BRPais-134\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;BOSNIA HERZEGOVINA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;135&lt;a name=\&quot;BRPais-135\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;REPUBLICA TCHECA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;136&lt;a name=\&quot;BRPais-136\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ESLOVAQUIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;137&lt;a name=\&quot;BRPais-137\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MONTENEGRO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;138&lt;a name=\&quot;BRPais-138\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;AZERBAIJAO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;139&lt;a name=\&quot;BRPais-139\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;BASHKISTA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;140&lt;a name=\&quot;BRPais-140\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;REPUBLICA DA BIELORRUSSIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;141&lt;a name=\&quot;BRPais-141\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;BURYAT&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;142&lt;a name=\&quot;BRPais-142\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CARELIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;143&lt;a name=\&quot;BRPais-143\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CAZAQUISTAO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;144&lt;a name=\&quot;BRPais-144\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CHECHEN INGUSTH&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;145&lt;a name=\&quot;BRPais-145\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CHUVASH&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;146&lt;a name=\&quot;BRPais-146\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;DAGESTA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;147&lt;a name=\&quot;BRPais-147\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ESTONIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;148&lt;a name=\&quot;BRPais-148\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;GEORGIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;149&lt;a name=\&quot;BRPais-149\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;GORNO ALTAI&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;150&lt;a name=\&quot;BRPais-150\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KABARDINO BALKAR&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;151&lt;a name=\&quot;BRPais-151\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KALMIR&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;152&lt;a name=\&quot;BRPais-152\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KARACHAEVOCHERKESS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;153&lt;a name=\&quot;BRPais-153\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KHAKASS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;154&lt;a name=\&quot;BRPais-154\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KOMI&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;155&lt;a name=\&quot;BRPais-155\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;LETONIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;156&lt;a name=\&quot;BRPais-156\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;LITUANIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;157&lt;a name=\&quot;BRPais-157\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MARI&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;158&lt;a name=\&quot;BRPais-158\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MOLDAVIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;159&lt;a name=\&quot;BRPais-159\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;OSSETIA SETENTRIONAL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;160&lt;a name=\&quot;BRPais-160\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;QUIRGUISTAO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;161&lt;a name=\&quot;BRPais-161\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TADJIQUISTAO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;162&lt;a name=\&quot;BRPais-162\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TARTARIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;163&lt;a name=\&quot;BRPais-163\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TURCOMENISTAO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;164&lt;a name=\&quot;BRPais-164\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TUVIN&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;165&lt;a name=\&quot;BRPais-165\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;UCRANIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;166&lt;a name=\&quot;BRPais-166\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;UDMURT&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;167&lt;a name=\&quot;BRPais-167\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;UNIAO SOVIETICA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;168&lt;a name=\&quot;BRPais-168\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;UZBEQUISTAO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;169&lt;a name=\&quot;BRPais-169\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;YAKUT&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;170&lt;a name=\&quot;BRPais-170\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ABISSINIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;171&lt;a name=\&quot;BRPais-171\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ACORES&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;172&lt;a name=\&quot;BRPais-172\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;AFAR FRANCES&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;173&lt;a name=\&quot;BRPais-173\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;REPUBLICA DA AFRICA DO SUL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;174&lt;a name=\&quot;BRPais-174\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ALTA VOLTA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;175&lt;a name=\&quot;BRPais-175\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ANGOLA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;176&lt;a name=\&quot;BRPais-176\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ARGELIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;177&lt;a name=\&quot;BRPais-177\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;BECHUANALANDIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;178&lt;a name=\&quot;BRPais-178\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;BENIN&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;179&lt;a name=\&quot;BRPais-179\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;BOTSUANA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;180&lt;a name=\&quot;BRPais-180\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;BURUNDI&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;181&lt;a name=\&quot;BRPais-181\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CAMAROES&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;182&lt;a name=\&quot;BRPais-182\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CEUTA E MELILLA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;183&lt;a name=\&quot;BRPais-183\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CHADE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;184&lt;a name=\&quot;BRPais-184\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ILHAS COMORES&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;185&lt;a name=\&quot;BRPais-185\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CONGO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;186&lt;a name=\&quot;BRPais-186\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;COSTA DO MARFIM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;187&lt;a name=\&quot;BRPais-187\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;DAOME&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;188&lt;a name=\&quot;BRPais-188\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;DJIBUTI&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;189&lt;a name=\&quot;BRPais-189\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;REPUBLICA ARABE DO EGITO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;190&lt;a name=\&quot;BRPais-190\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ETIOPIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;191&lt;a name=\&quot;BRPais-191\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;REPUBLICA DO GABAO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;192&lt;a name=\&quot;BRPais-192\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;GAMBIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;193&lt;a name=\&quot;BRPais-193\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;GANA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;194&lt;a name=\&quot;BRPais-194\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;GAZA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;195&lt;a name=\&quot;BRPais-195\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;GUINE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;196&lt;a name=\&quot;BRPais-196\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;GUINE EQUATORIAL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;197&lt;a name=\&quot;BRPais-197\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;IFNI&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;198&lt;a name=\&quot;BRPais-198\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ASCENSAO E TRISTAO DA CUNHA,IS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;199&lt;a name=\&quot;BRPais-199\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ILHAS CANARIAS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;200&lt;a name=\&quot;BRPais-200\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;LESOTO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;201&lt;a name=\&quot;BRPais-201\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;LIBERIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;202&lt;a name=\&quot;BRPais-202\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;LIBIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;203&lt;a name=\&quot;BRPais-203\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MADEIRA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;204&lt;a name=\&quot;BRPais-204\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MALAWI&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;205&lt;a name=\&quot;BRPais-205\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MADAGASCAR&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;206&lt;a name=\&quot;BRPais-206\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MALI&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;207&lt;a name=\&quot;BRPais-207\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MARROCOS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;208&lt;a name=\&quot;BRPais-208\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MAURICIO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;209&lt;a name=\&quot;BRPais-209\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MAURITANIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;210&lt;a name=\&quot;BRPais-210\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MOCAMBIQUE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;211&lt;a name=\&quot;BRPais-211\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;NGUANE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;212&lt;a name=\&quot;BRPais-212\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;REPUBLICA DO NIGER&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;213&lt;a name=\&quot;BRPais-213\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;NIGERIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;214&lt;a name=\&quot;BRPais-214\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;PAPUA NOVA GUINE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;215&lt;a name=\&quot;BRPais-215\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;PRACAS NORTE AFRICANAS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;216&lt;a name=\&quot;BRPais-216\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;PROTETOR DO SUDOESTE AFRICANO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;217&lt;a name=\&quot;BRPais-217\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;QUENIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;218&lt;a name=\&quot;BRPais-218\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;REPUBLICA CENTRO AFRICANA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;219&lt;a name=\&quot;BRPais-219\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;REUNIAO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;220&lt;a name=\&quot;BRPais-220\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;RODESIA (ZIMBABWE)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;221&lt;a name=\&quot;BRPais-221\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;RUANDA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;222&lt;a name=\&quot;BRPais-222\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SAARA ESPANHOL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;223&lt;a name=\&quot;BRPais-223\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SANTA HELENA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;224&lt;a name=\&quot;BRPais-224\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SAO TOME E PRINCIPE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;225&lt;a name=\&quot;BRPais-225\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SEYCHELLES&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;226&lt;a name=\&quot;BRPais-226\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SERRA LEOA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;227&lt;a name=\&quot;BRPais-227\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SOMALIA, REPUBLICA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;228&lt;a name=\&quot;BRPais-228\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SUAZILANDIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;229&lt;a name=\&quot;BRPais-229\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SUDAO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;230&lt;a name=\&quot;BRPais-230\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TANGANICA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;231&lt;a name=\&quot;BRPais-231\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TERRIT. BRITANICO DO OCEANO INDICO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;232&lt;a name=\&quot;BRPais-232\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TRANSKEI&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;233&lt;a name=\&quot;BRPais-233\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TOGO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;234&lt;a name=\&quot;BRPais-234\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TUNISIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;235&lt;a name=\&quot;BRPais-235\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;UGANDA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;236&lt;a name=\&quot;BRPais-236\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ZAIRE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;237&lt;a name=\&quot;BRPais-237\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ZAMBIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;238&lt;a name=\&quot;BRPais-238\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;BURKINA FASSO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;239&lt;a name=\&quot;BRPais-239\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ZIMBABWE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;240&lt;a name=\&quot;BRPais-240\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;NAMIBIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;241&lt;a name=\&quot;BRPais-241\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;AFEGANISTAO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;242&lt;a name=\&quot;BRPais-242\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ARABIA SAUDITA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;243&lt;a name=\&quot;BRPais-243\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;BAHREIN&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;244&lt;a name=\&quot;BRPais-244\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;BIRMANIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;245&lt;a name=\&quot;BRPais-245\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;BRUNEI&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;246&lt;a name=\&quot;BRPais-246\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;BHUTAN&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;247&lt;a name=\&quot;BRPais-247\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CATAR&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;248&lt;a name=\&quot;BRPais-248\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CEILAO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;249&lt;a name=\&quot;BRPais-249\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CHINA (TAIWAN)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;250&lt;a name=\&quot;BRPais-250\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;COVEITE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;251&lt;a name=\&quot;BRPais-251\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;EMIRADOS ARABES UNIDOS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;252&lt;a name=\&quot;BRPais-252\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;FILIPINAS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;253&lt;a name=\&quot;BRPais-253\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;HONG-KONG&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;254&lt;a name=\&quot;BRPais-254\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;IEMEN&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;255&lt;a name=\&quot;BRPais-255\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;INDIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;256&lt;a name=\&quot;BRPais-256\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;INDONESIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;257&lt;a name=\&quot;BRPais-257\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;IRA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;258&lt;a name=\&quot;BRPais-258\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;IRAQUE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;259&lt;a name=\&quot;BRPais-259\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ISRAEL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;260&lt;a name=\&quot;BRPais-260\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;JORDANIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;261&lt;a name=\&quot;BRPais-261\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KMER/CAMBOJA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;262&lt;a name=\&quot;BRPais-262\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KUWAIT&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;263&lt;a name=\&quot;BRPais-263\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;LAOS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;264&lt;a name=\&quot;BRPais-264\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;LIBANO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;265&lt;a name=\&quot;BRPais-265\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MACAU&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;266&lt;a name=\&quot;BRPais-266\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MALASIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;267&lt;a name=\&quot;BRPais-267\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MALDIVAS,IS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;268&lt;a name=\&quot;BRPais-268\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MASCATE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;269&lt;a name=\&quot;BRPais-269\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MONGOLIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;270&lt;a name=\&quot;BRPais-270\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;NEPAL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;271&lt;a name=\&quot;BRPais-271\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;OMAN&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;272&lt;a name=\&quot;BRPais-272\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;PALESTINA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;273&lt;a name=\&quot;BRPais-273\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;PAQUISTAO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;274&lt;a name=\&quot;BRPais-274\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;RUIQUIU,IS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;275&lt;a name=\&quot;BRPais-275\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CINGAPURA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;276&lt;a name=\&quot;BRPais-276\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SEQUIN&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;277&lt;a name=\&quot;BRPais-277\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SIRIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;278&lt;a name=\&quot;BRPais-278\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SRI-LANKA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;279&lt;a name=\&quot;BRPais-279\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TAILANDIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;280&lt;a name=\&quot;BRPais-280\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TREGUA, ESTADO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;281&lt;a name=\&quot;BRPais-281\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TURQUIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;282&lt;a name=\&quot;BRPais-282\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;VIETNA DO NORTE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;283&lt;a name=\&quot;BRPais-283\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;VIETNA DO SUL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;284&lt;a name=\&quot;BRPais-284\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MIANMA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;285&lt;a name=\&quot;BRPais-285\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ARQUIPELAGO MANAHIKI&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;286&lt;a name=\&quot;BRPais-286\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ARQUIPELAGO MIDWAY&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;287&lt;a name=\&quot;BRPais-287\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ASHMORE E CARTIER&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;288&lt;a name=\&quot;BRPais-288\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;AUSTRALIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;289&lt;a name=\&quot;BRPais-289\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ARQUIPELAGO DE BISMARK&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;290&lt;a name=\&quot;BRPais-290\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ILHAS COOK&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;291&lt;a name=\&quot;BRPais-291\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;REPUBLICA DE FIJI&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;292&lt;a name=\&quot;BRPais-292\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;GUAM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;293&lt;a name=\&quot;BRPais-293\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ILHAS BAKER&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;294&lt;a name=\&quot;BRPais-294\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ILHAS CANTAO E ENDERBURG&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;295&lt;a name=\&quot;BRPais-295\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ILHAS CAROLINAS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;296&lt;a name=\&quot;BRPais-296\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ILHAS DO PACIFICO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;297&lt;a name=\&quot;BRPais-297\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ILHAS CHRISTMAS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;298&lt;a name=\&quot;BRPais-298\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ILHAS GILBERT&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;299&lt;a name=\&quot;BRPais-299\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ILHAS HOWLAND E JARVIS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;300&lt;a name=\&quot;BRPais-300\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ILHA JOHNSTON E SAND&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;301&lt;a name=\&quot;BRPais-301\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ILHAS KINGMAN REEF&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;302&lt;a name=\&quot;BRPais-302\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ILHAS MACQUAIRE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;303&lt;a name=\&quot;BRPais-303\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ILHAS MARIANAS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;304&lt;a name=\&quot;BRPais-304\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ILHAS MARSHALL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;305&lt;a name=\&quot;BRPais-305\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ILHAS MACDONAL E HEARD&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;306&lt;a name=\&quot;BRPais-306\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ILHAS NIUE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;307&lt;a name=\&quot;BRPais-307\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ILHAS NORFOLK&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;308&lt;a name=\&quot;BRPais-308\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ILHAS PALAU&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;309&lt;a name=\&quot;BRPais-309\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ILHAS SALOMAO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;310&lt;a name=\&quot;BRPais-310\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ILHAS TOKELAU&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;311&lt;a name=\&quot;BRPais-311\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ILHAS WAKE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;312&lt;a name=\&quot;BRPais-312\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KALIMATAN&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;313&lt;a name=\&quot;BRPais-313\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ILHAS LINHA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;314&lt;a name=\&quot;BRPais-314\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;NAURU&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;315&lt;a name=\&quot;BRPais-315\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ILHAS NOVA CALEDONIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;316&lt;a name=\&quot;BRPais-316\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;NOVA GUINE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;317&lt;a name=\&quot;BRPais-317\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;NOVA ZELANDIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;318&lt;a name=\&quot;BRPais-318\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ILHAS NOVAS HEBRIDAS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;319&lt;a name=\&quot;BRPais-319\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TERRITORIO DE PAPUA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;320&lt;a name=\&quot;BRPais-320\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ILHAS PASCOA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;321&lt;a name=\&quot;BRPais-321\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ILHAS PITCAIRIN&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;322&lt;a name=\&quot;BRPais-322\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;POLINESIA FRANCESA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;323&lt;a name=\&quot;BRPais-323\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SABAH&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;324&lt;a name=\&quot;BRPais-324\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SAMOA AMERICANA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;325&lt;a name=\&quot;BRPais-325\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SAMOA OCIDENTAL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;326&lt;a name=\&quot;BRPais-326\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ILHAS SANTA CRUZ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;327&lt;a name=\&quot;BRPais-327\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SARAWAK&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;328&lt;a name=\&quot;BRPais-328\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TERRITORIO DE COCOS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;329&lt;a name=\&quot;BRPais-329\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TIMOR&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;330&lt;a name=\&quot;BRPais-330\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TONGA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;331&lt;a name=\&quot;BRPais-331\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TUVALU&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;332&lt;a name=\&quot;BRPais-332\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ILHAS WALLIS E FUTUNA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;333&lt;a name=\&quot;BRPais-333\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ANTARTICO BRITANICO, TERRITORIO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;334&lt;a name=\&quot;BRPais-334\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ANTARTICA FRANCESA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;335&lt;a name=\&quot;BRPais-335\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TERR. ANTARTICO DA AUSTRALIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;336&lt;a name=\&quot;BRPais-336\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ANTARTICO CHILENO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;337&lt;a name=\&quot;BRPais-337\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ANTARTICO ARGENTINO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;338&lt;a name=\&quot;BRPais-338\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ANTARTICO NORUEGUES&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;339&lt;a name=\&quot;BRPais-339\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;APATRIDA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;340&lt;a name=\&quot;BRPais-340\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;DEPENDENCIA DE ROSS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;341&lt;a name=\&quot;BRPais-341\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TERRAS AUSTRAIS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;342&lt;a name=\&quot;BRPais-342\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;BANGLADESH&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;343&lt;a name=\&quot;BRPais-343\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CABO VERDE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;344&lt;a name=\&quot;BRPais-344\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;GUINE BISSAU&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;345&lt;a name=\&quot;BRPais-345\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;IEMEN DO SUL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;346&lt;a name=\&quot;BRPais-346\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;KARA KALPAK&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;347&lt;a name=\&quot;BRPais-347\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ARMENIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;348&lt;a name=\&quot;BRPais-348\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;RUSSIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;349&lt;a name=\&quot;BRPais-349\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SENEGAL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;350&lt;a name=\&quot;BRPais-350\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TANZANIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;351&lt;a name=\&quot;BRPais-351\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MALAUI&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;352&lt;a name=\&quot;BRPais-352\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;REPÚBLICA DO SUDÃO DO SUL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;353&lt;a name=\&quot;BRPais-353\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ERITREIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;354&lt;a name=\&quot;BRPais-354\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;DOMINICA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;355&lt;a name=\&quot;BRPais-355\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;COREIA, REPUBLICA DA (COREIA DO SUL)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;356&lt;a name=\&quot;BRPais-356\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CONGO, REPUBLICA DO (BRAZZAVILLE)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;357&lt;a name=\&quot;BRPais-357\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ANGUILLA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;358&lt;a name=\&quot;BRPais-358\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ILHAS CAYMAN&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;359&lt;a name=\&quot;BRPais-359\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ILHAS DE GUERNSEY&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;360&lt;a name=\&quot;BRPais-360\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ILHAS DE JERSEY&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;361&lt;a name=\&quot;BRPais-361\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ILHAS GEORGIA DO SUL E ILHAS SANDWICH DO SUL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;362&lt;a name=\&quot;BRPais-362\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MAYOTTE, ILHA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;363&lt;a name=\&quot;BRPais-363\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;QUIRIBATI&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+  },
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.url">url</a>" : "https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BRPais",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.version">version</a>" : "0.1.0",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.name">name</a>" : "Pais",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.title">title</a>" : "País",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.status">status</a>" : "draft",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.date">date</a>" : "2023-07-15T19:34:18+00:00",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.publisher">publisher</a>" : "Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.contact">contact</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">name</a>" : "Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro",
+      "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "url",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "https://prefeitura.rio/"
+        }
+      ]
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.description">description</a>" : "Códigos para representação de países.",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.jurisdiction">jurisdiction</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "urn:iso:std:iso:3166",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "BR",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "Brazil"
+        }
+      ]
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.content">content</a>" : "complete",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.count">count</a>" : 345,
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "10",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "BRASIL"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "20",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "RESERVADO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "21",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ARGENTINA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "22",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "BOLIVIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "23",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "CHILE"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "24",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "PARAGUAI"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "25",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "URUGUAI"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "26",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "COLOMBIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "27",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "EQUADOR"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "28",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ANTIGUA E. DEP. BARBUDA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "29",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ANTILHAS HOLANDESAS"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "30",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ALEMANHA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "31",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "BELGICA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "32",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "GRA-BRETANHA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "33",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ARUBA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "34",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "CANADA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "35",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ESPANHA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "36",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ESTADOS UNIDOS DA AMERICA (EUA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "37",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "FRANCA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "38",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "SUICA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "39",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ITALIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "40",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "COMUNIDADE DAS BAHAMAS"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "41",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "JAPAO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "42",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "CHINA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "43",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "COREIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "44",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "BARBADOS"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "45",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "PORTUGAL"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "46",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "BELIZE"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "47",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ILHAS TURKS E CAICOS"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "48",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "RESERVADO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "49",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "RESERVADO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "50",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "RESERVADO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "51",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "COSTA RICA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "52",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "CUBA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "53",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "CURACAO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "54",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "COMUNIDADE DOMINICANA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "55",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "REPUBLICA DOMINICANA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "56",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "REPUBLICA DE EL SALVADOR"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "57",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ESTADOS ASSOC. DAS ANTILHAS"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "58",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ILHAS FALKLANDS"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "59",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "GRANADA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "60",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ILHAS GUADALUPE"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "61",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "GUATEMALA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "62",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "REPUBLICA DO HAITI"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "63",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "HONDURAS BRITANICAS"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "64",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "HONDURAS"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "65",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ILHAS SERRANAS"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "66",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "JAMAICA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "67",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ILHAS MALVINAS"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "68",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MARTINICA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "69",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ILHA MILHOS"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "70",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MONTE SERRAT"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "71",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "NICARAGUA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "72",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "PANAMA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "73",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "PANAMA(ZONA DO CANAL)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "74",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "PORTO RICO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "75",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "QUITASUENO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "76",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "RONCADOR"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "77",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "SANTA LUCIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "78",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "SAO CRISTOVAO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "79",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "SAO VICENTE"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "80",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ILHAS TURCA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "81",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ILHAS VIRGENS BRITANICAS"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "82",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ILHAS VIRGENS AMERICANAS"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "83",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "BERMUDAS"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "84",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "GROENLANDIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "85",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MEXICO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "86",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ST. PIERRE ET MIQUELON"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "87",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "GUIANA FRANCESA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "88",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "REPUBLICA GUIANA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "89",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "PERU"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "90",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "SURINAME"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "91",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TRINIDAD E TOBAGO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "92",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "VENEZUELA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "93",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ALBANIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "94",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ANDORRA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "95",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "AUSTRIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "96",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "BULGARIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "97",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "CHIPRE"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "98",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "DINAMARCA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "99",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "EIRE"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "100",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ESCOCIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "101",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ILHAS FAROES"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "102",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "FINLANDIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "103",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "GIBRALTAR"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "104",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "GRECIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "105",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "HOLANDA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "106",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "HUNGRIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "107",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ILHAS BALEARES"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "108",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ILHAS COSMOLEDO (LOMORES)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "109",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ILHAS DO CANAL"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "110",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "INGLATERRA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "111",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "IRLANDA DO NORTE"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "112",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "IRLANDA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "113",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ISLANDIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "114",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "IUGOSLAVIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "115",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "LIECHTENSTEIN"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "116",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "LUXEMBURGO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "117",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ILHAS DE MAN"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "118",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MONACO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "119",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "NORUEGA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "120",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "REPUBLICA DE MALTA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "121",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "PAIS DE GALES"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "122",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "PAISES BAIXOS"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "123",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "POLONIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "124",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ROMENIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "125",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "SAN MARINO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "126",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "SUECIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "127",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "SVALBARD E JAN MAYER,IS"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "128",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TCHECOSLOVAQUIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "129",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ESTADO DA CIDADE DO VATICANO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "130",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "CROACIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "131",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "SERVIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "132",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ESLOVENIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "133",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "REPUBLICA DA MACEDONIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "134",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "BOSNIA HERZEGOVINA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "135",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "REPUBLICA TCHECA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "136",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ESLOVAQUIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "137",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MONTENEGRO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "138",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "AZERBAIJAO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "139",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "BASHKISTA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "140",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "REPUBLICA DA BIELORRUSSIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "141",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "BURYAT"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "142",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "CARELIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "143",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "CAZAQUISTAO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "144",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "CHECHEN INGUSTH"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "145",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "CHUVASH"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "146",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "DAGESTA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "147",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ESTONIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "148",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "GEORGIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "149",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "GORNO ALTAI"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "150",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KABARDINO BALKAR"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "151",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KALMIR"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "152",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KARACHAEVOCHERKESS"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "153",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KHAKASS"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "154",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KOMI"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "155",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "LETONIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "156",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "LITUANIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "157",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MARI"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "158",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MOLDAVIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "159",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "OSSETIA SETENTRIONAL"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "160",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "QUIRGUISTAO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "161",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TADJIQUISTAO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "162",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TARTARIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "163",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TURCOMENISTAO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "164",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TUVIN"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "165",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "UCRANIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "166",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "UDMURT"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "167",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "UNIAO SOVIETICA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "168",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "UZBEQUISTAO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "169",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "YAKUT"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "170",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ABISSINIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "171",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ACORES"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "172",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "AFAR FRANCES"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "173",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "REPUBLICA DA AFRICA DO SUL"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "174",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ALTA VOLTA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "175",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ANGOLA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "176",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ARGELIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "177",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "BECHUANALANDIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "178",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "BENIN"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "179",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "BOTSUANA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "180",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "BURUNDI"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "181",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "CAMAROES"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "182",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "CEUTA E MELILLA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "183",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "CHADE"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "184",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ILHAS COMORES"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "185",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "CONGO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "186",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "COSTA DO MARFIM"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "187",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "DAOME"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "188",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "DJIBUTI"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "189",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "REPUBLICA ARABE DO EGITO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "190",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ETIOPIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "191",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "REPUBLICA DO GABAO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "192",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "GAMBIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "193",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "GANA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "194",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "GAZA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "195",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "GUINE"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "196",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "GUINE EQUATORIAL"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "197",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "IFNI"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "198",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ASCENSAO E TRISTAO DA CUNHA,IS"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "199",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ILHAS CANARIAS"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "200",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "LESOTO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "201",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "LIBERIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "202",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "LIBIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "203",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MADEIRA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "204",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MALAWI"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "205",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MADAGASCAR"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "206",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MALI"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "207",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MARROCOS"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "208",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MAURICIO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "209",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MAURITANIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "210",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MOCAMBIQUE"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "211",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "NGUANE"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "212",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "REPUBLICA DO NIGER"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "213",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "NIGERIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "214",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "PAPUA NOVA GUINE"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "215",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "PRACAS NORTE AFRICANAS"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "216",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "PROTETOR DO SUDOESTE AFRICANO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "217",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "QUENIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "218",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "REPUBLICA CENTRO AFRICANA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "219",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "REUNIAO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "220",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "RODESIA (ZIMBABWE)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "221",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "RUANDA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "222",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "SAARA ESPANHOL"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "223",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "SANTA HELENA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "224",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "SAO TOME E PRINCIPE"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "225",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "SEYCHELLES"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "226",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "SERRA LEOA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "227",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "SOMALIA, REPUBLICA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "228",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "SUAZILANDIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "229",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "SUDAO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "230",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TANGANICA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "231",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TERRIT. BRITANICO DO OCEANO INDICO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "232",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TRANSKEI"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "233",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TOGO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "234",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TUNISIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "235",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "UGANDA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "236",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ZAIRE"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "237",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ZAMBIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "238",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "BURKINA FASSO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "239",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ZIMBABWE"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "240",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "NAMIBIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "241",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "AFEGANISTAO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "242",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ARABIA SAUDITA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "243",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "BAHREIN"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "244",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "BIRMANIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "245",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "BRUNEI"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "246",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "BHUTAN"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "247",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "CATAR"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "248",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "CEILAO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "249",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "CHINA (TAIWAN)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "250",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "COVEITE"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "251",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "EMIRADOS ARABES UNIDOS"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "252",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "FILIPINAS"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "253",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "HONG-KONG"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "254",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "IEMEN"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "255",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "INDIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "256",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "INDONESIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "257",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "IRA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "258",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "IRAQUE"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "259",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ISRAEL"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "260",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "JORDANIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "261",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KMER/CAMBOJA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "262",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KUWAIT"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "263",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "LAOS"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "264",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "LIBANO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "265",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MACAU"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "266",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MALASIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "267",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MALDIVAS,IS"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "268",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MASCATE"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "269",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MONGOLIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "270",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "NEPAL"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "271",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "OMAN"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "272",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "PALESTINA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "273",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "PAQUISTAO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "274",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "RUIQUIU,IS"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "275",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "CINGAPURA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "276",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "SEQUIN"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "277",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "SIRIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "278",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "SRI-LANKA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "279",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TAILANDIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "280",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TREGUA, ESTADO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "281",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TURQUIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "282",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "VIETNA DO NORTE"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "283",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "VIETNA DO SUL"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "284",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MIANMA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "285",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ARQUIPELAGO MANAHIKI"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "286",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ARQUIPELAGO MIDWAY"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "287",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ASHMORE E CARTIER"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "288",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "AUSTRALIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "289",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ARQUIPELAGO DE BISMARK"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "290",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ILHAS COOK"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "291",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "REPUBLICA DE FIJI"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "292",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "GUAM"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "293",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ILHAS BAKER"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "294",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ILHAS CANTAO E ENDERBURG"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "295",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ILHAS CAROLINAS"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "296",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ILHAS DO PACIFICO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "297",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ILHAS CHRISTMAS"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "298",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ILHAS GILBERT"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "299",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ILHAS HOWLAND E JARVIS"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "300",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ILHA JOHNSTON E SAND"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "301",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ILHAS KINGMAN REEF"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "302",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ILHAS MACQUAIRE"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "303",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ILHAS MARIANAS"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "304",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ILHAS MARSHALL"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "305",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ILHAS MACDONAL E HEARD"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "306",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ILHAS NIUE"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "307",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ILHAS NORFOLK"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "308",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ILHAS PALAU"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "309",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ILHAS SALOMAO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "310",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ILHAS TOKELAU"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "311",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ILHAS WAKE"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "312",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KALIMATAN"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "313",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ILHAS LINHA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "314",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "NAURU"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "315",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ILHAS NOVA CALEDONIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "316",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "NOVA GUINE"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "317",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "NOVA ZELANDIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "318",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ILHAS NOVAS HEBRIDAS"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "319",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TERRITORIO DE PAPUA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "320",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ILHAS PASCOA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "321",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ILHAS PITCAIRIN"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "322",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "POLINESIA FRANCESA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "323",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "SABAH"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "324",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "SAMOA AMERICANA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "325",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "SAMOA OCIDENTAL"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "326",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ILHAS SANTA CRUZ"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "327",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "SARAWAK"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "328",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TERRITORIO DE COCOS"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "329",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TIMOR"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "330",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TONGA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "331",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TUVALU"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "332",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ILHAS WALLIS E FUTUNA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "333",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ANTARTICO BRITANICO, TERRITORIO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "334",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ANTARTICA FRANCESA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "335",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TERR. ANTARTICO DA AUSTRALIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "336",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ANTARTICO CHILENO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "337",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ANTARTICO ARGENTINO"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "338",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ANTARTICO NORUEGUES"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "339",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "APATRIDA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "340",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "DEPENDENCIA DE ROSS"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "341",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TERRAS AUSTRAIS"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "342",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "BANGLADESH"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "343",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "CABO VERDE"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "344",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "GUINE BISSAU"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "345",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "IEMEN DO SUL"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "346",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KARA KALPAK"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "347",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ARMENIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "348",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "RUSSIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "349",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "SENEGAL"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "350",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "TANZANIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "351",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MALAUI"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "352",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "REPÚBLICA DO SUDÃO DO SUL"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "353",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ERITREIA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "354",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "DOMINICA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "355",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "COREIA, REPUBLICA DA (COREIA DO SUL)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "356",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "CONGO, REPUBLICA DO (BRAZZAVILLE)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "357",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ANGUILLA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "358",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ILHAS CAYMAN"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "359",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ILHAS DE GUERNSEY"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "360",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ILHAS DE JERSEY"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "361",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ILHAS GEORGIA DO SUL E ILHAS SANDWICH DO SUL"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "362",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MAYOTTE, ILHA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "363",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "QUIRIBATI"
+    }
+  ]
+}</code></pre>
+
+
+  <!-- insert notes if present -->
+  
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="https://prefeitura.rio/">Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro</a>.  Package org.rj-sms.br.core#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sat, Jul 15, 2023 19:34+0000">2023-07-15</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Índice</a> |
+<a style="color: var(--footer-hyperlink-text-color)" href="qa.html">Relatório QA</a>
+
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
+
+
+
+<!-- / feedback form  -->
+
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

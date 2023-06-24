@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="BREstadoDocumento-1.0"/>
+  <meta>
+    <lastUpdated value="2020-04-07T17:34:09.144+00:00"/>
+  </meta>
+  <language value="pt-BR"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR"><ul><li>Include these codes as defined in <a href="http://hl7.org/fhir/R4/codesystem-composition-status.html"><code>http://hl7.org/fhir/composition-status</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-composition-status.html#composition-status-final">final</a></td><td>Finalizado ou concluído</td><td>This version of the composition is complete and verified by an appropriate person and no further work is planned. Any subsequent updates would be on a new version of the composition.</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-composition-status.html#composition-status-entered-in-error">entered-in-error</a></td><td>Cancelado por informação errada</td><td>The composition or document was originally created/issued in error, and this is an amendment that marks that the entire series should not be considered as valid.</td></tr></table></li></ul></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="https://rnds-fhir.saude.gov.br/ImplementationGuide/rnds"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="informative">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="https://rnds-fhir.saude.gov.br/ImplementationGuide/rnds"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="https://prefeitura-rio.github.io/sms-rjcore-fhir/ValueSet/BREstadoDocumento-1.0"/>
+  <version value="0.1.0"/>
+  <name value="EstadoDocumento"/>
+  <title value="Estados de um documento"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2020-04-07T17:34:06.5203435+00:00"/>
+  <publisher value="Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro"/>
+  <contact>
+    <name value="Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://prefeitura.rio/"/>
+    </telecom>
+  </contact>
+  <description value="Classifica o estado de um documento."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+      <display value="Brazil"/>
+    </coding>
+  </jurisdiction>
+  <immutable value="false"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/composition-status"/>
+      <concept>
+        <code value="final"/>
+        <display value="Finalizado ou concluído"/>
+      </concept>
+      <concept>
+        <code value="entered-in-error"/>
+        <display value="Cancelado por informação errada"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

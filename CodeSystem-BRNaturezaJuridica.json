@@ -1,0 +1,81 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "BRNaturezaJuridica",
+  "meta" : {
+    "lastUpdated" : "2020-03-30T18:15:21.477+00:00"
+  },
+  "language" : "pt-BR",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><p><b>Properties</b></p><p><b>This code system  defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>type</td><td>code</td><td>tipo</td></tr></table><p><b>Concepts</b></p><p>This code system <code>https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BRNaturezaJuridica</code> defines the following codes:</p><table class=\"codes\"><tr><td><b>Lvl</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>type</b></td></tr><tr><td>1</td><td style=\"white-space:nowrap\">1<a name=\"BRNaturezaJuridica-1\"> </a></td><td>Administração Pública</td><td/><td>grupo</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">\u00a0\u00a0101-5<a name=\"BRNaturezaJuridica-101-5\"> </a></td><td>Órgão Público do Poder Executivo Federal</td><td>Esta Natureza Jurídica compreende:\r\n- os órgãos públicos do Poder Executivo Federal\r\nEsta Natureza Jurídica compreende também:\r\n- as embaixadas, os consulados, os escritórios de representações e demais unidades diplomáticas e consulares do Governo brasileiro em outros países ou em organizações internacionais\r\n- o Conselho Nacional dos Direitos da Criança e do Adolescente (Conanda)\r\n- a Advocacia-Geral da União\r\nEsta Natureza Jurídica não compreende:\r\n- as autarquias (110-4)\r\n-as fundações públicas (113-9)\r\n- os órgãos do Ministério Público da União (116-3)\r\n- os fundos especiais de natureza contábil e/ou financeira, não dotados de personalidade jurídica, previstos nos artigos 71 a 74 da Lei n. º 4.320, de 17/03/1964, criados no âmbito do Poder Executivo da União (131-7)\r\n- os fundos de avais públicos: União (131-7), Estadual ou do Distrito Federal (132-5) e Municipal (133-3)\r\n- a União (134-1)\r\n- as empresas públicas (201-1)\r\n- as sociedades de economia mista federais (203-8)\r\n- as embaixadas, os consulados, os escritórios de representações e as demais unidades diplomáticas do Governo brasileiro em outros países ou em organizações internacionais (502-9)</td><td>categoria</td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 1,
+    "_valueInteger" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "https://rnds-fhir.saude.gov.br/ImplementationGuide/rnds"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "informative",
+    "_valueCode" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "https://rnds-fhir.saude.gov.br/ImplementationGuide/rnds"
+      }]
+    }
+  }],
+  "url" : "https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BRNaturezaJuridica",
+  "version" : "0.1.0",
+  "name" : "NaturezaJuridica",
+  "title" : "Natureza Jurídica",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2020-03-30T18:15:18.1570669+00:00",
+  "publisher" : "Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro",
+  "contact" : [{
+    "name" : "Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://prefeitura.rio/"
+    }]
+  }],
+  "description" : "Identifica a constituição jurídico-institucional das entidades públicas e privadas nos cadastros da administração pública do Brasil.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR",
+      "display" : "Brazil"
+    }]
+  }],
+  "caseSensitive" : true,
+  "hierarchyMeaning" : "grouped-by",
+  "content" : "complete",
+  "count" : 2,
+  "property" : [{
+    "code" : "type",
+    "description" : "tipo",
+    "type" : "code"
+  }],
+  "concept" : [{
+    "code" : "1",
+    "display" : "Administração Pública",
+    "property" : [{
+      "code" : "type",
+      "valueCode" : "grupo"
+    }],
+    "concept" : [{
+      "code" : "101-5",
+      "display" : "Órgão Público do Poder Executivo Federal",
+      "definition" : "Esta Natureza Jurídica compreende:\r\n- os órgãos públicos do Poder Executivo Federal\r\nEsta Natureza Jurídica compreende também:\r\n- as embaixadas, os consulados, os escritórios de representações e demais unidades diplomáticas e consulares do Governo brasileiro em outros países ou em organizações internacionais\r\n- o Conselho Nacional dos Direitos da Criança e do Adolescente (Conanda)\r\n- a Advocacia-Geral da União\r\nEsta Natureza Jurídica não compreende:\r\n- as autarquias (110-4)\r\n-as fundações públicas (113-9)\r\n- os órgãos do Ministério Público da União (116-3)\r\n- os fundos especiais de natureza contábil e/ou financeira, não dotados de personalidade jurídica, previstos nos artigos 71 a 74 da Lei n. º 4.320, de 17/03/1964, criados no âmbito do Poder Executivo da União (131-7)\r\n- os fundos de avais públicos: União (131-7), Estadual ou do Distrito Federal (132-5) e Municipal (133-3)\r\n- a União (134-1)\r\n- as empresas públicas (201-1)\r\n- as sociedades de economia mista federais (203-8)\r\n- as embaixadas, os consulados, os escritórios de representações e as demais unidades diplomáticas do Governo brasileiro em outros países ou em organizações internacionais (502-9)",
+      "property" : [{
+        "code" : "type",
+        "valueCode" : "categoria"
+      }]
+    }]
+  }]
+}

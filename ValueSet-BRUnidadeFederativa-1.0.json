@@ -1,0 +1,67 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "BRUnidadeFederativa-1.0",
+  "meta" : {
+    "lastUpdated" : "2020-03-12T14:51:21.573+00:00"
+  },
+  "language" : "pt-BR",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><ul><li>Include codes from <code>https://rnds-fhir.saude.gov.br/CodeSystem/BRDivisaoGeograficaBrasil</code> where type  =  state</li></ul></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 1,
+    "_valueInteger" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "https://rnds-fhir.saude.gov.br/ImplementationGuide/rnds"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "informative",
+    "_valueCode" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "https://rnds-fhir.saude.gov.br/ImplementationGuide/rnds"
+      }]
+    }
+  }],
+  "url" : "https://prefeitura-rio.github.io/sms-rjcore-fhir/ValueSet/BRUnidadeFederativa-1.0",
+  "version" : "0.1.0",
+  "name" : "UnidadeFederativa",
+  "title" : "Unidade Federativa",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2020-03-12T14:51:21.2223533+00:00",
+  "publisher" : "Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro",
+  "contact" : [{
+    "name" : "Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://prefeitura.rio/"
+    }]
+  }],
+  "description" : "Os estados e o Distrito Federal, entes subnacionais brasileiros.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR",
+      "display" : "Brazil"
+    }]
+  }],
+  "immutable" : false,
+  "compose" : {
+    "include" : [{
+      "system" : "https://rnds-fhir.saude.gov.br/CodeSystem/BRDivisaoGeograficaBrasil",
+      "version" : "*",
+      "filter" : [{
+        "property" : "type",
+        "op" : "=",
+        "value" : "state"
+      }]
+    }]
+  }
+}

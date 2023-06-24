@@ -1,0 +1,57 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "BRSexo",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BRSexo</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">M<a name=\"BRSexo-M\"> </a></td><td>Masculino</td><td>Sexo masculino.</td></tr><tr><td style=\"white-space:nowrap\">F<a name=\"BRSexo-F\"> </a></td><td>Feminino</td><td>Sexo feminino.</td></tr><tr><td style=\"white-space:nowrap\">I<a name=\"BRSexo-I\"> </a></td><td>Indeterminado</td><td>Sexo indeterminado.</td></tr><tr><td style=\"white-space:nowrap\">NI<a name=\"BRSexo-NI\"> </a></td><td>Não informado</td><td>Sexo não informado.</td></tr><tr><td style=\"white-space:nowrap\">O<a name=\"BRSexo-O\"> </a></td><td>Outro</td><td>Outro.</td></tr></table></div>"
+  },
+  "url" : "https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BRSexo",
+  "version" : "0.1.0",
+  "name" : "Sexo",
+  "title" : "Sexo",
+  "status" : "draft",
+  "date" : "2023-07-15T19:34:18+00:00",
+  "publisher" : "Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro",
+  "contact" : [{
+    "name" : "Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://prefeitura.rio/"
+    }]
+  }],
+  "description" : "Sexo",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR",
+      "display" : "Brazil"
+    }]
+  }],
+  "content" : "complete",
+  "count" : 5,
+  "concept" : [{
+    "code" : "M",
+    "display" : "Masculino",
+    "definition" : "Sexo masculino."
+  },
+  {
+    "code" : "F",
+    "display" : "Feminino",
+    "definition" : "Sexo feminino."
+  },
+  {
+    "code" : "I",
+    "display" : "Indeterminado",
+    "definition" : "Sexo indeterminado."
+  },
+  {
+    "code" : "NI",
+    "display" : "Não informado",
+    "definition" : "Sexo não informado."
+  },
+  {
+    "code" : "O",
+    "display" : "Outro",
+    "definition" : "Outro."
+  }]
+}

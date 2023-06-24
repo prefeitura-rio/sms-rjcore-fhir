@@ -1,0 +1,380 @@
+{
+  "package": "org.rj-sms.br.core",
+  "version": "0.1.0",
+  "fhirVersion": "4.0.1",
+  "jurisdiction": "BR",
+  "extensions": [
+    {
+      "url": "https://prefeitura-rio.github.io/sms-rjcore-fhir/StructureDefinition/BRIdentidadeGenero-1.0",
+      "title": "Identidade de gênero",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "https://prefeitura-rio.github.io/sms-rjcore-fhir/StructureDefinition/BRIndividuoProtegido-1.0",
+      "title": "Indivíduo Protegido?",
+      "types": [
+        "boolean"
+      ]
+    },
+    {
+      "url": "https://prefeitura-rio.github.io/sms-rjcore-fhir/StructureDefinition/BRJurisdicaoOrgaoEmissor-1.0",
+      "title": "Jurisdição do Órgão Expedidor",
+      "types": [
+        "positiveInt",
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "https://prefeitura-rio.github.io/sms-rjcore-fhir/StructureDefinition/BRMunicipio-1.0",
+      "title": "Município",
+      "types": [
+        "CodeableConcept",
+        "string",
+        "Extension",
+        "Coding",
+        "string",
+        "Extension",
+        "uri",
+        "string",
+        "code",
+        "string",
+        "boolean",
+        "string"
+      ]
+    },
+    {
+      "url": "https://prefeitura-rio.github.io/sms-rjcore-fhir/StructureDefinition/BRNacionalidade",
+      "title": "Nacionalidade",
+      "types": [
+        "CodeableConcept",
+        "string",
+        "Extension",
+        "Coding",
+        "string",
+        "Extension",
+        "uri",
+        "string",
+        "code",
+        "string",
+        "boolean",
+        "string"
+      ]
+    },
+    {
+      "url": "https://prefeitura-rio.github.io/sms-rjcore-fhir/StructureDefinition/BRNaturalizacao-1.0",
+      "title": "Dados de Naturalização",
+      "types": [
+        "date",
+        "date",
+        "string",
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta"
+      ]
+    },
+    {
+      "url": "https://prefeitura-rio.github.io/sms-rjcore-fhir/StructureDefinition/BRPais-1.0",
+      "title": "País",
+      "types": [
+        "CodeableConcept",
+        "string",
+        "Extension",
+        "Coding",
+        "string",
+        "Extension",
+        "uri",
+        "string",
+        "code",
+        "string",
+        "boolean",
+        "string"
+      ]
+    },
+    {
+      "url": "https://prefeitura-rio.github.io/sms-rjcore-fhir/StructureDefinition/BRParentesIndividuo-1.0",
+      "title": "Parentes do Indivíduo",
+      "types": [
+        "code",
+        "HumanName",
+        "Reference",
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta"
+      ]
+    },
+    {
+      "url": "https://prefeitura-rio.github.io/sms-rjcore-fhir/StructureDefinition/BRQualidadeCadastroIndividuo-1.0",
+      "title": "Qualidade do Cadastro do Indivíduo",
+      "types": [
+        "positiveInt"
+      ]
+    },
+    {
+      "url": "https://prefeitura-rio.github.io/sms-rjcore-fhir/StructureDefinition/BRRacaCorEtnia-1.0",
+      "title": "Raça/Cor e Etnina",
+      "types": [
+        "code",
+        "code",
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta"
+      ]
+    },
+    {
+      "url": "https://prefeitura-rio.github.io/sms-rjcore-fhir/StructureDefinition/BRSexo-1.0",
+      "title": "Sexo",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "https://prefeitura-rio.github.io/sms-rjcore-fhir/StructureDefinition/BRSexoNascimento-1.0",
+      "title": "Sexo Nascimento",
+      "types": [
+        "CodeableConcept"
+      ]
+    }
+  ],
+  "profiles": {
+    "Patient": [
+      {
+        "url": "https://prefeitura-rio.github.io/sms-rjcore-fhir/StructureDefinition/BRIndividuo-1.0",
+        "title": "Indivíduo"
+      }
+    ]
+  },
+  "usage": {
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice-explanation": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm": [
+      "CodeSystem",
+      "StructureDefinition",
+      "ValueSet"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status": [
+      "CodeSystem",
+      "StructureDefinition",
+      "ValueSet"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency": [
+      "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name": [
+      "ImplementationGuide.definition.page",
+      "ImplementationGuide.definition.page.page"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
+      "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment": [
+      "ImplementationGuide.dependsOn"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "https://prefeitura-rio.github.io/sms-rjcore-fhir/StructureDefinition/BRIdentidadeGenero-1.0": [
+      "Patient"
+    ],
+    "https://prefeitura-rio.github.io/sms-rjcore-fhir/StructureDefinition/BRIndividuoProtegido-1.0": [
+      "Patient"
+    ],
+    "https://prefeitura-rio.github.io/sms-rjcore-fhir/StructureDefinition/BRJurisdicaoOrgaoEmissor-1.0": [
+      "Identifier"
+    ],
+    "https://prefeitura-rio.github.io/sms-rjcore-fhir/StructureDefinition/BRMunicipio-1.0": [
+      "Patient"
+    ],
+    "https://prefeitura-rio.github.io/sms-rjcore-fhir/StructureDefinition/BRNacionalidade": [
+      "Patient"
+    ],
+    "https://prefeitura-rio.github.io/sms-rjcore-fhir/StructureDefinition/BRNaturalizacao-1.0": [
+      "Patient"
+    ],
+    "https://prefeitura-rio.github.io/sms-rjcore-fhir/StructureDefinition/BRPais-1.0": [
+      "Patient"
+    ],
+    "https://prefeitura-rio.github.io/sms-rjcore-fhir/StructureDefinition/BRParentesIndividuo-1.0": [
+      "Patient"
+    ],
+    "https://prefeitura-rio.github.io/sms-rjcore-fhir/StructureDefinition/BRQualidadeCadastroIndividuo-1.0": [
+      "Patient"
+    ],
+    "https://prefeitura-rio.github.io/sms-rjcore-fhir/StructureDefinition/BRRacaCorEtnia-1.0": [
+      "Patient"
+    ],
+    "https://prefeitura-rio.github.io/sms-rjcore-fhir/StructureDefinition/BRSexo-1.0": [
+      "Patient"
+    ],
+    "https://prefeitura-rio.github.io/sms-rjcore-fhir/StructureDefinition/BRSexoNascimento-1.0": [
+      "Patient"
+    ]
+  }
+}

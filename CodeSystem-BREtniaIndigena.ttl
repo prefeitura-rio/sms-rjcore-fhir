@@ -1,0 +1,1239 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BREtniaIndigena> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "BREtniaIndigena"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BREtniaIndigena</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">0001<a name=\"BREtniaIndigena-0001\"> </a></td><td>ACONA (WAKONAS, NACONAS, JAKONA, ACORA­NES)</td></tr><tr><td style=\"white-space:nowrap\">0002<a name=\"BREtniaIndigena-0002\"> </a></td><td>AIKANA (AIKANA, MAS SAKA,TUBARAO)</td></tr><tr><td style=\"white-space:nowrap\">0003<a name=\"BREtniaIndigena-0003\"> </a></td><td>AJURU</td></tr><tr><td style=\"white-space:nowrap\">0004<a name=\"BREtniaIndigena-0004\"> </a></td><td>AKUNSU (AKUNT'SU)</td></tr><tr><td style=\"white-space:nowrap\">0005<a name=\"BREtniaIndigena-0005\"> </a></td><td>AMANAYE</td></tr><tr><td style=\"white-space:nowrap\">0006<a name=\"BREtniaIndigena-0006\"> </a></td><td>AMONDAWA</td></tr><tr><td style=\"white-space:nowrap\">0007<a name=\"BREtniaIndigena-0007\"> </a></td><td>ANAMBE</td></tr><tr><td style=\"white-space:nowrap\">0008<a name=\"BREtniaIndigena-0008\"> </a></td><td>APARAI (APALAI)</td></tr><tr><td style=\"white-space:nowrap\">0009<a name=\"BREtniaIndigena-0009\"> </a></td><td>APIAKA (APIACA)</td></tr><tr><td style=\"white-space:nowrap\">0010<a name=\"BREtniaIndigena-0010\"> </a></td><td>APINAYE (APINAJE/APINAIE/APINAGE)</td></tr><tr><td style=\"white-space:nowrap\">0011<a name=\"BREtniaIndigena-0011\"> </a></td><td>APURINA (APORINA, IPURINA, IPURINA, IPURI­NAN)</td></tr><tr><td style=\"white-space:nowrap\">0012<a name=\"BREtniaIndigena-0012\"> </a></td><td>ARANA (ARACUAI DO VALE DO JEQUITINHONHA)</td></tr><tr><td style=\"white-space:nowrap\">0013<a name=\"BREtniaIndigena-0013\"> </a></td><td>ARAPASO (ARAPACO)</td></tr><tr><td style=\"white-space:nowrap\">0014<a name=\"BREtniaIndigena-0014\"> </a></td><td>ARARA DE RONDONIA (KARO, URUCU, URUKU)</td></tr><tr><td style=\"white-space:nowrap\">0015<a name=\"BREtniaIndigena-0015\"> </a></td><td>ARARA DO ACRE (SHAWANAUA, AMAWAKA)</td></tr><tr><td style=\"white-space:nowrap\">0016<a name=\"BREtniaIndigena-0016\"> </a></td><td>ARARA DO ARIPUANA (ARARA DO BEIRADAO/ARI­PUANA)</td></tr><tr><td style=\"white-space:nowrap\">0017<a name=\"BREtniaIndigena-0017\"> </a></td><td>ARARA DO PARA (UKARAGMA, UKARAMMA)</td></tr><tr><td style=\"white-space:nowrap\">0018<a name=\"BREtniaIndigena-0018\"> </a></td><td>ARAWETE (ARAUETE)</td></tr><tr><td style=\"white-space:nowrap\">0019<a name=\"BREtniaIndigena-0019\"> </a></td><td>ARIKAPU (ARICAPU, ARIKAPO, MASUBI, MAXUBI)</td></tr><tr><td style=\"white-space:nowrap\">0020<a name=\"BREtniaIndigena-0020\"> </a></td><td>ARIKEM (ARIQUEN, ARIQUEME, ARIKEME)</td></tr><tr><td style=\"white-space:nowrap\">0021<a name=\"BREtniaIndigena-0021\"> </a></td><td>ARIKOSE (ARICOBE)</td></tr><tr><td style=\"white-space:nowrap\">0022<a name=\"BREtniaIndigena-0022\"> </a></td><td>ARUA</td></tr><tr><td style=\"white-space:nowrap\">0023<a name=\"BREtniaIndigena-0023\"> </a></td><td>ARUAK (ARAWAK)</td></tr><tr><td style=\"white-space:nowrap\">0024<a name=\"BREtniaIndigena-0024\"> </a></td><td>ASHANINKA (KAMPA)</td></tr><tr><td style=\"white-space:nowrap\">0025<a name=\"BREtniaIndigena-0025\"> </a></td><td>ASURINI DO TOCANTINS (AKUAWA/AKWAWA)</td></tr><tr><td style=\"white-space:nowrap\">0026<a name=\"BREtniaIndigena-0026\"> </a></td><td>ASURINI DO XINGU (AWAETE)</td></tr><tr><td style=\"white-space:nowrap\">0027<a name=\"BREtniaIndigena-0027\"> </a></td><td>ATIKUM (ATICUM)</td></tr><tr><td style=\"white-space:nowrap\">0028<a name=\"BREtniaIndigena-0028\"> </a></td><td>AVA - CANOEIRO</td></tr><tr><td style=\"white-space:nowrap\">0029<a name=\"BREtniaIndigena-0029\"> </a></td><td>AWETI (AUETI/AUETO)</td></tr><tr><td style=\"white-space:nowrap\">0030<a name=\"BREtniaIndigena-0030\"> </a></td><td>BAKAIRI (KURA, BACAIRI)</td></tr><tr><td style=\"white-space:nowrap\">0031<a name=\"BREtniaIndigena-0031\"> </a></td><td>BANAWA YAFI (BANAWA, BANAWA-JAFI)</td></tr><tr><td style=\"white-space:nowrap\">0032<a name=\"BREtniaIndigena-0032\"> </a></td><td>BANIWA (BANIUA, BANIVA, WALIMANAI, WAKUE­NAI)</td></tr><tr><td style=\"white-space:nowrap\">0033<a name=\"BREtniaIndigena-0033\"> </a></td><td>BARA (WAIPINOMAKA)</td></tr><tr><td style=\"white-space:nowrap\">0034<a name=\"BREtniaIndigena-0034\"> </a></td><td>BARASANA (HANERA)</td></tr><tr><td style=\"white-space:nowrap\">0035<a name=\"BREtniaIndigena-0035\"> </a></td><td>BARE</td></tr><tr><td style=\"white-space:nowrap\">0036<a name=\"BREtniaIndigena-0036\"> </a></td><td>BORORO (BOE)</td></tr><tr><td style=\"white-space:nowrap\">0037<a name=\"BREtniaIndigena-0037\"> </a></td><td>BOTOCUDO (GEREN)</td></tr><tr><td style=\"white-space:nowrap\">0038<a name=\"BREtniaIndigena-0038\"> </a></td><td>CANOE</td></tr><tr><td style=\"white-space:nowrap\">0039<a name=\"BREtniaIndigena-0039\"> </a></td><td>CASSUPA</td></tr><tr><td style=\"white-space:nowrap\">0040<a name=\"BREtniaIndigena-0040\"> </a></td><td>CHAMACOCO</td></tr><tr><td style=\"white-space:nowrap\">0041<a name=\"BREtniaIndigena-0041\"> </a></td><td>CHIQUITANO (XIQUITANO)</td></tr><tr><td style=\"white-space:nowrap\">0042<a name=\"BREtniaIndigena-0042\"> </a></td><td>CIKIYANA (SIKIANA)</td></tr><tr><td style=\"white-space:nowrap\">0043<a name=\"BREtniaIndigena-0043\"> </a></td><td>CINTA LARGA (MATETAMAE)</td></tr><tr><td style=\"white-space:nowrap\">0044<a name=\"BREtniaIndigena-0044\"> </a></td><td>COLUMBIARA (CORUMBIARA)</td></tr><tr><td style=\"white-space:nowrap\">0045<a name=\"BREtniaIndigena-0045\"> </a></td><td>DENI</td></tr><tr><td style=\"white-space:nowrap\">0046<a name=\"BREtniaIndigena-0046\"> </a></td><td>DESANA (DESANA, DESANO, DESSANO, WIRA, UMUKOMASA)</td></tr><tr><td style=\"white-space:nowrap\">0047<a name=\"BREtniaIndigena-0047\"> </a></td><td>DIAHUI (JAHOI, JAHUI, DIARROI)</td></tr><tr><td style=\"white-space:nowrap\">0048<a name=\"BREtniaIndigena-0048\"> </a></td><td>ENAWENE-NAWE (SALUMA)</td></tr><tr><td style=\"white-space:nowrap\">0049<a name=\"BREtniaIndigena-0049\"> </a></td><td>FULNI-O</td></tr><tr><td style=\"white-space:nowrap\">0050<a name=\"BREtniaIndigena-0050\"> </a></td><td>GALIBI (GALIBI DO OIAPOQUE, KARINHA)</td></tr><tr><td style=\"white-space:nowrap\">0051<a name=\"BREtniaIndigena-0051\"> </a></td><td>GALIBI MARWORNO (GALIBI DO UACA, ARUA)</td></tr><tr><td style=\"white-space:nowrap\">0052<a name=\"BREtniaIndigena-0052\"> </a></td><td>GAVIAO DE RONDONIA (DIGUT)</td></tr><tr><td style=\"white-space:nowrap\">0053<a name=\"BREtniaIndigena-0053\"> </a></td><td>GAVIAO KRIKATEJE</td></tr><tr><td style=\"white-space:nowrap\">0054<a name=\"BREtniaIndigena-0054\"> </a></td><td>GAVIAO PARKATEJE (PARKATEJE)</td></tr><tr><td style=\"white-space:nowrap\">0055<a name=\"BREtniaIndigena-0055\"> </a></td><td>GAVIAO PUKOBIE (PUKOBIE, PYKOPJE, GAVIAO DO MARANHAO)</td></tr><tr><td style=\"white-space:nowrap\">0056<a name=\"BREtniaIndigena-0056\"> </a></td><td>GUAJA (AWA, AVA)</td></tr><tr><td style=\"white-space:nowrap\">0057<a name=\"BREtniaIndigena-0057\"> </a></td><td>GUAJAJARA (TENETEHARA)</td></tr><tr><td style=\"white-space:nowrap\">0058<a name=\"BREtniaIndigena-0058\"> </a></td><td>GUARANI KAIOWA (PAI TAVYTERA)</td></tr><tr><td style=\"white-space:nowrap\">0059<a name=\"BREtniaIndigena-0059\"> </a></td><td>GUARANI M'BYA</td></tr><tr><td style=\"white-space:nowrap\">0060<a name=\"BREtniaIndigena-0060\"> </a></td><td>GUARANI NANDEVA (AVAKATUETE, CHIRIPA, NHANDEWA, AVA GUARANI)</td></tr><tr><td style=\"white-space:nowrap\">0061<a name=\"BREtniaIndigena-0061\"> </a></td><td>GUATO</td></tr><tr><td style=\"white-space:nowrap\">0062<a name=\"BREtniaIndigena-0062\"> </a></td><td>HIMARIMA (HIMERIMA)</td></tr><tr><td style=\"white-space:nowrap\">0063<a name=\"BREtniaIndigena-0063\"> </a></td><td>INGARIKO (INGARICO, AKAWAIO, KAPON)</td></tr><tr><td style=\"white-space:nowrap\">0064<a name=\"BREtniaIndigena-0064\"> </a></td><td>IRANXE (IRANTXE)</td></tr><tr><td style=\"white-space:nowrap\">0065<a name=\"BREtniaIndigena-0065\"> </a></td><td>ISSE</td></tr><tr><td style=\"white-space:nowrap\">0066<a name=\"BREtniaIndigena-0066\"> </a></td><td>JABOTI (JABUTI, KIPIU, YABYTI)</td></tr><tr><td style=\"white-space:nowrap\">0067<a name=\"BREtniaIndigena-0067\"> </a></td><td>JAMAMADI (YAMAMADI, DJEOROMITXI)</td></tr><tr><td style=\"white-space:nowrap\">0068<a name=\"BREtniaIndigena-0068\"> </a></td><td>JARAWARA</td></tr><tr><td style=\"white-space:nowrap\">0069<a name=\"BREtniaIndigena-0069\"> </a></td><td>JIRIPANCO (JERIPANCO, GERIPANCO)</td></tr><tr><td style=\"white-space:nowrap\">0070<a name=\"BREtniaIndigena-0070\"> </a></td><td>JUMA (YUMA)</td></tr><tr><td style=\"white-space:nowrap\">0071<a name=\"BREtniaIndigena-0071\"> </a></td><td>JURUNA</td></tr><tr><td style=\"white-space:nowrap\">0072<a name=\"BREtniaIndigena-0072\"> </a></td><td>JURUTI (YURITI)</td></tr><tr><td style=\"white-space:nowrap\">0073<a name=\"BREtniaIndigena-0073\"> </a></td><td>KAAPOR (URUBU-KAAPOR, KA'APOR, KAAPORTE)</td></tr><tr><td style=\"white-space:nowrap\">0074<a name=\"BREtniaIndigena-0074\"> </a></td><td>KADIWEU (CADUVEO, CADIUEU)</td></tr><tr><td style=\"white-space:nowrap\">0075<a name=\"BREtniaIndigena-0075\"> </a></td><td>KAIABI (CAIABI, KAYABI)</td></tr><tr><td style=\"white-space:nowrap\">0076<a name=\"BREtniaIndigena-0076\"> </a></td><td>KAIMBE (CAIMBE)</td></tr><tr><td style=\"white-space:nowrap\">0077<a name=\"BREtniaIndigena-0077\"> </a></td><td>KAINGANG (CAINGANGUE)</td></tr><tr><td style=\"white-space:nowrap\">0078<a name=\"BREtniaIndigena-0078\"> </a></td><td>KAIXANA (CAIXANA)</td></tr><tr><td style=\"white-space:nowrap\">0079<a name=\"BREtniaIndigena-0079\"> </a></td><td>KALABASSA (CALABASSA, CALABACAS)</td></tr><tr><td style=\"white-space:nowrap\">0080<a name=\"BREtniaIndigena-0080\"> </a></td><td>KALANCO</td></tr><tr><td style=\"white-space:nowrap\">0081<a name=\"BREtniaIndigena-0081\"> </a></td><td>KALAPALO (CALAPALO)</td></tr><tr><td style=\"white-space:nowrap\">0082<a name=\"BREtniaIndigena-0082\"> </a></td><td>KAMAYURA (CAMAIURA, KAMAIURA)</td></tr><tr><td style=\"white-space:nowrap\">0083<a name=\"BREtniaIndigena-0083\"> </a></td><td>KAMBA (CAMBA)</td></tr><tr><td style=\"white-space:nowrap\">0084<a name=\"BREtniaIndigena-0084\"> </a></td><td>KAMBEBA (CAMBEBA, OMAGUA)</td></tr><tr><td style=\"white-space:nowrap\">0085<a name=\"BREtniaIndigena-0085\"> </a></td><td>KAMBIWA (CAMBIUA)</td></tr><tr><td style=\"white-space:nowrap\">0086<a name=\"BREtniaIndigena-0086\"> </a></td><td>KAMBIWA PIPIPA (PIPIPA)</td></tr><tr><td style=\"white-space:nowrap\">0087<a name=\"BREtniaIndigena-0087\"> </a></td><td>KAMPE</td></tr><tr><td style=\"white-space:nowrap\">0088<a name=\"BREtniaIndigena-0088\"> </a></td><td>KANAMANTI (KANAMATI, CANAMANTI)</td></tr><tr><td style=\"white-space:nowrap\">0089<a name=\"BREtniaIndigena-0089\"> </a></td><td>KANAMARI (CANAMARI, KANAMARY, TUKUNA)</td></tr><tr><td style=\"white-space:nowrap\">0090<a name=\"BREtniaIndigena-0090\"> </a></td><td>KANELA APANIEKRA (CANELA)</td></tr><tr><td style=\"white-space:nowrap\">0091<a name=\"BREtniaIndigena-0091\"> </a></td><td>KANELA RANKOKAMEKRA (CANELA)</td></tr><tr><td style=\"white-space:nowrap\">0092<a name=\"BREtniaIndigena-0092\"> </a></td><td>KANINDE</td></tr><tr><td style=\"white-space:nowrap\">0093<a name=\"BREtniaIndigena-0093\"> </a></td><td>KANOE (CANOE)</td></tr><tr><td style=\"white-space:nowrap\">0094<a name=\"BREtniaIndigena-0094\"> </a></td><td>KANTARURE (CANTARURE)</td></tr><tr><td style=\"white-space:nowrap\">0095<a name=\"BREtniaIndigena-0095\"> </a></td><td>KAPINAWA (CAPINAUA)</td></tr><tr><td style=\"white-space:nowrap\">0096<a name=\"BREtniaIndigena-0096\"> </a></td><td>KARAJA (CARAJA)</td></tr><tr><td style=\"white-space:nowrap\">0097<a name=\"BREtniaIndigena-0097\"> </a></td><td>KARAJA/JAVAE (JAVAE)</td></tr><tr><td style=\"white-space:nowrap\">0098<a name=\"BREtniaIndigena-0098\"> </a></td><td>KARAJA/XAMBIOA (KARAJA DO NORTE)</td></tr><tr><td style=\"white-space:nowrap\">0099<a name=\"BREtniaIndigena-0099\"> </a></td><td>KARAPANA (CARAPANA, MUTEAMASA, UKOPINO­PONA)</td></tr><tr><td style=\"white-space:nowrap\">0100<a name=\"BREtniaIndigena-0100\"> </a></td><td>KARAPOTO (CARAPOTO)</td></tr><tr><td style=\"white-space:nowrap\">0101<a name=\"BREtniaIndigena-0101\"> </a></td><td>KARIPUNA (CARIPUNA)</td></tr><tr><td style=\"white-space:nowrap\">0102<a name=\"BREtniaIndigena-0102\"> </a></td><td>KARIPUNA DO AMAPA (CARIPUNA)</td></tr><tr><td style=\"white-space:nowrap\">0103<a name=\"BREtniaIndigena-0103\"> </a></td><td>KARIRI (CARIRI)</td></tr><tr><td style=\"white-space:nowrap\">0104<a name=\"BREtniaIndigena-0104\"> </a></td><td>KARIRI-XOCO (CARIRI-CHOCO)</td></tr><tr><td style=\"white-space:nowrap\">0105<a name=\"BREtniaIndigena-0105\"> </a></td><td>KARITIANA (CARITIANA)</td></tr><tr><td style=\"white-space:nowrap\">0106<a name=\"BREtniaIndigena-0106\"> </a></td><td>KATAWIXI (KATAUIXI, KATAWIN, KATAWISI, CATAUICHI)</td></tr><tr><td style=\"white-space:nowrap\">0107<a name=\"BREtniaIndigena-0107\"> </a></td><td>KATUENA (CATUENA, KATWENA)</td></tr><tr><td style=\"white-space:nowrap\">0108<a name=\"BREtniaIndigena-0108\"> </a></td><td>KATUKINA (PEDA DJAPA)</td></tr><tr><td style=\"white-space:nowrap\">0109<a name=\"BREtniaIndigena-0109\"> </a></td><td>KATUKINA DO ACRE</td></tr><tr><td style=\"white-space:nowrap\">0110<a name=\"BREtniaIndigena-0110\"> </a></td><td>KAXARARI (CAXARARI)</td></tr><tr><td style=\"white-space:nowrap\">0111<a name=\"BREtniaIndigena-0111\"> </a></td><td>KAXINAWA (HUNI-KUIN, CASHINAUA, CAXINAUA)</td></tr><tr><td style=\"white-space:nowrap\">0112<a name=\"BREtniaIndigena-0112\"> </a></td><td>KAXIXO</td></tr><tr><td style=\"white-space:nowrap\">0113<a name=\"BREtniaIndigena-0113\"> </a></td><td>KAXUYANA (CAXUIANA)</td></tr><tr><td style=\"white-space:nowrap\">0114<a name=\"BREtniaIndigena-0114\"> </a></td><td>KAYAPO (CAIAPO)</td></tr><tr><td style=\"white-space:nowrap\">0115<a name=\"BREtniaIndigena-0115\"> </a></td><td>KAYAPO KARARAO (KARARAO)</td></tr><tr><td style=\"white-space:nowrap\">0116<a name=\"BREtniaIndigena-0116\"> </a></td><td>KAYAPO TXUKAHAMAE (TXUKAHAMAE)</td></tr><tr><td style=\"white-space:nowrap\">0117<a name=\"BREtniaIndigena-0117\"> </a></td><td>KAYAPO XICRIM (XIKRIN)</td></tr><tr><td style=\"white-space:nowrap\">0118<a name=\"BREtniaIndigena-0118\"> </a></td><td>KAYUISANA (CAIXANA, CAUIXANA, KAIXANA)</td></tr><tr><td style=\"white-space:nowrap\">0119<a name=\"BREtniaIndigena-0119\"> </a></td><td>KINIKINAWA (GUAN, KOINUKOEN, KINIKINAO)</td></tr><tr><td style=\"white-space:nowrap\">0120<a name=\"BREtniaIndigena-0120\"> </a></td><td>KIRIRI</td></tr><tr><td style=\"white-space:nowrap\">0121<a name=\"BREtniaIndigena-0121\"> </a></td><td>KOCAMA (COCAMA, KOKAMA)</td></tr><tr><td style=\"white-space:nowrap\">0122<a name=\"BREtniaIndigena-0122\"> </a></td><td>KOKUIREGATEJE</td></tr><tr><td style=\"white-space:nowrap\">0123<a name=\"BREtniaIndigena-0123\"> </a></td><td>KORUBO</td></tr><tr><td style=\"white-space:nowrap\">0124<a name=\"BREtniaIndigena-0124\"> </a></td><td>KRAHO (CRAO, KRAO)</td></tr><tr><td style=\"white-space:nowrap\">0125<a name=\"BREtniaIndigena-0125\"> </a></td><td>KREJE (KRENYE)</td></tr><tr><td style=\"white-space:nowrap\">0126<a name=\"BREtniaIndigena-0126\"> </a></td><td>KRENAK (BORUN, CRENAQUE)</td></tr><tr><td style=\"white-space:nowrap\">0127<a name=\"BREtniaIndigena-0127\"> </a></td><td>KRIKATI (KRINKATI)</td></tr><tr><td style=\"white-space:nowrap\">0128<a name=\"BREtniaIndigena-0128\"> </a></td><td>KUBEO (CUBEO, COBEWA, KUBEWA, PAMIWA, CU­BEU)</td></tr><tr><td style=\"white-space:nowrap\">0129<a name=\"BREtniaIndigena-0129\"> </a></td><td>KUIKURO (KUIKURU, CUICURO)</td></tr><tr><td style=\"white-space:nowrap\">0130<a name=\"BREtniaIndigena-0130\"> </a></td><td>KUJUBIM (KUYUBI, CUJUBIM)</td></tr><tr><td style=\"white-space:nowrap\">0131<a name=\"BREtniaIndigena-0131\"> </a></td><td>KULINA PANO (CULINA)</td></tr><tr><td style=\"white-space:nowrap\">0132<a name=\"BREtniaIndigena-0132\"> </a></td><td>KULINA/MADIHA (CULINA, MADIJA, MADIHA)</td></tr><tr><td style=\"white-space:nowrap\">0133<a name=\"BREtniaIndigena-0133\"> </a></td><td>KURIPAKO (CURIPACO, CURRIPACO, CORIPACO, WAKUENAI)</td></tr><tr><td style=\"white-space:nowrap\">0134<a name=\"BREtniaIndigena-0134\"> </a></td><td>KURUAIA (CURUAIA)</td></tr><tr><td style=\"white-space:nowrap\">0135<a name=\"BREtniaIndigena-0135\"> </a></td><td>KWAZA (COAIA, KOAIA)</td></tr><tr><td style=\"white-space:nowrap\">0136<a name=\"BREtniaIndigena-0136\"> </a></td><td>MACHINERI (MANCHINERI, MANXINERI)</td></tr><tr><td style=\"white-space:nowrap\">0137<a name=\"BREtniaIndigena-0137\"> </a></td><td>MACURAP (MAKURAP)</td></tr><tr><td style=\"white-space:nowrap\">0138<a name=\"BREtniaIndigena-0138\"> </a></td><td>MAKU DOW (DOW)</td></tr><tr><td style=\"white-space:nowrap\">0139<a name=\"BREtniaIndigena-0139\"> </a></td><td>MAKU HUPDA (HUPDA)</td></tr><tr><td style=\"white-space:nowrap\">0140<a name=\"BREtniaIndigena-0140\"> </a></td><td>MAKU NADEB (NADEB)</td></tr><tr><td style=\"white-space:nowrap\">0141<a name=\"BREtniaIndigena-0141\"> </a></td><td>MAKU YUHUPDE (YUHUPDE)</td></tr><tr><td style=\"white-space:nowrap\">0142<a name=\"BREtniaIndigena-0142\"> </a></td><td>MAKUNA (MACUNA, YEBA-MASA)</td></tr><tr><td style=\"white-space:nowrap\">0143<a name=\"BREtniaIndigena-0143\"> </a></td><td>MAKUXI (MACUXI, MACHUSI, PEMON)</td></tr><tr><td style=\"white-space:nowrap\">0144<a name=\"BREtniaIndigena-0144\"> </a></td><td>MARIMAM (MARIMA)</td></tr><tr><td style=\"white-space:nowrap\">0145<a name=\"BREtniaIndigena-0145\"> </a></td><td>MARUBO</td></tr><tr><td style=\"white-space:nowrap\">0146<a name=\"BREtniaIndigena-0146\"> </a></td><td>MATIPU</td></tr><tr><td style=\"white-space:nowrap\">0147<a name=\"BREtniaIndigena-0147\"> </a></td><td>MATIS</td></tr><tr><td style=\"white-space:nowrap\">0148<a name=\"BREtniaIndigena-0148\"> </a></td><td>MATSE (MAYORUNA)</td></tr><tr><td style=\"white-space:nowrap\">0149<a name=\"BREtniaIndigena-0149\"> </a></td><td>MAXAKALI (MAXACALI)</td></tr><tr><td style=\"white-space:nowrap\">0150<a name=\"BREtniaIndigena-0150\"> </a></td><td>MAYA (MAYA)</td></tr><tr><td style=\"white-space:nowrap\">0151<a name=\"BREtniaIndigena-0151\"> </a></td><td>MAYTAPU</td></tr><tr><td style=\"white-space:nowrap\">0152<a name=\"BREtniaIndigena-0152\"> </a></td><td>MEHINAKO (MEINAKU, MEINACU)</td></tr><tr><td style=\"white-space:nowrap\">0153<a name=\"BREtniaIndigena-0153\"> </a></td><td>MEKEN (MEQUEM, MEKHEM, MICHENS)</td></tr><tr><td style=\"white-space:nowrap\">0154<a name=\"BREtniaIndigena-0154\"> </a></td><td>MENKY (MYKY, MUNKU, MENKI, MYNKY)</td></tr><tr><td style=\"white-space:nowrap\">0155<a name=\"BREtniaIndigena-0155\"> </a></td><td>MIRANHA (MIRANHA, MIRANA)</td></tr><tr><td style=\"white-space:nowrap\">0156<a name=\"BREtniaIndigena-0156\"> </a></td><td>MIRITI TAPUIA (MIRITI-TAPUYA, BUIA-TAPUYA)</td></tr><tr><td style=\"white-space:nowrap\">0157<a name=\"BREtniaIndigena-0157\"> </a></td><td>MUNDURUKU (MUNDURUCU)</td></tr><tr><td style=\"white-space:nowrap\">0158<a name=\"BREtniaIndigena-0158\"> </a></td><td>MURA</td></tr><tr><td style=\"white-space:nowrap\">0159<a name=\"BREtniaIndigena-0159\"> </a></td><td>NAHUKWA (NAFUQUA)</td></tr><tr><td style=\"white-space:nowrap\">0160<a name=\"BREtniaIndigena-0160\"> </a></td><td>NAMBIKWARA DO CAMPO (HALOTESU, KITHAULU, WAKALITESU, SAWENTES, MANDUKA)</td></tr><tr><td style=\"white-space:nowrap\">0161<a name=\"BREtniaIndigena-0161\"> </a></td><td>NAMBIKWARA DO NORTE (NEGAROTE ,MAMAIN­DE, LATUNDE, SABANE E MANDUKA, TAWANDE)</td></tr><tr><td style=\"white-space:nowrap\">0162<a name=\"BREtniaIndigena-0162\"> </a></td><td>NAMBIKWARA DO SUL (WASUSU ,HAHAINTESU, ALANTESU, WAIKISU, ALAKETESU, WASUSU, SA­RARE)</td></tr><tr><td style=\"white-space:nowrap\">0163<a name=\"BREtniaIndigena-0163\"> </a></td><td>NARAVUTE (NARUVOTO)</td></tr><tr><td style=\"white-space:nowrap\">0164<a name=\"BREtniaIndigena-0164\"> </a></td><td>NAWA (NAUA)</td></tr><tr><td style=\"white-space:nowrap\">0165<a name=\"BREtniaIndigena-0165\"> </a></td><td>NUKINI (NUQUINI, NUKUINI)</td></tr><tr><td style=\"white-space:nowrap\">0166<a name=\"BREtniaIndigena-0166\"> </a></td><td>OFAIE (OFAYE-XAVANTE)</td></tr><tr><td style=\"white-space:nowrap\">0167<a name=\"BREtniaIndigena-0167\"> </a></td><td>ORO WIN</td></tr><tr><td style=\"white-space:nowrap\">0168<a name=\"BREtniaIndigena-0168\"> </a></td><td>PAIAKU (JENIPAPO-KANINDE)</td></tr><tr><td style=\"white-space:nowrap\">0169<a name=\"BREtniaIndigena-0169\"> </a></td><td>PAKAA NOVA (WARI, PACAAS NOVOS)</td></tr><tr><td style=\"white-space:nowrap\">0170<a name=\"BREtniaIndigena-0170\"> </a></td><td>PALIKUR (AUKWAYENE, AUKUYENE, PALIKU'ENE)</td></tr><tr><td style=\"white-space:nowrap\">0171<a name=\"BREtniaIndigena-0171\"> </a></td><td>PANARA (KRENHAKARORE , KRENAKORE, KRENA­KARORE)</td></tr><tr><td style=\"white-space:nowrap\">0172<a name=\"BREtniaIndigena-0172\"> </a></td><td>PANKARARE (PANCARARE)</td></tr><tr><td style=\"white-space:nowrap\">0173<a name=\"BREtniaIndigena-0173\"> </a></td><td>PANKARARU (PANCARARU)</td></tr><tr><td style=\"white-space:nowrap\">0174<a name=\"BREtniaIndigena-0174\"> </a></td><td>PANKARARU KALANKO (KALANKO)</td></tr><tr><td style=\"white-space:nowrap\">0175<a name=\"BREtniaIndigena-0175\"> </a></td><td>PANKARARU KARUAZU (KARUAZU)</td></tr><tr><td style=\"white-space:nowrap\">0176<a name=\"BREtniaIndigena-0176\"> </a></td><td>PANKARU (PANCARU)</td></tr><tr><td style=\"white-space:nowrap\">0177<a name=\"BREtniaIndigena-0177\"> </a></td><td>PARAKANA (PARACANA, APITEREWA, AWAETE)</td></tr><tr><td style=\"white-space:nowrap\">0178<a name=\"BREtniaIndigena-0178\"> </a></td><td>PARECI (PARESI, HALITI)</td></tr><tr><td style=\"white-space:nowrap\">0179<a name=\"BREtniaIndigena-0179\"> </a></td><td>PARINTINTIN</td></tr><tr><td style=\"white-space:nowrap\">0180<a name=\"BREtniaIndigena-0180\"> </a></td><td>PATAMONA (KAPON)</td></tr><tr><td style=\"white-space:nowrap\">0181<a name=\"BREtniaIndigena-0181\"> </a></td><td>PATAXO</td></tr><tr><td style=\"white-space:nowrap\">0182<a name=\"BREtniaIndigena-0182\"> </a></td><td>PATAXO HA-HA-HAE</td></tr><tr><td style=\"white-space:nowrap\">0183<a name=\"BREtniaIndigena-0183\"> </a></td><td>PAUMARI (PALMARI)</td></tr><tr><td style=\"white-space:nowrap\">0184<a name=\"BREtniaIndigena-0184\"> </a></td><td>PAUMELENHO</td></tr><tr><td style=\"white-space:nowrap\">0185<a name=\"BREtniaIndigena-0185\"> </a></td><td>PIRAHA (MURA PIRAHA)</td></tr><tr><td style=\"white-space:nowrap\">0186<a name=\"BREtniaIndigena-0186\"> </a></td><td>PIRATUAPUIA (PIRATAPUYA, PIRATAPUYO, PIRA­TAPUYA, WAIKANA)</td></tr><tr><td style=\"white-space:nowrap\">0187<a name=\"BREtniaIndigena-0187\"> </a></td><td>PITAGUARI</td></tr><tr><td style=\"white-space:nowrap\">0188<a name=\"BREtniaIndigena-0188\"> </a></td><td>POTIGUARA</td></tr><tr><td style=\"white-space:nowrap\">0189<a name=\"BREtniaIndigena-0189\"> </a></td><td>POYANAWA (POIANAUA)</td></tr><tr><td style=\"white-space:nowrap\">0190<a name=\"BREtniaIndigena-0190\"> </a></td><td>RIKBAKTSA (CANOEIROS, ERIGPAKTSA)</td></tr><tr><td style=\"white-space:nowrap\">0191<a name=\"BREtniaIndigena-0191\"> </a></td><td>SAKURABIAT (MEKENS, SAKIRABIAP, SAKIRABIAR)</td></tr><tr><td style=\"white-space:nowrap\">0192<a name=\"BREtniaIndigena-0192\"> </a></td><td>SATERE-MAWE (SATERE-MAUE)</td></tr><tr><td style=\"white-space:nowrap\">0193<a name=\"BREtniaIndigena-0193\"> </a></td><td>SHANENAWA (KATUKINA)</td></tr><tr><td style=\"white-space:nowrap\">0194<a name=\"BREtniaIndigena-0194\"> </a></td><td>SIRIANO (SIRIA-MASA)</td></tr><tr><td style=\"white-space:nowrap\">0195<a name=\"BREtniaIndigena-0195\"> </a></td><td>SURIANA</td></tr><tr><td style=\"white-space:nowrap\">0196<a name=\"BREtniaIndigena-0196\"> </a></td><td>SURUI DE RONDONIA (PAITER)</td></tr><tr><td style=\"white-space:nowrap\">0197<a name=\"BREtniaIndigena-0197\"> </a></td><td>SURUI DO PARA (AIKEWARA)</td></tr><tr><td style=\"white-space:nowrap\">0198<a name=\"BREtniaIndigena-0198\"> </a></td><td>SUYA (SUIA/KISEDJE)</td></tr><tr><td style=\"white-space:nowrap\">0199<a name=\"BREtniaIndigena-0199\"> </a></td><td>TAPAYUNA (BEICO-DE-PAU)</td></tr><tr><td style=\"white-space:nowrap\">0200<a name=\"BREtniaIndigena-0200\"> </a></td><td>TAPEBA</td></tr><tr><td style=\"white-space:nowrap\">0201<a name=\"BREtniaIndigena-0201\"> </a></td><td>TAPIRAPE (TAPI'IRAPE)</td></tr><tr><td style=\"white-space:nowrap\">0202<a name=\"BREtniaIndigena-0202\"> </a></td><td>TAPUIA (TAPUIA-XAVANTE, TAPUIO)</td></tr><tr><td style=\"white-space:nowrap\">0203<a name=\"BREtniaIndigena-0203\"> </a></td><td>TARIANO (TARIANA, TALIASERI)</td></tr><tr><td style=\"white-space:nowrap\">0204<a name=\"BREtniaIndigena-0204\"> </a></td><td>TAUREPANG (TAULIPANG, PEMON, AREKUNA, PA­GEYN)</td></tr><tr><td style=\"white-space:nowrap\">0205<a name=\"BREtniaIndigena-0205\"> </a></td><td>TEMBE</td></tr><tr><td style=\"white-space:nowrap\">0206<a name=\"BREtniaIndigena-0206\"> </a></td><td>TENHARIM</td></tr><tr><td style=\"white-space:nowrap\">0207<a name=\"BREtniaIndigena-0207\"> </a></td><td>TERENA</td></tr><tr><td style=\"white-space:nowrap\">0208<a name=\"BREtniaIndigena-0208\"> </a></td><td>TICUNA (TIKUNA, TUKUNA, MAGUTA)</td></tr><tr><td style=\"white-space:nowrap\">0209<a name=\"BREtniaIndigena-0209\"> </a></td><td>TINGUI BOTO</td></tr><tr><td style=\"white-space:nowrap\">0210<a name=\"BREtniaIndigena-0210\"> </a></td><td>TIRIYO EWARHUYANA (TIRIYO, TRIO, TARONA, YAWI, PIANOKOTO)</td></tr><tr><td style=\"white-space:nowrap\">0211<a name=\"BREtniaIndigena-0211\"> </a></td><td>TIRIYO KAH'YANA (TIRIYO, TRIO, TARONA, YAWI, PIANOKOTO)</td></tr><tr><td style=\"white-space:nowrap\">0212<a name=\"BREtniaIndigena-0212\"> </a></td><td>TIRIYO TSIKUYANA (TIRIYO, TRIO, TARONA, YAWI, PIANOKOTO)</td></tr><tr><td style=\"white-space:nowrap\">0213<a name=\"BREtniaIndigena-0213\"> </a></td><td>TORA</td></tr><tr><td style=\"white-space:nowrap\">0214<a name=\"BREtniaIndigena-0214\"> </a></td><td>TREMEMBE</td></tr><tr><td style=\"white-space:nowrap\">0215<a name=\"BREtniaIndigena-0215\"> </a></td><td>TRUKA</td></tr><tr><td style=\"white-space:nowrap\">0216<a name=\"BREtniaIndigena-0216\"> </a></td><td>TRUMAI</td></tr><tr><td style=\"white-space:nowrap\">0217<a name=\"BREtniaIndigena-0217\"> </a></td><td>TSOHOM DJAPA (TSUNHUM-DJAPA)</td></tr><tr><td style=\"white-space:nowrap\">0218<a name=\"BREtniaIndigena-0218\"> </a></td><td>TUKANO (TUCANO, YE'PA-MASA, DASEA)</td></tr><tr><td style=\"white-space:nowrap\">0219<a name=\"BREtniaIndigena-0219\"> </a></td><td>TUMBALALA</td></tr><tr><td style=\"white-space:nowrap\">0220<a name=\"BREtniaIndigena-0220\"> </a></td><td>TUNAYANA</td></tr><tr><td style=\"white-space:nowrap\">0221<a name=\"BREtniaIndigena-0221\"> </a></td><td>TUPARI</td></tr><tr><td style=\"white-space:nowrap\">0222<a name=\"BREtniaIndigena-0222\"> </a></td><td>TUPINAMBA</td></tr><tr><td style=\"white-space:nowrap\">0223<a name=\"BREtniaIndigena-0223\"> </a></td><td>TUPINIQUIM</td></tr><tr><td style=\"white-space:nowrap\">0224<a name=\"BREtniaIndigena-0224\"> </a></td><td>TURIWARA</td></tr><tr><td style=\"white-space:nowrap\">0225<a name=\"BREtniaIndigena-0225\"> </a></td><td>TUXA</td></tr><tr><td style=\"white-space:nowrap\">0226<a name=\"BREtniaIndigena-0226\"> </a></td><td>TUYUKA (TUIUCA, DOKAPUARA, UTAPINOMAKA­PHONA)</td></tr><tr><td style=\"white-space:nowrap\">0227<a name=\"BREtniaIndigena-0227\"> </a></td><td>TXIKAO (TXICAO, IKPENG)</td></tr><tr><td style=\"white-space:nowrap\">0228<a name=\"BREtniaIndigena-0228\"> </a></td><td>UMUTINA (OMOTINA, BARBADOS)</td></tr><tr><td style=\"white-space:nowrap\">0229<a name=\"BREtniaIndigena-0229\"> </a></td><td>URU-EU-WAU-WAU (URUEU-UAU-UAU, URUPAIN, URUPA)</td></tr><tr><td style=\"white-space:nowrap\">0230<a name=\"BREtniaIndigena-0230\"> </a></td><td>WAI WAI HIXKARYANA (HIXKARYANA)</td></tr><tr><td style=\"white-space:nowrap\">0231<a name=\"BREtniaIndigena-0231\"> </a></td><td>WAI WAI KARAFAWYANA (KARAFAWYANA, KARA­PAWYANA)</td></tr><tr><td style=\"white-space:nowrap\">0232<a name=\"BREtniaIndigena-0232\"> </a></td><td>WAI WAI XEREU (XEREU)</td></tr><tr><td style=\"white-space:nowrap\">0233<a name=\"BREtniaIndigena-0233\"> </a></td><td>WAI WAI KATUENA (KATUENA)</td></tr><tr><td style=\"white-space:nowrap\">0234<a name=\"BREtniaIndigena-0234\"> </a></td><td>WAI WAI MAWAYANA (MAWAYANA)</td></tr><tr><td style=\"white-space:nowrap\">0235<a name=\"BREtniaIndigena-0235\"> </a></td><td>WAIAPI (WAYAMPI, OYAMPI, WAYAPY, )</td></tr><tr><td style=\"white-space:nowrap\">0236<a name=\"BREtniaIndigena-0236\"> </a></td><td>WAIMIRI ATROARI (KINA)</td></tr><tr><td style=\"white-space:nowrap\">0237<a name=\"BREtniaIndigena-0237\"> </a></td><td>WANANO (UANANO, WANANA)</td></tr><tr><td style=\"white-space:nowrap\">0238<a name=\"BREtniaIndigena-0238\"> </a></td><td>WAPIXANA (UAPIXANA, VAPIDIANA, WAPISIANA, WAPISHANA)</td></tr><tr><td style=\"white-space:nowrap\">0239<a name=\"BREtniaIndigena-0239\"> </a></td><td>WAREKENA (UAREQUENA, WEREKENA)</td></tr><tr><td style=\"white-space:nowrap\">0240<a name=\"BREtniaIndigena-0240\"> </a></td><td>WASSU</td></tr><tr><td style=\"white-space:nowrap\">0241<a name=\"BREtniaIndigena-0241\"> </a></td><td>WAURA (UAURA, WAUJA)</td></tr><tr><td style=\"white-space:nowrap\">0242<a name=\"BREtniaIndigena-0242\"> </a></td><td>WAYANA (WAIANA, UAIANA)</td></tr><tr><td style=\"white-space:nowrap\">0243<a name=\"BREtniaIndigena-0243\"> </a></td><td>WITOTO (UITOTO, HUITOTO)</td></tr><tr><td style=\"white-space:nowrap\">0244<a name=\"BREtniaIndigena-0244\"> </a></td><td>XAKRIABA (XACRIABA)</td></tr><tr><td style=\"white-space:nowrap\">0245<a name=\"BREtniaIndigena-0245\"> </a></td><td>XAVANTE (A'UWE, AKWE, AWEN, AKWEN)</td></tr><tr><td style=\"white-space:nowrap\">0246<a name=\"BREtniaIndigena-0246\"> </a></td><td>XERENTE (AKWE, AWEN, AKWEN)</td></tr><tr><td style=\"white-space:nowrap\">0247<a name=\"BREtniaIndigena-0247\"> </a></td><td>XETA</td></tr><tr><td style=\"white-space:nowrap\">0248<a name=\"BREtniaIndigena-0248\"> </a></td><td>XIPAIA (SHIPAYA, XIPAYA)</td></tr><tr><td style=\"white-space:nowrap\">0249<a name=\"BREtniaIndigena-0249\"> </a></td><td>XOKLENG (SHOKLENG, XOCLENG)</td></tr><tr><td style=\"white-space:nowrap\">0250<a name=\"BREtniaIndigena-0250\"> </a></td><td>XOKO (XOCO, CHOCO)</td></tr><tr><td style=\"white-space:nowrap\">0251<a name=\"BREtniaIndigena-0251\"> </a></td><td>XUKURU (XUCURU)</td></tr><tr><td style=\"white-space:nowrap\">0252<a name=\"BREtniaIndigena-0252\"> </a></td><td>XUKURU KARIRI (XUCURU-KARIRI)</td></tr><tr><td style=\"white-space:nowrap\">0253<a name=\"BREtniaIndigena-0253\"> </a></td><td>YAIPIYANA</td></tr><tr><td style=\"white-space:nowrap\">0254<a name=\"BREtniaIndigena-0254\"> </a></td><td>YAMINAWA (JAMINAWA, IAMINAWA)</td></tr><tr><td style=\"white-space:nowrap\">0255<a name=\"BREtniaIndigena-0255\"> </a></td><td>YANOMAMI NINAM (IANOMAMI, IANOAMA, XIRIA­NA)</td></tr><tr><td style=\"white-space:nowrap\">0256<a name=\"BREtniaIndigena-0256\"> </a></td><td>YANOMAMI SANUMA (IANOMAMI, IANOAMA, XI­RIANA)</td></tr><tr><td style=\"white-space:nowrap\">0257<a name=\"BREtniaIndigena-0257\"> </a></td><td>YANOMAMI YANOMAM (IANOMAMI, IANOAMA, XI­RIANA)</td></tr><tr><td style=\"white-space:nowrap\">0258<a name=\"BREtniaIndigena-0258\"> </a></td><td>YAWALAPITI (IAUALAPITI)</td></tr><tr><td style=\"white-space:nowrap\">0259<a name=\"BREtniaIndigena-0259\"> </a></td><td>YAWANAWA (IAUANAUA)</td></tr><tr><td style=\"white-space:nowrap\">0260<a name=\"BREtniaIndigena-0260\"> </a></td><td>YEKUANA (MAIONGON, YE'KUANA, YEKWANA, MAYONGONG)</td></tr><tr><td style=\"white-space:nowrap\">0261<a name=\"BREtniaIndigena-0261\"> </a></td><td>YUDJA (JURUNA, YURUNA)</td></tr><tr><td style=\"white-space:nowrap\">0262<a name=\"BREtniaIndigena-0262\"> </a></td><td>ZO'E (POTURU)</td></tr><tr><td style=\"white-space:nowrap\">0263<a name=\"BREtniaIndigena-0263\"> </a></td><td>ZORO (PAGEYN)</td></tr><tr><td style=\"white-space:nowrap\">0264<a name=\"BREtniaIndigena-0264\"> </a></td><td>ZURUAHA (SOROWAHA, SURUWAHA)</td></tr><tr><td style=\"white-space:nowrap\">X265<a name=\"BREtniaIndigena-X265\"> </a></td><td>AHANENAWA</td></tr><tr><td style=\"white-space:nowrap\">X266<a name=\"BREtniaIndigena-X266\"> </a></td><td>AICABA</td></tr><tr><td style=\"white-space:nowrap\">X267<a name=\"BREtniaIndigena-X267\"> </a></td><td>AIKANÃ-KWASÁ</td></tr><tr><td style=\"white-space:nowrap\">X269<a name=\"BREtniaIndigena-X269\"> </a></td><td>ALANTESU</td></tr><tr><td style=\"white-space:nowrap\">X271<a name=\"BREtniaIndigena-X271\"> </a></td><td>AMAWÁKA</td></tr><tr><td style=\"white-space:nowrap\">X272<a name=\"BREtniaIndigena-X272\"> </a></td><td>ANACÉ</td></tr><tr><td style=\"white-space:nowrap\">X276<a name=\"BREtniaIndigena-X276\"> </a></td><td>ARARA APOLIMA</td></tr><tr><td style=\"white-space:nowrap\">X278<a name=\"BREtniaIndigena-X278\"> </a></td><td>ARIPUANÁ</td></tr><tr><td style=\"white-space:nowrap\">X279<a name=\"BREtniaIndigena-X279\"> </a></td><td>ASSURINI</td></tr><tr><td style=\"white-space:nowrap\">X280<a name=\"BREtniaIndigena-X280\"> </a></td><td>AWUARÁ</td></tr><tr><td style=\"white-space:nowrap\">X281<a name=\"BREtniaIndigena-X281\"> </a></td><td>BORBA</td></tr><tr><td style=\"white-space:nowrap\">X282<a name=\"BREtniaIndigena-X282\"> </a></td><td>CABIXI</td></tr><tr><td style=\"white-space:nowrap\">X283<a name=\"BREtniaIndigena-X283\"> </a></td><td>CAMARARÉ</td></tr><tr><td style=\"white-space:nowrap\">X284<a name=\"BREtniaIndigena-X284\"> </a></td><td>CAMASURI</td></tr><tr><td style=\"white-space:nowrap\">X285<a name=\"BREtniaIndigena-X285\"> </a></td><td>CARA PRETA</td></tr><tr><td style=\"white-space:nowrap\">X286<a name=\"BREtniaIndigena-X286\"> </a></td><td>CHARRUA</td></tr><tr><td style=\"white-space:nowrap\">X287<a name=\"BREtniaIndigena-X287\"> </a></td><td>CUJUBIM</td></tr><tr><td style=\"white-space:nowrap\">X288<a name=\"BREtniaIndigena-X288\"> </a></td><td>DAW</td></tr><tr><td style=\"white-space:nowrap\">X289<a name=\"BREtniaIndigena-X289\"> </a></td><td>GAVIÃO</td></tr><tr><td style=\"white-space:nowrap\">X290<a name=\"BREtniaIndigena-X290\"> </a></td><td>GUARANI</td></tr><tr><td style=\"white-space:nowrap\">X291<a name=\"BREtniaIndigena-X291\"> </a></td><td>HALANTESU</td></tr><tr><td style=\"white-space:nowrap\">X292<a name=\"BREtniaIndigena-X292\"> </a></td><td>HALOTESU</td></tr><tr><td style=\"white-space:nowrap\">X293<a name=\"BREtniaIndigena-X293\"> </a></td><td>HENGATÚ</td></tr><tr><td style=\"white-space:nowrap\">X294<a name=\"BREtniaIndigena-X294\"> </a></td><td>HIXKARYANA</td></tr><tr><td style=\"white-space:nowrap\">X295<a name=\"BREtniaIndigena-X295\"> </a></td><td>HUPDE</td></tr><tr><td style=\"white-space:nowrap\">X296<a name=\"BREtniaIndigena-X296\"> </a></td><td>HUPDES</td></tr><tr><td style=\"white-space:nowrap\">X297<a name=\"BREtniaIndigena-X297\"> </a></td><td>IAUANAUA</td></tr><tr><td style=\"white-space:nowrap\">X298<a name=\"BREtniaIndigena-X298\"> </a></td><td>IAUARETE AÇU</td></tr><tr><td style=\"white-space:nowrap\">X299<a name=\"BREtniaIndigena-X299\"> </a></td><td>IKPENG</td></tr><tr><td style=\"white-space:nowrap\">X300<a name=\"BREtniaIndigena-X300\"> </a></td><td>INAMBU</td></tr><tr><td style=\"white-space:nowrap\">X301<a name=\"BREtniaIndigena-X301\"> </a></td><td>INHABARANA</td></tr><tr><td style=\"white-space:nowrap\">X302<a name=\"BREtniaIndigena-X302\"> </a></td><td>JAVAE</td></tr><tr><td style=\"white-space:nowrap\">X303<a name=\"BREtniaIndigena-X303\"> </a></td><td>JENIPAPO</td></tr><tr><td style=\"white-space:nowrap\">X304<a name=\"BREtniaIndigena-X304\"> </a></td><td>JENIPAPO-KANINDE</td></tr><tr><td style=\"white-space:nowrap\">X305<a name=\"BREtniaIndigena-X305\"> </a></td><td>JIAHOI</td></tr><tr><td style=\"white-space:nowrap\">X306<a name=\"BREtniaIndigena-X306\"> </a></td><td>KAIOWA</td></tr><tr><td style=\"white-space:nowrap\">X307<a name=\"BREtniaIndigena-X307\"> </a></td><td>KAMPA</td></tr><tr><td style=\"white-space:nowrap\">X308<a name=\"BREtniaIndigena-X308\"> </a></td><td>KANELA</td></tr><tr><td style=\"white-space:nowrap\">X309<a name=\"BREtniaIndigena-X309\"> </a></td><td>KARAFAWYANA</td></tr><tr><td style=\"white-space:nowrap\">X310<a name=\"BREtniaIndigena-X310\"> </a></td><td>KARARAO</td></tr><tr><td style=\"white-space:nowrap\">X311<a name=\"BREtniaIndigena-X311\"> </a></td><td>KARUBO</td></tr><tr><td style=\"white-space:nowrap\">X312<a name=\"BREtniaIndigena-X312\"> </a></td><td>KASSUPÁ</td></tr><tr><td style=\"white-space:nowrap\">X313<a name=\"BREtniaIndigena-X313\"> </a></td><td>KATITHÃULU</td></tr><tr><td style=\"white-space:nowrap\">X314<a name=\"BREtniaIndigena-X314\"> </a></td><td>KATOKIN</td></tr><tr><td style=\"white-space:nowrap\">X315<a name=\"BREtniaIndigena-X315\"> </a></td><td>KATUKINA PANO</td></tr><tr><td style=\"white-space:nowrap\">X316<a name=\"BREtniaIndigena-X316\"> </a></td><td>KATUKINA PEDA DJAPA</td></tr><tr><td style=\"white-space:nowrap\">X317<a name=\"BREtniaIndigena-X317\"> </a></td><td>KATUKINA SHANENAUWA</td></tr><tr><td style=\"white-space:nowrap\">X318<a name=\"BREtniaIndigena-X318\"> </a></td><td>KAXAGO</td></tr><tr><td style=\"white-space:nowrap\">X319<a name=\"BREtniaIndigena-X319\"> </a></td><td>KAYABI</td></tr><tr><td style=\"white-space:nowrap\">X320<a name=\"BREtniaIndigena-X320\"> </a></td><td>KINÃ (WAIMIRI-ATROARI)</td></tr><tr><td style=\"white-space:nowrap\">X321<a name=\"BREtniaIndigena-X321\"> </a></td><td>KIRIRI-BARRA</td></tr><tr><td style=\"white-space:nowrap\">X322<a name=\"BREtniaIndigena-X322\"> </a></td><td>KITHÃULU</td></tr><tr><td style=\"white-space:nowrap\">X323<a name=\"BREtniaIndigena-X323\"> </a></td><td>KOIAIÁ</td></tr><tr><td style=\"white-space:nowrap\">X324<a name=\"BREtniaIndigena-X324\"> </a></td><td>KOIUPANKÁ</td></tr><tr><td style=\"white-space:nowrap\">X325<a name=\"BREtniaIndigena-X325\"> </a></td><td>KONTANAWA</td></tr><tr><td style=\"white-space:nowrap\">X326<a name=\"BREtniaIndigena-X326\"> </a></td><td>KRAHÔ KANELA</td></tr><tr><td style=\"white-space:nowrap\">X327<a name=\"BREtniaIndigena-X327\"> </a></td><td>KULINA</td></tr><tr><td style=\"white-space:nowrap\">X328<a name=\"BREtniaIndigena-X328\"> </a></td><td>LATUNDÊ</td></tr><tr><td style=\"white-space:nowrap\">X329<a name=\"BREtniaIndigena-X329\"> </a></td><td>MAKU</td></tr><tr><td style=\"white-space:nowrap\">X330<a name=\"BREtniaIndigena-X330\"> </a></td><td>MAKUNAMBÉ</td></tr><tr><td style=\"white-space:nowrap\">X331<a name=\"BREtniaIndigena-X331\"> </a></td><td>MAMAINDÊ</td></tr><tr><td style=\"white-space:nowrap\">X332<a name=\"BREtniaIndigena-X332\"> </a></td><td>MAMURI</td></tr><tr><td style=\"white-space:nowrap\">X333<a name=\"BREtniaIndigena-X333\"> </a></td><td>MANACAPURU</td></tr><tr><td style=\"white-space:nowrap\">X334<a name=\"BREtniaIndigena-X334\"> </a></td><td>MANAIRISSU</td></tr><tr><td style=\"white-space:nowrap\">X335<a name=\"BREtniaIndigena-X335\"> </a></td><td>MANCHINERI</td></tr><tr><td style=\"white-space:nowrap\">X336<a name=\"BREtniaIndigena-X336\"> </a></td><td>MANDUCA</td></tr><tr><td style=\"white-space:nowrap\">X337<a name=\"BREtniaIndigena-X337\"> </a></td><td>MARIBONDO</td></tr><tr><td style=\"white-space:nowrap\">X338<a name=\"BREtniaIndigena-X338\"> </a></td><td>MASSAKA</td></tr><tr><td style=\"white-space:nowrap\">X339<a name=\"BREtniaIndigena-X339\"> </a></td><td>MAWAYANA</td></tr><tr><td style=\"white-space:nowrap\">X340<a name=\"BREtniaIndigena-X340\"> </a></td><td>MAWÉ</td></tr><tr><td style=\"white-space:nowrap\">X341<a name=\"BREtniaIndigena-X341\"> </a></td><td>MAYORUNA</td></tr><tr><td style=\"white-space:nowrap\">X342<a name=\"BREtniaIndigena-X342\"> </a></td><td>MIQUELENO</td></tr><tr><td style=\"white-space:nowrap\">X343<a name=\"BREtniaIndigena-X343\"> </a></td><td>MOKURIÑ</td></tr><tr><td style=\"white-space:nowrap\">X344<a name=\"BREtniaIndigena-X344\"> </a></td><td>MON ORO WARAM</td></tr><tr><td style=\"white-space:nowrap\">X345<a name=\"BREtniaIndigena-X345\"> </a></td><td>MUTUM</td></tr><tr><td style=\"white-space:nowrap\">X346<a name=\"BREtniaIndigena-X346\"> </a></td><td>MYKY</td></tr><tr><td style=\"white-space:nowrap\">X347<a name=\"BREtniaIndigena-X347\"> </a></td><td>NADEB</td></tr><tr><td style=\"white-space:nowrap\">X348<a name=\"BREtniaIndigena-X348\"> </a></td><td>NAMBIKWARA</td></tr><tr><td style=\"white-space:nowrap\">X349<a name=\"BREtniaIndigena-X349\"> </a></td><td>NEGAROTÊ</td></tr><tr><td style=\"white-space:nowrap\">X350<a name=\"BREtniaIndigena-X350\"> </a></td><td>NHENGATU</td></tr><tr><td style=\"white-space:nowrap\">X351<a name=\"BREtniaIndigena-X351\"> </a></td><td>OFAIE XAVANTE</td></tr><tr><td style=\"white-space:nowrap\">X352<a name=\"BREtniaIndigena-X352\"> </a></td><td>ONÇA</td></tr><tr><td style=\"white-space:nowrap\">X353<a name=\"BREtniaIndigena-X353\"> </a></td><td>ORO AT</td></tr><tr><td style=\"white-space:nowrap\">X354<a name=\"BREtniaIndigena-X354\"> </a></td><td>ORO EO</td></tr><tr><td style=\"white-space:nowrap\">X355<a name=\"BREtniaIndigena-X355\"> </a></td><td>ORO JOWIN</td></tr><tr><td style=\"white-space:nowrap\">X356<a name=\"BREtniaIndigena-X356\"> </a></td><td>ORO MIYLIN</td></tr><tr><td style=\"white-space:nowrap\">X357<a name=\"BREtniaIndigena-X357\"> </a></td><td>ORO MON</td></tr><tr><td style=\"white-space:nowrap\">X358<a name=\"BREtniaIndigena-X358\"> </a></td><td>ORO NÁO</td></tr><tr><td style=\"white-space:nowrap\">X359<a name=\"BREtniaIndigena-X359\"> </a></td><td>ORO WAM</td></tr><tr><td style=\"white-space:nowrap\">X360<a name=\"BREtniaIndigena-X360\"> </a></td><td>ORO WARAM</td></tr><tr><td style=\"white-space:nowrap\">X361<a name=\"BREtniaIndigena-X361\"> </a></td><td>ORO WARAM XIJEIN</td></tr><tr><td style=\"white-space:nowrap\">X362<a name=\"BREtniaIndigena-X362\"> </a></td><td>PACA</td></tr><tr><td style=\"white-space:nowrap\">X363<a name=\"BREtniaIndigena-X363\"> </a></td><td>PANKARÁ</td></tr><tr><td style=\"white-space:nowrap\">X364<a name=\"BREtniaIndigena-X364\"> </a></td><td>PAPAGAIO</td></tr><tr><td style=\"white-space:nowrap\">X365<a name=\"BREtniaIndigena-X365\"> </a></td><td>PAYAYÁ</td></tr><tr><td style=\"white-space:nowrap\">X366<a name=\"BREtniaIndigena-X366\"> </a></td><td>PIPIPAN</td></tr><tr><td style=\"white-space:nowrap\">X367<a name=\"BREtniaIndigena-X367\"> </a></td><td>PIRATA</td></tr><tr><td style=\"white-space:nowrap\">X368<a name=\"BREtniaIndigena-X368\"> </a></td><td>PUROBORÁ</td></tr><tr><td style=\"white-space:nowrap\">X369<a name=\"BREtniaIndigena-X369\"> </a></td><td>SABANÊ</td></tr><tr><td style=\"white-space:nowrap\">X370<a name=\"BREtniaIndigena-X370\"> </a></td><td>SANUMA</td></tr><tr><td style=\"white-space:nowrap\">X371<a name=\"BREtniaIndigena-X371\"> </a></td><td>SAWENTESÚ</td></tr><tr><td style=\"white-space:nowrap\">X372<a name=\"BREtniaIndigena-X372\"> </a></td><td>SILCY-TAPUYA</td></tr><tr><td style=\"white-space:nowrap\">X373<a name=\"BREtniaIndigena-X373\"> </a></td><td>SIUCI</td></tr><tr><td style=\"white-space:nowrap\">X374<a name=\"BREtniaIndigena-X374\"> </a></td><td>TABAJARA</td></tr><tr><td style=\"white-space:nowrap\">X375<a name=\"BREtniaIndigena-X375\"> </a></td><td>TAKUARA</td></tr><tr><td style=\"white-space:nowrap\">X376<a name=\"BREtniaIndigena-X376\"> </a></td><td>TATU</td></tr><tr><td style=\"white-space:nowrap\">X377<a name=\"BREtniaIndigena-X377\"> </a></td><td>TAWANDÊ</td></tr><tr><td style=\"white-space:nowrap\">X378<a name=\"BREtniaIndigena-X378\"> </a></td><td>TEFÉ</td></tr><tr><td style=\"white-space:nowrap\">X379<a name=\"BREtniaIndigena-X379\"> </a></td><td>TIMBIRA</td></tr><tr><td style=\"white-space:nowrap\">X380<a name=\"BREtniaIndigena-X380\"> </a></td><td>TORÁ DO BAIXO GRANDE</td></tr><tr><td style=\"white-space:nowrap\">X381<a name=\"BREtniaIndigena-X381\"> </a></td><td>TSUNHUM-DJAPÁ</td></tr><tr><td style=\"white-space:nowrap\">X382<a name=\"BREtniaIndigena-X382\"> </a></td><td>TUBARÃO</td></tr><tr><td style=\"white-space:nowrap\">X383<a name=\"BREtniaIndigena-X383\"> </a></td><td>TUPAIU</td></tr><tr><td style=\"white-space:nowrap\">X384<a name=\"BREtniaIndigena-X384\"> </a></td><td>TUPI</td></tr><tr><td style=\"white-space:nowrap\">X385<a name=\"BREtniaIndigena-X385\"> </a></td><td>TUPINAMBÁ DE BELMONTE</td></tr><tr><td style=\"white-space:nowrap\">X386<a name=\"BREtniaIndigena-X386\"> </a></td><td>URUBU</td></tr><tr><td style=\"white-space:nowrap\">X387<a name=\"BREtniaIndigena-X387\"> </a></td><td>URUBU KAAPOR</td></tr><tr><td style=\"white-space:nowrap\">X388<a name=\"BREtniaIndigena-X388\"> </a></td><td>URUPÁ</td></tr><tr><td style=\"white-space:nowrap\">X389<a name=\"BREtniaIndigena-X389\"> </a></td><td>WAI WAI</td></tr><tr><td style=\"white-space:nowrap\">X390<a name=\"BREtniaIndigena-X390\"> </a></td><td>WAIKISU</td></tr><tr><td style=\"white-space:nowrap\">X391<a name=\"BREtniaIndigena-X391\"> </a></td><td>WAKALITESÚ</td></tr><tr><td style=\"white-space:nowrap\">X392<a name=\"BREtniaIndigena-X392\"> </a></td><td>WASSUSU</td></tr><tr><td style=\"white-space:nowrap\">X393<a name=\"BREtniaIndigena-X393\"> </a></td><td>XEREU</td></tr><tr><td style=\"white-space:nowrap\">X394<a name=\"BREtniaIndigena-X394\"> </a></td><td>XI EIN</td></tr><tr><td style=\"white-space:nowrap\">X395<a name=\"BREtniaIndigena-X395\"> </a></td><td>XICRIN</td></tr><tr><td style=\"white-space:nowrap\">X396<a name=\"BREtniaIndigena-X396\"> </a></td><td>XIPAYA</td></tr><tr><td style=\"white-space:nowrap\">X397<a name=\"BREtniaIndigena-X397\"> </a></td><td>XIRIANA</td></tr><tr><td style=\"white-space:nowrap\">X398<a name=\"BREtniaIndigena-X398\"> </a></td><td>XIRUAI</td></tr><tr><td style=\"white-space:nowrap\">X399<a name=\"BREtniaIndigena-X399\"> </a></td><td>YEPAMASSÃ</td></tr><tr><td style=\"white-space:nowrap\">X400<a name=\"BREtniaIndigena-X400\"> </a></td><td>TIRIYÓ</td></tr><tr><td style=\"white-space:nowrap\">X401<a name=\"BREtniaIndigena-X401\"> </a></td><td>YANOMAMI</td></tr><tr><td style=\"white-space:nowrap\">X402<a name=\"BREtniaIndigena-X402\"> </a></td><td>ARARA</td></tr><tr><td style=\"white-space:nowrap\">X403<a name=\"BREtniaIndigena-X403\"> </a></td><td>SAKIRIABAR</td></tr><tr><td style=\"white-space:nowrap\">X404<a name=\"BREtniaIndigena-X404\"> </a></td><td>TATZ</td></tr><tr><td style=\"white-space:nowrap\">X405<a name=\"BREtniaIndigena-X405\"> </a></td><td>SEM INFORMACAO</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BREtniaIndigena"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "EtniaIndigena"] ; # 
+  fhir:title [ fhir:v "Etnia Indígena"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2023-07-15T19:34:18+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://prefeitura.rio/" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Códigos para representação de etnias indígenas no Brasil."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "BR" ] ;
+       fhir:display [ fhir:v "Brazil" ]
+     ] )
+  ] ) ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "399"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "0001" ] ;
+     fhir:display [ fhir:v "ACONA (WAKONAS, NACONAS, JAKONA, ACORA­NES)" ]
+  ] [
+     fhir:code [ fhir:v "0002" ] ;
+     fhir:display [ fhir:v "AIKANA (AIKANA, MAS SAKA,TUBARAO)" ]
+  ] [
+     fhir:code [ fhir:v "0003" ] ;
+     fhir:display [ fhir:v "AJURU" ]
+  ] [
+     fhir:code [ fhir:v "0004" ] ;
+     fhir:display [ fhir:v "AKUNSU (AKUNT'SU)" ]
+  ] [
+     fhir:code [ fhir:v "0005" ] ;
+     fhir:display [ fhir:v "AMANAYE" ]
+  ] [
+     fhir:code [ fhir:v "0006" ] ;
+     fhir:display [ fhir:v "AMONDAWA" ]
+  ] [
+     fhir:code [ fhir:v "0007" ] ;
+     fhir:display [ fhir:v "ANAMBE" ]
+  ] [
+     fhir:code [ fhir:v "0008" ] ;
+     fhir:display [ fhir:v "APARAI (APALAI)" ]
+  ] [
+     fhir:code [ fhir:v "0009" ] ;
+     fhir:display [ fhir:v "APIAKA (APIACA)" ]
+  ] [
+     fhir:code [ fhir:v "0010" ] ;
+     fhir:display [ fhir:v "APINAYE (APINAJE/APINAIE/APINAGE)" ]
+  ] [
+     fhir:code [ fhir:v "0011" ] ;
+     fhir:display [ fhir:v "APURINA (APORINA, IPURINA, IPURINA, IPURI­NAN)" ]
+  ] [
+     fhir:code [ fhir:v "0012" ] ;
+     fhir:display [ fhir:v "ARANA (ARACUAI DO VALE DO JEQUITINHONHA)" ]
+  ] [
+     fhir:code [ fhir:v "0013" ] ;
+     fhir:display [ fhir:v "ARAPASO (ARAPACO)" ]
+  ] [
+     fhir:code [ fhir:v "0014" ] ;
+     fhir:display [ fhir:v "ARARA DE RONDONIA (KARO, URUCU, URUKU)" ]
+  ] [
+     fhir:code [ fhir:v "0015" ] ;
+     fhir:display [ fhir:v "ARARA DO ACRE (SHAWANAUA, AMAWAKA)" ]
+  ] [
+     fhir:code [ fhir:v "0016" ] ;
+     fhir:display [ fhir:v "ARARA DO ARIPUANA (ARARA DO BEIRADAO/ARI­PUANA)" ]
+  ] [
+     fhir:code [ fhir:v "0017" ] ;
+     fhir:display [ fhir:v "ARARA DO PARA (UKARAGMA, UKARAMMA)" ]
+  ] [
+     fhir:code [ fhir:v "0018" ] ;
+     fhir:display [ fhir:v "ARAWETE (ARAUETE)" ]
+  ] [
+     fhir:code [ fhir:v "0019" ] ;
+     fhir:display [ fhir:v "ARIKAPU (ARICAPU, ARIKAPO, MASUBI, MAXUBI)" ]
+  ] [
+     fhir:code [ fhir:v "0020" ] ;
+     fhir:display [ fhir:v "ARIKEM (ARIQUEN, ARIQUEME, ARIKEME)" ]
+  ] [
+     fhir:code [ fhir:v "0021" ] ;
+     fhir:display [ fhir:v "ARIKOSE (ARICOBE)" ]
+  ] [
+     fhir:code [ fhir:v "0022" ] ;
+     fhir:display [ fhir:v "ARUA" ]
+  ] [
+     fhir:code [ fhir:v "0023" ] ;
+     fhir:display [ fhir:v "ARUAK (ARAWAK)" ]
+  ] [
+     fhir:code [ fhir:v "0024" ] ;
+     fhir:display [ fhir:v "ASHANINKA (KAMPA)" ]
+  ] [
+     fhir:code [ fhir:v "0025" ] ;
+     fhir:display [ fhir:v "ASURINI DO TOCANTINS (AKUAWA/AKWAWA)" ]
+  ] [
+     fhir:code [ fhir:v "0026" ] ;
+     fhir:display [ fhir:v "ASURINI DO XINGU (AWAETE)" ]
+  ] [
+     fhir:code [ fhir:v "0027" ] ;
+     fhir:display [ fhir:v "ATIKUM (ATICUM)" ]
+  ] [
+     fhir:code [ fhir:v "0028" ] ;
+     fhir:display [ fhir:v "AVA - CANOEIRO" ]
+  ] [
+     fhir:code [ fhir:v "0029" ] ;
+     fhir:display [ fhir:v "AWETI (AUETI/AUETO)" ]
+  ] [
+     fhir:code [ fhir:v "0030" ] ;
+     fhir:display [ fhir:v "BAKAIRI (KURA, BACAIRI)" ]
+  ] [
+     fhir:code [ fhir:v "0031" ] ;
+     fhir:display [ fhir:v "BANAWA YAFI (BANAWA, BANAWA-JAFI)" ]
+  ] [
+     fhir:code [ fhir:v "0032" ] ;
+     fhir:display [ fhir:v "BANIWA (BANIUA, BANIVA, WALIMANAI, WAKUE­NAI)" ]
+  ] [
+     fhir:code [ fhir:v "0033" ] ;
+     fhir:display [ fhir:v "BARA (WAIPINOMAKA)" ]
+  ] [
+     fhir:code [ fhir:v "0034" ] ;
+     fhir:display [ fhir:v "BARASANA (HANERA)" ]
+  ] [
+     fhir:code [ fhir:v "0035" ] ;
+     fhir:display [ fhir:v "BARE" ]
+  ] [
+     fhir:code [ fhir:v "0036" ] ;
+     fhir:display [ fhir:v "BORORO (BOE)" ]
+  ] [
+     fhir:code [ fhir:v "0037" ] ;
+     fhir:display [ fhir:v "BOTOCUDO (GEREN)" ]
+  ] [
+     fhir:code [ fhir:v "0038" ] ;
+     fhir:display [ fhir:v "CANOE" ]
+  ] [
+     fhir:code [ fhir:v "0039" ] ;
+     fhir:display [ fhir:v "CASSUPA" ]
+  ] [
+     fhir:code [ fhir:v "0040" ] ;
+     fhir:display [ fhir:v "CHAMACOCO" ]
+  ] [
+     fhir:code [ fhir:v "0041" ] ;
+     fhir:display [ fhir:v "CHIQUITANO (XIQUITANO)" ]
+  ] [
+     fhir:code [ fhir:v "0042" ] ;
+     fhir:display [ fhir:v "CIKIYANA (SIKIANA)" ]
+  ] [
+     fhir:code [ fhir:v "0043" ] ;
+     fhir:display [ fhir:v "CINTA LARGA (MATETAMAE)" ]
+  ] [
+     fhir:code [ fhir:v "0044" ] ;
+     fhir:display [ fhir:v "COLUMBIARA (CORUMBIARA)" ]
+  ] [
+     fhir:code [ fhir:v "0045" ] ;
+     fhir:display [ fhir:v "DENI" ]
+  ] [
+     fhir:code [ fhir:v "0046" ] ;
+     fhir:display [ fhir:v "DESANA (DESANA, DESANO, DESSANO, WIRA, UMUKOMASA)" ]
+  ] [
+     fhir:code [ fhir:v "0047" ] ;
+     fhir:display [ fhir:v "DIAHUI (JAHOI, JAHUI, DIARROI)" ]
+  ] [
+     fhir:code [ fhir:v "0048" ] ;
+     fhir:display [ fhir:v "ENAWENE-NAWE (SALUMA)" ]
+  ] [
+     fhir:code [ fhir:v "0049" ] ;
+     fhir:display [ fhir:v "FULNI-O" ]
+  ] [
+     fhir:code [ fhir:v "0050" ] ;
+     fhir:display [ fhir:v "GALIBI (GALIBI DO OIAPOQUE, KARINHA)" ]
+  ] [
+     fhir:code [ fhir:v "0051" ] ;
+     fhir:display [ fhir:v "GALIBI MARWORNO (GALIBI DO UACA, ARUA)" ]
+  ] [
+     fhir:code [ fhir:v "0052" ] ;
+     fhir:display [ fhir:v "GAVIAO DE RONDONIA (DIGUT)" ]
+  ] [
+     fhir:code [ fhir:v "0053" ] ;
+     fhir:display [ fhir:v "GAVIAO KRIKATEJE" ]
+  ] [
+     fhir:code [ fhir:v "0054" ] ;
+     fhir:display [ fhir:v "GAVIAO PARKATEJE (PARKATEJE)" ]
+  ] [
+     fhir:code [ fhir:v "0055" ] ;
+     fhir:display [ fhir:v "GAVIAO PUKOBIE (PUKOBIE, PYKOPJE, GAVIAO DO MARANHAO)" ]
+  ] [
+     fhir:code [ fhir:v "0056" ] ;
+     fhir:display [ fhir:v "GUAJA (AWA, AVA)" ]
+  ] [
+     fhir:code [ fhir:v "0057" ] ;
+     fhir:display [ fhir:v "GUAJAJARA (TENETEHARA)" ]
+  ] [
+     fhir:code [ fhir:v "0058" ] ;
+     fhir:display [ fhir:v "GUARANI KAIOWA (PAI TAVYTERA)" ]
+  ] [
+     fhir:code [ fhir:v "0059" ] ;
+     fhir:display [ fhir:v "GUARANI M'BYA" ]
+  ] [
+     fhir:code [ fhir:v "0060" ] ;
+     fhir:display [ fhir:v "GUARANI NANDEVA (AVAKATUETE, CHIRIPA, NHANDEWA, AVA GUARANI)" ]
+  ] [
+     fhir:code [ fhir:v "0061" ] ;
+     fhir:display [ fhir:v "GUATO" ]
+  ] [
+     fhir:code [ fhir:v "0062" ] ;
+     fhir:display [ fhir:v "HIMARIMA (HIMERIMA)" ]
+  ] [
+     fhir:code [ fhir:v "0063" ] ;
+     fhir:display [ fhir:v "INGARIKO (INGARICO, AKAWAIO, KAPON)" ]
+  ] [
+     fhir:code [ fhir:v "0064" ] ;
+     fhir:display [ fhir:v "IRANXE (IRANTXE)" ]
+  ] [
+     fhir:code [ fhir:v "0065" ] ;
+     fhir:display [ fhir:v "ISSE" ]
+  ] [
+     fhir:code [ fhir:v "0066" ] ;
+     fhir:display [ fhir:v "JABOTI (JABUTI, KIPIU, YABYTI)" ]
+  ] [
+     fhir:code [ fhir:v "0067" ] ;
+     fhir:display [ fhir:v "JAMAMADI (YAMAMADI, DJEOROMITXI)" ]
+  ] [
+     fhir:code [ fhir:v "0068" ] ;
+     fhir:display [ fhir:v "JARAWARA" ]
+  ] [
+     fhir:code [ fhir:v "0069" ] ;
+     fhir:display [ fhir:v "JIRIPANCO (JERIPANCO, GERIPANCO)" ]
+  ] [
+     fhir:code [ fhir:v "0070" ] ;
+     fhir:display [ fhir:v "JUMA (YUMA)" ]
+  ] [
+     fhir:code [ fhir:v "0071" ] ;
+     fhir:display [ fhir:v "JURUNA" ]
+  ] [
+     fhir:code [ fhir:v "0072" ] ;
+     fhir:display [ fhir:v "JURUTI (YURITI)" ]
+  ] [
+     fhir:code [ fhir:v "0073" ] ;
+     fhir:display [ fhir:v "KAAPOR (URUBU-KAAPOR, KA'APOR, KAAPORTE)" ]
+  ] [
+     fhir:code [ fhir:v "0074" ] ;
+     fhir:display [ fhir:v "KADIWEU (CADUVEO, CADIUEU)" ]
+  ] [
+     fhir:code [ fhir:v "0075" ] ;
+     fhir:display [ fhir:v "KAIABI (CAIABI, KAYABI)" ]
+  ] [
+     fhir:code [ fhir:v "0076" ] ;
+     fhir:display [ fhir:v "KAIMBE (CAIMBE)" ]
+  ] [
+     fhir:code [ fhir:v "0077" ] ;
+     fhir:display [ fhir:v "KAINGANG (CAINGANGUE)" ]
+  ] [
+     fhir:code [ fhir:v "0078" ] ;
+     fhir:display [ fhir:v "KAIXANA (CAIXANA)" ]
+  ] [
+     fhir:code [ fhir:v "0079" ] ;
+     fhir:display [ fhir:v "KALABASSA (CALABASSA, CALABACAS)" ]
+  ] [
+     fhir:code [ fhir:v "0080" ] ;
+     fhir:display [ fhir:v "KALANCO" ]
+  ] [
+     fhir:code [ fhir:v "0081" ] ;
+     fhir:display [ fhir:v "KALAPALO (CALAPALO)" ]
+  ] [
+     fhir:code [ fhir:v "0082" ] ;
+     fhir:display [ fhir:v "KAMAYURA (CAMAIURA, KAMAIURA)" ]
+  ] [
+     fhir:code [ fhir:v "0083" ] ;
+     fhir:display [ fhir:v "KAMBA (CAMBA)" ]
+  ] [
+     fhir:code [ fhir:v "0084" ] ;
+     fhir:display [ fhir:v "KAMBEBA (CAMBEBA, OMAGUA)" ]
+  ] [
+     fhir:code [ fhir:v "0085" ] ;
+     fhir:display [ fhir:v "KAMBIWA (CAMBIUA)" ]
+  ] [
+     fhir:code [ fhir:v "0086" ] ;
+     fhir:display [ fhir:v "KAMBIWA PIPIPA (PIPIPA)" ]
+  ] [
+     fhir:code [ fhir:v "0087" ] ;
+     fhir:display [ fhir:v "KAMPE" ]
+  ] [
+     fhir:code [ fhir:v "0088" ] ;
+     fhir:display [ fhir:v "KANAMANTI (KANAMATI, CANAMANTI)" ]
+  ] [
+     fhir:code [ fhir:v "0089" ] ;
+     fhir:display [ fhir:v "KANAMARI (CANAMARI, KANAMARY, TUKUNA)" ]
+  ] [
+     fhir:code [ fhir:v "0090" ] ;
+     fhir:display [ fhir:v "KANELA APANIEKRA (CANELA)" ]
+  ] [
+     fhir:code [ fhir:v "0091" ] ;
+     fhir:display [ fhir:v "KANELA RANKOKAMEKRA (CANELA)" ]
+  ] [
+     fhir:code [ fhir:v "0092" ] ;
+     fhir:display [ fhir:v "KANINDE" ]
+  ] [
+     fhir:code [ fhir:v "0093" ] ;
+     fhir:display [ fhir:v "KANOE (CANOE)" ]
+  ] [
+     fhir:code [ fhir:v "0094" ] ;
+     fhir:display [ fhir:v "KANTARURE (CANTARURE)" ]
+  ] [
+     fhir:code [ fhir:v "0095" ] ;
+     fhir:display [ fhir:v "KAPINAWA (CAPINAUA)" ]
+  ] [
+     fhir:code [ fhir:v "0096" ] ;
+     fhir:display [ fhir:v "KARAJA (CARAJA)" ]
+  ] [
+     fhir:code [ fhir:v "0097" ] ;
+     fhir:display [ fhir:v "KARAJA/JAVAE (JAVAE)" ]
+  ] [
+     fhir:code [ fhir:v "0098" ] ;
+     fhir:display [ fhir:v "KARAJA/XAMBIOA (KARAJA DO NORTE)" ]
+  ] [
+     fhir:code [ fhir:v "0099" ] ;
+     fhir:display [ fhir:v "KARAPANA (CARAPANA, MUTEAMASA, UKOPINO­PONA)" ]
+  ] [
+     fhir:code [ fhir:v "0100" ] ;
+     fhir:display [ fhir:v "KARAPOTO (CARAPOTO)" ]
+  ] [
+     fhir:code [ fhir:v "0101" ] ;
+     fhir:display [ fhir:v "KARIPUNA (CARIPUNA)" ]
+  ] [
+     fhir:code [ fhir:v "0102" ] ;
+     fhir:display [ fhir:v "KARIPUNA DO AMAPA (CARIPUNA)" ]
+  ] [
+     fhir:code [ fhir:v "0103" ] ;
+     fhir:display [ fhir:v "KARIRI (CARIRI)" ]
+  ] [
+     fhir:code [ fhir:v "0104" ] ;
+     fhir:display [ fhir:v "KARIRI-XOCO (CARIRI-CHOCO)" ]
+  ] [
+     fhir:code [ fhir:v "0105" ] ;
+     fhir:display [ fhir:v "KARITIANA (CARITIANA)" ]
+  ] [
+     fhir:code [ fhir:v "0106" ] ;
+     fhir:display [ fhir:v "KATAWIXI (KATAUIXI, KATAWIN, KATAWISI, CATAUICHI)" ]
+  ] [
+     fhir:code [ fhir:v "0107" ] ;
+     fhir:display [ fhir:v "KATUENA (CATUENA, KATWENA)" ]
+  ] [
+     fhir:code [ fhir:v "0108" ] ;
+     fhir:display [ fhir:v "KATUKINA (PEDA DJAPA)" ]
+  ] [
+     fhir:code [ fhir:v "0109" ] ;
+     fhir:display [ fhir:v "KATUKINA DO ACRE" ]
+  ] [
+     fhir:code [ fhir:v "0110" ] ;
+     fhir:display [ fhir:v "KAXARARI (CAXARARI)" ]
+  ] [
+     fhir:code [ fhir:v "0111" ] ;
+     fhir:display [ fhir:v "KAXINAWA (HUNI-KUIN, CASHINAUA, CAXINAUA)" ]
+  ] [
+     fhir:code [ fhir:v "0112" ] ;
+     fhir:display [ fhir:v "KAXIXO" ]
+  ] [
+     fhir:code [ fhir:v "0113" ] ;
+     fhir:display [ fhir:v "KAXUYANA (CAXUIANA)" ]
+  ] [
+     fhir:code [ fhir:v "0114" ] ;
+     fhir:display [ fhir:v "KAYAPO (CAIAPO)" ]
+  ] [
+     fhir:code [ fhir:v "0115" ] ;
+     fhir:display [ fhir:v "KAYAPO KARARAO (KARARAO)" ]
+  ] [
+     fhir:code [ fhir:v "0116" ] ;
+     fhir:display [ fhir:v "KAYAPO TXUKAHAMAE (TXUKAHAMAE)" ]
+  ] [
+     fhir:code [ fhir:v "0117" ] ;
+     fhir:display [ fhir:v "KAYAPO XICRIM (XIKRIN)" ]
+  ] [
+     fhir:code [ fhir:v "0118" ] ;
+     fhir:display [ fhir:v "KAYUISANA (CAIXANA, CAUIXANA, KAIXANA)" ]
+  ] [
+     fhir:code [ fhir:v "0119" ] ;
+     fhir:display [ fhir:v "KINIKINAWA (GUAN, KOINUKOEN, KINIKINAO)" ]
+  ] [
+     fhir:code [ fhir:v "0120" ] ;
+     fhir:display [ fhir:v "KIRIRI" ]
+  ] [
+     fhir:code [ fhir:v "0121" ] ;
+     fhir:display [ fhir:v "KOCAMA (COCAMA, KOKAMA)" ]
+  ] [
+     fhir:code [ fhir:v "0122" ] ;
+     fhir:display [ fhir:v "KOKUIREGATEJE" ]
+  ] [
+     fhir:code [ fhir:v "0123" ] ;
+     fhir:display [ fhir:v "KORUBO" ]
+  ] [
+     fhir:code [ fhir:v "0124" ] ;
+     fhir:display [ fhir:v "KRAHO (CRAO, KRAO)" ]
+  ] [
+     fhir:code [ fhir:v "0125" ] ;
+     fhir:display [ fhir:v "KREJE (KRENYE)" ]
+  ] [
+     fhir:code [ fhir:v "0126" ] ;
+     fhir:display [ fhir:v "KRENAK (BORUN, CRENAQUE)" ]
+  ] [
+     fhir:code [ fhir:v "0127" ] ;
+     fhir:display [ fhir:v "KRIKATI (KRINKATI)" ]
+  ] [
+     fhir:code [ fhir:v "0128" ] ;
+     fhir:display [ fhir:v "KUBEO (CUBEO, COBEWA, KUBEWA, PAMIWA, CU­BEU)" ]
+  ] [
+     fhir:code [ fhir:v "0129" ] ;
+     fhir:display [ fhir:v "KUIKURO (KUIKURU, CUICURO)" ]
+  ] [
+     fhir:code [ fhir:v "0130" ] ;
+     fhir:display [ fhir:v "KUJUBIM (KUYUBI, CUJUBIM)" ]
+  ] [
+     fhir:code [ fhir:v "0131" ] ;
+     fhir:display [ fhir:v "KULINA PANO (CULINA)" ]
+  ] [
+     fhir:code [ fhir:v "0132" ] ;
+     fhir:display [ fhir:v "KULINA/MADIHA (CULINA, MADIJA, MADIHA)" ]
+  ] [
+     fhir:code [ fhir:v "0133" ] ;
+     fhir:display [ fhir:v "KURIPAKO (CURIPACO, CURRIPACO, CORIPACO, WAKUENAI)" ]
+  ] [
+     fhir:code [ fhir:v "0134" ] ;
+     fhir:display [ fhir:v "KURUAIA (CURUAIA)" ]
+  ] [
+     fhir:code [ fhir:v "0135" ] ;
+     fhir:display [ fhir:v "KWAZA (COAIA, KOAIA)" ]
+  ] [
+     fhir:code [ fhir:v "0136" ] ;
+     fhir:display [ fhir:v "MACHINERI (MANCHINERI, MANXINERI)" ]
+  ] [
+     fhir:code [ fhir:v "0137" ] ;
+     fhir:display [ fhir:v "MACURAP (MAKURAP)" ]
+  ] [
+     fhir:code [ fhir:v "0138" ] ;
+     fhir:display [ fhir:v "MAKU DOW (DOW)" ]
+  ] [
+     fhir:code [ fhir:v "0139" ] ;
+     fhir:display [ fhir:v "MAKU HUPDA (HUPDA)" ]
+  ] [
+     fhir:code [ fhir:v "0140" ] ;
+     fhir:display [ fhir:v "MAKU NADEB (NADEB)" ]
+  ] [
+     fhir:code [ fhir:v "0141" ] ;
+     fhir:display [ fhir:v "MAKU YUHUPDE (YUHUPDE)" ]
+  ] [
+     fhir:code [ fhir:v "0142" ] ;
+     fhir:display [ fhir:v "MAKUNA (MACUNA, YEBA-MASA)" ]
+  ] [
+     fhir:code [ fhir:v "0143" ] ;
+     fhir:display [ fhir:v "MAKUXI (MACUXI, MACHUSI, PEMON)" ]
+  ] [
+     fhir:code [ fhir:v "0144" ] ;
+     fhir:display [ fhir:v "MARIMAM (MARIMA)" ]
+  ] [
+     fhir:code [ fhir:v "0145" ] ;
+     fhir:display [ fhir:v "MARUBO" ]
+  ] [
+     fhir:code [ fhir:v "0146" ] ;
+     fhir:display [ fhir:v "MATIPU" ]
+  ] [
+     fhir:code [ fhir:v "0147" ] ;
+     fhir:display [ fhir:v "MATIS" ]
+  ] [
+     fhir:code [ fhir:v "0148" ] ;
+     fhir:display [ fhir:v "MATSE (MAYORUNA)" ]
+  ] [
+     fhir:code [ fhir:v "0149" ] ;
+     fhir:display [ fhir:v "MAXAKALI (MAXACALI)" ]
+  ] [
+     fhir:code [ fhir:v "0150" ] ;
+     fhir:display [ fhir:v "MAYA (MAYA)" ]
+  ] [
+     fhir:code [ fhir:v "0151" ] ;
+     fhir:display [ fhir:v "MAYTAPU" ]
+  ] [
+     fhir:code [ fhir:v "0152" ] ;
+     fhir:display [ fhir:v "MEHINAKO (MEINAKU, MEINACU)" ]
+  ] [
+     fhir:code [ fhir:v "0153" ] ;
+     fhir:display [ fhir:v "MEKEN (MEQUEM, MEKHEM, MICHENS)" ]
+  ] [
+     fhir:code [ fhir:v "0154" ] ;
+     fhir:display [ fhir:v "MENKY (MYKY, MUNKU, MENKI, MYNKY)" ]
+  ] [
+     fhir:code [ fhir:v "0155" ] ;
+     fhir:display [ fhir:v "MIRANHA (MIRANHA, MIRANA)" ]
+  ] [
+     fhir:code [ fhir:v "0156" ] ;
+     fhir:display [ fhir:v "MIRITI TAPUIA (MIRITI-TAPUYA, BUIA-TAPUYA)" ]
+  ] [
+     fhir:code [ fhir:v "0157" ] ;
+     fhir:display [ fhir:v "MUNDURUKU (MUNDURUCU)" ]
+  ] [
+     fhir:code [ fhir:v "0158" ] ;
+     fhir:display [ fhir:v "MURA" ]
+  ] [
+     fhir:code [ fhir:v "0159" ] ;
+     fhir:display [ fhir:v "NAHUKWA (NAFUQUA)" ]
+  ] [
+     fhir:code [ fhir:v "0160" ] ;
+     fhir:display [ fhir:v "NAMBIKWARA DO CAMPO (HALOTESU, KITHAULU, WAKALITESU, SAWENTES, MANDUKA)" ]
+  ] [
+     fhir:code [ fhir:v "0161" ] ;
+     fhir:display [ fhir:v "NAMBIKWARA DO NORTE (NEGAROTE ,MAMAIN­DE, LATUNDE, SABANE E MANDUKA, TAWANDE)" ]
+  ] [
+     fhir:code [ fhir:v "0162" ] ;
+     fhir:display [ fhir:v "NAMBIKWARA DO SUL (WASUSU ,HAHAINTESU, ALANTESU, WAIKISU, ALAKETESU, WASUSU, SA­RARE)" ]
+  ] [
+     fhir:code [ fhir:v "0163" ] ;
+     fhir:display [ fhir:v "NARAVUTE (NARUVOTO)" ]
+  ] [
+     fhir:code [ fhir:v "0164" ] ;
+     fhir:display [ fhir:v "NAWA (NAUA)" ]
+  ] [
+     fhir:code [ fhir:v "0165" ] ;
+     fhir:display [ fhir:v "NUKINI (NUQUINI, NUKUINI)" ]
+  ] [
+     fhir:code [ fhir:v "0166" ] ;
+     fhir:display [ fhir:v "OFAIE (OFAYE-XAVANTE)" ]
+  ] [
+     fhir:code [ fhir:v "0167" ] ;
+     fhir:display [ fhir:v "ORO WIN" ]
+  ] [
+     fhir:code [ fhir:v "0168" ] ;
+     fhir:display [ fhir:v "PAIAKU (JENIPAPO-KANINDE)" ]
+  ] [
+     fhir:code [ fhir:v "0169" ] ;
+     fhir:display [ fhir:v "PAKAA NOVA (WARI, PACAAS NOVOS)" ]
+  ] [
+     fhir:code [ fhir:v "0170" ] ;
+     fhir:display [ fhir:v "PALIKUR (AUKWAYENE, AUKUYENE, PALIKU'ENE)" ]
+  ] [
+     fhir:code [ fhir:v "0171" ] ;
+     fhir:display [ fhir:v "PANARA (KRENHAKARORE , KRENAKORE, KRENA­KARORE)" ]
+  ] [
+     fhir:code [ fhir:v "0172" ] ;
+     fhir:display [ fhir:v "PANKARARE (PANCARARE)" ]
+  ] [
+     fhir:code [ fhir:v "0173" ] ;
+     fhir:display [ fhir:v "PANKARARU (PANCARARU)" ]
+  ] [
+     fhir:code [ fhir:v "0174" ] ;
+     fhir:display [ fhir:v "PANKARARU KALANKO (KALANKO)" ]
+  ] [
+     fhir:code [ fhir:v "0175" ] ;
+     fhir:display [ fhir:v "PANKARARU KARUAZU (KARUAZU)" ]
+  ] [
+     fhir:code [ fhir:v "0176" ] ;
+     fhir:display [ fhir:v "PANKARU (PANCARU)" ]
+  ] [
+     fhir:code [ fhir:v "0177" ] ;
+     fhir:display [ fhir:v "PARAKANA (PARACANA, APITEREWA, AWAETE)" ]
+  ] [
+     fhir:code [ fhir:v "0178" ] ;
+     fhir:display [ fhir:v "PARECI (PARESI, HALITI)" ]
+  ] [
+     fhir:code [ fhir:v "0179" ] ;
+     fhir:display [ fhir:v "PARINTINTIN" ]
+  ] [
+     fhir:code [ fhir:v "0180" ] ;
+     fhir:display [ fhir:v "PATAMONA (KAPON)" ]
+  ] [
+     fhir:code [ fhir:v "0181" ] ;
+     fhir:display [ fhir:v "PATAXO" ]
+  ] [
+     fhir:code [ fhir:v "0182" ] ;
+     fhir:display [ fhir:v "PATAXO HA-HA-HAE" ]
+  ] [
+     fhir:code [ fhir:v "0183" ] ;
+     fhir:display [ fhir:v "PAUMARI (PALMARI)" ]
+  ] [
+     fhir:code [ fhir:v "0184" ] ;
+     fhir:display [ fhir:v "PAUMELENHO" ]
+  ] [
+     fhir:code [ fhir:v "0185" ] ;
+     fhir:display [ fhir:v "PIRAHA (MURA PIRAHA)" ]
+  ] [
+     fhir:code [ fhir:v "0186" ] ;
+     fhir:display [ fhir:v "PIRATUAPUIA (PIRATAPUYA, PIRATAPUYO, PIRA­TAPUYA, WAIKANA)" ]
+  ] [
+     fhir:code [ fhir:v "0187" ] ;
+     fhir:display [ fhir:v "PITAGUARI" ]
+  ] [
+     fhir:code [ fhir:v "0188" ] ;
+     fhir:display [ fhir:v "POTIGUARA" ]
+  ] [
+     fhir:code [ fhir:v "0189" ] ;
+     fhir:display [ fhir:v "POYANAWA (POIANAUA)" ]
+  ] [
+     fhir:code [ fhir:v "0190" ] ;
+     fhir:display [ fhir:v "RIKBAKTSA (CANOEIROS, ERIGPAKTSA)" ]
+  ] [
+     fhir:code [ fhir:v "0191" ] ;
+     fhir:display [ fhir:v "SAKURABIAT (MEKENS, SAKIRABIAP, SAKIRABIAR)" ]
+  ] [
+     fhir:code [ fhir:v "0192" ] ;
+     fhir:display [ fhir:v "SATERE-MAWE (SATERE-MAUE)" ]
+  ] [
+     fhir:code [ fhir:v "0193" ] ;
+     fhir:display [ fhir:v "SHANENAWA (KATUKINA)" ]
+  ] [
+     fhir:code [ fhir:v "0194" ] ;
+     fhir:display [ fhir:v "SIRIANO (SIRIA-MASA)" ]
+  ] [
+     fhir:code [ fhir:v "0195" ] ;
+     fhir:display [ fhir:v "SURIANA" ]
+  ] [
+     fhir:code [ fhir:v "0196" ] ;
+     fhir:display [ fhir:v "SURUI DE RONDONIA (PAITER)" ]
+  ] [
+     fhir:code [ fhir:v "0197" ] ;
+     fhir:display [ fhir:v "SURUI DO PARA (AIKEWARA)" ]
+  ] [
+     fhir:code [ fhir:v "0198" ] ;
+     fhir:display [ fhir:v "SUYA (SUIA/KISEDJE)" ]
+  ] [
+     fhir:code [ fhir:v "0199" ] ;
+     fhir:display [ fhir:v "TAPAYUNA (BEICO-DE-PAU)" ]
+  ] [
+     fhir:code [ fhir:v "0200" ] ;
+     fhir:display [ fhir:v "TAPEBA" ]
+  ] [
+     fhir:code [ fhir:v "0201" ] ;
+     fhir:display [ fhir:v "TAPIRAPE (TAPI'IRAPE)" ]
+  ] [
+     fhir:code [ fhir:v "0202" ] ;
+     fhir:display [ fhir:v "TAPUIA (TAPUIA-XAVANTE, TAPUIO)" ]
+  ] [
+     fhir:code [ fhir:v "0203" ] ;
+     fhir:display [ fhir:v "TARIANO (TARIANA, TALIASERI)" ]
+  ] [
+     fhir:code [ fhir:v "0204" ] ;
+     fhir:display [ fhir:v "TAUREPANG (TAULIPANG, PEMON, AREKUNA, PA­GEYN)" ]
+  ] [
+     fhir:code [ fhir:v "0205" ] ;
+     fhir:display [ fhir:v "TEMBE" ]
+  ] [
+     fhir:code [ fhir:v "0206" ] ;
+     fhir:display [ fhir:v "TENHARIM" ]
+  ] [
+     fhir:code [ fhir:v "0207" ] ;
+     fhir:display [ fhir:v "TERENA" ]
+  ] [
+     fhir:code [ fhir:v "0208" ] ;
+     fhir:display [ fhir:v "TICUNA (TIKUNA, TUKUNA, MAGUTA)" ]
+  ] [
+     fhir:code [ fhir:v "0209" ] ;
+     fhir:display [ fhir:v "TINGUI BOTO" ]
+  ] [
+     fhir:code [ fhir:v "0210" ] ;
+     fhir:display [ fhir:v "TIRIYO EWARHUYANA (TIRIYO, TRIO, TARONA, YAWI, PIANOKOTO)" ]
+  ] [
+     fhir:code [ fhir:v "0211" ] ;
+     fhir:display [ fhir:v "TIRIYO KAH'YANA (TIRIYO, TRIO, TARONA, YAWI, PIANOKOTO)" ]
+  ] [
+     fhir:code [ fhir:v "0212" ] ;
+     fhir:display [ fhir:v "TIRIYO TSIKUYANA (TIRIYO, TRIO, TARONA, YAWI, PIANOKOTO)" ]
+  ] [
+     fhir:code [ fhir:v "0213" ] ;
+     fhir:display [ fhir:v "TORA" ]
+  ] [
+     fhir:code [ fhir:v "0214" ] ;
+     fhir:display [ fhir:v "TREMEMBE" ]
+  ] [
+     fhir:code [ fhir:v "0215" ] ;
+     fhir:display [ fhir:v "TRUKA" ]
+  ] [
+     fhir:code [ fhir:v "0216" ] ;
+     fhir:display [ fhir:v "TRUMAI" ]
+  ] [
+     fhir:code [ fhir:v "0217" ] ;
+     fhir:display [ fhir:v "TSOHOM DJAPA (TSUNHUM-DJAPA)" ]
+  ] [
+     fhir:code [ fhir:v "0218" ] ;
+     fhir:display [ fhir:v "TUKANO (TUCANO, YE'PA-MASA, DASEA)" ]
+  ] [
+     fhir:code [ fhir:v "0219" ] ;
+     fhir:display [ fhir:v "TUMBALALA" ]
+  ] [
+     fhir:code [ fhir:v "0220" ] ;
+     fhir:display [ fhir:v "TUNAYANA" ]
+  ] [
+     fhir:code [ fhir:v "0221" ] ;
+     fhir:display [ fhir:v "TUPARI" ]
+  ] [
+     fhir:code [ fhir:v "0222" ] ;
+     fhir:display [ fhir:v "TUPINAMBA" ]
+  ] [
+     fhir:code [ fhir:v "0223" ] ;
+     fhir:display [ fhir:v "TUPINIQUIM" ]
+  ] [
+     fhir:code [ fhir:v "0224" ] ;
+     fhir:display [ fhir:v "TURIWARA" ]
+  ] [
+     fhir:code [ fhir:v "0225" ] ;
+     fhir:display [ fhir:v "TUXA" ]
+  ] [
+     fhir:code [ fhir:v "0226" ] ;
+     fhir:display [ fhir:v "TUYUKA (TUIUCA, DOKAPUARA, UTAPINOMAKA­PHONA)" ]
+  ] [
+     fhir:code [ fhir:v "0227" ] ;
+     fhir:display [ fhir:v "TXIKAO (TXICAO, IKPENG)" ]
+  ] [
+     fhir:code [ fhir:v "0228" ] ;
+     fhir:display [ fhir:v "UMUTINA (OMOTINA, BARBADOS)" ]
+  ] [
+     fhir:code [ fhir:v "0229" ] ;
+     fhir:display [ fhir:v "URU-EU-WAU-WAU (URUEU-UAU-UAU, URUPAIN, URUPA)" ]
+  ] [
+     fhir:code [ fhir:v "0230" ] ;
+     fhir:display [ fhir:v "WAI WAI HIXKARYANA (HIXKARYANA)" ]
+  ] [
+     fhir:code [ fhir:v "0231" ] ;
+     fhir:display [ fhir:v "WAI WAI KARAFAWYANA (KARAFAWYANA, KARA­PAWYANA)" ]
+  ] [
+     fhir:code [ fhir:v "0232" ] ;
+     fhir:display [ fhir:v "WAI WAI XEREU (XEREU)" ]
+  ] [
+     fhir:code [ fhir:v "0233" ] ;
+     fhir:display [ fhir:v "WAI WAI KATUENA (KATUENA)" ]
+  ] [
+     fhir:code [ fhir:v "0234" ] ;
+     fhir:display [ fhir:v "WAI WAI MAWAYANA (MAWAYANA)" ]
+  ] [
+     fhir:code [ fhir:v "0235" ] ;
+     fhir:display [ fhir:v "WAIAPI (WAYAMPI, OYAMPI, WAYAPY, )" ]
+  ] [
+     fhir:code [ fhir:v "0236" ] ;
+     fhir:display [ fhir:v "WAIMIRI ATROARI (KINA)" ]
+  ] [
+     fhir:code [ fhir:v "0237" ] ;
+     fhir:display [ fhir:v "WANANO (UANANO, WANANA)" ]
+  ] [
+     fhir:code [ fhir:v "0238" ] ;
+     fhir:display [ fhir:v "WAPIXANA (UAPIXANA, VAPIDIANA, WAPISIANA, WAPISHANA)" ]
+  ] [
+     fhir:code [ fhir:v "0239" ] ;
+     fhir:display [ fhir:v "WAREKENA (UAREQUENA, WEREKENA)" ]
+  ] [
+     fhir:code [ fhir:v "0240" ] ;
+     fhir:display [ fhir:v "WASSU" ]
+  ] [
+     fhir:code [ fhir:v "0241" ] ;
+     fhir:display [ fhir:v "WAURA (UAURA, WAUJA)" ]
+  ] [
+     fhir:code [ fhir:v "0242" ] ;
+     fhir:display [ fhir:v "WAYANA (WAIANA, UAIANA)" ]
+  ] [
+     fhir:code [ fhir:v "0243" ] ;
+     fhir:display [ fhir:v "WITOTO (UITOTO, HUITOTO)" ]
+  ] [
+     fhir:code [ fhir:v "0244" ] ;
+     fhir:display [ fhir:v "XAKRIABA (XACRIABA)" ]
+  ] [
+     fhir:code [ fhir:v "0245" ] ;
+     fhir:display [ fhir:v "XAVANTE (A'UWE, AKWE, AWEN, AKWEN)" ]
+  ] [
+     fhir:code [ fhir:v "0246" ] ;
+     fhir:display [ fhir:v "XERENTE (AKWE, AWEN, AKWEN)" ]
+  ] [
+     fhir:code [ fhir:v "0247" ] ;
+     fhir:display [ fhir:v "XETA" ]
+  ] [
+     fhir:code [ fhir:v "0248" ] ;
+     fhir:display [ fhir:v "XIPAIA (SHIPAYA, XIPAYA)" ]
+  ] [
+     fhir:code [ fhir:v "0249" ] ;
+     fhir:display [ fhir:v "XOKLENG (SHOKLENG, XOCLENG)" ]
+  ] [
+     fhir:code [ fhir:v "0250" ] ;
+     fhir:display [ fhir:v "XOKO (XOCO, CHOCO)" ]
+  ] [
+     fhir:code [ fhir:v "0251" ] ;
+     fhir:display [ fhir:v "XUKURU (XUCURU)" ]
+  ] [
+     fhir:code [ fhir:v "0252" ] ;
+     fhir:display [ fhir:v "XUKURU KARIRI (XUCURU-KARIRI)" ]
+  ] [
+     fhir:code [ fhir:v "0253" ] ;
+     fhir:display [ fhir:v "YAIPIYANA" ]
+  ] [
+     fhir:code [ fhir:v "0254" ] ;
+     fhir:display [ fhir:v "YAMINAWA (JAMINAWA, IAMINAWA)" ]
+  ] [
+     fhir:code [ fhir:v "0255" ] ;
+     fhir:display [ fhir:v "YANOMAMI NINAM (IANOMAMI, IANOAMA, XIRIA­NA)" ]
+  ] [
+     fhir:code [ fhir:v "0256" ] ;
+     fhir:display [ fhir:v "YANOMAMI SANUMA (IANOMAMI, IANOAMA, XI­RIANA)" ]
+  ] [
+     fhir:code [ fhir:v "0257" ] ;
+     fhir:display [ fhir:v "YANOMAMI YANOMAM (IANOMAMI, IANOAMA, XI­RIANA)" ]
+  ] [
+     fhir:code [ fhir:v "0258" ] ;
+     fhir:display [ fhir:v "YAWALAPITI (IAUALAPITI)" ]
+  ] [
+     fhir:code [ fhir:v "0259" ] ;
+     fhir:display [ fhir:v "YAWANAWA (IAUANAUA)" ]
+  ] [
+     fhir:code [ fhir:v "0260" ] ;
+     fhir:display [ fhir:v "YEKUANA (MAIONGON, YE'KUANA, YEKWANA, MAYONGONG)" ]
+  ] [
+     fhir:code [ fhir:v "0261" ] ;
+     fhir:display [ fhir:v "YUDJA (JURUNA, YURUNA)" ]
+  ] [
+     fhir:code [ fhir:v "0262" ] ;
+     fhir:display [ fhir:v "ZO'E (POTURU)" ]
+  ] [
+     fhir:code [ fhir:v "0263" ] ;
+     fhir:display [ fhir:v "ZORO (PAGEYN)" ]
+  ] [
+     fhir:code [ fhir:v "0264" ] ;
+     fhir:display [ fhir:v "ZURUAHA (SOROWAHA, SURUWAHA)" ]
+  ] [
+     fhir:code [ fhir:v "X265" ] ;
+     fhir:display [ fhir:v "AHANENAWA" ]
+  ] [
+     fhir:code [ fhir:v "X266" ] ;
+     fhir:display [ fhir:v "AICABA" ]
+  ] [
+     fhir:code [ fhir:v "X267" ] ;
+     fhir:display [ fhir:v "AIKANÃ-KWASÁ" ]
+  ] [
+     fhir:code [ fhir:v "X269" ] ;
+     fhir:display [ fhir:v "ALANTESU" ]
+  ] [
+     fhir:code [ fhir:v "X271" ] ;
+     fhir:display [ fhir:v "AMAWÁKA" ]
+  ] [
+     fhir:code [ fhir:v "X272" ] ;
+     fhir:display [ fhir:v "ANACÉ" ]
+  ] [
+     fhir:code [ fhir:v "X276" ] ;
+     fhir:display [ fhir:v "ARARA APOLIMA" ]
+  ] [
+     fhir:code [ fhir:v "X278" ] ;
+     fhir:display [ fhir:v "ARIPUANÁ" ]
+  ] [
+     fhir:code [ fhir:v "X279" ] ;
+     fhir:display [ fhir:v "ASSURINI" ]
+  ] [
+     fhir:code [ fhir:v "X280" ] ;
+     fhir:display [ fhir:v "AWUARÁ" ]
+  ] [
+     fhir:code [ fhir:v "X281" ] ;
+     fhir:display [ fhir:v "BORBA" ]
+  ] [
+     fhir:code [ fhir:v "X282" ] ;
+     fhir:display [ fhir:v "CABIXI" ]
+  ] [
+     fhir:code [ fhir:v "X283" ] ;
+     fhir:display [ fhir:v "CAMARARÉ" ]
+  ] [
+     fhir:code [ fhir:v "X284" ] ;
+     fhir:display [ fhir:v "CAMASURI" ]
+  ] [
+     fhir:code [ fhir:v "X285" ] ;
+     fhir:display [ fhir:v "CARA PRETA" ]
+  ] [
+     fhir:code [ fhir:v "X286" ] ;
+     fhir:display [ fhir:v "CHARRUA" ]
+  ] [
+     fhir:code [ fhir:v "X287" ] ;
+     fhir:display [ fhir:v "CUJUBIM" ]
+  ] [
+     fhir:code [ fhir:v "X288" ] ;
+     fhir:display [ fhir:v "DAW" ]
+  ] [
+     fhir:code [ fhir:v "X289" ] ;
+     fhir:display [ fhir:v "GAVIÃO" ]
+  ] [
+     fhir:code [ fhir:v "X290" ] ;
+     fhir:display [ fhir:v "GUARANI" ]
+  ] [
+     fhir:code [ fhir:v "X291" ] ;
+     fhir:display [ fhir:v "HALANTESU" ]
+  ] [
+     fhir:code [ fhir:v "X292" ] ;
+     fhir:display [ fhir:v "HALOTESU" ]
+  ] [
+     fhir:code [ fhir:v "X293" ] ;
+     fhir:display [ fhir:v "HENGATÚ" ]
+  ] [
+     fhir:code [ fhir:v "X294" ] ;
+     fhir:display [ fhir:v "HIXKARYANA" ]
+  ] [
+     fhir:code [ fhir:v "X295" ] ;
+     fhir:display [ fhir:v "HUPDE" ]
+  ] [
+     fhir:code [ fhir:v "X296" ] ;
+     fhir:display [ fhir:v "HUPDES" ]
+  ] [
+     fhir:code [ fhir:v "X297" ] ;
+     fhir:display [ fhir:v "IAUANAUA" ]
+  ] [
+     fhir:code [ fhir:v "X298" ] ;
+     fhir:display [ fhir:v "IAUARETE AÇU" ]
+  ] [
+     fhir:code [ fhir:v "X299" ] ;
+     fhir:display [ fhir:v "IKPENG" ]
+  ] [
+     fhir:code [ fhir:v "X300" ] ;
+     fhir:display [ fhir:v "INAMBU" ]
+  ] [
+     fhir:code [ fhir:v "X301" ] ;
+     fhir:display [ fhir:v "INHABARANA" ]
+  ] [
+     fhir:code [ fhir:v "X302" ] ;
+     fhir:display [ fhir:v "JAVAE" ]
+  ] [
+     fhir:code [ fhir:v "X303" ] ;
+     fhir:display [ fhir:v "JENIPAPO" ]
+  ] [
+     fhir:code [ fhir:v "X304" ] ;
+     fhir:display [ fhir:v "JENIPAPO-KANINDE" ]
+  ] [
+     fhir:code [ fhir:v "X305" ] ;
+     fhir:display [ fhir:v "JIAHOI" ]
+  ] [
+     fhir:code [ fhir:v "X306" ] ;
+     fhir:display [ fhir:v "KAIOWA" ]
+  ] [
+     fhir:code [ fhir:v "X307" ] ;
+     fhir:display [ fhir:v "KAMPA" ]
+  ] [
+     fhir:code [ fhir:v "X308" ] ;
+     fhir:display [ fhir:v "KANELA" ]
+  ] [
+     fhir:code [ fhir:v "X309" ] ;
+     fhir:display [ fhir:v "KARAFAWYANA" ]
+  ] [
+     fhir:code [ fhir:v "X310" ] ;
+     fhir:display [ fhir:v "KARARAO" ]
+  ] [
+     fhir:code [ fhir:v "X311" ] ;
+     fhir:display [ fhir:v "KARUBO" ]
+  ] [
+     fhir:code [ fhir:v "X312" ] ;
+     fhir:display [ fhir:v "KASSUPÁ" ]
+  ] [
+     fhir:code [ fhir:v "X313" ] ;
+     fhir:display [ fhir:v "KATITHÃULU" ]
+  ] [
+     fhir:code [ fhir:v "X314" ] ;
+     fhir:display [ fhir:v "KATOKIN" ]
+  ] [
+     fhir:code [ fhir:v "X315" ] ;
+     fhir:display [ fhir:v "KATUKINA PANO" ]
+  ] [
+     fhir:code [ fhir:v "X316" ] ;
+     fhir:display [ fhir:v "KATUKINA PEDA DJAPA" ]
+  ] [
+     fhir:code [ fhir:v "X317" ] ;
+     fhir:display [ fhir:v "KATUKINA SHANENAUWA" ]
+  ] [
+     fhir:code [ fhir:v "X318" ] ;
+     fhir:display [ fhir:v "KAXAGO" ]
+  ] [
+     fhir:code [ fhir:v "X319" ] ;
+     fhir:display [ fhir:v "KAYABI" ]
+  ] [
+     fhir:code [ fhir:v "X320" ] ;
+     fhir:display [ fhir:v "KINÃ (WAIMIRI-ATROARI)" ]
+  ] [
+     fhir:code [ fhir:v "X321" ] ;
+     fhir:display [ fhir:v "KIRIRI-BARRA" ]
+  ] [
+     fhir:code [ fhir:v "X322" ] ;
+     fhir:display [ fhir:v "KITHÃULU" ]
+  ] [
+     fhir:code [ fhir:v "X323" ] ;
+     fhir:display [ fhir:v "KOIAIÁ" ]
+  ] [
+     fhir:code [ fhir:v "X324" ] ;
+     fhir:display [ fhir:v "KOIUPANKÁ" ]
+  ] [
+     fhir:code [ fhir:v "X325" ] ;
+     fhir:display [ fhir:v "KONTANAWA" ]
+  ] [
+     fhir:code [ fhir:v "X326" ] ;
+     fhir:display [ fhir:v "KRAHÔ KANELA" ]
+  ] [
+     fhir:code [ fhir:v "X327" ] ;
+     fhir:display [ fhir:v "KULINA" ]
+  ] [
+     fhir:code [ fhir:v "X328" ] ;
+     fhir:display [ fhir:v "LATUNDÊ" ]
+  ] [
+     fhir:code [ fhir:v "X329" ] ;
+     fhir:display [ fhir:v "MAKU" ]
+  ] [
+     fhir:code [ fhir:v "X330" ] ;
+     fhir:display [ fhir:v "MAKUNAMBÉ" ]
+  ] [
+     fhir:code [ fhir:v "X331" ] ;
+     fhir:display [ fhir:v "MAMAINDÊ" ]
+  ] [
+     fhir:code [ fhir:v "X332" ] ;
+     fhir:display [ fhir:v "MAMURI" ]
+  ] [
+     fhir:code [ fhir:v "X333" ] ;
+     fhir:display [ fhir:v "MANACAPURU" ]
+  ] [
+     fhir:code [ fhir:v "X334" ] ;
+     fhir:display [ fhir:v "MANAIRISSU" ]
+  ] [
+     fhir:code [ fhir:v "X335" ] ;
+     fhir:display [ fhir:v "MANCHINERI" ]
+  ] [
+     fhir:code [ fhir:v "X336" ] ;
+     fhir:display [ fhir:v "MANDUCA" ]
+  ] [
+     fhir:code [ fhir:v "X337" ] ;
+     fhir:display [ fhir:v "MARIBONDO" ]
+  ] [
+     fhir:code [ fhir:v "X338" ] ;
+     fhir:display [ fhir:v "MASSAKA" ]
+  ] [
+     fhir:code [ fhir:v "X339" ] ;
+     fhir:display [ fhir:v "MAWAYANA" ]
+  ] [
+     fhir:code [ fhir:v "X340" ] ;
+     fhir:display [ fhir:v "MAWÉ" ]
+  ] [
+     fhir:code [ fhir:v "X341" ] ;
+     fhir:display [ fhir:v "MAYORUNA" ]
+  ] [
+     fhir:code [ fhir:v "X342" ] ;
+     fhir:display [ fhir:v "MIQUELENO" ]
+  ] [
+     fhir:code [ fhir:v "X343" ] ;
+     fhir:display [ fhir:v "MOKURIÑ" ]
+  ] [
+     fhir:code [ fhir:v "X344" ] ;
+     fhir:display [ fhir:v "MON ORO WARAM" ]
+  ] [
+     fhir:code [ fhir:v "X345" ] ;
+     fhir:display [ fhir:v "MUTUM" ]
+  ] [
+     fhir:code [ fhir:v "X346" ] ;
+     fhir:display [ fhir:v "MYKY" ]
+  ] [
+     fhir:code [ fhir:v "X347" ] ;
+     fhir:display [ fhir:v "NADEB" ]
+  ] [
+     fhir:code [ fhir:v "X348" ] ;
+     fhir:display [ fhir:v "NAMBIKWARA" ]
+  ] [
+     fhir:code [ fhir:v "X349" ] ;
+     fhir:display [ fhir:v "NEGAROTÊ" ]
+  ] [
+     fhir:code [ fhir:v "X350" ] ;
+     fhir:display [ fhir:v "NHENGATU" ]
+  ] [
+     fhir:code [ fhir:v "X351" ] ;
+     fhir:display [ fhir:v "OFAIE XAVANTE" ]
+  ] [
+     fhir:code [ fhir:v "X352" ] ;
+     fhir:display [ fhir:v "ONÇA" ]
+  ] [
+     fhir:code [ fhir:v "X353" ] ;
+     fhir:display [ fhir:v "ORO AT" ]
+  ] [
+     fhir:code [ fhir:v "X354" ] ;
+     fhir:display [ fhir:v "ORO EO" ]
+  ] [
+     fhir:code [ fhir:v "X355" ] ;
+     fhir:display [ fhir:v "ORO JOWIN" ]
+  ] [
+     fhir:code [ fhir:v "X356" ] ;
+     fhir:display [ fhir:v "ORO MIYLIN" ]
+  ] [
+     fhir:code [ fhir:v "X357" ] ;
+     fhir:display [ fhir:v "ORO MON" ]
+  ] [
+     fhir:code [ fhir:v "X358" ] ;
+     fhir:display [ fhir:v "ORO NÁO" ]
+  ] [
+     fhir:code [ fhir:v "X359" ] ;
+     fhir:display [ fhir:v "ORO WAM" ]
+  ] [
+     fhir:code [ fhir:v "X360" ] ;
+     fhir:display [ fhir:v "ORO WARAM" ]
+  ] [
+     fhir:code [ fhir:v "X361" ] ;
+     fhir:display [ fhir:v "ORO WARAM XIJEIN" ]
+  ] [
+     fhir:code [ fhir:v "X362" ] ;
+     fhir:display [ fhir:v "PACA" ]
+  ] [
+     fhir:code [ fhir:v "X363" ] ;
+     fhir:display [ fhir:v "PANKARÁ" ]
+  ] [
+     fhir:code [ fhir:v "X364" ] ;
+     fhir:display [ fhir:v "PAPAGAIO" ]
+  ] [
+     fhir:code [ fhir:v "X365" ] ;
+     fhir:display [ fhir:v "PAYAYÁ" ]
+  ] [
+     fhir:code [ fhir:v "X366" ] ;
+     fhir:display [ fhir:v "PIPIPAN" ]
+  ] [
+     fhir:code [ fhir:v "X367" ] ;
+     fhir:display [ fhir:v "PIRATA" ]
+  ] [
+     fhir:code [ fhir:v "X368" ] ;
+     fhir:display [ fhir:v "PUROBORÁ" ]
+  ] [
+     fhir:code [ fhir:v "X369" ] ;
+     fhir:display [ fhir:v "SABANÊ" ]
+  ] [
+     fhir:code [ fhir:v "X370" ] ;
+     fhir:display [ fhir:v "SANUMA" ]
+  ] [
+     fhir:code [ fhir:v "X371" ] ;
+     fhir:display [ fhir:v "SAWENTESÚ" ]
+  ] [
+     fhir:code [ fhir:v "X372" ] ;
+     fhir:display [ fhir:v "SILCY-TAPUYA" ]
+  ] [
+     fhir:code [ fhir:v "X373" ] ;
+     fhir:display [ fhir:v "SIUCI" ]
+  ] [
+     fhir:code [ fhir:v "X374" ] ;
+     fhir:display [ fhir:v "TABAJARA" ]
+  ] [
+     fhir:code [ fhir:v "X375" ] ;
+     fhir:display [ fhir:v "TAKUARA" ]
+  ] [
+     fhir:code [ fhir:v "X376" ] ;
+     fhir:display [ fhir:v "TATU" ]
+  ] [
+     fhir:code [ fhir:v "X377" ] ;
+     fhir:display [ fhir:v "TAWANDÊ" ]
+  ] [
+     fhir:code [ fhir:v "X378" ] ;
+     fhir:display [ fhir:v "TEFÉ" ]
+  ] [
+     fhir:code [ fhir:v "X379" ] ;
+     fhir:display [ fhir:v "TIMBIRA" ]
+  ] [
+     fhir:code [ fhir:v "X380" ] ;
+     fhir:display [ fhir:v "TORÁ DO BAIXO GRANDE" ]
+  ] [
+     fhir:code [ fhir:v "X381" ] ;
+     fhir:display [ fhir:v "TSUNHUM-DJAPÁ" ]
+  ] [
+     fhir:code [ fhir:v "X382" ] ;
+     fhir:display [ fhir:v "TUBARÃO" ]
+  ] [
+     fhir:code [ fhir:v "X383" ] ;
+     fhir:display [ fhir:v "TUPAIU" ]
+  ] [
+     fhir:code [ fhir:v "X384" ] ;
+     fhir:display [ fhir:v "TUPI" ]
+  ] [
+     fhir:code [ fhir:v "X385" ] ;
+     fhir:display [ fhir:v "TUPINAMBÁ DE BELMONTE" ]
+  ] [
+     fhir:code [ fhir:v "X386" ] ;
+     fhir:display [ fhir:v "URUBU" ]
+  ] [
+     fhir:code [ fhir:v "X387" ] ;
+     fhir:display [ fhir:v "URUBU KAAPOR" ]
+  ] [
+     fhir:code [ fhir:v "X388" ] ;
+     fhir:display [ fhir:v "URUPÁ" ]
+  ] [
+     fhir:code [ fhir:v "X389" ] ;
+     fhir:display [ fhir:v "WAI WAI" ]
+  ] [
+     fhir:code [ fhir:v "X390" ] ;
+     fhir:display [ fhir:v "WAIKISU" ]
+  ] [
+     fhir:code [ fhir:v "X391" ] ;
+     fhir:display [ fhir:v "WAKALITESÚ" ]
+  ] [
+     fhir:code [ fhir:v "X392" ] ;
+     fhir:display [ fhir:v "WASSUSU" ]
+  ] [
+     fhir:code [ fhir:v "X393" ] ;
+     fhir:display [ fhir:v "XEREU" ]
+  ] [
+     fhir:code [ fhir:v "X394" ] ;
+     fhir:display [ fhir:v "XI EIN" ]
+  ] [
+     fhir:code [ fhir:v "X395" ] ;
+     fhir:display [ fhir:v "XICRIN" ]
+  ] [
+     fhir:code [ fhir:v "X396" ] ;
+     fhir:display [ fhir:v "XIPAYA" ]
+  ] [
+     fhir:code [ fhir:v "X397" ] ;
+     fhir:display [ fhir:v "XIRIANA" ]
+  ] [
+     fhir:code [ fhir:v "X398" ] ;
+     fhir:display [ fhir:v "XIRUAI" ]
+  ] [
+     fhir:code [ fhir:v "X399" ] ;
+     fhir:display [ fhir:v "YEPAMASSÃ" ]
+  ] [
+     fhir:code [ fhir:v "X400" ] ;
+     fhir:display [ fhir:v "TIRIYÓ" ]
+  ] [
+     fhir:code [ fhir:v "X401" ] ;
+     fhir:display [ fhir:v "YANOMAMI" ]
+  ] [
+     fhir:code [ fhir:v "X402" ] ;
+     fhir:display [ fhir:v "ARARA" ]
+  ] [
+     fhir:code [ fhir:v "X403" ] ;
+     fhir:display [ fhir:v "SAKIRIABAR" ]
+  ] [
+     fhir:code [ fhir:v "X404" ] ;
+     fhir:display [ fhir:v "TATZ" ]
+  ] [
+     fhir:code [ fhir:v "X405" ] ;
+     fhir:display [ fhir:v "SEM INFORMACAO" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

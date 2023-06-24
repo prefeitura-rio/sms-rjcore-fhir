@@ -1,0 +1,317 @@
+[
+  {
+    "id" : "BREtniaIndigena",
+    "type" : "CodeSystem",
+    "url" : "https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BREtniaIndigena",
+    "version" : "0.1.0",
+    "name" : "EtniaIndigena"
+  },
+  {
+    "id" : "BRIdentidadeGenero",
+    "type" : "CodeSystem",
+    "url" : "https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BRIdentidadeGenero",
+    "version" : "0.1.0",
+    "name" : "IdentidadeGenero"
+  },
+  {
+    "id" : "BRNacionalidade",
+    "type" : "CodeSystem",
+    "url" : "https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BRNacionalidade",
+    "version" : "0.1.0",
+    "name" : "Nacionalidade"
+  },
+  {
+    "id" : "BRNaturezaJuridica",
+    "type" : "CodeSystem",
+    "url" : "https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BRNaturezaJuridica",
+    "version" : "0.1.0",
+    "name" : "NaturezaJuridica"
+  },
+  {
+    "id" : "BROrgaoExpedidor",
+    "type" : "CodeSystem",
+    "url" : "https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BROrgaoExpedidor",
+    "version" : "0.1.0",
+    "name" : "OrgaoExpedidor"
+  },
+  {
+    "id" : "BRPais",
+    "type" : "CodeSystem",
+    "url" : "https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BRPais",
+    "version" : "0.1.0",
+    "name" : "Pais"
+  },
+  {
+    "id" : "BRParentesco",
+    "type" : "CodeSystem",
+    "url" : "https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BRParentesco",
+    "version" : "0.1.0",
+    "name" : "Parentesco"
+  },
+  {
+    "id" : "BRRacaCor",
+    "type" : "CodeSystem",
+    "url" : "https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BRRacaCor",
+    "version" : "0.1.0",
+    "name" : "RacaCor"
+  },
+  {
+    "id" : "BRSexo",
+    "type" : "CodeSystem",
+    "url" : "https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BRSexo",
+    "version" : "0.1.0",
+    "name" : "Sexo"
+  },
+  {
+    "id" : "BRTipoDocumento",
+    "type" : "CodeSystem",
+    "url" : "https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BRTipoDocumento",
+    "version" : "0.1.0",
+    "name" : "TipoDocumento"
+  },
+  {
+    "id" : "BRTipoIdentificador",
+    "type" : "CodeSystem",
+    "url" : "https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BRTipoIdentificador",
+    "version" : "0.1.0",
+    "name" : "TipoIdentificador"
+  },
+  {
+    "id" : "BRTipoLogradouro",
+    "type" : "CodeSystem",
+    "url" : "https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BRTipoLogradouro",
+    "version" : "0.1.0",
+    "name" : "TipoLogradouro"
+  },
+  {
+    "id" : "org.rj-sms.br.core",
+    "type" : "ImplementationGuide",
+    "url" : "https://prefeitura-rio.github.io/sms-rjcore-fhir/ImplementationGuide/org.rj-sms.br.core",
+    "version" : "0.1.0",
+    "name" : "RJCore"
+  },
+  {
+    "id" : "BRDocumentoIndividuo-1.0",
+    "type" : "StructureDefinition",
+    "url" : "https://prefeitura-rio.github.io/sms-rjcore-fhir/StructureDefinition/BRDocumentoIndividuo-1.0",
+    "version" : "0.1.0",
+    "name" : "BRDocumentoIndividuo"
+  },
+  {
+    "id" : "BREndereco-1.0",
+    "type" : "StructureDefinition",
+    "url" : "https://prefeitura-rio.github.io/sms-rjcore-fhir/StructureDefinition/BREndereco-1.0",
+    "version" : "0.1.0",
+    "name" : "BREndereco"
+  },
+  {
+    "id" : "BRIdentidadeGenero-1.0",
+    "type" : "StructureDefinition",
+    "url" : "https://prefeitura-rio.github.io/sms-rjcore-fhir/StructureDefinition/BRIdentidadeGenero-1.0",
+    "version" : "0.1.0",
+    "name" : "BRIdentidadeGenero"
+  },
+  {
+    "id" : "BRIndividuo-1.0",
+    "type" : "StructureDefinition",
+    "url" : "https://prefeitura-rio.github.io/sms-rjcore-fhir/StructureDefinition/BRIndividuo-1.0",
+    "version" : "0.1.0",
+    "name" : "BRIndividuo"
+  },
+  {
+    "id" : "BRIndividuoProtegido-1.0",
+    "type" : "StructureDefinition",
+    "url" : "https://prefeitura-rio.github.io/sms-rjcore-fhir/StructureDefinition/BRIndividuoProtegido-1.0",
+    "version" : "0.1.0",
+    "name" : "BRIndividuoProtegido"
+  },
+  {
+    "id" : "BRJurisdicaoOrgaoEmissor-1.0",
+    "type" : "StructureDefinition",
+    "url" : "https://prefeitura-rio.github.io/sms-rjcore-fhir/StructureDefinition/BRJurisdicaoOrgaoEmissor-1.0",
+    "version" : "0.1.0",
+    "name" : "BRJurisdicaoOrgaoExpedidor"
+  },
+  {
+    "id" : "BRMeioContato-1.0",
+    "type" : "StructureDefinition",
+    "url" : "https://prefeitura-rio.github.io/sms-rjcore-fhir/StructureDefinition/BRMeioContato-1.0",
+    "version" : "0.1.0",
+    "name" : "BRMeioContato"
+  },
+  {
+    "id" : "BRMunicipio-1.0",
+    "type" : "StructureDefinition",
+    "url" : "https://prefeitura-rio.github.io/sms-rjcore-fhir/StructureDefinition/BRMunicipio-1.0",
+    "version" : "0.1.0",
+    "name" : "BRMunicipio"
+  },
+  {
+    "id" : "BRNacionalidade",
+    "type" : "StructureDefinition",
+    "url" : "https://prefeitura-rio.github.io/sms-rjcore-fhir/StructureDefinition/BRNacionalidade",
+    "version" : "0.1.0",
+    "name" : "BRNacionalidade"
+  },
+  {
+    "id" : "BRNaturalizacao-1.0",
+    "type" : "StructureDefinition",
+    "url" : "https://prefeitura-rio.github.io/sms-rjcore-fhir/StructureDefinition/BRNaturalizacao-1.0",
+    "version" : "0.1.0",
+    "name" : "BRNaturalizacao"
+  },
+  {
+    "id" : "BRNomeIndividuo-1.0",
+    "type" : "StructureDefinition",
+    "url" : "https://prefeitura-rio.github.io/sms-rjcore-fhir/StructureDefinition/BRNomeIndividuo-1.0",
+    "version" : "0.1.0",
+    "name" : "BRNomeIndividuo"
+  },
+  {
+    "id" : "BRPais-1.0",
+    "type" : "StructureDefinition",
+    "url" : "https://prefeitura-rio.github.io/sms-rjcore-fhir/StructureDefinition/BRPais-1.0",
+    "version" : "0.1.0",
+    "name" : "BRPais"
+  },
+  {
+    "id" : "BRParentesIndividuo-1.0",
+    "type" : "StructureDefinition",
+    "url" : "https://prefeitura-rio.github.io/sms-rjcore-fhir/StructureDefinition/BRParentesIndividuo-1.0",
+    "version" : "0.1.0",
+    "name" : "BRParentesIndividuo"
+  },
+  {
+    "id" : "BRQualidadeCadastroIndividuo-1.0",
+    "type" : "StructureDefinition",
+    "url" : "https://prefeitura-rio.github.io/sms-rjcore-fhir/StructureDefinition/BRQualidadeCadastroIndividuo-1.0",
+    "version" : "0.1.0",
+    "name" : "BRQualidadeCadastroIndividuo"
+  },
+  {
+    "id" : "BRRacaCorEtnia-1.0",
+    "type" : "StructureDefinition",
+    "url" : "https://prefeitura-rio.github.io/sms-rjcore-fhir/StructureDefinition/BRRacaCorEtnia-1.0",
+    "version" : "0.1.0",
+    "name" : "BRRacaCorEtnia"
+  },
+  {
+    "id" : "BRSexo-1.0",
+    "type" : "StructureDefinition",
+    "url" : "https://prefeitura-rio.github.io/sms-rjcore-fhir/StructureDefinition/BRSexo-1.0",
+    "version" : "0.1.0",
+    "name" : "BRSexo"
+  },
+  {
+    "id" : "BRSexoNascimento-1.0",
+    "type" : "StructureDefinition",
+    "url" : "https://prefeitura-rio.github.io/sms-rjcore-fhir/StructureDefinition/BRSexoNascimento-1.0",
+    "version" : "0.1.0",
+    "name" : "BRSexoNascimento"
+  },
+  {
+    "id" : "BREstadoDocumento-1.0",
+    "type" : "ValueSet",
+    "url" : "https://prefeitura-rio.github.io/sms-rjcore-fhir/ValueSet/BREstadoDocumento-1.0",
+    "version" : "0.1.0",
+    "name" : "EstadoDocumento"
+  },
+  {
+    "id" : "BREtniaIndigena-1.0",
+    "type" : "ValueSet",
+    "url" : "https://prefeitura-rio.github.io/sms-rjcore-fhir/ValueSet/BREtniaIndigena-1.0",
+    "version" : "0.1.0",
+    "name" : "EtniaIndigena"
+  },
+  {
+    "id" : "BRIdentidadeGenero-1.0",
+    "type" : "ValueSet",
+    "url" : "https://prefeitura-rio.github.io/sms-rjcore-fhir/ValueSet/BRIdentidadeGenero-1.0",
+    "version" : "0.1.0",
+    "name" : "IdentidadeGenero"
+  },
+  {
+    "id" : "BRMunicipio-1.0",
+    "type" : "ValueSet",
+    "url" : "https://prefeitura-rio.github.io/sms-rjcore-fhir/ValueSet/BRMunicipio-1.0",
+    "version" : "0.1.0",
+    "name" : "Municipio"
+  },
+  {
+    "id" : "BRNacionalidade",
+    "type" : "ValueSet",
+    "url" : "https://prefeitura-rio.github.io/sms-rjcore-fhir/ValueSet/BRNacionalidade",
+    "version" : "0.1.0",
+    "name" : "Nacionalidade"
+  },
+  {
+    "id" : "BRNaturezaJuridica-1.0",
+    "type" : "ValueSet",
+    "url" : "https://prefeitura-rio.github.io/sms-rjcore-fhir/ValueSet/BRNaturezaJuridica-1.0",
+    "version" : "0.1.0",
+    "name" : "NaturezaJuridica"
+  },
+  {
+    "id" : "BROrgaoExpedidor-1.0",
+    "type" : "ValueSet",
+    "url" : "https://prefeitura-rio.github.io/sms-rjcore-fhir/ValueSet/BROrgaoExpedidor-1.0",
+    "version" : "0.1.0",
+    "name" : "OrgaoExpedidor"
+  },
+  {
+    "id" : "BRPais-1.0",
+    "type" : "ValueSet",
+    "url" : "https://prefeitura-rio.github.io/sms-rjcore-fhir/ValueSet/BRPais-1.0",
+    "version" : "0.1.0",
+    "name" : "Pais"
+  },
+  {
+    "id" : "BRParentesco-1.0",
+    "type" : "ValueSet",
+    "url" : "https://prefeitura-rio.github.io/sms-rjcore-fhir/ValueSet/BRParentesco-1.0",
+    "version" : "0.1.0",
+    "name" : "Parentesco"
+  },
+  {
+    "id" : "BRRacaCor-1.0",
+    "type" : "ValueSet",
+    "url" : "https://prefeitura-rio.github.io/sms-rjcore-fhir/ValueSet/BRRacaCor-1.0",
+    "version" : "0.1.0",
+    "name" : "RacaCor"
+  },
+  {
+    "id" : "BRSexo-1.0",
+    "type" : "ValueSet",
+    "url" : "https://prefeitura-rio.github.io/sms-rjcore-fhir/ValueSet/BRSexo-1.0",
+    "version" : "0.1.0",
+    "name" : "Sexo"
+  },
+  {
+    "id" : "BRTipoDocumento-1.0",
+    "type" : "ValueSet",
+    "url" : "https://prefeitura-rio.github.io/sms-rjcore-fhir/ValueSet/BRTipoDocumento-1.0",
+    "version" : "0.1.0",
+    "name" : "TipoDocumento"
+  },
+  {
+    "id" : "BRTipoDocumentoIndividuo-1.0",
+    "type" : "ValueSet",
+    "url" : "https://prefeitura-rio.github.io/sms-rjcore-fhir/ValueSet/BRTipoDocumentoIndividuo-1.0",
+    "version" : "0.1.0",
+    "name" : "TipoDocumentoIndividuo"
+  },
+  {
+    "id" : "BRTipoLogradouro-1.0",
+    "type" : "ValueSet",
+    "url" : "https://prefeitura-rio.github.io/sms-rjcore-fhir/ValueSet/BRTipoLogradouro-1.0",
+    "version" : "0.1.0",
+    "name" : "TipoLogradouro"
+  },
+  {
+    "id" : "BRUnidadeFederativa-1.0",
+    "type" : "ValueSet",
+    "url" : "https://prefeitura-rio.github.io/sms-rjcore-fhir/ValueSet/BRUnidadeFederativa-1.0",
+    "version" : "0.1.0",
+    "name" : "UnidadeFederativa"
+  }
+]

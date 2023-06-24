@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "BREtniaIndigena-1.0",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-BREtniaIndigena.html\"><code>https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BREtniaIndigena</code></a></li></ul></div>"
+  },
+  "url" : "https://prefeitura-rio.github.io/sms-rjcore-fhir/ValueSet/BREtniaIndigena-1.0",
+  "version" : "0.1.0",
+  "name" : "EtniaIndigena",
+  "title" : "Etnia Indígena",
+  "status" : "draft",
+  "date" : "2023-07-15T19:34:18+00:00",
+  "publisher" : "Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro",
+  "contact" : [{
+    "name" : "Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://prefeitura.rio/"
+    }]
+  }],
+  "description" : "Códigos para representação de etnias indígenas no Brasil.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR",
+      "display" : "Brazil"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BREtniaIndigena"
+    }]
+  }
+}

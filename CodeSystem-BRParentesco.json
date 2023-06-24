@@ -1,0 +1,40 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "BRParentesco",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BRParentesco</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">mother<a name=\"BRParentesco-mother\"> </a></td><td>Mãe</td></tr><tr><td style=\"white-space:nowrap\">father<a name=\"BRParentesco-father\"> </a></td><td>Pai</td></tr></table></div>"
+  },
+  "url" : "https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BRParentesco",
+  "version" : "0.1.0",
+  "name" : "Parentesco",
+  "title" : "Parentesco",
+  "status" : "draft",
+  "date" : "2023-07-15T19:34:18+00:00",
+  "publisher" : "Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro",
+  "contact" : [{
+    "name" : "Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://prefeitura.rio/"
+    }]
+  }],
+  "description" : "Classificação da relação familiar entre indivíduos.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR",
+      "display" : "Brazil"
+    }]
+  }],
+  "content" : "complete",
+  "count" : 2,
+  "concept" : [{
+    "code" : "mother",
+    "display" : "Mãe"
+  },
+  {
+    "code" : "father",
+    "display" : "Pai"
+  }]
+}

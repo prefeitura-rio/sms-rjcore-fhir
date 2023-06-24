@@ -1,0 +1,53 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)","Mapping: HL7 v2 Mapping","Mapping: RIM Mapping","Mapping: ServD"
+"ContactPoint","ContactPoint","","Contato
+Informação de ContatoTelefoneE-MailCorreio EletrônicoCelularRecado","",0,*,"Y","","","null {[]} {[]}
+","Meio de Contato","Informações do(s) meio(s) de contato com o indivíduo.","","","","","","","","","",,,,,"",,,,"ContactPoint",0,*,"ele-1
+","cpt-2:A system is required if a value is provided. {value.empty() or system.exists()}
+ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}","XTN","n/a","TEL","ContactPoint"
+"ContactPoint.id","ContactPoint.id","","","",0,1,"","","","string {[]} {[]}
+","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
+"ContactPoint.extension","ContactPoint.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
+"ContactPoint.system","ContactPoint.system","","","",1,1,"Y","","Y","code {[]} {[]}
+","Tipo de Meio de Contato","sms: número de telefone celular.
+phone: número de telefone fixo.
+fax: número de fax.
+email: endereço de correio eletrônico (e-mail).
+pager: número de pager/bip.
+url: endereço do sítio eletrônico na internet, inclusive redes sociais.
+other: outros meios de contato, inserir no value uma descrição, seguida do caractere : e espaço, seguido do contato propriamente dito (ex.: Jabber: fulano@organizacao).","","","","","","","","","",,"required","Telecommunications form for contact point.","http://hl7.org/fhir/ValueSet/contact-point-system|4.0.1","",,,,"ContactPoint.system",0,1,"cpt-2
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","XTN.3","./scheme","./ContactPointType"
+"ContactPoint.value","ContactPoint.value","","","",1,1,"Y","","Y","string {[]} {[]}
+","Contato","O número do telefone (preferencialmente em formato internacional +CC DDD XXXXX-XXXX, onde CC é o código do país, DDD código da cidade/localidade e XXXXX-XXXX é o número do telefone propriamente dito), endereço de correio eletrônico (ex.: fulano@provedor.br), URL ou outro valor que identifique o contato. Quando utilizar ""other"" no system, inserir uma descrição do meio de contato, seguida do caractere : e espaço, seguido do contato propriamente dito (ex.: Jabber: fulano@organizacao).","Additional text data such as phone extension numbers, or notes about use of the contact are sometimes included in the value.","Need to support legacy numbers that are not in a tightly controlled format.","","","","","","","",,,,,"",,,,"ContactPoint.value",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","XTN.1 (or XTN.12)","./url","./Value"
+"ContactPoint.use","ContactPoint.use","","","",0,1,"Y","Y","Y","code {[]} {[]}
+","Uso do Meio de Contato","home: residencial.
+work: comercial.
+temp: temporário ou de recado.
+mobile: dispositivo móvel, como um telefone celular.","Applications can assume that a contact is current unless it explicitly says that it is temporary or old.","Need to track the way a person uses this contact, so a user can choose which is appropriate for their purpose.","","","","","","","",,"required","Use of contact point.","http://hl7.org/fhir/ValueSet/contact-point-use|4.0.1","",,,,"ContactPoint.use",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","XTN.2 - but often indicated by field","unique(./use)","./ContactPointPurpose"
+"ContactPoint.rank","ContactPoint.rank","","","",0,1,"Y","","Y","positiveInt {[]} {[]}
+","Ordem de Preferência","Especifica uma ordem preferencial entre vários contatos do mesmo tipo, sendo o de valor 1 o preferido.","Note that rank does not necessarily follow the order in which the contacts are represented in the instance.","","","","","","","","",,,,,"",,,,"ContactPoint.rank",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","n/a","n/a"
+"ContactPoint.period","ContactPoint.period","","","",0,1,"Y","","Y","Period {[]} {[]}
+","Período do Meio de Contato","Período em que o meio de contato foi utilizado pelo indivíduo.","","","","","","","","","",,,,,"",,,,"ContactPoint.period",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","N/A","./usablePeriod[type=""IVL<TS>""]","./StartDate and ./EndDate"
+"ContactPoint.period.id","ContactPoint.period.id","","","",0,1,"","","","string {[]} {[]}
+","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
+"ContactPoint.period.extension","ContactPoint.period.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
+"ContactPoint.period.start","ContactPoint.period.start","","","",0,1,"Y","","Y","dateTime {[]} {[]}
+","Data de Início do Meio de Contato","Data em que o meio de contato foi cadastrado ou começou a ser utilizado pelo indivíduo.","If the low element is missing, the meaning is that the low boundary is not known.","","","","","","","","",,,,,"",,,,"Period.start",0,1,"per-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","DR.1","./low"
+"ContactPoint.period.end","ContactPoint.period.end","","","",0,1,"Y","","Y","dateTime {[]} {[]}
+","Data da Término do Meio de Contato","Data em que o meio de contato foi desativado ou parou de ser utilizado pelo indivíduo.","The high value includes any matching date/time. i.e. 2012-02-03T10:00:00 is in a period that has an end value of 2012-02-03.","","","If the end of the period is missing, it means that the period is ongoing","","","","","",,,,,"",,,,"Period.end",0,1,"per-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","DR.2","./high"

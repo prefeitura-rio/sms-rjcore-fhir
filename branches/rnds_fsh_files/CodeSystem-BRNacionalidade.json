@@ -1,0 +1,68 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "BRNacionalidade",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BRNacionalidade</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">B<a name=\"BRNacionalidade-B\"> </a></td><td>Brasileiro</td></tr><tr><td style=\"white-space:nowrap\">E<a name=\"BRNacionalidade-E\"> </a></td><td>Estrangeiro</td></tr><tr><td style=\"white-space:nowrap\">N<a name=\"BRNacionalidade-N\"> </a></td><td>Naturalizado</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>English (English, en)</b></td><td><b>Spanish (es)</b></td></tr><tr><td>B</td><td>Brazilian</td><td>Brasileño</td></tr><tr><td>E</td><td>Foreign</td><td>Extranjero</td></tr><tr><td>N</td><td>Naturalized</td><td>Naturalizado</td></tr></table></div>"
+  },
+  "url" : "https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BRNacionalidade",
+  "version" : "0.1.0",
+  "name" : "Nacionalidade",
+  "title" : "Nacionalidade",
+  "status" : "draft",
+  "date" : "2023-07-15T19:27:39+00:00",
+  "publisher" : "Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro",
+  "contact" : [{
+    "name" : "Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://prefeitura.rio/"
+    }]
+  }],
+  "description" : "Define a nacionalidade de um dado indivíduo.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR",
+      "display" : "Brazil"
+    }]
+  }],
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "B",
+    "display" : "Brasileiro",
+    "designation" : [{
+      "language" : "en",
+      "value" : "Brazilian"
+    },
+    {
+      "language" : "es",
+      "value" : "Brasileño"
+    }]
+  },
+  {
+    "code" : "E",
+    "display" : "Estrangeiro",
+    "designation" : [{
+      "language" : "en",
+      "value" : "Foreign"
+    },
+    {
+      "language" : "es",
+      "value" : "Extranjero"
+    }]
+  },
+  {
+    "code" : "N",
+    "display" : "Naturalizado",
+    "designation" : [{
+      "language" : "en",
+      "value" : "Naturalized"
+    },
+    {
+      "language" : "es",
+      "value" : "Naturalizado"
+    }]
+  }]
+}

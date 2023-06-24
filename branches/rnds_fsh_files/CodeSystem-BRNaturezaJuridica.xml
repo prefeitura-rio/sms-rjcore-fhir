@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="BRNaturezaJuridica"/>
+  <meta>
+    <lastUpdated value="2020-03-30T18:15:21.477+00:00"/>
+  </meta>
+  <language value="pt-BR"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR"><p><b>Properties</b></p><p><b>This code system  defines the following properties for its concepts</b></p><table class="grid"><tr><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>type</td><td>code</td><td>tipo</td></tr></table><p><b>Concepts</b></p><p>This code system <code>https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BRNaturezaJuridica</code> defines the following codes:</p><table class="codes"><tr><td><b>Lvl</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>type</b></td></tr><tr><td>1</td><td style="white-space:nowrap">1<a name="BRNaturezaJuridica-1"> </a></td><td>Administração Pública</td><td/><td>grupo</td></tr><tr><td>2</td><td style="white-space:nowrap">  101-5<a name="BRNaturezaJuridica-101-5"> </a></td><td>Órgão Público do Poder Executivo Federal</td><td>Esta Natureza Jurídica compreende:
+- os órgãos públicos do Poder Executivo Federal
+Esta Natureza Jurídica compreende também:
+- as embaixadas, os consulados, os escritórios de representações e demais unidades diplomáticas e consulares do Governo brasileiro em outros países ou em organizações internacionais
+- o Conselho Nacional dos Direitos da Criança e do Adolescente (Conanda)
+- a Advocacia-Geral da União
+Esta Natureza Jurídica não compreende:
+- as autarquias (110-4)
+-as fundações públicas (113-9)
+- os órgãos do Ministério Público da União (116-3)
+- os fundos especiais de natureza contábil e/ou financeira, não dotados de personalidade jurídica, previstos nos artigos 71 a 74 da Lei n. º 4.320, de 17/03/1964, criados no âmbito do Poder Executivo da União (131-7)
+- os fundos de avais públicos: União (131-7), Estadual ou do Distrito Federal (132-5) e Municipal (133-3)
+- a União (134-1)
+- as empresas públicas (201-1)
+- as sociedades de economia mista federais (203-8)
+- as embaixadas, os consulados, os escritórios de representações e as demais unidades diplomáticas do Governo brasileiro em outros países ou em organizações internacionais (502-9)</td><td>categoria</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="https://rnds-fhir.saude.gov.br/ImplementationGuide/rnds"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="informative">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="https://rnds-fhir.saude.gov.br/ImplementationGuide/rnds"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BRNaturezaJuridica"/>
+  <version value="0.1.0"/>
+  <name value="NaturezaJuridica"/>
+  <title value="Natureza Jurídica"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2020-03-30T18:15:18.1570669+00:00"/>
+  <publisher value="Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro"/>
+  <contact>
+    <name value="Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://prefeitura.rio/"/>
+    </telecom>
+  </contact>
+  <description value="Identifica a constituição jurídico-institucional das entidades públicas e privadas nos cadastros da administração pública do Brasil."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+      <display value="Brazil"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <hierarchyMeaning value="grouped-by"/>
+  <content value="complete"/>
+  <count value="2"/>
+  <property>
+    <code value="type"/>
+    <description value="tipo"/>
+    <type value="code"/>
+  </property>
+  <concept>
+    <code value="1"/>
+    <display value="Administração Pública"/>
+    <property>
+      <code value="type"/>
+      <valueCode value="grupo"/>
+    </property>
+    <concept>
+      <code value="101-5"/>
+      <display value="Órgão Público do Poder Executivo Federal"/>
+      <definition value="Esta Natureza Jurídica compreende:&#xD;&#xA;- os órgãos públicos do Poder Executivo Federal&#xD;&#xA;Esta Natureza Jurídica compreende também:&#xD;&#xA;- as embaixadas, os consulados, os escritórios de representações e demais unidades diplomáticas e consulares do Governo brasileiro em outros países ou em organizações internacionais&#xD;&#xA;- o Conselho Nacional dos Direitos da Criança e do Adolescente (Conanda)&#xD;&#xA;- a Advocacia-Geral da União&#xD;&#xA;Esta Natureza Jurídica não compreende:&#xD;&#xA;- as autarquias (110-4)&#xD;&#xA;-as fundações públicas (113-9)&#xD;&#xA;- os órgãos do Ministério Público da União (116-3)&#xD;&#xA;- os fundos especiais de natureza contábil e/ou financeira, não dotados de personalidade jurídica, previstos nos artigos 71 a 74 da Lei n. º 4.320, de 17/03/1964, criados no âmbito do Poder Executivo da União (131-7)&#xD;&#xA;- os fundos de avais públicos: União (131-7), Estadual ou do Distrito Federal (132-5) e Municipal (133-3)&#xD;&#xA;- a União (134-1)&#xD;&#xA;- as empresas públicas (201-1)&#xD;&#xA;- as sociedades de economia mista federais (203-8)&#xD;&#xA;- as embaixadas, os consulados, os escritórios de representações e as demais unidades diplomáticas do Governo brasileiro em outros países ou em organizações internacionais (502-9)"/>
+      <property>
+        <code value="type"/>
+        <valueCode value="categoria"/>
+      </property>
+    </concept>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,98 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BRTipoDocumento> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "BRTipoDocumento"] ; # 
+  fhir:meta [
+     fhir:lastUpdated [ fhir:v "2020-03-26T13:19:48.112+00:00"^^xsd:dateTime ]
+  ] ; # 
+  fhir:language [ fhir:v "pt-BR"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><p>This code system <code>https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BRTipoDocumento</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">CMD<a name=\"BRTipoDocumento-CMD\"> </a></td><td>Conjunto Mínimo de Dados</td><td>Documento público que coleta os dados mínimos dos atendimentos em saúde realizados em qualquer estabelecimento de saúde do país, público ou privado, em cada contato assistencial.</td></tr><tr><td style=\"white-space:nowrap\">SA<a name=\"BRTipoDocumento-SA\"> </a></td><td>Sumário de Alta</td><td>Relato clínico objetivo sobre as intervenções realizadas, as instruções para continuidade do cuidado pós-alta e o estado de saúde do indivíduo ao final de sua permanência na internação em estabelecimentos de saúde como: hospital, clínica, hospital-dia, internação domiciliar e urgência.</td></tr><tr><td style=\"white-space:nowrap\">RAC<a name=\"BRTipoDocumento-RAC\"> </a></td><td>Registro de Atendimento Clínico</td><td>Registro de dados essenciais de uma consulta realizada a um indivíduo no âmbito da atenção básica, especializada ou domiciliar (atendimento diário).</td></tr><tr><td style=\"white-space:nowrap\">RIA<a name=\"BRTipoDocumento-RIA\"> </a></td><td>Registro de Imunobiológico Administrado</td><td/></tr><tr><td style=\"white-space:nowrap\">RPM<a name=\"BRTipoDocumento-RPM\"> </a></td><td>Registro de Prescrição de Medicamento</td><td/></tr><tr><td style=\"white-space:nowrap\">RDM<a name=\"BRTipoDocumento-RDM\"> </a></td><td>Registro de Dispensação de Medicamento</td><td/></tr><tr><td style=\"white-space:nowrap\">REL<a name=\"BRTipoDocumento-REL\"> </a></td><td>Resultado de Exame(s) Laboratoriais(s)</td><td/></tr></table></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ] ;
+     fhir:value [
+       fhir:v "1"^^xsd:integer ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
+         fhir:value [
+           fhir:v "https://rnds-fhir.saude.gov.br/ImplementationGuide/rnds"^^xsd:anyURI ;
+           fhir:link <https://rnds-fhir.saude.gov.br/ImplementationGuide/rnds>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
+     fhir:value [
+       fhir:v "informative" ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
+         fhir:value [
+           fhir:v "https://rnds-fhir.saude.gov.br/ImplementationGuide/rnds"^^xsd:anyURI ;
+           fhir:link <https://rnds-fhir.saude.gov.br/ImplementationGuide/rnds>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BRTipoDocumento"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "TipoDocumento"] ; # 
+  fhir:title [ fhir:v "Tipo de Documento"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2020-03-26T13:19:46.9743559+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://prefeitura.rio/" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Classificação dos tipos de documentos compartilhados no Brasil."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "BR" ] ;
+       fhir:display [ fhir:v "Brazil" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:hierarchyMeaning [ fhir:v "grouped-by"] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "7"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "CMD" ] ;
+     fhir:display [ fhir:v "Conjunto Mínimo de Dados" ] ;
+     fhir:definition [ fhir:v "Documento público que coleta os dados mínimos dos atendimentos em saúde realizados em qualquer estabelecimento de saúde do país, público ou privado, em cada contato assistencial." ]
+  ] [
+     fhir:code [ fhir:v "SA" ] ;
+     fhir:display [ fhir:v "Sumário de Alta" ] ;
+     fhir:definition [ fhir:v "Relato clínico objetivo sobre as intervenções realizadas, as instruções para continuidade do cuidado pós-alta e o estado de saúde do indivíduo ao final de sua permanência na internação em estabelecimentos de saúde como: hospital, clínica, hospital-dia, internação domiciliar e urgência." ]
+  ] [
+     fhir:code [ fhir:v "RAC" ] ;
+     fhir:display [ fhir:v "Registro de Atendimento Clínico" ] ;
+     fhir:definition [ fhir:v "Registro de dados essenciais de uma consulta realizada a um indivíduo no âmbito da atenção básica, especializada ou domiciliar (atendimento diário)." ]
+  ] [
+     fhir:code [ fhir:v "RIA" ] ;
+     fhir:display [ fhir:v "Registro de Imunobiológico Administrado" ]
+  ] [
+     fhir:code [ fhir:v "RPM" ] ;
+     fhir:display [ fhir:v "Registro de Prescrição de Medicamento" ]
+  ] [
+     fhir:code [ fhir:v "RDM" ] ;
+     fhir:display [ fhir:v "Registro de Dispensação de Medicamento" ]
+  ] [
+     fhir:code [ fhir:v "REL" ] ;
+     fhir:display [ fhir:v "Resultado de Exame(s) Laboratoriais(s)" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

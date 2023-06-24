@@ -1,0 +1,62 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BRSexo> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "BRSexo"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BRSexo</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">M<a name=\"BRSexo-M\"> </a></td><td>Masculino</td><td>Sexo masculino.</td></tr><tr><td style=\"white-space:nowrap\">F<a name=\"BRSexo-F\"> </a></td><td>Feminino</td><td>Sexo feminino.</td></tr><tr><td style=\"white-space:nowrap\">I<a name=\"BRSexo-I\"> </a></td><td>Indeterminado</td><td>Sexo indeterminado.</td></tr><tr><td style=\"white-space:nowrap\">NI<a name=\"BRSexo-NI\"> </a></td><td>Não informado</td><td>Sexo não informado.</td></tr><tr><td style=\"white-space:nowrap\">O<a name=\"BRSexo-O\"> </a></td><td>Outro</td><td>Outro.</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BRSexo"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "Sexo"] ; # 
+  fhir:title [ fhir:v "Sexo"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2023-07-15T19:34:18+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://prefeitura.rio/" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Sexo"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "BR" ] ;
+       fhir:display [ fhir:v "Brazil" ]
+     ] )
+  ] ) ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "5"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "M" ] ;
+     fhir:display [ fhir:v "Masculino" ] ;
+     fhir:definition [ fhir:v "Sexo masculino." ]
+  ] [
+     fhir:code [ fhir:v "F" ] ;
+     fhir:display [ fhir:v "Feminino" ] ;
+     fhir:definition [ fhir:v "Sexo feminino." ]
+  ] [
+     fhir:code [ fhir:v "I" ] ;
+     fhir:display [ fhir:v "Indeterminado" ] ;
+     fhir:definition [ fhir:v "Sexo indeterminado." ]
+  ] [
+     fhir:code [ fhir:v "NI" ] ;
+     fhir:display [ fhir:v "Não informado" ] ;
+     fhir:definition [ fhir:v "Sexo não informado." ]
+  ] [
+     fhir:code [ fhir:v "O" ] ;
+     fhir:display [ fhir:v "Outro" ] ;
+     fhir:definition [ fhir:v "Outro." ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

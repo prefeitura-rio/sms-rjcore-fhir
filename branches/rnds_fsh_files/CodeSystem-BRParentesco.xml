@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="BRParentesco"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BRParentesco</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">mother<a name="BRParentesco-mother"> </a></td><td>Mãe</td></tr><tr><td style="white-space:nowrap">father<a name="BRParentesco-father"> </a></td><td>Pai</td></tr></table></div>
+  </text>
+  <url value="https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BRParentesco"/>
+  <version value="0.1.0"/>
+  <name value="Parentesco"/>
+  <title value="Parentesco"/>
+  <status value="draft"/>
+  <date value="2023-07-15T19:27:39+00:00"/>
+  <publisher value="Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro"/>
+  <contact>
+    <name value="Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://prefeitura.rio/"/>
+    </telecom>
+  </contact>
+  <description value="Classificação da relação familiar entre indivíduos."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+      <display value="Brazil"/>
+    </coding>
+  </jurisdiction>
+  <content value="complete"/>
+  <count value="2"/>
+  <concept>
+    <code value="mother"/>
+    <display value="Mãe"/>
+  </concept>
+  <concept>
+    <code value="father"/>
+    <display value="Pai"/>
+  </concept>
+</CodeSystem>

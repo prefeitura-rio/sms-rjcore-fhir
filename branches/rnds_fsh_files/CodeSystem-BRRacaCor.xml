@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="BRRacaCor"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BRRacaCor</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">01<a name="BRRacaCor-01"> </a></td><td>Branca</td></tr><tr><td style="white-space:nowrap">02<a name="BRRacaCor-02"> </a></td><td>Preta</td></tr><tr><td style="white-space:nowrap">03<a name="BRRacaCor-03"> </a></td><td>Parda</td></tr><tr><td style="white-space:nowrap">04<a name="BRRacaCor-04"> </a></td><td>Amarela</td></tr><tr><td style="white-space:nowrap">05<a name="BRRacaCor-05"> </a></td><td>Indígena</td></tr><tr><td style="white-space:nowrap">99<a name="BRRacaCor-99"> </a></td><td>Sem informação</td></tr></table></div>
+  </text>
+  <url value="https://prefeitura-rio.github.io/sms-rjcore-fhir/CodeSystem/BRRacaCor"/>
+  <version value="0.1.0"/>
+  <name value="RacaCor"/>
+  <title value="Raça/Cor"/>
+  <status value="draft"/>
+  <date value="2023-07-15T19:27:39+00:00"/>
+  <publisher value="Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro"/>
+  <contact>
+    <name value="Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://prefeitura.rio/"/>
+    </telecom>
+  </contact>
+  <description value="Códigos para representação de raça/cor."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+      <display value="Brazil"/>
+    </coding>
+  </jurisdiction>
+  <content value="complete"/>
+  <count value="6"/>
+  <concept>
+    <code value="01"/>
+    <display value="Branca"/>
+  </concept>
+  <concept>
+    <code value="02"/>
+    <display value="Preta"/>
+  </concept>
+  <concept>
+    <code value="03"/>
+    <display value="Parda"/>
+  </concept>
+  <concept>
+    <code value="04"/>
+    <display value="Amarela"/>
+  </concept>
+  <concept>
+    <code value="05"/>
+    <display value="Indígena"/>
+  </concept>
+  <concept>
+    <code value="99"/>
+    <display value="Sem informação"/>
+  </concept>
+</CodeSystem>

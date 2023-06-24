@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<head>
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+  <title>ORG.RJ-SMS.BR.CORE\Resumo de Artefatos - FHIR
+    v4.0.1</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="http://hl7.org/fhir" />
+
+  <link href="fhir.css" rel="stylesheet" />
+
+  <!-- Bootstrap core CSS -->
+  <link href="assets/css/bootstrap-fhir.css" rel="stylesheet" />
+
+  <!-- Project extras -->
+  <link href="assets/css/project.css" rel="stylesheet" />
+  <link href="assets/css/pygments-manni.css" rel="stylesheet" />
+  <link href="assets/css/jquery-ui.css" rel="stylesheet" />
+  <link href="assets/css/prism.css" rel="stylesheet" />
+  <!-- Placeholder for child template CSS declarations -->
+
+  <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144"
+    href="assets/ico/apple-touch-icon-144-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114"
+    href="assets/ico/apple-touch-icon-114-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72"
+    href="assets/ico/apple-touch-icon-72-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed"
+    href="assets/ico/apple-touch-icon-57-precomposed.png" />
+  <link rel="shortcut icon" href="assets/ico/favicon.png" />
+</head>
+
+<body onload="document.body.style.opacity='1'">
+  
+  <script src="assets/js/prism.js"></script>
+
+  <style type="text/css">
+    h2 {
+      --heading-prefix:"3"
+    }
+
+    h3,
+    h4,
+    h5,
+    h6 {
+      --heading-prefix:"3.0"
+    }
+  </style>
+  <div id="segment-header" class="segment"> <!-- segment-header -->
+    <div class="container"> <!-- container -->
+      <!-- Placeholder for child template header declarations -->
+
+      
+      <div id="ig-status">
+        <p><span style="font-size:12pt;font-weight:bold">RJ Core Guia de Implementação</span>
+          <br />
+          <span style="display:inline-block;">0.1.0 - draft
+            
+            
+            
+            <img alt="Brazil Flamengo flag" src="assets/images/bra.svg" height="16"
+              title="Brazil" />
+            
+            
+          </span>
+        </p>
+      </div>
+    </div> <!-- /container -->
+  </div> <!-- /segment-header -->
+
+  <div id="segment-navbar" class="segment"> <!-- segment-navbar -->
+    <div id="stripe"> </div>
+    <div class="container"> <!-- container -->
+      <!-- HEADER CONTENT -->
+
+      <nav class="navbar navbar-inverse">
+        <!--status-bar-->
+        <div class="container">
+          <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+          </button>
+          <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+          <div class="nav-collapse collapse navbar-inverse-collapse">
+            <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Principal</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artefatos</a>
+  </li>
+  <li>
+    <a href="ImplementationGuide-org.rj-sms.br.core.html">Guia de implementação</a>
+  </li>
+</ul>
+          </div> <!-- /.nav-collapse -->
+        </div> <!-- /.container -->
+      </nav> <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+    </div> <!-- /container -->
+  </div> <!-- /segment-navbar -->
+  <!--status-bar-->
+  
+  <div id="segment-breadcrumb" class="segment"> <!-- segment-breadcrumb -->
+    <div class="container"> <!-- container -->
+      <ul class="breadcrumb">
+        <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Resumo de Artefatos</b></li>
+        
+      </ul>
+    </div> <!-- /container -->
+  </div> <!-- /segment-breadcrumb -->
+
+  <a name="top"> </a>
+  <div id="segment-content" class="segment"> <!-- segment-content -->
+    <div class="container"> <!-- container -->
+      <div class="row">
+        <div class="inner-wrapper">
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">RJ Core Guia de Implementação - Local Development build (v0.1.0). See the <a href="https://prefeitura-rio.github.io/sms-rjcore-fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Resumo de Artefatos</h2>
+  
+  
+  
+  <!--DO NOT EDIT THIS FILE - It is generated and any changes made will be overwritten--><div xmlns:html="http://www.w3.org/1999/xhtml"
+     xmlns="http://www.w3.org/1999/xhtml"
+     xmlns:f="http://hl7.org/fhir"
+     class="markdown-toc">
+   <p>Conteúdo:</p>
+   <ul>
+      <li>
+         <a href="#1">Estruturas: Perfis de Recursos</a>
+      </li>
+      <li>
+         <a href="#2">Estruturas: Perfis de Tipos de Dados</a>
+      </li>
+      <li>
+         <a href="#3">Estruturas: Definições de Extensão</a>
+      </li>
+      <li>
+         <a href="#4">Terminologia: Conjuntos de Valores</a>
+      </li>
+      <li>
+         <a href="#5">Terminologia: Sistemas de Código</a>
+      </li>
+   </ul>
+</div>
+<div xmlns:html="http://www.w3.org/1999/xhtml"
+     xmlns="http://www.w3.org/1999/xhtml"
+     xmlns:f="http://hl7.org/fhir">
+   <p>Essa página provê uma lista dos artefatos FHIR definidos como parte deste guia de implementação.</p>
+   <a name="1"> </a>
+   <h3>Estruturas: Perfis de Recursos </h3>
+   <p>
+    <p>Estes definem restrições em recursos FHIR para sistemas em conformidade com este guia de implementação.</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-BRIndividuo-1.0.html"
+                     title="StructureDefinition/BRIndividuo-1.0">Indivíduo</a>
+               </td>
+               <td>
+<p>Indíviduo, sujeito da assistência à saúde.</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="2"> </a>
+   <h3>Estruturas: Perfis de Tipos de Dados </h3>
+   <p>
+    <p>Estes definem restrições em tipos de dados FHIR para sistemas em conformidade com este guia de implementação.</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-BRDocumentoIndividuo-1.0.html"
+                     title="StructureDefinition/BRDocumentoIndividuo-1.0">Documento do Indivíduo</a>
+               </td>
+               <td>
+<p>Padronização de identificação de indivíduo no Brasil.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-BREndereco-1.0.html"
+                     title="StructureDefinition/BREndereco-1.0">Endereço</a>
+               </td>
+               <td>
+<p>Padronização de endereços no Brasil.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-BRMeioContato-1.0.html"
+                     title="StructureDefinition/BRMeioContato-1.0">Meio de Contato</a>
+               </td>
+               <td>
+<p>Padronização de meios de contato no Brasil.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-BRNomeIndividuo-1.0.html"
+                     title="StructureDefinition/BRNomeIndividuo-1.0">Nome de Indivíduos</a>
+               </td>
+               <td>
+<p>Padronização de uso de nomes de indivíduo no Brasil.</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="3"> </a>
+   <h3>Estruturas: Definições de Extensão </h3>
+   <p>
+    <p>Estes definem restrições em tipos de dados FHIR para sistemas em conformidade com este guia de implementação.</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-BRNaturalizacao-1.0.html"
+                     title="StructureDefinition/BRNaturalizacao-1.0">Dados de Naturalização</a>
+               </td>
+               <td>
+<p>Extensão para as informações de naturalização de um indivíduo.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-BRIdentidadeGenero-1.0.html"
+                     title="StructureDefinition/BRIdentidadeGenero-1.0">Identidade de gênero</a>
+               </td>
+               <td>
+<p>Extensão para identificar a identidade de gênero do paciente</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-BRIndividuoProtegido-1.0.html"
+                     title="StructureDefinition/BRIndividuoProtegido-1.0">Indivíduo Protegido?</a>
+               </td>
+               <td>
+<p>Extensão utilizada para identificar indivíduos que possuem  maior restrição à disponibilização de seus dados, por possuirem grande exposição pública (ex.: político, esportista, artista famoso etc.), estarem em programa de proteção à testemunha, o objeto de seu trabalho colocá-los em risco (investigadores da inteligência, p.ex.), dentre outros.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-BRJurisdicaoOrgaoEmissor-1.0.html"
+                     title="StructureDefinition/BRJurisdicaoOrgaoEmissor-1.0">Jurisdição do Órgão Expedidor</a>
+               </td>
+               <td>
+<p>Jurisdição de Órgãos Expedidores</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-BRMunicipio-1.0.html"
+                     title="StructureDefinition/BRMunicipio-1.0">Município</a>
+               </td>
+               <td>
+<p>Extensão para informar um município.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-BRNacionalidade.html"
+                     title="StructureDefinition/BRNacionalidade">Nacionalidade</a>
+               </td>
+               <td>
+<p>Extensão para representar uma nacionalidade.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-BRParentesIndividuo-1.0.html"
+                     title="StructureDefinition/BRParentesIndividuo-1.0">Parentes do Indivíduo</a>
+               </td>
+               <td>
+<p>Resource para representar parentescos de indivíduo.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-BRPais-1.0.html"
+                     title="StructureDefinition/BRPais-1.0">País</a>
+               </td>
+               <td>
+<p>Extensão para representar um país.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-BRQualidadeCadastroIndividuo-1.0.html"
+                     title="StructureDefinition/BRQualidadeCadastroIndividuo-1.0">Qualidade do Cadastro do Indivíduo</a>
+               </td>
+               <td>
+<p>Grau de qualidade de um registro de um indivíduo, vai de 0 até 100.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-BRRacaCorEtnia-1.0.html"
+                     title="StructureDefinition/BRRacaCorEtnia-1.0">Raça/Cor e Etnina</a>
+               </td>
+               <td>
+<p>Extensão para para representar dados relacionados à raça/cor e etnia de um indivíduo.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-BRSexo-1.0.html"
+                     title="StructureDefinition/BRSexo-1.0">Sexo</a>
+               </td>
+               <td>
+<p>Extensão para identificar a sexo atual do paciente</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-BRSexoNascimento-1.0.html"
+                     title="StructureDefinition/BRSexoNascimento-1.0">Sexo Nascimento</a>
+               </td>
+               <td>
+<p>Extensão para identificar a sexo nascimento do paciente</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="4"> </a>
+   <h3>Terminologia: Conjuntos de Valores </h3>
+   <p>
+    <p>Estes definem conjuntos de códigos usados por sistemas em conformidade com este guia de implementação.</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-BREstadoDocumento-1.0.html"
+                     title="ValueSet/BREstadoDocumento-1.0">Estados de um documento</a>
+               </td>
+               <td>
+<p>Classifica o estado de um documento.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-BREtniaIndigena-1.0.html"
+                     title="ValueSet/BREtniaIndigena-1.0">Etnia Indígena</a>
+               </td>
+               <td>
+<p>Códigos para representação de etnias indígenas no Brasil.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-BRIdentidadeGenero-1.0.html"
+                     title="ValueSet/BRIdentidadeGenero-1.0">IdentidadeGenero</a>
+               </td>
+               <td>
+<p>Identidade de gênero</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-BRMunicipio-1.0.html" title="ValueSet/BRMunicipio-1.0">Município</a>
+               </td>
+               <td>
+<p>Municípios brasileiros, entes subnacionais.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-BRNacionalidade.html" title="ValueSet/BRNacionalidade">Nacionalidade</a>
+               </td>
+               <td>
+<p>Códigos para representação de nacionalidade.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-BRNaturezaJuridica-1.0.html"
+                     title="ValueSet/BRNaturezaJuridica-1.0">Natureza Jurídica</a>
+               </td>
+               <td>
+<p>Identifica a constituição jurídico-institucional das entidades públicas e privadas nos cadastros da administração pública do Brasil.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-BRParentesco-1.0.html" title="ValueSet/BRParentesco-1.0">Parentesco</a>
+               </td>
+               <td>
+<p>Classificação da relação familiar entre indivíduos.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-BRPais-1.0.html" title="ValueSet/BRPais-1.0">País</a>
+               </td>
+               <td>
+<p>Códigos para representação de países.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-BRRacaCor-1.0.html" title="ValueSet/BRRacaCor-1.0">Raça/Cor</a>
+               </td>
+               <td>
+<p>Códigos para representação de raça/cor no Brasil.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-BRSexo-1.0.html" title="ValueSet/BRSexo-1.0">Sexo</a>
+               </td>
+               <td>
+<p>Sexo do paciente</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-BRTipoDocumento-1.0.html"
+                     title="ValueSet/BRTipoDocumento-1.0">Tipo de Documento</a>
+               </td>
+               <td>
+<p>Classifica o tipo de documento que está sendo trafegado.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-BRTipoDocumentoIndividuo-1.0.html"
+                     title="ValueSet/BRTipoDocumentoIndividuo-1.0">Tipo de Documento do Indivíduo</a>
+               </td>
+               <td>
+<p>Classifica o tipo de documento que está sendo utilizado para identificar o indivíduo.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-BRTipoLogradouro-1.0.html"
+                     title="ValueSet/BRTipoLogradouro-1.0">Tipo de Logradouro</a>
+               </td>
+               <td>
+<p>Classifica o tipo de logradouro.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-BRUnidadeFederativa-1.0.html"
+                     title="ValueSet/BRUnidadeFederativa-1.0">Unidade Federativa</a>
+               </td>
+               <td>
+<p>Os estados e o Distrito Federal, entes subnacionais brasileiros.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-BROrgaoExpedidor-1.0.html"
+                     title="ValueSet/BROrgaoExpedidor-1.0">Órgão Expedidor</a>
+               </td>
+               <td>
+<p>Lista de órgãos responsáveis por expedir documentos no Brasil.</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="5"> </a>
+   <h3>Terminologia: Sistemas de Código </h3>
+   <p>
+    <p>Estes definem novos sistemas de código usados por sistemas em conformidade com este guia de implementação.</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-BREtniaIndigena.html"
+                     title="CodeSystem/BREtniaIndigena">Etnia Indígena</a>
+               </td>
+               <td>
+<p>Códigos para representação de etnias indígenas no Brasil.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-BRIdentidadeGenero.html"
+                     title="CodeSystem/BRIdentidadeGenero">Identidade de Gênero</a>
+               </td>
+               <td>
+<p>Identidade de gênero é a experiência pessoal do gênero de cada pessoa. Ela pode ou não corresponder ao sexo atribuído no nascimento, incluindo a vivência do gênero e outras características de gênero, como a expressão de gênero. A identidade de gênero é uma experiência interna e individual e não pode ser atribuída a alguém por outra pessoa. A identidade de gênero pode ser a mesma ou diferente do sexo atribuído no nascimento.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-BRNacionalidade.html"
+                     title="CodeSystem/BRNacionalidade">Nacionalidade</a>
+               </td>
+               <td>
+<p>Define a nacionalidade de um dado indivíduo.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-BRNaturezaJuridica.html"
+                     title="CodeSystem/BRNaturezaJuridica">Natureza Jurídica</a>
+               </td>
+               <td>
+<p>Identifica a constituição jurídico-institucional das entidades públicas e privadas nos cadastros da administração pública do Brasil.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-BRParentesco.html" title="CodeSystem/BRParentesco">Parentesco</a>
+               </td>
+               <td>
+<p>Classificação da relação familiar entre indivíduos.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-BRPais.html" title="CodeSystem/BRPais">País</a>
+               </td>
+               <td>
+<p>Códigos para representação de países.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-BRRacaCor.html" title="CodeSystem/BRRacaCor">Raça/Cor</a>
+               </td>
+               <td>
+<p>Códigos para representação de raça/cor.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-BRSexo.html" title="CodeSystem/BRSexo">Sexo</a>
+               </td>
+               <td>
+<p>Sexo</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-BRTipoDocumento.html"
+                     title="CodeSystem/BRTipoDocumento">Tipo de Documento</a>
+               </td>
+               <td>
+<p>Classificação dos tipos de documentos compartilhados no Brasil.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-BRTipoIdentificador.html"
+                     title="CodeSystem/BRTipoIdentificador">Tipo de Identificador</a>
+               </td>
+               <td>
+<p>Classifica o tipo de indicador que está sendo utilizado.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-BRTipoLogradouro.html"
+                     title="CodeSystem/BRTipoLogradouro">Tipo de Logradouro</a>
+               </td>
+               <td>
+<p>Classificação os tipos de logradouros existentes para uso em endereços estruturados.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-BROrgaoExpedidor.html"
+                     title="CodeSystem/BROrgaoExpedidor">Órgão Expedidor</a>
+               </td>
+               <td>
+<p>Órgãos responsáveis por expedir documentos no Brasil.</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+</div>
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="https://prefeitura.rio/">Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro</a>.  Package org.rj-sms.br.core#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sat, Jul 15, 2023 19:27+0000">2023-07-15</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Índice</a> |
+<a style="color: var(--footer-hyperlink-text-color)" href="qa.html">Relatório QA</a>
+
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
+
+
+
+<!-- / feedback form  -->
+
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+
