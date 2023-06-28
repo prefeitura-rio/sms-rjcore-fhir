@@ -4,5 +4,5 @@ Alias:   $IdType = http://terminology.hl7.org/CodeSystem/v2-0203
 Alias:   $ObsStatus = http://hl7.org/fhir/observation-status
 
 // US Core
-Alias:   $$PatientUvIps = https://www.hl7.org/fhir/uv/ips/STU1/StructureDefinition-Patient-uv-ips.html
+Alias:   $PatientUvIps = https://www.hl7.org/fhir/uv/ips/STU1/StructureDefinition-Patient-uv-ips.html
 Alias:   $USCoreBodyMassIndex = http://hl7.org/fhir/us/core/StructureDefinition/us-core-bmi
