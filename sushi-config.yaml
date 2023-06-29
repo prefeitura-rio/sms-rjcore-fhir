@@ -13,13 +13,14 @@ version: 0.1.0
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 dependencies:
   hl7.fhir.us.core: 3.2.0
-copyrightYear: 2022+
+  hl7.fhir.uv.ips: 1.0.0
+copyrightYear: 2023+
 releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 # license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
 # jurisdiction: urn:iso:std:iso:3166#US "United States of America" # https://www.hl7.org/fhir/valueset-jurisdiction.html
 publisher:
-  name: fshschool.org
-  url: https://fshschool.org
+  name: Secretaria Municipal de Saúde da Prefeitura do Rio de Janeiro
+  url: https://prefeitura.rio/
   # email: test@example.org
 
 # The dependencies property corresponds to IG.dependsOn. The key is the
@@ -77,7 +78,6 @@ publisher:
 menu:
   Home: index.html
   Artifacts: artifacts.html
-
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │
 # │  resource. These properties are less commonly needed than those above.                         │

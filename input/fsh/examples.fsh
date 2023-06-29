@@ -1,5 +1,5 @@
-Instance: osa-patient-jane-doe
-InstanceOf: OSAPatient
+Instance: rj-patient-jane-doe
+InstanceOf: RJPatient
 Description: "Example OSA Patient."
 * name.family = "Doe"
 * name.given[0] = "Jane"
@@ -10,16 +10,3 @@ Description: "Example OSA Patient."
 * gender = #female
 * birthDate = "1950-01-22"
 * extension[birthPlace].valueAddress.state = "MA"
-
-Instance: osa-bmi-example
-InstanceOf: OSABodyMassIndex
-Description: "Example of OSA BMI value"
-* subject = Reference(osa-patient-jane-doe)
-* status = $ObsStatus#final
-* effectiveDateTime = "2021-09-28"
-* performer = Reference(osa-practitioner-kyle-anydoc)
-* valueQuantity = 32.5 'kg/m2' "kg/m2"
-
-Instance: osa-practitioner-kyle-anydoc
-InstanceOf: OSAPractitioner
-Description: "Placeholder - will be filled in in Exercise 3"
