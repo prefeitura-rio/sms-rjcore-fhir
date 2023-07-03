@@ -47,17 +47,11 @@ Description: "Indíviduo, sujeito da assistência à saúde."
 * extension[parents].extension ^slicing.discriminator.type = #value
 * extension[parents].extension ^slicing.discriminator.path = "url"
 * extension[parents].extension ^slicing.rules = #open
-* extension[parents].extension contains
-    relationship 1..1 MS and
-    parent 1..1 MS
 * extension[raceEthnicity] ^min = 0
 * extension[raceEthnicity].extension 1..
 * extension[raceEthnicity].extension ^slicing.discriminator.type = #value
 * extension[raceEthnicity].extension ^slicing.discriminator.path = "url"
 * extension[raceEthnicity].extension ^slicing.rules = #open
-* extension[raceEthnicity].extension contains
-    race 1..1 MS and
-    indigenousEthnicity 0..1 MS
 * extension[raceEthnicity].extension[indigenousEthnicity] ^min = 0
 * extension[birthCity] ^short = "Município de Nascimento"
 * extension[birthCity] ^definition = "Município onde o indivíduo nasceu."
@@ -91,7 +85,6 @@ Description: "Indíviduo, sujeito da assistência à saúde."
 * address ^definition = "Dados do(s) endereço(s) onde o indivíduo pode ser localizado."
 * address.use 1..
 * address.type 1..
-* address.line contains streetType 1..1
 * maritalStatus ..0 MS
 * maritalStatus ^short = "Estado Civil"
 * maritalStatus ^definition = "Complexo das qualidades do indivíudo referentes à ordem pública, à ordem privada e à ordem física do ser humano. Refere-se, assim, à cidadania, à família, e à capacidade civil.\r\nMIRABETE, Julio Fabbrini. Código de processo penal interpretado.11. ed. 6. tir. São Paulo: Atlas, 2003."

@@ -29,18 +29,4 @@ Description: "Resource para representar parentescos de indivíduo."
 * extension contains
     relationship 1..1 and
     parent 1..1
-* extension[relationship] from Parentesco (required)
-* extension[relationship] ^short = "Parentesco"
-* extension[relationship] ^definition = "Distingue entre diferentes tipos de relações parentais com granularidade variável para apoiar a captura da relação \"no grau conhecido\"."
-* extension[relationship] ^isModifier = false
-* extension[relationship] ^binding.description = "Parentesco"
-* extension[relationship].url only uri
-* extension[relationship].value[x] 1..
-* extension[relationship].value[x] only code
-* extension[parent] ^short = "Parente do Indivíduo"
-* extension[parent] ^definition = "Nome completo ou referência a outro indivíduo que tem parentesco com o indivíduo atual."
-* extension[parent] ^isModifier = false
-* extension[parent].url only uri
-* extension[parent].value[x] 1..
-* extension[parent].value[x] only BRNomeIndividuo or Reference(BRIndividuo)
-* url only uri
+
