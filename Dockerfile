@@ -32,9 +32,9 @@ VOLUME [ "/src" ]
 WORKDIR /src
 
 # run side effects of _updatePublisher.sh
-# RUN wget -O ./publisher.jar https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar
-# RUN wget -O ./_gencontinuous.sh https://raw.githubusercontent.com/HL7/ig-publisher-scripts/main/_gencontinuous.sh
-# RUN wget -O ./_genonce.sh https://raw.githubusercontent.com/HL7/ig-publisher-scripts/main/_genonce.sh
-# RUN wget -O ./_updatePublisher.sh https://raw.githubusercontent.com/HL7/ig-publisher-scripts/main/_updatePublisher.sh
+RUN wget -O ./publisher.jar https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar
+RUN wget -O ./_gencontinuous.sh https://raw.githubusercontent.com/HL7/ig-publisher-scripts/main/_gencontinuous.sh
+RUN wget -O ./_genonce.sh https://raw.githubusercontent.com/HL7/ig-publisher-scripts/main/_genonce.sh
+RUN wget -O ./_updatePublisher.sh https://raw.githubusercontent.com/HL7/ig-publisher-scripts/main/_updatePublisher.sh
 
 # https://github.com/NIH-NCPI/ncpi-fhir-ig/blob/main/README.md
