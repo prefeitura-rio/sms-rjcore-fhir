@@ -1,0 +1,67 @@
+CodeSystem: OrgaoExpedidor
+Id: BROrgaoExpedidor
+Title: "Órgão Expedidor"
+Description: "Órgãos responsáveis por expedir documentos no Brasil."
+* ^meta.lastUpdated = "2020-03-11T18:19:26.425+00:00"
+* ^language = #pt-BR
+* ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
+* ^extension[=].valueInteger = 1
+* ^extension[=].valueInteger.extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"
+* ^extension[=].valueInteger.extension.valueCanonical = "https://rnds-fhir.saude.gov.br/ImplementationGuide/rnds"
+* ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"
+* ^extension[=].valueCode = #informative
+* ^extension[=].valueCode.extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"
+* ^extension[=].valueCode.extension.valueCanonical = "https://rnds-fhir.saude.gov.br/ImplementationGuide/rnds"
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = false
+* ^date = "2020-03-11T18:19:46.5824974+00:00"
+* ^publisher = "Ministério da Saúde do Brasil"
+* ^contact.telecom.system = #url
+* ^contact.telecom.value = "https://saude.gov.br"
+* ^jurisdiction = $m49.htm#076
+* ^caseSensitive = true
+* ^hierarchyMeaning = #grouped-by
+* ^content = #complete
+* #RFB "Receita Federal do Brasil"
+* #COREN "Conselho Regional de Enfermagem (COREn)"
+* #CRM "Conselho Regional de Medicina (CRM)"
+* #CRO "Conselho Regional de Odontologia (CRO)"
+* #CRA "Conselho Regional de Administração (CRA)"
+* #CRESS "Conselho Regional de Serviço Social (CRESS)"
+* #CRB "Conselho Regional de Biblioteconomia (CRB)"
+* #CRC "Conselho Regional de Contabilidade (CRC)"
+* #CRECI "Conselho Regional de Corretores de Imóveis (CRECI)"
+* #CORECON "Conselho Regional de Economia (CORECON)"
+* #CREA "Conselho Regional de Engenharia e Agronomia (CREA)"
+* #CONFRE "Conselho Regional de Estatística (CONRE)"
+* #CRF "Conselho Regional de Farmácia (CRF)"
+* #CREFITO "Conselho Regional de Fisioterapia e Terapia Ocupacional (CREFITO)"
+* #CRMV "Conselho Regional de Medicina Veterinária (CRMV)"
+* #CRN "Conselho Regional de Nutrição (CRN)"
+* #CONRERP "Conselho Regional de Reçações Públicas (CONRERP)"
+* #CRP "Conselho Regional de Psicologia (CRP)"
+* #CRQ "Conselho Regional de Química (CRQ)"
+* #CORE "Conselho Regional de Representantes Comerciais (CORE)"
+* #CREF "Conselho Regional de Educação Física (CREF)"
+* #CAU "Conselho Regional de Arquitetura e Urbanismo (CAU)"
+* #CRBIO "Conselho Regional de Biologia (CRBio)"
+* #CRBM "Conselho Regional de Biomedicina (CRBM)"
+* #CRFA "Conselho Regional de Fonoaudiologia (CRFa/CREFONO)"
+* #CRTR "Conselho Regional de Técnicos em Radiologia (CRTR)"
+* #CRT "Conselho Regional dos Técnicos Industriais (CRT)"
+* #OAB "Ordem dos Advogados do BRAasil (OAB)"
+* #EB "Exército Brasileiro"
+* #FAB "Força Aérea Brasileira"
+* #MB "Marinha do Brasil"
+* #PM "Polícia Militar"
+* #CBM "Corpo de Bombeiros Militar"
+* #SSP "Serviço de Segurança Pública"
+* #II "Instituto de Identificação"
+* #PCE "Polícia Civil do Estado"
+* #PF "Polícia Federal"
+* #DETRAN "Departamento Estadual de Trânsito"
+* #MS "Ministério da Saúde"
+* #MC "Ministério da Cidadania"
+* #CARTORIO "Cartório de Registro Civil"
+* #other "Outro órgão não listado"

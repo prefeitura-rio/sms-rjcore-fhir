@@ -1,2 +1,12 @@
-// US Core
-Alias:   $PatientUvIps = http://hl7.org/fhir/uv/ips/StructureDefinition/Patient-uv-ips
+Alias: $v2-0487 = http://terminology.hl7.org/CodeSystem/v2-0487
+Alias: $v2-0203 = http://terminology.hl7.org/CodeSystem/v2-0203
+Alias: $usage-context-type = http://terminology.hl7.org/CodeSystem/usage-context-type
+Alias: $data-absent-reason = http://terminology.hl7.org/CodeSystem/data-absent-reason
+Alias: $m49.htm = http://unstats.un.org/unsd/methods/m49/m49.htm
+// Alias: $BRRacaCor-1.0 = https://rnds-fhir.saude.gov.br/CodeSystem/BRRacaCor-1.0
+// Alias: $composition-status = http://hl7.org/fhir/composition-status
+// Alias: $observation-status = http://hl7.org/fhir/observation-status
+// Alias: $administrative-gender = http://hl7.org/fhir/administrative-gender
+// Alias: $BRNomeExame-1.0 = https://rnds-fhir.saude.gov.br/ValueSet/BRNomeExame-1.0
+// Alias: $BRResultadoQualitativoExame-1.0 = https://rnds-fhir.saude.gov.br/ValueSet/BRResultadoQualitativoExame-1.0
+Alias: $BRSexo-1.0 = https://prefeitura-rio.github.io/sms-rjcore-fhir/ValueSet/BRSexo-1.0
