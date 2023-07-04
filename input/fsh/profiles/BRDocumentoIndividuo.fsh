@@ -3,6 +3,9 @@ Parent: Identifier
 Id: BRDocumentoIndividuo-1.0
 Title: "Documento do Indivíduo"
 Description: "Padronização de identificação de indivíduo no Brasil."
+* . 1.. MS
+* . ^short = "Documento"
+* . ^definition = "Documento(s) do indivíduo."
 * extension ^slicing.discriminator.type = #value
 * extension ^slicing.discriminator.path = "url"
 * extension ^slicing.rules = #open

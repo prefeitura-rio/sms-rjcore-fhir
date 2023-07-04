@@ -18,7 +18,7 @@ Description: "Indíviduo, sujeito da assistência à saúde."
 * ^publisher = "Secretaria Municipal de Saúde do Rio de Janeiro"
 * ^contact.telecom.system = #url
 // * ^contact.telecom.value = "https://saude.gov.br"
-* ^purpose = "O indivíudo é o sujeito central para os processos informativos de dados em saúde. Não deve ser utilizado quando na condição de profissional."
+* ^purpose = "O indivíduo é o sujeito central para os processos informativos de dados em saúde. Não deve ser utilizado quando na condição de profissional."
 * . MS
 * . ^short = "Indivíduo"
 * . ^definition = "Dados demográficos sobre um indivíduo enquanto sujeito de ações e serviços de saúde."
@@ -35,12 +35,12 @@ Description: "Indíviduo, sujeito da assistência à saúde."
     BRRacaCorEtnia named raceEthnicity 0..1 MS and
     BRMunicipio named birthCity 0..1 MS and
     BRPais named birthCountry 1..1 MS and
-    BRNacionalidade named Nationality 0..1 and
+    BRNacionalidade named nationality 0..1 and
     BRIndividuoProtegido named protectedPerson 0..1 MS and
     BRNaturalizacao named naturalization 0..1 and
-    BRIdentidadeGenero named identidadeGenero 0..1 and
-    BRSexoNascimento named sexoNascimento 0..1 and
-    BRSexo named sexo 0..1
+    BRIdentidadeGenero named genderIdentity 0..1 and
+    BRSexoNascimento named birthSex 0..1 and
+    BRSexo named sex 0..1
 * extension[registerQuality] ^definition = "Grau de completude do cadastro do indivíduo, escore de 0 a 100."
 * extension[registerQuality] ^min = 0
 * extension[registerQuality].value[x] ^mustSupport = false
@@ -53,18 +53,18 @@ Description: "Indíviduo, sujeito da assistência à saúde."
 * extension[birthCity] ^definition = "Município onde o indivíduo nasceu."
 * extension[birthCountry] ^short = "País de Origem"
 * extension[birthCountry] ^definition = "País de Origem do indivíduo."
-* extension[Nationality] ^definition = "Nacionalidade do indivíduo."
+* extension[nationality] ^definition = "Nacionalidade do indivíduo."
 * extension[protectedPerson] ^short = "Indivíduo com Dados Protegidos"
 * extension[protectedPerson] ^definition = "Indivíduo com maior restrição à disponibilização de seus dados, por possuir grande exposição pública (ex.: político, esportista, artista famoso etc.), estar em programa de proteção à testemunha, o objeto de seu trabalho colocá-lo em risco (investigadores da inteligência, p.ex.), dentre outros."
 * extension[protectedPerson] ^alias[0] = "VIP"
-* extension[identidadeGenero] ^short = "Identidade de Gênero"
-* extension[identidadeGenero] ^definition = "Identidade de gênero do indivíduo."
-* extension[identidadeGenero] ^alias[0] = "Gênero"
-* extension[sexoNascimento] ^short = "Sexo de Nascimento"
-* extension[sexoNascimento] ^definition = "Sexo de nascimento do indivíduo."
-* extension[sexoNascimento] ^alias[0] = "Sexo Biológico" 
-* extension[sexo] ^short = "Sexo"
-* extension[sexo] ^definition = "Sexo do indivíduo." 
+* extension[genderIdentity] ^short = "Identidade de Gênero"
+* extension[genderIdentity] ^definition = "Identidade de gênero do indivíduo."
+* extension[genderIdentity] ^alias[0] = "Gênero"
+* extension[birthSex] ^short = "Sexo de Nascimento"
+* extension[birthSex] ^definition = "Sexo de nascimento do indivíduo."
+* extension[birthSex] ^alias[0] = "Sexo Biológico" 
+* extension[sex] ^short = "Sexo"
+* extension[sex] ^definition = "Sexo do indivíduo." 
 * identifier only BRDocumentoIndividuo
 * active 1.. MS
 * active ^short = "Registro em Uso"
