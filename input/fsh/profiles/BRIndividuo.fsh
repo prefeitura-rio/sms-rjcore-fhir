@@ -34,7 +34,7 @@ Description: "Indíviduo, sujeito da assistência à saúde."
     BRParentesIndividuo named parents 0..* MS and
     BRRacaCorEtnia named raceEthnicity 0..1 MS and
     BRMunicipio named birthCity 0..1 MS and
-    BRPais named birthCountry 1..1 MS and
+    BRPais named birthCountry 0..1 MS and
     BRNacionalidade named nationality 0..1 and
     BRIndividuoProtegido named protectedPerson 0..1 MS and
     BRNaturalizacao named naturalization 0..1 and
@@ -74,7 +74,7 @@ Description: "Indíviduo, sujeito da assistência à saúde."
 * active ^isModifierReason = "Indica que o registro não deve mais se tratado como válido."
 * name only BRNomeIndividuo
 * telecom only BRMeioContato
-* birthDate 1.. MS
+* birthDate 0.. MS
 * birthDate ^short = "Data de Nascimento"
 * birthDate ^definition = "Data de nascimento do indivíduo"
 * deceased[x] MS
@@ -86,7 +86,7 @@ Description: "Indíviduo, sujeito da assistência à saúde."
 * address.type 1..
 * maritalStatus ..0 MS
 * maritalStatus ^short = "Estado Civil"
-* maritalStatus ^definition = "Complexo das qualidades do indivíudo referentes à ordem pública, à ordem privada e à ordem física do ser humano. Refere-se, assim, à cidadania, à família, e à capacidade civil.\r\nMIRABETE, Julio Fabbrini. Código de processo penal interpretado.11. ed. 6. tir. São Paulo: Atlas, 2003."
+* maritalStatus ^definition = "Complexo das qualidades do indivíduo referentes à ordem pública, à ordem privada e à ordem física do ser humano. Refere-se, assim, à cidadania, à família, e à capacidade civil.\r\nMIRABETE, Julio Fabbrini. Código de processo penal interpretado.11. ed. 6. tir. São Paulo: Atlas, 2003."
 * maritalStatus.coding 1..1
 * maritalStatus.coding.system 1..
 * maritalStatus.coding.code 1..

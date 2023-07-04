@@ -6,8 +6,8 @@
 id: org.rj-sms.br.core # TODO: check if it is right
 canonical: https://prefeitura-rio.github.io/sms-rjcore-fhir # TODO: check if it is right
 name: RJCore
-# title: Example Title
-# description: Example Implementation Guide for getting started with SUSHI
+title: RJ Core Guia de Implementação
+description: Este é o Guia de Implementação criado pela Prefeitura do Rio de Janeiro
 status: draft # draft | active | retired | unknown
 version: 0.1.0
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
@@ -158,7 +158,7 @@ menu:
 # * date
 # * meta
 # * implicitRules
-# * language: ptBR
+# language: pt
 # * text
 # * contained
 # * extension
