@@ -75,8 +75,8 @@ publisher:
 # │ property below.                                                                                │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
-  Home: index.html
-  Artifacts: artifacts.html
+  Principal: index.html
+  Artefatos: artifacts.html
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │
 # │  resource. These properties are less commonly needed than those above.                         │
@@ -158,7 +158,7 @@ menu:
 # * date
 # * meta
 # * implicitRules
-# * language
+# * language: ptBR
 # * text
 # * contained
 # * extension

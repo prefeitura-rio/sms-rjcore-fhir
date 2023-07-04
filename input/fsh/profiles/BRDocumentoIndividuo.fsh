@@ -3,24 +3,6 @@ Parent: Identifier
 Id: BRDocumentoIndividuo-1.0
 Title: "Documento do Indivíduo"
 Description: "Padronização de identificação de indivíduo no Brasil."
-* ^meta.lastUpdated = "2020-03-11T04:12:06.852+00:00"
-* ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
-* ^extension[=].valueInteger = 1
-* ^extension[=].valueInteger.extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"
-* ^extension[=].valueInteger.extension.valueCanonical = "https://rnds-fhir.saude.gov.br/ImplementationGuide/rnds"
-* ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"
-* ^extension[=].valueCode = #informative
-* ^extension[=].valueCode.extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"
-* ^extension[=].valueCode.extension.valueCanonical = "https://rnds-fhir.saude.gov.br/ImplementationGuide/rnds"
-* ^version = "1.0.0"
-* ^date = "2020-03-11T04:12:06.1755665+00:00"
-* ^publisher = "Ministério da Saúde do Brasil"
-* ^contact.telecom.system = #url
-* ^contact.telecom.value = "https://saude.gov.br"
-* ^jurisdiction = $m49.htm#076
-* . 1.. MS
-* . ^short = "Documento"
-* . ^definition = "Documento(s) do indivíduo."
 * extension ^slicing.discriminator.type = #value
 * extension ^slicing.discriminator.path = "url"
 * extension ^slicing.rules = #open

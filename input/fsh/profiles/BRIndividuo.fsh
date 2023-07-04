@@ -3,7 +3,7 @@ Parent: Patient
 Id: BRIndividuo-1.0
 Title: "Indivíduo"
 Description: "Indíviduo, sujeito da assistência à saúde."
-* ^meta.lastUpdated = "2020-03-13T19:47:50.646+00:00"
+// * ^meta.lastUpdated = "2020-03-13T19:47:50.646+00:00"
 * ^language = #pt-BR
 * ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
 * ^extension[=].valueInteger = 1
@@ -14,11 +14,10 @@ Description: "Indíviduo, sujeito da assistência à saúde."
 * ^extension[=].valueCode.extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"
 * ^extension[=].valueCode.extension.valueCanonical = "https://rnds-fhir.saude.gov.br/ImplementationGuide/rnds"
 * ^version = "1.0.0"
-* ^date = "2020-03-13T19:48:14.539093+00:00"
-* ^publisher = "Ministério da Saúde do Brasil"
+// * ^date = "2020-03-13T19:48:14.539093+00:00"
+* ^publisher = "Secretaria Municipal de Saúde do Rio de Janeiro"
 * ^contact.telecom.system = #url
-* ^contact.telecom.value = "https://saude.gov.br"
-* ^jurisdiction = $m49.htm#076
+// * ^contact.telecom.value = "https://saude.gov.br"
 * ^purpose = "O indivíudo é o sujeito central para os processos informativos de dados em saúde. Não deve ser utilizado quando na condição de profissional."
 * . MS
 * . ^short = "Indivíduo"
@@ -38,20 +37,17 @@ Description: "Indíviduo, sujeito da assistência à saúde."
     BRPais named birthCountry 1..1 MS and
     BRNacionalidade named Nationality 0..1 and
     BRIndividuoProtegido named protectedPerson 0..1 MS and
-    BRNaturalizacao named naturalization 0..1
+    BRNaturalizacao named naturalization 0..1 and
+    BRIdentidadeGenero named identidadeGenero 0..1 and
+    BRSexoNascimento named sexoNascimento 0..1 and
+    BRSexo named sexo 0..1
 * extension[registerQuality] ^definition = "Grau de completude do cadastro do indivíduo, escore de 0 a 100."
 * extension[registerQuality] ^min = 0
 * extension[registerQuality].value[x] ^mustSupport = false
 * extension[parents] ^min = 0
-* extension[parents].extension 2..
-* extension[parents].extension ^slicing.discriminator.type = #value
-* extension[parents].extension ^slicing.discriminator.path = "url"
-* extension[parents].extension ^slicing.rules = #open
+* extension[parents].extension 0..
 * extension[raceEthnicity] ^min = 0
 * extension[raceEthnicity].extension 1..
-* extension[raceEthnicity].extension ^slicing.discriminator.type = #value
-* extension[raceEthnicity].extension ^slicing.discriminator.path = "url"
-* extension[raceEthnicity].extension ^slicing.rules = #open
 * extension[raceEthnicity].extension[indigenousEthnicity] ^min = 0
 * extension[birthCity] ^short = "Município de Nascimento"
 * extension[birthCity] ^definition = "Município onde o indivíduo nasceu."
@@ -61,6 +57,14 @@ Description: "Indíviduo, sujeito da assistência à saúde."
 * extension[protectedPerson] ^short = "Indivíduo com Dados Protegidos"
 * extension[protectedPerson] ^definition = "Indivíduo com maior restrição à disponibilização de seus dados, por possuir grande exposição pública (ex.: político, esportista, artista famoso etc.), estar em programa de proteção à testemunha, o objeto de seu trabalho colocá-lo em risco (investigadores da inteligência, p.ex.), dentre outros."
 * extension[protectedPerson] ^alias[0] = "VIP"
+* extension[identidadeGenero] ^short = "Identidade de Gênero"
+* extension[identidadeGenero] ^definition = "Identidade de gênero do indivíduo."
+* extension[identidadeGenero] ^alias[0] = "Gênero"
+* extension[sexoNascimento] ^short = "Sexo de Nascimento"
+* extension[sexoNascimento] ^definition = "Sexo de nascimento do indivíduo."
+* extension[sexoNascimento] ^alias[0] = "Sexo Biológico" 
+* extension[sexo] ^short = "Sexo"
+* extension[sexo] ^definition = "Sexo do indivíduo." 
 * identifier only BRDocumentoIndividuo
 * active 1.. MS
 * active ^short = "Registro em Uso"
@@ -70,11 +74,6 @@ Description: "Indíviduo, sujeito da assistência à saúde."
 * active ^isModifierReason = "Indica que o registro não deve mais se tratado como válido."
 * name only BRNomeIndividuo
 * telecom only BRMeioContato
-* gender 1.. MS
-* gender from $BRSexo-1.0 (required)
-* gender ^short = "Sexo"
-* gender ^definition = "male: masculino.\r\nfemale: feminino.\r\nunknown: ignorado."
-* gender ^binding.description = "Sexo"
 * birthDate 1.. MS
 * birthDate ^short = "Data de Nascimento"
 * birthDate ^definition = "Data de nascimento do indivíduo"
@@ -103,3 +102,9 @@ Description: "Indíviduo, sujeito da assistência à saúde."
 * generalPractitioner ..0
 * managingOrganization ..0
 * link ..0
+* gender ..0 
+
+// * gender from $BRSexo-1.0 (required)
+// * gender ^short = "Sexo"
+// * gender ^definition = "male: masculino.\r\nfemale: feminino.\r\nunknown: ignorado."
+// * gender ^binding.description = "Sexo"

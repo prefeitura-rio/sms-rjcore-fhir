@@ -17,7 +17,7 @@ Description: "Extensão para as informações de naturalização de um indivídu
 * ^publisher = "Ministério da Saúde do Brasil"
 * ^contact.telecom.system = #url
 * ^contact.telecom.value = "https://saude.gov.br"
-* ^jurisdiction = $m49.htm#076
+
 * ^context.type = #element
 * ^context.expression = "Patient"
 * . ^short = "Dados de Naturalização"
