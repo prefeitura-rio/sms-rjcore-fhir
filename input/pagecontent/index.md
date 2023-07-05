@@ -1,27 +1,28 @@
-# RJCore
+# RJ Core
 
-At Rio de Janeiro, we are excited to announce the partnership between Escritorio de Dados (Data Office) and SMS to revolutionize the healthcare system in Rio de Janeiro. Together, they are building a cutting-edge FHIR (Fast Healthcare Interoperability Resources) platform that will transform the way healthcare data is managed and shared.
+Temos o prazer de anunciar a parceria entre o Escritório de Dados e a SMS para revolucionar o sistema de saúde do Rio de Janeiro. Juntos, eles estão construindo uma plataforma FHIR (Fast Healthcare Interoperability Resources) que transformará a maneira como os dados de saúde são gerenciados e compartilhados.
 
-With their combined expertise and resources, we aim to create a comprehensive and efficient healthcare ecosystem for Rio de Janeiro. Our FHIR platform will enable seamless interoperability among healthcare providers, patients, and other stakeholders, unlocking the potential for improved care coordination, enhanced patient outcomes, and data-driven decision-making.
+Com seus conhecimentos e recursos combinados, pretendemos criar um ecossistema de saúde abrangente e eficiente para o Rio de Janeiro. Nossa plataforma FHIR permitirá interoperabilidade entre profissionais de saúde, pacientes e outras partes interessadas, liberando o potencial para melhorar a coordenação do atendimento, melhorar os resultados dos pacientes e a tomada de decisões baseada em dados.
 
-By leveraging the power of FHIR, we will empower healthcare organizations to securely exchange and access patient data in real-time. This interoperability will foster collaboration, streamline workflows, and ultimately contribute to a more connected and patient-centric healthcare experience in Rio de Janeiro.
+Ao alavancar o poder do FHIR, capacitaremos as organizações de saúde a trocar e acessar com segurança os dados do paciente em tempo real. Essa interoperabilidade promoverá a colaboração, agilizará os fluxos de trabalho e, por fim, contribuirá para uma experiência de saúde mais conectada e centrada no paciente no Rio de Janeiro.
 
-Our commitment to data privacy and security is paramount. We adhere to strict regulatory standards and implement robust security measures to ensure the confidentiality and integrity of sensitive healthcare information. Trust and privacy are fundamental values in our partnership, and we prioritize the ethical handling of data throughout our FHIR platform.
+Nosso compromisso com a privacidade e segurança dos dados é fundamental. Aderimos a rígidos padrões regulatórios e implementamos medidas de segurança robustas para garantir a confidencialidade e a integridade das informações confidenciais de saúde. Confiança e privacidade são valores fundamentais em nossa parceria e priorizamos o tratamento ético dos dados em toda a nossa plataforma FHIR.
 
-We are thrilled to embark on this transformative journey with SMS, bringing innovative technology and data-driven solutions to Rio de Janeiro's healthcare landscape. Together, we will drive advancements in healthcare delivery, promote data-driven research, and empower healthcare professionals to provide the highest quality care to the residents of Rio de Janeiro.
+Estamos entusiasmados em embarcar nessa jornada transformadora, trazendo tecnologia inovação e soluções baseadas em dados para o cenário de saúde do Rio de Janeiro. Juntos, impulsionaremos os avanços na prestação de cuidados de saúde, promoveremos pesquisas baseadas em dados e capacitaremos os profissionais de saúde a fornecer cuidados da mais alta qualidade aos residentes do Rio de Janeiro.
 
-If you want to know more about this project, e-mail us: escritoriodedados@gmail.com
+Se quiser saber mais sobre este projeto, envie-nos um e-mail: <br>
+escritoriodedados@gmail.com <br>
 smsrio.digital@gmail.com
 
 ### Authors and Contributors
 
 | Role  | Name | Organization |
 | --- | --- | --- |
-| **Data Chief** | João Carabetta | Data Chief on Escritório de Dados |
-| **Project Coordinator** | Thiago Virgilio | xxx on SMS |
-| **Project Coordinator** | Álvaro Rossi | xxx on SMS |
-| **Data Team** | Dayane Ramos | Data xxx on SMS |
-| **Data Team** | Thomaz Braga | Data xxx on SMS |
-| **Data Team** | Patrícia Bongiovanni Catandi | Data Cientist on Escritório de Dados |
-| **Data Team** | Gabriel Gazola Milan | Data Engineer on Escritório de Dados |
-| **Contributor** | Guilherme Zwicker | HL7 Brazil |
+| **Chefe de Dados** | João Carabetta | Chefe de Dados Escritório de Dados |
+| **Coordenador de Projeto** | Thiago Virgilio | Gerente de Sistema na SMS |
+| **Coordenador de Projeto** | Álvaro Rossi | Gerente na SMS |
+| **Time de Dados** | Thomaz Braga | Analista de Dados na SMS |
+| **Time de Dados** | Patrícia Bongiovanni Catandi | Cientista de Dados no Escritório de Dados |
+| **Time de Dados** | Gabriel Gazola Milan | Engenheiro Dados no Escritório de Dados |
+| **Contribuidora** | Dayane Ramos | Dev na SMS |
+| **Contribuidor** | Guilherme Zwicker | HL7 Brazil |

@@ -1,0 +1,14 @@
+{
+  "name" : "fhir.base.rjtemplate",
+  "type" : "fhir.template",
+  "license" : "CC0-1.0",
+  "description" : "FHIR IG Base RJ Template",
+  "author" : "http://hl7.org/fhir",
+  "canonical" : "http://fhir.org/templates/fhir.base.template",
+  "version" : "0.1.0",
+  "date" : "20221217231243",
+  "base": "fhir.base.template",
+  "dependencies": {
+    "fhir.base.template": "current"
+    }
+}
