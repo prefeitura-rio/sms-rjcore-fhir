@@ -24,24 +24,13 @@ Description: "Extensão para para representar dados relacionados à raça/cor e 
 * extension[race] ^binding.description = "Raça/Cor"
 * extension[race].url only uri
 * extension[race].value[x] 1..
-* extension[race].value[x] only CodeableConcept
-* extension[race].value[x].coding 1..1
-* extension[race].value[x].coding.system 1..
-* extension[race].value[x].coding.code 1..
-* extension[race].value[x].coding.code from $BRRacaCor-1.0 (required)
-* extension[race].value[x].coding.display ..0
-* extension[race].value[x].coding.userSelected ..0
-* extension[race].value[x].text ..0
+* extension[race].value[x] only code
+* extension[race].value[x] from $BRRacaCor-1.0 (required)
 * extension[indigenousEthnicity] ^short = "Etnia Indígena"
 * extension[indigenousEthnicity] ^definition = "Etnia indígena atribuída a um indivíduo"
 * extension[indigenousEthnicity] ^binding.description = "Etnia Indígena"
+* extension[indigenousEthnicity].url only uri
 * extension[indigenousEthnicity].value[x] 1..
-* extension[indigenousEthnicity].value[x] only CodeableConcept
-* extension[indigenousEthnicity].value[x].coding 1..1
-* extension[indigenousEthnicity].value[x].coding.system 1..
-* extension[indigenousEthnicity].value[x].coding.code 1..
-* extension[indigenousEthnicity].value[x].coding.code from $BREtniaIndigena-1.0 (required)
-* extension[indigenousEthnicity].value[x].coding.display ..0
-* extension[indigenousEthnicity].value[x].coding.userSelected ..0
-* extension[indigenousEthnicity].value[x].text ..0
+* extension[indigenousEthnicity].value[x] only code
+* extension[indigenousEthnicity].value[x] from $BREtniaIndigena-1.0 (required)
 * url only uri
