@@ -1,6 +1,6 @@
 {% assign notes = site.data.pages[page.path].notes %}
 {% if notes != null %}
-<h3>Notes:</h3>
+<h3>Notas:</h3>
 {% if site.data.pages[page.path].notes-type == 'xml' %}
 {% include {{notes}} type=include.type id=include.id %}
 {% else %}
@@ -8,7 +8,7 @@
 {% include {{notes}} type=include.type id=include.id %}
 {% endcapture %}
 <div style="display:inline-block" markdown="1">
-{{ note-content | markdownify }}
+    {{ note-content | markdownify }}
 </div>
 {% endif %}
 {% endif %}

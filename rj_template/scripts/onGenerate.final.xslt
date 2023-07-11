@@ -61,7 +61,7 @@
         </xsl:when>
         <xsl:otherwise>
           <nameUrl xmlns="http://hl7.org/fhir" value="toc.html"/>
-          <title xmlns="http://hl7.org/fhir" value="Table of Contents"/>
+          <title xmlns="http://hl7.org/fhir" value="Índice"/>
           <generation xmlns="http://hl7.org/fhir" value="html"/>
           <page xmlns="http://hl7.org/fhir">
             <xsl:apply-templates select="@*|node()[not(self::f:page)]"/>
@@ -72,7 +72,7 @@
       <xsl:if test="not(descendant-or-self::f:page[f:nameUrl/@value='artifacts.html'])">
         <page xmlns="http://hl7.org/fhir">
           <nameUrl value="artifacts.html"/>
-          <title value="Artifacts Summary"/>
+          <title value="Resumo de Artefatos"/>
           <generation value="html"/>
           <xsl:call-template name="artifactPages"/>
         </page>
