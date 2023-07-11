@@ -4,7 +4,7 @@
 {% assign excludemaps = site.data.info.excludemap | downcase | slice: 0 %}
 {% assign excludeexamples = site.data.info.excludeexample | downcase | slice: 0 %}
 {% assign sd_type = site.data.structuredefinitions.[include.id].type %}
-{% assign resource_ = include.type| append: '/'| append: include.id  %}
+{% assign resource_ = include.type| append: '/'| append: include.id %}
 {% assign has_history = site.data.resources[resource_].['history'] %}
 {% assign basepath = include.type | append: '-' | append: include.id | append: '.html' %}
 {% assign example_count = site.data.pages[basepath].examples.size %}
@@ -13,108 +13,108 @@
 {% endif %}
 
 <ul class="nav nav-tabs">
-{% if include.active == 'content' %}
+  {% if include.active == 'content' %}
   <li class="active">
-    <a href="#">Content</a>
+    <a href="#">Conteúdo</a>
   </li>
-{% else %}
+  {% else %}
   <li>
-    <a href="{{include.type}}-{{include.id}}.html">Content</a>
+    <a href="{{include.type}}-{{include.id}}.html">Conteúdo</a>
   </li>
-{% endif %}
+  {% endif %}
 
-{% if include.active == 'definition' %}
+  {% if include.active == 'definition' %}
   <li class="active">
-    <a href="#">Detailed Descriptions</a>
+    <a href="#">Descrição Detalhada</a>
   </li>
-{% else %}
+  {% else %}
   <li>
-    <a href="{{include.type}}-{{include.id}}-definitions.html">Detailed Descriptions</a>
+    <a href="{{include.type}}-{{include.id}}-definitions.html">Descrição Detalhada</a>
   </li>
-{% endif %}
+  {% endif %}
 
-{% unless excludemaps == 'y' %}
+  {% unless excludemaps == 'y' %}
   {% if include.active == 'mapping' %}
-    <li class="active">
-      <a href="#">Mappings</a>
-    </li>
+  <li class="active">
+    <a href="#">Mapeamentos</a>
+  </li>
   {% else %}
-    <li>
-      <a href="{{include.type}}-{{include.id}}-mappings.html">Mappings</a>
-    </li>
+  <li>
+    <a href="{{include.type}}-{{include.id}}-mappings.html">Mapeamentos</a>
+  </li>
   {% endif %}
-{% endunless %}
-
-{% if site.data.resources[resource_].['testscript'] %}
-  {% if include.active == 'testing' %}
-    <li class="active">
-      <a href="#">Testing</a>
-    </li>
-  {% else %}
-    <li>
-      <a href="{{include.type}}-{{include.id}}-testing.html">Testing</a>
-    </li>
-  {% endif %}
-{% endif %}
-
-{% unless example_count == 0 %}
-{% unless sd_type == 'Extension' %}
-  {% unless excludeexamples == 'y' %}
-    {% if include.active == 'example' %}
-      <li class="active">
-        <a href="#">Examples</a>
-      </li>
-    {% else %}
-      <li>
-        <a href="{{include.type}}-{{include.id}}-examples.html">Examples</a>
-      </li>
-    {% endif %}
   {% endunless %}
-{% endunless %}
-{% endunless %}
 
-{% unless excludexml == 'y' or contained_resource == 'y' %}
+  {% if site.data.resources[resource_].['testscript'] %}
+  {% if include.active == 'testing' %}
+  <li class="active">
+    <a href="#">Testes</a>
+  </li>
+  {% else %}
+  <li>
+    <a href="{{include.type}}-{{include.id}}-testing.html">Testes</a>
+  </li>
+  {% endif %}
+  {% endif %}
+
+  {% unless example_count == 0 %}
+  {% unless sd_type == 'Extension' %}
+  {% unless excludeexamples == 'y' %}
+  {% if include.active == 'example' %}
+  <li class="active">
+    <a href="#">Exemplos</a>
+  </li>
+  {% else %}
+  <li>
+    <a href="{{include.type}}-{{include.id}}-examples.html">Exemplos</a>
+  </li>
+  {% endif %}
+  {% endunless %}
+  {% endunless %}
+  {% endunless %}
+
+  {% unless excludexml == 'y' or contained_resource == 'y' %}
   {% if include.active == 'xml' %}
-    <li class="active">
-      <a href="#">XML</a>
-    </li>
+  <li class="active">
+    <a href="#">XML</a>
+  </li>
   {% else %}
-    <li>
-      <a href="{{include.type}}-{{include.id}}.profile.xml.html">XML</a>
-    </li>
+  <li>
+    <a href="{{include.type}}-{{include.id}}.profile.xml.html">XML</a>
+  </li>
   {% endif %}
-{% endunless %}
-{% unless excludejson == 'y' or contained_resource == 'y' %}
+  {% endunless %}
+  {% unless excludejson == 'y' or contained_resource == 'y' %}
   {% if include.active == 'json' %}
-    <li class="active">
-      <a href="#">JSON</a>
-    </li>
+  <li class="active">
+    <a href="#">JSON</a>
+  </li>
   {% else %}
-    <li>
-      <a href="{{include.type}}-{{include.id}}.profile.json.html">JSON</a>
-    </li>
+  <li>
+    <a href="{{include.type}}-{{include.id}}.profile.json.html">JSON</a>
+  </li>
   {% endif %}
-{% endunless %}
-{% unless excludettl == 'y' or contained_resource == 'y' %}
+  {% endunless %}
+  {% unless excludettl == 'y' or contained_resource == 'y' %}
   {% if include.active == 'ttl' %}
-    <li class="active">
-      <a href="#">TTL</a>
-    </li>
+  <li class="active">
+    <a href="#">TTL</a>
+  </li>
   {% else %}
-    <li>
-      <a href="{{include.type}}-{{include.id}}.profile.ttl.html">TTL</a>
-    </li>
+  <li>
+    <a href="{{include.type}}-{{include.id}}.profile.ttl.html">TTL</a>
+  </li>
   {% endif %}
-{% endunless %}
-{% if  site.data.resources[resource_].['history'] %}
+  {% endunless %}
+  {% if site.data.resources[resource_].['history'] %}
   {% if include.active == 'history' %}
-    <li class="active">
-      <a href="#">History</a>
-    </li>
+  <li class="active">
+    <a href="#">Histórico</a>
+  </li>
   {% else %}
-    <li>
-      <a href="{{include.type}}-{{include.id}}.profile.history.html">History</a>
-    </li>
+  <li>
+    <a href="{{include.type}}-{{include.id}}.profile.Histórico.html">Histórico</a>
+  </li>
   {% endif %}
-{% endif %}
+  {% endif %}
 </ul>
