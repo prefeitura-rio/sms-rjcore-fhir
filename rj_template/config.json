@@ -95,11 +95,6 @@
       "template-change-history": "template/layouts/layout-changehistory.html",
       "change-history": "{{[type]}}-{{[id]}}.change.history.html"
     },
-    "ImplementationGuide": {
-      "template-base": "",
-      "template-format": "",
-      "template-change-history":""
-    },
     "StructureDefinition:extension": {
       "template-base": "template/layouts/layout-ext.html",
       "template-defns": "template/layouts/layout-profile-definitions.html",
