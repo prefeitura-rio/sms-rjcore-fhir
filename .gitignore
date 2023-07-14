@@ -5,3 +5,8 @@ Thumbs.db
 /output
 /temp
 /template
+*.bat
+*.sh
+*.exe
+Gemfile
+Gemfile.lock
