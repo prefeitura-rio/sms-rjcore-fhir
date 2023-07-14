@@ -47,12 +47,12 @@ publisher:
 #
 # pages:
 #   index.md:
-#     title: Example Home
+#     title: Home
 #   implementation.xml:
-#   examples.xml:
-#     title: Examples Overview
-#     simpleExamples.xml:
-#     complexExamples.xml:
+  # examples.xml:
+  #   title: Examples Overview
+  #   simpleExamples.xml:
+  #   complexExamples.xml:
 #
 #
 # The parameters property represents IG.definition.parameter. Rather
@@ -77,6 +77,8 @@ publisher:
 menu:
   Principal: index.html
   Artefatos: artifacts.html
+  Guia de implementação: ImplementationGuide-org.rj-sms.br.core.xml
+
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │
 # │  resource. These properties are less commonly needed than those above.                         │
