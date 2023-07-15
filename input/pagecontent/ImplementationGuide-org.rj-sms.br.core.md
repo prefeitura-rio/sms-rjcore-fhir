@@ -8,8 +8,18 @@
 
 {{ site.data.ig.description }}
 
-- [XML](ImplementationGuide-{{site.data.ig.id}}.xml)
-- [JSON](ImplementationGuide-{{site.data.ig.id}}.json)
+- [XML](ImplementationGuide-org.rj-sms.br.core.xml)
+- [JSON](ImplementationGuide-org.rj-sms.br.core.json)
+
+<!-- - [XML](ImplementationGuide-{{site.data.ig.id}}.xml)
+- [JSON](ImplementationGuide-{{site.data.ig.id}}.json) # falta o id
+- [JSONn](ImplementationGuide-{{site.ig.id}}.json)
+- [JSONm3]({{site.data.ig.id}}.json)
+- [JSONm4](ig.yml?id={{site.ig.id}}.json)
+- [JSONm5](ig.yml?id={{site.data.ig.id}}.json)
+- [JSONm6](ImplementationGuide-{{site.ig.id}}.json)
+- [JSON sushiconfig](sushi-config.yml?id=ImplementationGuide-{{site.data.id}}.json)
+- [JSON sushiconfig2](sushi-config.yml?id=ImplementationGuide-{{site.id}}.json) -->
 
 ### Cross Version Analysis
 
